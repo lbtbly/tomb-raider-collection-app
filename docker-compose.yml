@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: vitrine-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: vitrine
+      POSTGRES_PASSWORD: vitrine_dev_only
+      POSTGRES_DB: vitrine
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./.docker/pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vitrine -d vitrine"]
+      interval: 2s
+      timeout: 3s
+      retries: 20

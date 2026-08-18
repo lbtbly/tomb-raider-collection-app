@@ -1,0 +1,46 @@
+{
+  "name": "vitrine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx scripts/db/migrate.ts",
+    "db:seed": "tsx scripts/db/seed.ts",
+    "check:barcode": "tsx scripts/checks/barcode-check-digit.ts",
+    "check:verification": "tsx scripts/checks/verification-coverage.ts",
+    "check:sources": "tsx scripts/checks/source-coverage.ts",
+    "check:all": "npm run check:barcode && npm run check:verification && npm run check:sources",
+    "test": "tsx --test tests/**/*.test.ts",
+    "pw:install": "playwright install --with-deps chromium",
+    "pw": "playwright test"
+  },
+  "dependencies": {
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "drizzle-orm": "0.45.2",
+    "postgres": "3.4.9",
+    "idb": "8.0.3",
+    "@fontsource-variable/archivo": "5.3.0",
+    "@fontsource/ibm-plex-mono": "5.3.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "26.2.0",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "drizzle-kit": "0.31.10",
+    "tsx": "4.23.12",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.1",
+    "@eslint/eslintrc": "3.3.6",
+    "@playwright/test": "1.62.1",
+    "playwright": "1.62.1"
+  }
+}
