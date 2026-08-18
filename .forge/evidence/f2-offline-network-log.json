@@ -1,0 +1,320 @@
+{
+  "line": "F2",
+  "offlineAtIso": "2026-08-18T09:34:42.292Z",
+  "finishedAtIso": "2026-08-18T09:34:42.450Z",
+  "verdictsReturned": 10,
+  "requestsDuringRuns": 0,
+  "requestsDuringRunsDetail": [],
+  "paintMedianMs": 10.35,
+  "paintMaxMs": 11.9,
+  "fullLog": [
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/",
+      "atEpochMs": 1787045680300,
+      "atIso": "2026-08-18T09:34:40.300Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/",
+      "atEpochMs": 1787045680310,
+      "atIso": "2026-08-18T09:34:40.310Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/_1m5d89z._.css",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1di75ot._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_090k2jm.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_%40swc_helpers_cjs_1r9vbqw._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/_1anvha4._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/turbopack-_08bm286._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/_219uq1s._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_08_l_sj._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/src_0oxw2m5._.js",
+      "atEpochMs": 1787045680312,
+      "atIso": "2026-08-18T09:34:40.312Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_1c72fmn._.js",
+      "atEpochMs": 1787045680313,
+      "atIso": "2026-08-18T09:34:40.313Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/src_0eq3e3j._.js",
+      "atEpochMs": 1787045680313,
+      "atIso": "2026-08-18T09:34:40.313Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/_1m5d89z._.css",
+      "atEpochMs": 1787045680314,
+      "atIso": "2026-08-18T09:34:40.314Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1di75ot._.js",
+      "atEpochMs": 1787045680314,
+      "atIso": "2026-08-18T09:34:40.314Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/media/ibm-plex-mono-latin-400-normal.3xdfs0-p_zi4c.woff2",
+      "atEpochMs": 1787045680324,
+      "atIso": "2026-08-18T09:34:40.324Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/media/archivo-latin-standard-normal.1h4hl0m83hjjz.woff2",
+      "atEpochMs": 1787045680324,
+      "atIso": "2026-08-18T09:34:40.324Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js",
+      "atEpochMs": 1787045680325,
+      "atIso": "2026-08-18T09:34:40.325Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js",
+      "atEpochMs": 1787045680325,
+      "atIso": "2026-08-18T09:34:40.325Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js",
+      "atEpochMs": 1787045680325,
+      "atIso": "2026-08-18T09:34:40.325Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/_1anvha4._.js",
+      "atEpochMs": 1787045680325,
+      "atIso": "2026-08-18T09:34:40.325Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_%40swc_helpers_cjs_1r9vbqw._.js",
+      "atEpochMs": 1787045680325,
+      "atIso": "2026-08-18T09:34:40.325Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/_219uq1s._.js",
+      "atEpochMs": 1787045680326,
+      "atIso": "2026-08-18T09:34:40.326Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/media/ibm-plex-mono-latin-400-normal.3xdfs0-p_zi4c.woff2",
+      "atEpochMs": 1787045680330,
+      "atIso": "2026-08-18T09:34:40.330Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/turbopack-_08bm286._.js",
+      "atEpochMs": 1787045680330,
+      "atIso": "2026-08-18T09:34:40.330Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_08_l_sj._.js",
+      "atEpochMs": 1787045680330,
+      "atIso": "2026-08-18T09:34:40.330Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/media/archivo-latin-standard-normal.1h4hl0m83hjjz.woff2",
+      "atEpochMs": 1787045680330,
+      "atIso": "2026-08-18T09:34:40.330Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/src_0oxw2m5._.js",
+      "atEpochMs": 1787045680331,
+      "atIso": "2026-08-18T09:34:40.331Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/src_0eq3e3j._.js",
+      "atEpochMs": 1787045680336,
+      "atIso": "2026-08-18T09:34:40.336Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_1c72fmn._.js",
+      "atEpochMs": 1787045680336,
+      "atIso": "2026-08-18T09:34:40.336Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_090k2jm.js",
+      "atEpochMs": 1787045680340,
+      "atIso": "2026-08-18T09:34:40.340Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js",
+      "atEpochMs": 1787045680359,
+      "atIso": "2026-08-18T09:34:40.359Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js",
+      "atEpochMs": 1787045680359,
+      "atIso": "2026-08-18T09:34:40.359Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1mojsay._.js",
+      "atEpochMs": 1787045680383,
+      "atIso": "2026-08-18T09:34:40.383Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1mojsay._.js",
+      "atEpochMs": 1787045680405,
+      "atIso": "2026-08-18T09:34:40.405Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/api/sync/index",
+      "atEpochMs": 1787045680433,
+      "atIso": "2026-08-18T09:34:40.433Z"
+    },
+    {
+      "phase": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/api/sync/index",
+      "atEpochMs": 1787045680433,
+      "atIso": "2026-08-18T09:34:40.433Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/api/sync/index",
+      "atEpochMs": 1787045680464,
+      "atIso": "2026-08-18T09:34:40.464Z"
+    },
+    {
+      "phase": "response",
+      "status": 200,
+      "url": "http://localhost:3000/api/sync/index",
+      "atEpochMs": 1787045680466,
+      "atIso": "2026-08-18T09:34:40.466Z"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "line": "C15",
+  "screensMeasured": [
+    "/"
+  ],
+  "screensNotYetBuilt": [],
+  "scopesWatched": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "C15"
+  ],
+  "consoleErrorCount": 0,
+  "consoleErrors": [],
+  "distinctVerdictWordsSeenAcrossRun": [
+    "NOT IN COLLECTION",
+    "OWNED",
+    "UNCERTAIN"
+  ]
+}

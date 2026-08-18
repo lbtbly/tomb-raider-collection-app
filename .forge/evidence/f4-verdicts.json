@@ -1,0 +1,60 @@
+{
+  "line": "F4",
+  "viewportPx": 390,
+  "documentScrollWidthPx": [
+    560,
+    560,
+    560,
+    560,
+    560
+  ],
+  "verdictsObserved": [
+    {
+      "name": "not-in-collection",
+      "word": "NOT IN COLLECTION",
+      "slabCount": 1,
+      "verdictClass": "vslab v-not cut18",
+      "documentScrollWidthPx": 560
+    },
+    {
+      "name": "not-in-collection-unknown",
+      "word": "NOT IN COLLECTION",
+      "slabCount": 1,
+      "verdictClass": "vslab v-not cut18",
+      "documentScrollWidthPx": 560
+    },
+    {
+      "name": "uncertain-slus00152",
+      "word": "UNCERTAIN",
+      "slabCount": 1,
+      "verdictClass": "vslab v-unc",
+      "documentScrollWidthPx": 560
+    },
+    {
+      "name": "uncertain-slus01311",
+      "word": "UNCERTAIN",
+      "slabCount": 1,
+      "verdictClass": "vslab v-unc",
+      "documentScrollWidthPx": 560
+    },
+    {
+      "name": "owned",
+      "word": "OWNED",
+      "slabCount": 1,
+      "verdictClass": "vslab v-own cut20",
+      "documentScrollWidthPx": 560
+    }
+  ],
+  "distinctVerdictWords": [
+    "NOT IN COLLECTION",
+    "OWNED",
+    "UNCERTAIN"
+  ],
+  "screenshots": {
+    "not-in-collection": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-not-in-collection-390.png",
+    "not-in-collection-unknown": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-not-in-collection-unknown-390.png",
+    "uncertain-slus00152": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-uncertain-slus00152-390.png",
+    "uncertain-slus01311": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-uncertain-slus01311-390.png",
+    "owned": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-owned-390.png"
+  }
+}
