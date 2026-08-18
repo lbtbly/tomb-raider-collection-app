@@ -1,0 +1,1203 @@
+{
+  "$schema": "vitrine.seed-starter.v1",
+  "items": [
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Timex Tomb Raider Watch",
+      "publisher": "Timex Corp.",
+      "release_year": 2000,
+      "description_md": "Blister-pack digital watch co-branded with Tomb Raider (tombraider.com printed alongside tmx.timex.com), featuring INDIGLO night-light, shock resistance, and a \"Mystery Answer\" function. Package copyright reads \"© 2000 Timex Corp.\"",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_0436.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Retail blister pack",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_0436.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "P.991-093236",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_0436.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            },
+            {
+              "kind": "catalogue_number",
+              "value": "D.990-093133",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_0436.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            },
+            {
+              "kind": "sku",
+              "value": "401695",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_0436.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph; retail price sticker reads $29.99 / 401695, no checksum applicable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "comics",
+      "title": "Tomb Raider - Comix 2000 Supplement",
+      "publisher": "Franco Cosimo Panini Editore (Comix), licensed Eidos Interactive / Core Design",
+      "release_year": 1999,
+      "description_md": "Italian pin-up supplement to the monthly \"Comix 2000\" (anno 1, n. 4), shrink-wrapped, showing a 12-panel Tomb Raider II render gallery on the back cover. Registered with the Tribunale di Modena, 24/04/99.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_0953.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Italian edition, shrink-wrapped",
+          "provenance_type": "retail",
+          "region_note": "Italy",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_0953.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "isbn",
+              "value": "88-8290-114-9",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_0953.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; ISBN-10 checksum verified valid"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "9788882901141",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_0953.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; printed EAN-13 matches value derived from ISBN-10, checksum valid"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "sponsorship-tie-ins",
+      "title": "Lara Croft Tomb Raider - China SatCom Phone Card",
+      "publisher": "China SatCom (中国卫通)",
+      "release_year": 2001,
+      "description_md": "Set of ¥10 prepaid phone cards issued by China SatCom to promote the 2001 \"Lara Croft: Tomb Raider\" film (one card reads \"IN THEATERS SUMMER 2001\"). Each card in the set carries a distinct JL-06-W-P36 catalogue code and film-still artwork.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Card 1 of 4 - JL-06-W-P36(4-1)",
+          "provenance_type": "promotional",
+          "region_note": "China",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "JL-06-W-P36(4-1)",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Card 2 of 4 - JL-06-W-P36(4-2)",
+          "provenance_type": "promotional",
+          "region_note": "China",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "JL-06-W-P36(4-2)",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Card 3 of 4 - JL-06-W-P36(4-3)",
+          "provenance_type": "promotional",
+          "region_note": "China",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18; card also bears a 'Collect by MaoMao520 yeah.net' scan watermark unrelated to the catalogue code"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "JL-06-W-P36(4-3)",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Card 4 of 4 - JL-06-W-P36(4-4)",
+          "provenance_type": "promotional",
+          "region_note": "China",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "JL-06-W-P36(4-4)",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "statues-and-figures",
+      "title": "Tomb Raider: Lara Croft PVC Statue",
+      "publisher": "Dark Horse Deluxe",
+      "description_md": "Sealed shipping carton for a Dark Horse Deluxe Lara Croft PVC statue, quantity one per carton, made in China. The printed UPC under the item number was too motion-blurred in the photograph to read reliably and was dropped rather than guessed.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_3476.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Sealed shipping carton",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3476.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "3014-202",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3476.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, printed as ITEM NUMBER 3014-202, read at full resolution"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "comics",
+      "title": "Tomb Raider N°6",
+      "publisher": "Semic Comics (Top Cow / Image, licensed Eidos Interactive / Core Design)",
+      "description_md": "French-language single issue of the Top Cow Tomb Raider comic, cover tagline \"Lara Croft est Tomb Raider,\" cover art signed Tan/Jo Smith. Priced 25F (France), 7,20 F.S. (Switzerland), 180 F.B. (Belgium), 5,70 D.C. (Canada). No barcode is printed on the front cover shown.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_3569.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "French edition, N°6",
+          "provenance_type": "retail",
+          "region_note": "France",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3569.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "N°6",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3569.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, issue number printed on cover, no checksum applicable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Nokia 3210 Tomb Raider Autograph Faceplate",
+      "publisher": "licensed Core Design (\"™ and © Core Design 1996-2001\")",
+      "release_year": 2001,
+      "description_md": "Blister-packed gold Nokia 3210 faceplate with a Tomb Raider Chronicles-style Lara Croft illustration, sold as an autograph-style standard faceplate.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Retail blister pack",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_ean13",
+              "value": "5034862061010",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; EAN-13 checksum verified valid; note the previous transcription (9054862061010) fails checksum and was a misread"
+              }
+            },
+            {
+              "kind": "catalogue_number",
+              "value": "HNK33TRAST",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, printed under 'HK/SG: NOKIA 3210 TOMB RAIDER AUTOGRAPH STD', read at full resolution"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Tomb Raider Mobile Phone Accessories - Nokia 3310 Compatible Faceplates",
+      "publisher": "MobilPhoneColors (Germany), licensed Warner Bros. / Betty Boop / Core Design",
+      "description_md": "Blister pack of Tomb Raider-themed faceplates compatible with the Nokia 3310, cross-licensed with other MobilPhoneColors lines (Warner Bros., Betty Boop, Smiley).",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Retail blister pack",
+          "provenance_type": "retail",
+          "region_note": "Germany",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_ean13",
+              "value": "4250043108195",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; EAN-13 checksum verified valid"
+              }
+            },
+            {
+              "kind": "sku",
+              "value": "0289520",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, printed beneath barcode, zoomed crop"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider Underworld",
+      "publisher": "TILSIT Éditions, licensed Crystal Dynamics",
+      "release_year": 2009,
+      "description_md": "French-language cooperative board game adaptation of Tomb Raider: Underworld for 1-4 players, ages 10+, 90-minute playtime, six double-sided game boards and 116 cards. Box copyright reads \"© 2009 TILSIT.\"",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_4427.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Board game, French edition",
+          "provenance_type": "retail",
+          "region_note": "France",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_4427.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_ean13",
+              "value": "3760017146050",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4427.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; EAN-13 checksum verified valid; note the previous transcription (3760017146650) fails checksum and was a misread"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider: Underworld - Lara Croft",
+      "publisher": "Eidos Interactive Limited, developed by Crystal Dynamics",
+      "release_year": 2008,
+      "description_md": "Retail video game case for Tomb Raider: Underworld, French packaging, photographed back-to-back with the TILSIT board game adaptation. No barcode on this box was legible enough in the photograph to transcribe reliably, so none is recorded.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_4427.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Retail case, French edition",
+          "provenance_type": "retail",
+          "region_note": "France",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_4427.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18; no barcode identifier recorded (illegible in photograph)"
+          }
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "statues-and-figures",
+      "title": "SWTOYS 1:6 Scale Figure - NO:FS061",
+      "publisher": "SWTOYS",
+      "description_md": "Sealed SWTOYS 1:6-scale figure box, tagline \"1:6 our world,\" catalogue number FS061. The box back shown in the photograph does not itself print a \"Tomb Raider\" or \"Lara Croft\" title; the franchise attribution comes from the collection context rather than text visible on this face.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_4676.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Sealed retail box",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_4676.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "FS061",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4676.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, printed as 'NO:FS061', zoomed crop, no checksum applicable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Tomb Raider 30th Anniversary Shirt",
+      "release_year": 2026,
+      "description_md": "Unisex T-shirt, part of a Shark Robot preorder (Order #1745723, placed 2/14/2026, not yet shipped at time of photograph). Documented from the retailer's packing slip rather than an unboxed garment photograph.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+        "title": "Operator's photograph (Shark Robot packing slip)",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "packing slip photographed in hand, order not yet fulfilled; read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Unisex Large",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "Shark Robot packing slip, Order #1745723, warehouse location BA-06-B12"
+          }
+        },
+        {
+          "name": "Unisex Medium",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "Shark Robot packing slip, Order #1745723, warehouse location BA-06-B11"
+          }
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Pullover Hoodie - Tomb Raider 30th Anniversary",
+      "release_year": 2026,
+      "description_md": "Unisex pullover hoodie, part of the same Shark Robot preorder (Order #1745723, placed 2/14/2026).",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+        "title": "Operator's photograph (Shark Robot packing slip)",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "packing slip photographed in hand, order not yet fulfilled; read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Unisex Medium",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "Shark Robot packing slip, Order #1745723, warehouse location BN-04-01"
+          }
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Lara Croft 30th Anniversary Shirt",
+      "release_year": 2026,
+      "description_md": "Unisex T-shirt, part of the same Shark Robot preorder (Order #1745723, placed 2/14/2026).",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+        "title": "Operator's photograph (Shark Robot packing slip)",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "packing slip photographed in hand, order not yet fulfilled; read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Unisex Medium",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "Shark Robot packing slip, Order #1745723, warehouse location BA-09-B11"
+          }
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Pullover Hoodie - Lara Croft 30th Anniversary",
+      "release_year": 2026,
+      "description_md": "Unisex pullover hoodie, part of the same Shark Robot preorder (Order #1745723, placed 2/14/2026).",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+        "title": "Operator's photograph (Shark Robot packing slip)",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "packing slip photographed in hand, order not yet fulfilled; read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Unisex Medium",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "Shark Robot packing slip, Order #1745723, warehouse location BN-02-01"
+          }
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "GameTap Tomb Raider Dog Tags",
+      "publisher": "GameTap",
+      "description_md": "Stainless-steel dog tags from a promotional set of 7, each engraved with the GameTap logo and \"GAMETAP.COM/TOMBRAIDER,\" one per named artist. Four of the seven are in hand: 1 of 7 (Peter Chung), 4 of 7 (Ivan Reis), 6 of 7 (Louie Del Carmen), and 7 of 7 (Jim Lee & WildStorm).",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "1 of 7 - designed by Peter Chung",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "1 OF 7",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, no checksum applicable"
+              }
+            }
+          ]
+        },
+        {
+          "name": "4 of 7 - designed by Ivan Reis",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "4 OF 7",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, no checksum applicable"
+              }
+            }
+          ]
+        },
+        {
+          "name": "6 of 7 - designed by Louie Del Carmen",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "6 OF 7",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, no checksum applicable"
+              }
+            }
+          ]
+        },
+        {
+          "name": "7 of 7 - designed by Jim Lee & WildStorm",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "7 OF 7",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, no checksum applicable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Tomb Raider Backpack",
+      "description_md": "Poly-bagged backpack, style TRBK0001-UK, quantity 1 per bag, visible through the packaging with a rose-and-grey colourway.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_8067.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Style TRBK0001-UK",
+          "provenance_type": "retail",
+          "region_note": "UK",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_8067.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "sku",
+              "value": "TRBK0001-UK",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_8067.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, printed on poly-bag label, read at full resolution"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "671803582538",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_8067.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; UPC-A checksum verified valid"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "novels",
+      "title": "Shadow of the Tomb Raider",
+      "publisher": "Titan Books, based on the game by Eidos-Montréal / Crystal Dynamics / Square Enix",
+      "release_year": 2018,
+      "description_md": "Paperback tie-in novel to the 2018 video game, two copies photographed together for cross-check. Copyright line reads \"SHADOW OF THE TOMB RAIDER © 2018 Square Enix Limited.\"",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_8192.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "UK paperback",
+          "provenance_type": "retail",
+          "region_note": "UK",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_8192.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "isbn",
+              "value": "9781785659911",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_8192.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; EAN-13/ISBN-13 checksum verified valid, confirmed on two physical copies"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "9781785659911",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_8192.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; EAN-13 checksum verified valid, confirmed on two physical copies"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "statues-and-figures",
+      "title": "Tomb Raider - Lara Croft in Jungle Outfit",
+      "publisher": "Playmates Toys, licensed Eidos Interactive / Core Design",
+      "description_md": "Boxed 9-inch Playmates figure, \"Starring Lara Croft,\" jungle-outfit variant with two pistols and a jungle-ruin diorama backdrop.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_9834.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Boxed, Jungle Outfit",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_9834.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "72002",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_9834.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, printed as 'STOCK NO. 72002', read at full resolution, no checksum applicable"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

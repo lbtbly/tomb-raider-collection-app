@@ -1,7 +1,32 @@
 {
   "line": "C15",
+  "screensMeasuredCount": 5,
   "screensMeasured": [
-    "/"
+    {
+      "name": "01 aisle check",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "name": "collection",
+      "path": "/collection",
+      "status": 200
+    },
+    {
+      "name": "catalogue",
+      "path": "/catalogue",
+      "status": 200
+    },
+    {
+      "name": "collection item, unknown id (client-side not found)",
+      "path": "/collection/probe-no-such-copy",
+      "status": 200
+    },
+    {
+      "name": "unmatched address (not-found.tsx)",
+      "path": "/no-such-route-exists",
+      "status": 404
+    }
   ],
   "screensNotYetBuilt": [],
   "scopesWatched": [
@@ -11,8 +36,42 @@
     "F4",
     "C15"
   ],
-  "consoleErrorCount": 0,
-  "consoleErrors": [],
+  "negativeControl": {
+    "consoleErrorsCaught": 1,
+    "pageErrorsCaught": 1,
+    "findings": [
+      "vitrine harness negative control: a deliberate console error",
+      "vitrine harness negative control: a deliberate uncaught throw"
+    ]
+  },
+  "applicationConsoleErrorCount": 0,
+  "applicationConsoleErrors": [],
+  "deliberate404StatusReports": {
+    "count": 1,
+    "address": "/no-such-route-exists",
+    "why": "Chromium logs a console error for the document's own 404 status. The address is unmatched by design and not-found.tsx renders on it, so this is the 404 contract working, not an application error.",
+    "findings": [
+      {
+        "scope": "C15",
+        "kind": "console.error",
+        "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "locationUrl": "http://localhost:3211/no-such-route-exists",
+        "pageUrl": "http://localhost:3211/no-such-route-exists",
+        "atIso": "2026-08-18T12:07:54.477Z"
+      }
+    ]
+  },
+  "consoleErrorCount": 1,
+  "consoleErrors": [
+    {
+      "scope": "C15",
+      "kind": "console.error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "locationUrl": "http://localhost:3211/no-such-route-exists",
+      "pageUrl": "http://localhost:3211/no-such-route-exists",
+      "atIso": "2026-08-18T12:07:54.477Z"
+    }
+  ],
   "distinctVerdictWordsSeenAcrossRun": [
     "NOT IN COLLECTION",
     "OWNED",

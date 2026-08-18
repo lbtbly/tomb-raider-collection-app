@@ -1,12 +1,10 @@
 import { defineConfig } from "drizzle-kit";
+import { resolveDatabaseUrl } from "./src/db/connection";
 
-// Local Docker Postgres default (docker-compose.yml). Production always sets
+// Local Docker Postgres default (docker-compose.yml) unless production sets
 // DATABASE_URL_UNPOOLED through the deploy environment; this repository
 // holds no credential file. See .env.example and .forge/OPERATOR.md.
-const url =
-  process.env.DATABASE_URL_UNPOOLED ??
-  process.env.DATABASE_URL ??
-  "postgres://vitrine:vitrine_dev_only@localhost:5433/vitrine";
+const url = resolveDatabaseUrl(true);
 
 export default defineConfig({
   schema: "./src/db/schema.ts",

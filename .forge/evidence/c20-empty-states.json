@@ -1,0 +1,254 @@
+{
+  "line": "C20",
+  "buildId": "U_TSj0yB6qLS3TQKwtvZ6",
+  "baseUrl": "http://127.0.0.1:3600",
+  "identifier": "sles00024",
+  "viewportWidthPx": 390,
+  "scale": {
+    "bodyZoom": "1",
+    "devicePixelRatio": 1,
+    "visualViewportScale": 1,
+    "innerWidthPx": 390,
+    "documentScrollWidthPx": 390
+  },
+  "theMeasurementThatUncheckedTheLine": {
+    "was": "318 x 238.5 px with 0 visible text nodes, OWNED verdict at 390 px",
+    "nowSizeLabel": "318.0 x 238.5 px",
+    "nowVisibleTextNodeCount": 2
+  },
+  "largeFrame": {
+    "verdictKind": "OWNED",
+    "selector": "div.photoFrame.np",
+    "classList": [
+      "photoFrame",
+      "np"
+    ],
+    "box": {
+      "xPx": 36,
+      "yPx": 605.92,
+      "widthPx": 318,
+      "heightPx": 238.5,
+      "leftPx": 36,
+      "rightPx": 354,
+      "topPx": 605.92,
+      "bottomPx": 844.42
+    },
+    "sizeLabel": "318.0 x 238.5 px",
+    "overflowStyle": "hidden",
+    "domTextNodeCount": 2,
+    "srOnlyDescendants": 0,
+    "ariaLabel": null,
+    "role": null,
+    "text": {
+      "visibleCount": 2,
+      "visibleText": [
+        "No photograph filed for this entry.",
+        "Yours would be the first."
+      ],
+      "visible": [
+        {
+          "text": "No photograph filed for this entry.",
+          "parent": "p.npLead",
+          "rect": {
+            "xPx": 101.08,
+            "yPx": 722.08,
+            "widthPx": 187.84,
+            "heightPx": 14,
+            "leftPx": 101.08,
+            "rightPx": 288.92,
+            "topPx": 722.08,
+            "bottomPx": 736.08
+          },
+          "lineBoxCount": 1,
+          "samplePoints": 21,
+          "samplePointsOutsideViewport": 0,
+          "samplePointsPainted": 21,
+          "shownFraction": 1,
+          "clipPathAncestors": [
+            "section.vslab.v-own.cut20 polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+            "div.vslabWipe inset(0px 0% 0px 0px)"
+          ]
+        },
+        {
+          "text": "Yours would be the first.",
+          "parent": "p.npAction",
+          "rect": {
+            "xPx": 137.48,
+            "yPx": 742.88,
+            "widthPx": 115.02,
+            "heightPx": 12,
+            "leftPx": 137.48,
+            "rightPx": 252.5,
+            "topPx": 742.88,
+            "bottomPx": 754.88
+          },
+          "lineBoxCount": 1,
+          "samplePoints": 21,
+          "samplePointsOutsideViewport": 0,
+          "samplePointsPainted": 21,
+          "shownFraction": 1,
+          "clipPathAncestors": [
+            "section.vslab.v-own.cut20 polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+            "div.vslabWipe inset(0px 0% 0px 0px)"
+          ]
+        }
+      ],
+      "hiddenCount": 0,
+      "hidden": []
+    },
+    "visibleTextNodeCount": 2,
+    "visibleStrings": [
+      "No photograph filed for this entry.",
+      "Yours would be the first."
+    ],
+    "windowScrollYPx": 124,
+    "capture": {
+      "file": ".forge/evidence/c20-owned-no-photo-390.png",
+      "widthPx": 390,
+      "heightPx": 844
+    }
+  },
+  "thumb56": {
+    "selector": "div.thumb.np",
+    "box": {
+      "xPx": 29,
+      "yPx": 398.38,
+      "widthPx": 56,
+      "heightPx": 56,
+      "leftPx": 29,
+      "rightPx": 85,
+      "topPx": 398.38,
+      "bottomPx": 454.38
+    },
+    "sizeLabel": "56.0 x 56.0 px",
+    "overflowStyle": "hidden",
+    "role": "img",
+    "ariaLabel": "No photograph saved for this copy.",
+    "innerAriaHidden": "true",
+    "fontSizePx": "8px",
+    "text": {
+      "visibleCount": 1,
+      "visibleText": [
+        "No photo"
+      ],
+      "visible": [
+        {
+          "text": "No photo",
+          "parent": "span.thumbNoPhoto",
+          "rect": {
+            "xPx": 36.52,
+            "yPx": 420.78,
+            "widthPx": 40.97,
+            "heightPx": 10,
+            "leftPx": 36.52,
+            "rightPx": 77.48,
+            "topPx": 420.78,
+            "bottomPx": 430.78
+          },
+          "lineBoxCount": 1,
+          "samplePoints": 21,
+          "samplePointsOutsideViewport": 0,
+          "samplePointsPainted": 21,
+          "shownFraction": 1,
+          "clipPathAncestors": []
+        }
+      ],
+      "hiddenCount": 0,
+      "hidden": []
+    },
+    "containment": {
+      "child": "span.thumbNoPhoto",
+      "frame": {
+        "xPx": 29,
+        "yPx": 398.38,
+        "widthPx": 56,
+        "heightPx": 56,
+        "leftPx": 29,
+        "rightPx": 85,
+        "topPx": 398.38,
+        "bottomPx": 454.38
+      },
+      "childBox": {
+        "xPx": 36.52,
+        "yPx": 420.78,
+        "widthPx": 40.97,
+        "heightPx": 11.19,
+        "leftPx": 36.52,
+        "rightPx": 77.48,
+        "topPx": 420.78,
+        "bottomPx": 431.97
+      },
+      "overflowPx": {
+        "leftPx": -7.52,
+        "rightPx": -7.52,
+        "topPx": -22.41,
+        "bottomPx": -22.41
+      },
+      "worstOverflowPx": -7.52,
+      "containedInFrame": true
+    },
+    "collectionRowCount": 1,
+    "visibleTextNodeCount": 1,
+    "visibleStrings": [
+      "No photo"
+    ],
+    "windowScrollYPx": 0,
+    "capture": {
+      "file": ".forge/evidence/c20-collection-thumb-390.png",
+      "widthPx": 390,
+      "heightPx": 844
+    }
+  },
+  "openQuestionForTheVerifier": {
+    "question": "does a short label with no restated action satisfy C20 at 56 px, or does the rubric want the action named at every scale",
+    "notAnsweredHere": true,
+    "stringAt318px": [
+      "No photograph filed for this entry.",
+      "Yours would be the first."
+    ],
+    "stringAt56px": [
+      "No photo"
+    ],
+    "accessibleNameAt56px": "No photograph saved for this copy.",
+    "actionNamedAt318px": true,
+    "actionNamedAt56px": false
+  },
+  "controls": {
+    "note": "the same textNodes() that measured the frames above",
+    "genuinelyEmptyBoxReturnsZero": {
+      "visibleCount": 0,
+      "pass": true
+    },
+    "srOnlyOnlyBoxReturnsZero": {
+      "visibleCount": 0,
+      "hiddenCount": 1,
+      "rejectionReasons": [
+        [
+          "1.0x1.0 box with overflow:hidden on span.srOnly",
+          "painted at 0 of 21 sample points inside its own line boxes"
+        ]
+      ],
+      "pass": true
+    },
+    "plainVisibleBoxReturnsOne": {
+      "visibleCount": 1,
+      "visibleText": [
+        "One visible sentence."
+      ],
+      "pass": true
+    },
+    "textClippedByOverflowHiddenIsNotCounted": {
+      "visibleCount": 0,
+      "hidden": [
+        {
+          "shownFraction": 0.1429,
+          "why": [
+            "painted at 3 of 21 sample points inside its own line boxes"
+          ]
+        }
+      ],
+      "pass": true
+    }
+  },
+  "measuredAtIso": "2026-08-18T13:46:54.997Z"
+}

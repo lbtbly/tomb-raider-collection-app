@@ -1,0 +1,419 @@
+{
+  "target": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedMatchesExpected": true,
+    "servedMatchesDisk": true,
+    "devMarkersFound": [],
+    "checkedAt": "2026-08-18T14:47:34.951Z"
+  },
+  "port": "3701",
+  "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+  "buildIdOnDiskAtStart": "YzDsr6hHAGTXS-1fwnrSm",
+  "catalogue": {
+    "rows": 145,
+    "identifiersSharedByExactlyTwoVariants": 5,
+    "collisionIdentifierUsed": "3014202"
+  },
+  "pairBeforeAnySave": [
+    {
+      "label": "Tomb Raider: Lara Croft PVC Statue - Sealed shipping carton",
+      "ownershipLine": "Not in your collection yet",
+      "owned": false
+    },
+    {
+      "label": "Tomb Raider: Lara Croft PVC Statue - Standard release",
+      "ownershipLine": "Not in your collection yet",
+      "owned": false
+    }
+  ],
+  "pairAfterSave": [
+    {
+      "label": "Tomb Raider: Lara Croft PVC Statue - Sealed shipping carton",
+      "ownershipLine": "Already in your collection",
+      "owned": true
+    },
+    {
+      "label": "Tomb Raider: Lara Croft PVC Statue - Standard release",
+      "ownershipLine": "Not in your collection yet",
+      "owned": false
+    }
+  ],
+  "ownershipAsymmetry": {
+    "what": "the same collision read before and after one of its two variants was saved",
+    "ownedCandidatesBeforeTheSave": 0,
+    "ownedCandidatesAfterTheSave": 1,
+    "ownershipLinesBefore": [
+      "Not in your collection yet",
+      "Not in your collection yet"
+    ],
+    "ownershipLinesAfter": [
+      "Already in your collection",
+      "Not in your collection yet"
+    ],
+    "reading": "the ownership reading moved from 0 owned to 1 owned on the same identifier, so the pair really is asymmetric and one pick resolves OWNED while the other resolves NOT IN COLLECTION. The detector reports both values, so it is a reading and not a constant."
+  },
+  "targetAfter": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedMatchesExpected": true,
+    "servedMatchesDisk": true,
+    "devMarkersFound": [],
+    "checkedAt": "2026-08-18T14:47:38.419Z"
+  },
+  "buildIdOnDiskAtEnd": "YzDsr6hHAGTXS-1fwnrSm",
+  "cycles": [
+    {
+      "reading": "outcome OWNED",
+      "identifier": "3014202",
+      "pickedCandidateIndex": 0,
+      "pickedCandidateLabel": "Tomb Raider: Lara Croft PVC Statue - Sealed shipping carton",
+      "pickedCandidateOwnershipLine": "Already in your collection",
+      "outcomeVerdict": "OWNED",
+      "tapsToReverse": 1,
+      "reverseControlLabel": "Undo, this is not the one",
+      "reachedUncertain": true,
+      "pairBeforePick": [
+        {
+          "label": "Tomb Raider: Lara Croft PVC Statue - Sealed shipping carton",
+          "ownershipLine": "Already in your collection",
+          "owned": true
+        },
+        {
+          "label": "Tomb Raider: Lara Croft PVC Statue - Standard release",
+          "ownershipLine": "Not in your collection yet",
+          "owned": false
+        }
+      ],
+      "pairAfterReverse": [
+        {
+          "label": "Tomb Raider: Lara Croft PVC Statue - Sealed shipping carton",
+          "ownershipLine": "Already in your collection",
+          "owned": true
+        },
+        {
+          "label": "Tomb Raider: Lara Croft PVC Statue - Standard release",
+          "ownershipLine": "Not in your collection yet",
+          "owned": false
+        }
+      ],
+      "restoredIdentically": true,
+      "interactiveControlsOnItem": [
+        "Check",
+        "Scan with camera",
+        "Undo, this is not the one"
+      ],
+      "captures": {
+        "beforePick": ".forge/evidence/f7b-owned-outcome-1-before-uncertain.png",
+        "beforePickPx": [
+          390,
+          844
+        ],
+        "beforePickVerdictWord": {
+          "subject": "owned-outcome UNCERTAIN verdict word",
+          "selector": "[data-testid=\"verdict-word\"]",
+          "found": true,
+          "topPx": 375,
+          "bottomPx": 468,
+          "leftPx": 18,
+          "rightPx": 372,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        },
+        "beforePickSlab": {
+          "subject": "owned-outcome UNCERTAIN slab",
+          "selector": "section.vslab",
+          "found": true,
+          "topPx": 373,
+          "bottomPx": 1124,
+          "leftPx": 16,
+          "rightPx": 374,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": false
+        },
+        "afterPick": ".forge/evidence/f7b-owned-outcome-2-after-pick-owned.png",
+        "afterPickPx": [
+          390,
+          844
+        ],
+        "afterPickVerdictWord": {
+          "subject": "owned-outcome OWNED verdict word",
+          "selector": "[data-testid=\"verdict-word\"]",
+          "found": true,
+          "topPx": 198,
+          "bottomPx": 247,
+          "leftPx": 36,
+          "rightPx": 354,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        },
+        "afterPickSlab": {
+          "subject": "owned-outcome OWNED slab",
+          "selector": "section.vslab",
+          "found": true,
+          "topPx": 174,
+          "bottomPx": 605,
+          "leftPx": 16,
+          "rightPx": 374,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        },
+        "afterPickReverseControl": {
+          "subject": "owned-outcome reverse control",
+          "found": true,
+          "topPx": 613,
+          "bottomPx": 669,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        },
+        "afterReverse": ".forge/evidence/f7b-owned-outcome-3-after-reverse-uncertain.png",
+        "afterReversePx": [
+          390,
+          844
+        ],
+        "afterReverseVerdictWord": {
+          "subject": "owned-outcome restored UNCERTAIN verdict word",
+          "selector": "[data-testid=\"verdict-word\"]",
+          "found": true,
+          "topPx": 176,
+          "bottomPx": 269,
+          "leftPx": 18,
+          "rightPx": 372,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        },
+        "afterReverseSlab": {
+          "subject": "owned-outcome restored UNCERTAIN slab",
+          "selector": "section.vslab",
+          "found": true,
+          "topPx": 174,
+          "bottomPx": 925,
+          "leftPx": 16,
+          "rightPx": 374,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": false
+        }
+      }
+    },
+    {
+      "reading": "outcome NOT IN COLLECTION",
+      "identifier": "3014202",
+      "pickedCandidateIndex": 1,
+      "pickedCandidateLabel": "Tomb Raider: Lara Croft PVC Statue - Standard release",
+      "pickedCandidateOwnershipLine": "Not in your collection yet",
+      "outcomeVerdict": "NOT_IN_COLLECTION",
+      "tapsToReverse": 1,
+      "reverseControlLabel": "Undo, this is not the one",
+      "reachedUncertain": true,
+      "pairBeforePick": [
+        {
+          "label": "Tomb Raider: Lara Croft PVC Statue - Sealed shipping carton",
+          "ownershipLine": "Already in your collection",
+          "owned": true
+        },
+        {
+          "label": "Tomb Raider: Lara Croft PVC Statue - Standard release",
+          "ownershipLine": "Not in your collection yet",
+          "owned": false
+        }
+      ],
+      "pairAfterReverse": [
+        {
+          "label": "Tomb Raider: Lara Croft PVC Statue - Sealed shipping carton",
+          "ownershipLine": "Already in your collection",
+          "owned": true
+        },
+        {
+          "label": "Tomb Raider: Lara Croft PVC Statue - Standard release",
+          "ownershipLine": "Not in your collection yet",
+          "owned": false
+        }
+      ],
+      "restoredIdentically": true,
+      "interactiveControlsOnItem": [
+        "Check",
+        "Scan with camera",
+        "Add to collection",
+        "Add to wantlist",
+        "Undo, this is not the one"
+      ],
+      "captures": {
+        "beforePick": ".forge/evidence/f7b-not-in-collection-outcome-1-before-uncertain.png",
+        "beforePickPx": [
+          390,
+          844
+        ],
+        "beforePickVerdictWord": {
+          "subject": "not-in-collection-outcome UNCERTAIN verdict word",
+          "selector": "[data-testid=\"verdict-word\"]",
+          "found": true,
+          "topPx": 270,
+          "bottomPx": 363,
+          "leftPx": 18,
+          "rightPx": 372,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        },
+        "beforePickSlab": {
+          "subject": "not-in-collection-outcome UNCERTAIN slab",
+          "selector": "section.vslab",
+          "found": true,
+          "topPx": 268,
+          "bottomPx": 1019,
+          "leftPx": 16,
+          "rightPx": 374,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": false
+        },
+        "afterPick": ".forge/evidence/f7b-not-in-collection-outcome-2-after-pick-not_in_collection.png",
+        "afterPickPx": [
+          390,
+          844
+        ],
+        "afterPickVerdictWord": {
+          "subject": "not-in-collection-outcome NOT_IN_COLLECTION verdict word",
+          "selector": "[data-testid=\"verdict-word\"]",
+          "found": true,
+          "topPx": 394,
+          "bottomPx": 432,
+          "leftPx": 33,
+          "rightPx": 357,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        },
+        "afterPickSlab": {
+          "subject": "not-in-collection-outcome NOT_IN_COLLECTION slab",
+          "selector": "section.vslab",
+          "found": true,
+          "topPx": 373,
+          "bottomPx": 604,
+          "leftPx": 16,
+          "rightPx": 374,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        },
+        "afterPickReverseControl": {
+          "subject": "not-in-collection-outcome reverse control",
+          "found": true,
+          "topPx": 612,
+          "bottomPx": 668,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        },
+        "afterReverse": ".forge/evidence/f7b-not-in-collection-outcome-3-after-reverse-uncertain.png",
+        "afterReversePx": [
+          390,
+          844
+        ],
+        "afterReverseVerdictWord": {
+          "subject": "not-in-collection-outcome restored UNCERTAIN verdict word",
+          "selector": "[data-testid=\"verdict-word\"]",
+          "found": true,
+          "topPx": 375,
+          "bottomPx": 468,
+          "leftPx": 18,
+          "rightPx": 372,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        },
+        "afterReverseSlab": {
+          "subject": "not-in-collection-outcome restored UNCERTAIN slab",
+          "selector": "section.vslab",
+          "found": true,
+          "topPx": 373,
+          "bottomPx": 1124,
+          "leftPx": 16,
+          "rightPx": 374,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": false
+        }
+      }
+    }
+  ],
+  "count": {
+    "cycles": 2,
+    "outcomesCovered": [
+      "NOT_IN_COLLECTION",
+      "OWNED"
+    ],
+    "tapsToReverse": [
+      1,
+      1
+    ],
+    "maxTapsToReverse": 1,
+    "cyclesOverTwoTaps": 0,
+    "cyclesNotRestoredIdentically": 0,
+    "capturesPerCycle": 3
+  },
+  "readingMeasured": "Reading B, the two RESOLUTIONS. One variant of the collision was saved first, so the pair is asymmetric: picking the held candidate resolves OWNED and picking the other resolves NOT IN COLLECTION. Reading A, the two candidates, is covered by the same two cycles, since the two picks are the two different candidates.",
+  "negativeControls": {
+    "port": "3701",
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "controls": [
+      {
+        "control": "the tap counter on a fresh UNCERTAIN, before any pick",
+        "reverseControlsFound": 0,
+        "tapsReported": null,
+        "expected": "null, because the control is absent",
+        "passes": true
+      },
+      {
+        "control": "the tap counter aimed at a control name the product does not carry",
+        "reverseControlsFound": 0,
+        "tapsReported": null,
+        "expected": "null",
+        "passes": true
+      },
+      {
+        "control": "the verdict detector driven to all three kinds",
+        "kinds": {
+          "uncertain": "UNCERTAIN",
+          "afterPickWithNothingHeld": "NOT_IN_COLLECTION",
+          "afterPickWithOneHeld": "OWNED"
+        },
+        "distinctKindsReturned": [
+          "NOT_IN_COLLECTION",
+          "OWNED",
+          "UNCERTAIN"
+        ],
+        "expected": "three distinct kinds",
+        "passes": true
+      },
+      {
+        "control": "the item reloaded after a pick, which discards the in-memory pick state",
+        "reverseControlsBeforeReload": 1,
+        "reverseControlsAfterReload": 0,
+        "verdictSlabsAfterReload": 0,
+        "tapsReported": null,
+        "expected": "null, and no slab at all: the check screen comes back empty",
+        "passes": true,
+        "reading": "the pick, the verdict and the reverse control all live in CheckScreen's React state, so a reload returns the check screen to its empty state rather than to the item. F7 measures a reversal from the item as it stands, which is what the two cycles do; this control records that the same instrument returns null the moment the item is no longer there."
+      }
+    ],
+    "reading": "the tap counter returns null in three different states and a number in the measured cycles, and the verdict detector returns all three kinds. Neither instrument is a constant."
+  },
+  "line": "F7. Both outcomes of UNCERTAIN reverse from the item in 2 taps or fewer; captured before and after.",
+  "recordedAt": "2026-08-18T14:47:40.198Z"
+}

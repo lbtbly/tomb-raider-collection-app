@@ -1,0 +1,269 @@
+{
+  "target": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "devMarkersFound": [],
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdFoundInServedHtml": true,
+    "checkedAt": "2026-08-18T14:48:09.168Z"
+  },
+  "servedBuild": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedMatchesExpected": true,
+    "servedMatchesDisk": true,
+    "devMarkersFound": [],
+    "checkedAt": "2026-08-18T14:48:09.172Z"
+  },
+  "port": "3701",
+  "buildId": "YzDsr6hHAGTXS-1fwnrSm",
+  "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+  "buildIdOnDiskAtStart": "YzDsr6hHAGTXS-1fwnrSm",
+  "scale": {
+    "bodyZoom": "1",
+    "devicePixelRatio": 1,
+    "visualViewportScale": 1,
+    "innerWidthPx": 390,
+    "documentScrollWidthPx": 390
+  },
+  "hardReload": {
+    "port": "3701",
+    "buildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "identifier": "0054714",
+    "copyId": "dea431bf-62b2-4155-ad60-2f8c4c067021",
+    "copyTitle": "Tomb Raider",
+    "copiesBeforeAnyReload": 1,
+    "offlineControlBeforeAnyReload": {
+      "reachedTheNetwork": false,
+      "error": "Failed to fetch"
+    },
+    "documentReload": {
+      "method": "page.reload, network disabled, the worker answering the navigation",
+      "documentLoaded": true,
+      "copiesAfter": 1,
+      "sameCopyId": true,
+      "rowsRenderedAfter": 1,
+      "countLineAfter": "1 copy saved",
+      "offlineControlAfter": {
+        "reachedTheNetwork": false,
+        "error": "Failed to fetch"
+      },
+      "captures": [
+        ".forge/evidence/f13-1-before-hard-reload-offline.png",
+        ".forge/evidence/f13-2-after-hard-reload-offline.png"
+      ],
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCaptureBefore": {
+        "subject": "the saved copy's row before the hard reload",
+        "selector": "ul li a.row",
+        "found": true,
+        "topPx": 385,
+        "bottomPx": 467,
+        "leftPx": 16,
+        "rightPx": 374,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      },
+      "subjectInCaptureAfter": {
+        "subject": "the saved copy's row after the document reload",
+        "selector": "ul li a.row",
+        "found": true,
+        "topPx": 385,
+        "bottomPx": 467,
+        "leftPx": 16,
+        "rightPx": 374,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      }
+    },
+    "cacheBypassingHardReload": {
+      "method": "CDP Page.reload with ignoreCache true, network disabled",
+      "navigationError": null,
+      "documentAfter": {
+        "origin": "null",
+        "productFooterPresent": false,
+        "appShellPresent": false,
+        "collectionRows": 0
+      },
+      "whatThisMeans": "Chrome's hard reload bypasses the service worker for the document. With the network disabled the worker is the only thing that can answer, so no document loads. That is what bypassing the offline layer while offline means, not a property of this product, and the second control test in this file reproduces it directly with Network.setBypassServiceWorker.",
+      "copyAfterOnTheNextWorkerServedNavigation": 1,
+      "sameCopyId": true,
+      "offlineControlAfter": {
+        "reachedTheNetwork": false,
+        "error": "Failed to fetch"
+      },
+      "capture": ".forge/evidence/f13-2b-after-cache-bypassing-hard-reload-offline.png",
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCapture": {
+        "subject": "the saved copy's row after the cache-bypassing hard reload",
+        "selector": "ul li a.row",
+        "found": true,
+        "topPx": 385,
+        "bottomPx": 467,
+        "leftPx": 16,
+        "rightPx": 374,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      }
+    }
+  },
+  "servedBuildAfterHardReload": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedMatchesExpected": true,
+    "servedMatchesDisk": true,
+    "devMarkersFound": [],
+    "checkedAt": "2026-08-18T14:48:09.926Z"
+  },
+  "workerBypassControl": {
+    "port": "3701",
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "what": "network disabled, Network.setBypassServiceWorker bypass true, then a navigation to /collection",
+    "navigationError": "page.goto: net::ERR_INTERNET_DISCONNECTED at http://localhost:3701/collection",
+    "document": {
+      "origin": "null",
+      "title": "",
+      "productFooterPresent": false,
+      "appShellPresent": false,
+      "browserErrorMarkers": []
+    },
+    "reading": "with the offline layer bypassed there is nothing to answer the request, so no document loads. A shift-reload is that plus a cache bypass, which is why the hard reload measured in this file is a cache-ignoring document reload served by the worker rather than a worker bypass."
+  },
+  "browserRestart": {
+    "port": "3701",
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedBuildIdAfter": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDiskAtEnd": "YzDsr6hHAGTXS-1fwnrSm",
+    "method": "two chromium.launchPersistentContext launches against the same on-disk profile directory, with the first browser's processes confirmed gone from the operating system process table before the second was launched. Closing and reopening a context would not have moved any of these numbers.",
+    "profileDirectory": "test-results/f13-browser-restart-profile",
+    "identifier": "0054714",
+    "copyId": "80e08266-4386-48cb-9e04-5b5a89511498",
+    "copyTitle": "Tomb Raider",
+    "firstBrowser": {
+      "browserProcessPid": 33996,
+      "processesRunningAgainstTheProfile": 1,
+      "catalogueRowsOnDevice": 145,
+      "copiesCreated": 1,
+      "offlineControl": {
+        "reachedTheNetwork": false,
+        "error": "Failed to fetch"
+      },
+      "capture": ".forge/evidence/f13-3-before-browser-restart-offline.png",
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCapture": {
+        "subject": "the saved copy's row in the first browser, before it is killed",
+        "selector": "ul li a.row",
+        "found": true,
+        "topPx": 385,
+        "bottomPx": 467,
+        "leftPx": 16,
+        "rightPx": 374,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      },
+      "scale": {
+        "bodyZoom": "1",
+        "devicePixelRatio": 1,
+        "visualViewportScale": 1,
+        "innerWidthPx": 390,
+        "documentScrollWidthPx": 390
+      }
+    },
+    "processTable": {
+      "processesAgainstTheProfileWhileTheFirstBrowserRan": 1,
+      "firstBrowserPidAliveAfterClose": false,
+      "processesAgainstTheProfileAfterTheFirstBrowserClosed": 0,
+      "processesAgainstTheProfileWhileTheSecondBrowserRan": 1,
+      "secondBrowserPidDiffersFromFirst": true,
+      "anyPidSharedBetweenTheTwoBrowsers": false
+    },
+    "secondBrowser": {
+      "browserProcessPid": 34047,
+      "offlineBeforeFirstNavigation": true,
+      "copiesFound": 1,
+      "sameCopyId": true,
+      "rowsRendered": 1,
+      "rowTitle": "Tomb Raider",
+      "countLine": "1 copy saved",
+      "catalogueRowsOnDevice": 145,
+      "offlineControl": {
+        "reachedTheNetwork": false,
+        "error": "Failed to fetch"
+      },
+      "capture": ".forge/evidence/f13-4-after-browser-restart-offline.png",
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCapture": {
+        "subject": "the saved copy's row in the second browser, after the restart",
+        "selector": "ul li a.row",
+        "found": true,
+        "topPx": 385,
+        "bottomPx": 467,
+        "leftPx": 16,
+        "rightPx": 374,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      },
+      "scale": {
+        "bodyZoom": "1",
+        "devicePixelRatio": 1,
+        "visualViewportScale": 1,
+        "innerWidthPx": 390,
+        "documentScrollWidthPx": 390
+      }
+    },
+    "freshProfileControl": {
+      "browserProcessPid": 34069,
+      "profileDirectory": "test-results/f13-browser-restart-control-profile",
+      "copiesFound": 0,
+      "rowsRendered": 0,
+      "designedEmptyStateLead": "Nothing saved yet.",
+      "capture": ".forge/evidence/f13-control-fresh-profile-no-copy.png",
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCapture": {
+        "subject": "the designed empty state in a profile that never saw the copy",
+        "selector": "p.vlead",
+        "found": true,
+        "topPx": 293,
+        "bottomPx": 315,
+        "leftPx": 37,
+        "rightPx": 353,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      },
+      "reading": "the same assertions run against a browser that never saw the copy report 0, so the reading of 1 after the restart is a reading and not a constant"
+    }
+  },
+  "line": "F13. A copy created signed out survives a hard reload and a full browser restart with the network disabled; both captured.",
+  "signedOut": "The product has no account, no sign-in control and no session of any kind in this slice, so every copy created by any run is created signed out. There is no signed-in state to distinguish it from.",
+  "recordedAt": "2026-08-18T14:48:11.239Z"
+}

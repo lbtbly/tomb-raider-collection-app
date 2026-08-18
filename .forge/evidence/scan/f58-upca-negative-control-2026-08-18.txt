@@ -1,0 +1,27 @@
+G  UPC-A, the majority format, decoded and resolved end to end
+   printed on the pack:      743175952919  (12 digits, barcode_upca)
+   what the decoder returned: "0743175952919"
+   digits returned: 13, leading zero: true
+   verdict: NOT_IN_COLLECTION / "NOT IN COLLECTION"
+   the row it resolved to: []
+  PASS  the decoder returned one of the two legitimate spellings of the printed UPC-A  0743175952919
+  PASS  the platform reported the 13-digit EAN-13 form, the read that used to miss  0743175952919
+  PASS  a verdict rendered  NOT_IN_COLLECTION
+  FAIL  the scan RESOLVED to a catalogue row rather than finding nothing  []
+  FAIL  it resolved to the right variant, not merely to something  []
+  FAIL  not the nothing-found state: the three doors are not on screen
+  FAIL  not the nothing-found state: "No entry found for this identifier." is absent
+  PASS  scrollWidth 390 after the UPC-A verdict  390
+
+NEGATIVE CONTROL. Produced by neutering identifierLookupForms to return only
+the value as given (the alternate-form rule removed) and rebuilding, so the
+run above is the product as it behaved BEFORE the fix. The same fake camera,
+the same printed UPC-A, the same catalogue: the decoder still reads
+0743175952919 correctly, and the lookup finds nothing at all. The three doors
+render, "No entry found for this identifier." is on screen, and there is no
+Add to collection control, which is why the harness could not even reach the
+OWNED half. A collector holding a Tomb Raider NTSC-U disc is told the
+catalogue has never heard of it.
+
+The rule was restored, rebuilt and re-run immediately after; the passing run
+is f58-scan-evidence-upca-2026-08-18.txt.

@@ -1,0 +1,208 @@
+{
+  "line": "C1 / F4 precondition",
+  "measuredAtIso": "2026-08-18T09:51:59.533Z",
+  "baseUrl": "http://localhost:3000",
+  "note": "document.documentElement.scrollWidth per viewport, deviceScaleFactor 1, viewport captures (never fullPage). Before the fix: 560 at a 390 viewport in all five verdict states.",
+  "widths": {
+    "light-320": {
+      "documentScrollWidthPx": 320,
+      "clientWidth": 320,
+      "dpr": 1,
+      "scaleWarning": null,
+      "overflowCount": 0,
+      "overflow": [],
+      "contrastFailures": [],
+      "tapUnder44": 4,
+      "tapSample": [
+        "a.wm 67.2x23.4",
+        "a.- 46.0x23.4",
+        "a.- 71.5x23.4",
+        "a.- 73.2x23.4"
+      ]
+    },
+    "light-390": {
+      "documentScrollWidthPx": 390,
+      "clientWidth": 390,
+      "dpr": 1,
+      "scaleWarning": null,
+      "overflowCount": 0,
+      "overflow": [],
+      "contrastFailures": [],
+      "tapUnder44": 4,
+      "tapSample": [
+        "a.wm 67.2x23.4",
+        "a.- 46.0x23.4",
+        "a.- 71.5x23.4",
+        "a.- 73.2x23.4"
+      ]
+    },
+    "light-768": {
+      "documentScrollWidthPx": 768,
+      "clientWidth": 768,
+      "dpr": 1,
+      "scaleWarning": null,
+      "overflowCount": 0,
+      "overflow": [],
+      "contrastFailures": [],
+      "tapUnder44": 4,
+      "tapSample": [
+        "a.wm 67.2x23.4",
+        "a.- 46.0x23.4",
+        "a.- 71.5x23.4",
+        "a.- 73.2x23.4"
+      ]
+    },
+    "light-1440": {
+      "documentScrollWidthPx": 1440,
+      "clientWidth": 1440,
+      "dpr": 1,
+      "scaleWarning": null,
+      "overflowCount": 0,
+      "overflow": [],
+      "contrastFailures": [],
+      "tapUnder44": 4,
+      "tapSample": [
+        "a.wm 67.2x23.4",
+        "a.- 46.0x23.4",
+        "a.- 71.5x23.4",
+        "a.- 73.2x23.4"
+      ]
+    },
+    "dark-320": {
+      "documentScrollWidthPx": 320,
+      "clientWidth": 320,
+      "dpr": 1,
+      "scaleWarning": null,
+      "overflowCount": 0,
+      "overflow": [],
+      "contrastFailures": [],
+      "tapUnder44": 4,
+      "tapSample": [
+        "a.wm 67.2x23.4",
+        "a.- 46.0x23.4",
+        "a.- 71.5x23.4",
+        "a.- 73.2x23.4"
+      ]
+    },
+    "dark-390": {
+      "documentScrollWidthPx": 390,
+      "clientWidth": 390,
+      "dpr": 1,
+      "scaleWarning": null,
+      "overflowCount": 0,
+      "overflow": [],
+      "contrastFailures": [],
+      "tapUnder44": 4,
+      "tapSample": [
+        "a.wm 67.2x23.4",
+        "a.- 46.0x23.4",
+        "a.- 71.5x23.4",
+        "a.- 73.2x23.4"
+      ]
+    },
+    "dark-768": {
+      "documentScrollWidthPx": 768,
+      "clientWidth": 768,
+      "dpr": 1,
+      "scaleWarning": null,
+      "overflowCount": 0,
+      "overflow": [],
+      "contrastFailures": [],
+      "tapUnder44": 4,
+      "tapSample": [
+        "a.wm 67.2x23.4",
+        "a.- 46.0x23.4",
+        "a.- 71.5x23.4",
+        "a.- 73.2x23.4"
+      ]
+    },
+    "dark-1440": {
+      "documentScrollWidthPx": 1440,
+      "clientWidth": 1440,
+      "dpr": 1,
+      "scaleWarning": null,
+      "overflowCount": 0,
+      "overflow": [],
+      "contrastFailures": [],
+      "tapUnder44": 4,
+      "tapSample": [
+        "a.wm 67.2x23.4",
+        "a.- 46.0x23.4",
+        "a.- 71.5x23.4",
+        "a.- 73.2x23.4"
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "uncertain-slus01311",
+      "documentScrollWidthPx": 390,
+      "dataVerdict": "UNCERTAIN",
+      "classes": "vslab v-unc",
+      "word": "UNCERTAIN",
+      "wordFontSizePx": 35.4,
+      "wordRightPx": 372,
+      "slabWidthPx": 358,
+      "slabRightPx": 374,
+      "testidCount": 1
+    },
+    {
+      "name": "uncertain-slus00152",
+      "documentScrollWidthPx": 390,
+      "dataVerdict": "UNCERTAIN",
+      "classes": "vslab v-unc",
+      "word": "UNCERTAIN",
+      "wordFontSizePx": 35.4,
+      "wordRightPx": 372,
+      "slabWidthPx": 358,
+      "slabRightPx": 374,
+      "testidCount": 1
+    },
+    {
+      "name": "not-in-collection-unknown",
+      "documentScrollWidthPx": 390,
+      "dataVerdict": "NOT_IN_COLLECTION",
+      "classes": "vslab v-not cut18",
+      "word": "NOT IN COLLECTION",
+      "wordFontSizePx": 27.6,
+      "wordRightPx": 357,
+      "slabWidthPx": 358,
+      "slabRightPx": 374,
+      "testidCount": 1
+    },
+    {
+      "name": "not-in-collection-recognized",
+      "documentScrollWidthPx": 390,
+      "dataVerdict": "NOT_IN_COLLECTION",
+      "classes": "vslab v-not cut18",
+      "word": "NOT IN COLLECTION",
+      "wordFontSizePx": 27.6,
+      "slabWidthPx": 358,
+      "testidCount": 1
+    },
+    {
+      "name": "owned",
+      "documentScrollWidthPx": 390,
+      "dataVerdict": "OWNED",
+      "classes": "vslab v-own cut20",
+      "word": "OWNED",
+      "wordFontSizePx": 35.4,
+      "slabWidthPx": 358,
+      "testidCount": 1
+    }
+  ],
+  "pages": {
+    "/catalogue": {
+      "documentScrollWidthPx": 390,
+      "overflowCount": 0,
+      "overflow": [],
+      "contrastFailures": []
+    },
+    "/collection": {
+      "documentScrollWidthPx": 390,
+      "overflowCount": 0,
+      "overflow": [],
+      "contrastFailures": []
+    }
+  }
+}

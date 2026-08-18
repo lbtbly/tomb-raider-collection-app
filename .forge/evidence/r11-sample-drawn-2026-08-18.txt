@@ -1,0 +1,87 @@
+R11 sample: 20 variants, drawn 2026-08-18, salt "vitrine-r11-sample-v1"
+Reproduce: order by md5(v.public_id || 'vitrine-r11-sample-v1') limit 20
+Drawn BEFORE any of them was checked, so the sample cannot be chosen to pass.
+Each must match its cited source on title, year and identifier. Mismatches permitted: 0.
+
+ 1. AM89K6N42P  Tomb Raider - Lara Croft in Jungle Outfit (no year recorded)
+    variant:     Boxed, Jungle Outfit
+    identifiers: catalogue_number 72002
+    source:      urn:vitrine:in-hand-photograph:IMG_9834.jpeg   retrieved 2026-08-18   <-- NOT RE-OPENABLE, see slice 5
+ 2. QQ13QF0MKN  Tomb Raider III: Les Aventures De Lara Croft (Demo) (1998)
+    variant:     France, PlayStation demo
+    identifiers: catalogue_number SLED-01709; part_number TR3FREL
+    source:      https://crimson-ceremony.net/laras/artefact.php?id=promos_tr3-ps1-02   retrieved 2026-08-18
+ 3. EF9VZJ00WY  Lara Croft: Tomb Raider (Music From The Motion Picture) (2001)
+    variant:     Selections From Tomb Raider, promotional 12 inch sampler (US)
+    identifiers: catalogue_number ED 6297; matrix_runout STED-6297 A-1 MCR-RCE
+    source:      https://api.discogs.com/releases/72815   retrieved 2026-08-18
+ 4. GAQYBPBBTG  Tomb Raider: Anniversary (2007)
+    variant:     NTSC-U (United States)
+    identifiers: barcode_upca 788687500609; catalogue_number SLUS-21555
+    source:      https://psxdatacenter.com/psx2/games2/SLUS-21555.html   retrieved 2026-08-18
+ 5. 6XF3A8V424  Tomb Raider III: Digital Press Kit (1998)
+    variant:     International, press CD-ROM
+    identifiers: (none recorded)
+    source:      https://archive.org/details/TombRaiderIIIDigitalPressKit1998   retrieved 2026-08-18
+ 6. 06C66DP6X5  Tomb Raider: Chronicles (Promo Only) (2000)
+    variant:     United States, not-for-resale copy
+    identifiers: catalogue_number SLUS-01311
+    source:      https://crimson-ceremony.net/laras/artefact.php?id=promos_chronicles-ps1-03   retrieved 2026-08-18
+ 7. ENXREDVVZQ  Lara Croft: Tomb Raider, The Amulet of Power (2003)
+    variant:     US paperback
+    identifiers: isbn 9780345461711
+    source:      https://www.abebooks.com/9780345461711/Amulet-Power-Lara-Croft-0345461711/plp   retrieved 2026-08-18
+ 8. KGAWSEAVHX  Tomb Raider: The Last Revelation Playable Demo (1999)
+    variant:     Europe, PlayStation demo
+    identifiers: catalogue_number SLED-02418; part_number 1008327
+    source:      https://crimson-ceremony.net/laras/artefact.php?id=promos_tlr-ps1-03   retrieved 2026-08-18
+ 9. 2X17TYVKY6  Lara Croft: Tomb Raider (Music From The Motion Picture) (2001)
+    variant:     CD (US)
+    identifiers: barcode_upca 075596266529; catalogue_number 62665-2
+    source:      https://api.discogs.com/releases/4581337   retrieved 2026-08-18
+10. 4YNTAY06MV  20 Years of Tomb Raider (2016)
+    variant:     New York Comic Con 2016 advance copy, signed
+    identifiers: (none recorded)
+    source:      https://tombraider.tumblr.com/post/151145692485/rise-of-the-tomb-raider-20-year-celebration   retrieved 2026-08-18
+11. 1CHW0AJ0J1  Tomb Raider II: The Official Strategy Guide (1997)
+    variant:     Prima Publishing edition
+    identifiers: isbn 0761511067
+    source:      https://openlibrary.org/isbn/9780761511069.json   retrieved 2026-08-17
+12. 6JSB5K5X4X  Tomb Raider: Legend (2006)
+    variant:     PS2, NTSC-U (United States)
+    identifiers: barcode_upca 788687500487; catalogue_number SLUS-21203
+    source:      https://psxdatacenter.com/psx2/games2/SLUS-21203.html   retrieved 2026-08-18
+13. DXF9ZQ0Z5V  Tomb Raider #25 (2002)
+    variant:     Regular cover
+    identifiers: (none recorded)
+    source:      https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_25   retrieved 2026-08-18
+14. 2222P95XJE  The Tomb Raider Suite (2019)
+    variant:     2LP, classic version (TRS-A002)
+    identifiers: catalogue_number TRS-A002
+    source:      https://api.discogs.com/releases/12722001   retrieved 2026-08-18
+15. 99SZP1N5AP  Tomb Raider - Original Soundtrack (2013)
+    variant:     Promotional mini-album CD (US)
+    identifiers: catalogue_number 11868 - TR
+    source:      https://api.discogs.com/releases/11887167   retrieved 2026-08-18
+16. 6AA34511B0  Lara Croft Tomb Raider: The Cradle Of Life (2003)
+    variant:     CD (US)
+    identifiers: barcode_upca 720616241726; catalogue_number 2061-62417-2
+    source:      https://api.discogs.com/releases/1003592   retrieved 2026-08-18
+17. EKB0MMYZR8  Lara Croft Tomb Raider: The Cradle of Life (2003)
+    variant:     SteelBook, Blu-ray + DVD + Digital HD (US)
+    identifiers: barcode_upca 032429297112
+    source:      https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-The-Cradle-of-Life-Blu-ray/195854/   retrieved 2026-08-18
+18. 2CEM1S4H90  Tomb Raider: Lara Croft (Classic Era) PVC Statue (2025)
+    variant:     Standard release
+    identifiers: barcode_upca 761568011869; catalogue_number 3014-201
+    source:      https://www.darkhorse.com/products/3014-201/tomb-raider-lara-croft-classic-era-pvc-statue/   retrieved 2026-08-18
+19. 63QX696WDZ  Lara Croft Tomb Raider - China SatCom Phone Card (2001)
+    variant:     Card 3 of 4 - JL-06-W-P36(4-3)
+    identifiers: catalogue_number JL-06-W-P36(4-3)
+    source:      urn:vitrine:in-hand-photograph:IMG_3320.jpeg   retrieved 2026-08-18   <-- NOT RE-OPENABLE, see slice 5
+20. N21ZCGMP5J  Lara Croft's Recurve Bow and Arrow (no year recorded)
+    variant:     Weta Workshop retail release
+    identifiers: sku 883902766
+    source:      https://www.wetanz.com/us/bow-and-arrow-of-lara-croft   retrieved 2026-08-17
+
+Of 20 sampled: 18 cite a resolvable source, 2 cite an unpublished in-hand photograph and cannot be re-opened today.

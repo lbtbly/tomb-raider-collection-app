@@ -1,0 +1,593 @@
+check:ui  overflow, contrast, tap targets. C1, C3, C7, C25.
+  database mode: local Postgres reachable on localhost:5433
+  building (next build) ...
+  starting next start on http://127.0.0.1:60286 ...
+  routes: /, /catalogue, /collection, /collection/[publicId], /_not-found
+
+route / state                           theme/stored  vw    scrollW  nav   overflow  contrast  tap<44  prim<56
+-------------------------------------------------------------------------------------------------------------
+/                                       dark/system   320   320      175   0         0         4       0
+/  [verdict: unknown identifier]        dark/system   320   320      175   0         0         4       0
+/catalogue                              dark/system   320   320      175   0         0         4       0
+/collection                             dark/system   320   320      175   0         0         4       0
+/collection/[publicId]                  dark/system   320   320      175   0         0         4       0
+/_not-found                             dark/system   320   320      175   0         0         4       0
+/                                       dark/system   390   390      136   0         0         4       0
+/  [verdict: unknown identifier]        dark/system   390   390      136   0         0         4       0
+/catalogue                              dark/system   390   390      136   0         0         4       0
+/collection                             dark/system   390   390      136   0         0         4       0
+/collection/[publicId]                  dark/system   390   390      136   0         0         4       0
+/_not-found                             dark/system   390   390      136   0         0         4       0
+/                                       dark/system   768   768      96    0         0         4       0
+/  [verdict: unknown identifier]        dark/system   768   768      96    0         0         4       0
+/catalogue                              dark/system   768   768      96    0         0         4       0
+/collection                             dark/system   768   768      96    0         0         4       0
+/collection/[publicId]                  dark/system   768   768      96    0         0         4       0
+/_not-found                             dark/system   768   768      96    0         0         4       0
+/                                       dark/system   1440  1440     96    0         0         4       0
+/  [verdict: unknown identifier]        dark/system   1440  1440     96    0         0         4       0
+/catalogue                              dark/system   1440  1440     96    0         0         4       0
+/collection                             dark/system   1440  1440     96    0         0         4       0
+/collection/[publicId]                  dark/system   1440  1440     96    0         0         4       0
+/_not-found                             dark/system   1440  1440     96    0         0         4       0
+/                                       dark/dark     320   320      156   0         0         4       0
+/  [verdict: unknown identifier]        dark/dark     320   320      156   0         0         4       0
+/catalogue                              dark/dark     320   320      156   0         0         4       0
+/collection                             dark/dark     320   320      156   0         0         4       0
+/collection/[publicId]                  dark/dark     320   320      156   0         0         4       0
+/_not-found                             dark/dark     320   320      156   0         0         4       0
+/                                       dark/dark     390   390      116   0         0         4       0
+/  [verdict: unknown identifier]        dark/dark     390   390      116   0         0         4       0
+/catalogue                              dark/dark     390   390      116   0         0         4       0
+/collection                             dark/dark     390   390      116   0         0         4       0
+/collection/[publicId]                  dark/dark     390   390      116   0         0         4       0
+/_not-found                             dark/dark     390   390      116   0         0         4       0
+/                                       dark/dark     768   768      77    0         0         4       0
+/  [verdict: unknown identifier]        dark/dark     768   768      77    0         0         4       0
+/catalogue                              dark/dark     768   768      77    0         0         4       0
+/collection                             dark/dark     768   768      77    0         0         4       0
+/collection/[publicId]                  dark/dark     768   768      77    0         0         4       0
+/_not-found                             dark/dark     768   768      77    0         0         4       0
+/                                       dark/dark     1440  1440     77    0         0         4       0
+/  [verdict: unknown identifier]        dark/dark     1440  1440     77    0         0         4       0
+/catalogue                              dark/dark     1440  1440     77    0         0         4       0
+/collection                             dark/dark     1440  1440     77    0         0         4       0
+/collection/[publicId]                  dark/dark     1440  1440     77    0         0         4       0
+/_not-found                             dark/dark     1440  1440     77    0         0         4       0
+/                                       light/system  320   320      175   0         0         4       0
+/  [verdict: unknown identifier]        light/system  320   320      175   0         0         4       0
+/catalogue                              light/system  320   320      175   0         0         4       0
+/collection                             light/system  320   320      175   0         0         4       0
+/collection/[publicId]                  light/system  320   320      175   0         0         4       0
+/_not-found                             light/system  320   320      175   0         0         4       0
+/                                       light/system  390   390      136   0         0         4       0
+/  [verdict: unknown identifier]        light/system  390   390      136   0         0         4       0
+/catalogue                              light/system  390   390      136   0         0         4       0
+/collection                             light/system  390   390      136   0         0         4       0
+/collection/[publicId]                  light/system  390   390      136   0         0         4       0
+/_not-found                             light/system  390   390      136   0         0         4       0
+/                                       light/system  768   768      96    0         0         4       0
+/  [verdict: unknown identifier]        light/system  768   768      96    0         0         4       0
+/catalogue                              light/system  768   768      96    0         0         4       0
+/collection                             light/system  768   768      96    0         0         4       0
+/collection/[publicId]                  light/system  768   768      96    0         0         4       0
+/_not-found                             light/system  768   768      96    0         0         4       0
+/                                       light/system  1440  1440     96    0         0         4       0
+/  [verdict: unknown identifier]        light/system  1440  1440     96    0         0         4       0
+/catalogue                              light/system  1440  1440     96    0         0         4       0
+/collection                             light/system  1440  1440     96    0         0         4       0
+/collection/[publicId]                  light/system  1440  1440     96    0         0         4       0
+/_not-found                             light/system  1440  1440     96    0         0         4       0
+/                                       light/light   320   320      156   0         0         4       0
+/  [verdict: unknown identifier]        light/light   320   320      156   0         0         4       0
+/catalogue                              light/light   320   320      156   0         0         4       0
+/collection                             light/light   320   320      156   0         0         4       0
+/collection/[publicId]                  light/light   320   320      156   0         0         4       0
+/_not-found                             light/light   320   320      156   0         0         4       0
+/                                       light/light   390   390      116   0         0         4       0
+/  [verdict: unknown identifier]        light/light   390   390      116   0         0         4       0
+/catalogue                              light/light   390   390      116   0         0         4       0
+/collection                             light/light   390   390      116   0         0         4       0
+/collection/[publicId]                  light/light   390   390      116   0         0         4       0
+/_not-found                             light/light   390   390      116   0         0         4       0
+/                                       light/light   768   768      77    0         0         4       0
+/  [verdict: unknown identifier]        light/light   768   768      77    0         0         4       0
+/catalogue                              light/light   768   768      77    0         0         4       0
+/collection                             light/light   768   768      77    0         0         4       0
+/collection/[publicId]                  light/light   768   768      77    0         0         4       0
+/_not-found                             light/light   768   768      77    0         0         4       0
+/                                       light/light   1440  1440     77    0         0         4       0
+/  [verdict: unknown identifier]        light/light   1440  1440     77    0         0         4       0
+/catalogue                              light/light   1440  1440     77    0         0         4       0
+/collection                             light/light   1440  1440     77    0         0         4       0
+/collection/[publicId]                  light/light   1440  1440     77    0         0         4       0
+/_not-found                             light/light   1440  1440     77    0         0         4       0
+
+TAP TARGETS (C7): under 44px on the shortest side
+  / [resting] dark/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] dark/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] dark/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] dark/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] dark/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] dark/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] dark/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] dark/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] dark/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] dark/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] dark/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] dark/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] dark/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] dark/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] dark/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] dark/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] dark/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] dark/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] dark/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] dark/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] dark/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] dark/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] dark/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] dark/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] dark/dark @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] dark/dark @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] dark/dark @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] dark/dark @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] dark/dark @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] dark/dark @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] dark/dark @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] dark/dark @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] dark/dark @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] dark/dark @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] dark/dark @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] dark/dark @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] dark/dark @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] dark/dark @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] dark/dark @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] dark/dark @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] dark/dark @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] dark/dark @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] dark/dark @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] dark/dark @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] dark/dark @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] dark/dark @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] dark/dark @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] dark/dark @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] light/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] light/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] light/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] light/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] light/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] light/system @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] light/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] light/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] light/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] light/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] light/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] light/system @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] light/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] light/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] light/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] light/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] light/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] light/system @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] light/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] light/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] light/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] light/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] light/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] light/system @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] light/light @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] light/light @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] light/light @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] light/light @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] light/light @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] light/light @320px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] light/light @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] light/light @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] light/light @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] light/light @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] light/light @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] light/light @390px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] light/light @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] light/light @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] light/light @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] light/light @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] light/light @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] light/light @768px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [resting] light/light @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  / [verdict: unknown identifier] light/light @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /catalogue [resting] light/light @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection [resting] light/light @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /collection/[publicId] [resting] light/light @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+  /_not-found [resting] light/light @1440px
+      a.wm 67.2x23.4
+      a.- 46.0x23.4
+      a.- 71.5x23.4
+      a.- 73.2x23.4
+
+SPACING (C8): margin or padding values off the 4/8/12/16/20/24/32/40/56/72 scale
+      1
+
+totals over 96 route/state/theme/width combinations: overflow 0, contrast 0, tap<44 384, primary<56 0, off-scale spacing 1, .srOnly 0 findings over 1 elements, widest scrollWidth at 390 = 390
+
+check:ui FAIL (database mode). Selectors above.

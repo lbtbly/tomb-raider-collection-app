@@ -1,0 +1,64 @@
+
+> vitrine@0.1.0 check:ui
+> node scripts/checks/ui.mjs
+
+check:ui  overflow, contrast, tap targets. C1, C3, C7, C25.
+  database mode: local Postgres reachable on localhost:5433
+  building (next build) ...
+  starting next start on http://127.0.0.1:61325 ...
+  routes: /, /catalogue, /collection, /collection/[publicId], /_not-found
+
+route / state                           theme/stored  vw    scrollW  nav   overflow  contrast  tap<44  prim<56
+-------------------------------------------------------------------------------------------------------------
+/                                       dark/system   390   390      156   0         0         0       0
+/  [verdict: unknown identifier]        dark/system   390   390      156   0         0         0       0
+/catalogue                              dark/system   390   390      156   0         0         0       0
+/collection                             dark/system   390   390      156   0         0         0       0
+/collection/[publicId]                  dark/system   390   390      156   0         0         0       0
+/_not-found                             dark/system   390   390      156   0         0         0       0
+/                                       dark/system   1440  1440     96    0         0         0       0
+/  [verdict: unknown identifier]        dark/system   1440  1440     96    0         0         0       0
+/catalogue                              dark/system   1440  1440     96    0         0         0       0
+/collection                             dark/system   1440  1440     96    0         0         0       0
+/collection/[publicId]                  dark/system   1440  1440     96    0         0         0       0
+/_not-found                             dark/system   1440  1440     96    0         0         0       0
+/                                       dark/dark     390   390      137   0         0         0       0
+/  [verdict: unknown identifier]        dark/dark     390   390      137   0         0         0       0
+/catalogue                              dark/dark     390   390      137   0         0         0       0
+/collection                             dark/dark     390   390      137   0         0         0       0
+/collection/[publicId]                  dark/dark     390   390      137   0         0         0       0
+/_not-found                             dark/dark     390   390      137   0         0         0       0
+/                                       dark/dark     1440  1440     77    0         0         0       0
+/  [verdict: unknown identifier]        dark/dark     1440  1440     77    0         0         0       0
+/catalogue                              dark/dark     1440  1440     77    0         0         0       0
+/collection                             dark/dark     1440  1440     77    0         0         0       0
+/collection/[publicId]                  dark/dark     1440  1440     77    0         0         0       0
+/_not-found                             dark/dark     1440  1440     77    0         0         0       0
+/                                       light/system  390   390      156   0         0         0       0
+/  [verdict: unknown identifier]        light/system  390   390      156   0         0         0       0
+/catalogue                              light/system  390   390      156   0         0         0       0
+/collection                             light/system  390   390      156   0         0         0       0
+/collection/[publicId]                  light/system  390   390      156   0         0         0       0
+/_not-found                             light/system  390   390      156   0         0         0       0
+/                                       light/system  1440  1440     96    0         0         0       0
+/  [verdict: unknown identifier]        light/system  1440  1440     96    0         0         0       0
+/catalogue                              light/system  1440  1440     96    0         0         0       0
+/collection                             light/system  1440  1440     96    0         0         0       0
+/collection/[publicId]                  light/system  1440  1440     96    0         0         0       0
+/_not-found                             light/system  1440  1440     96    0         0         0       0
+/                                       light/light   390   390      137   0         0         0       0
+/  [verdict: unknown identifier]        light/light   390   390      137   0         0         0       0
+/catalogue                              light/light   390   390      137   0         0         0       0
+/collection                             light/light   390   390      137   0         0         0       0
+/collection/[publicId]                  light/light   390   390      137   0         0         0       0
+/_not-found                             light/light   390   390      137   0         0         0       0
+/                                       light/light   1440  1440     77    0         0         0       0
+/  [verdict: unknown identifier]        light/light   1440  1440     77    0         0         0       0
+/catalogue                              light/light   1440  1440     77    0         0         0       0
+/collection                             light/light   1440  1440     77    0         0         0       0
+/collection/[publicId]                  light/light   1440  1440     77    0         0         0       0
+/_not-found                             light/light   1440  1440     77    0         0         0       0
+
+totals over 48 route/state/theme/width combinations: overflow 0, contrast 0, tap<44 0, primary<56 0, off-scale spacing 0, .srOnly 0 findings over 1 elements, widest scrollWidth at 390 = 390
+
+check:ui PASS (database mode)

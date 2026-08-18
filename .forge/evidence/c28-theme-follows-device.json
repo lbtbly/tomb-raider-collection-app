@@ -1,0 +1,58 @@
+{
+  "line": "C28",
+  "viewportPx": 390,
+  "method": "two contexts with Playwright's colorScheme option and no stored preference in either",
+  "readings": [
+    {
+      "device": "light",
+      "expectedResolved": "light",
+      "capture": ".forge/evidence/c28-device-light-no-stored-choice-390.png",
+      "storedChoice": null,
+      "htmlClass": "lt",
+      "htmlColorScheme": "light",
+      "bodyBackground": "rgb(237, 240, 247)",
+      "segmentChecked": "System",
+      "resolvedLabel": "Following the device, Light right now",
+      "themeColorMeta": [
+        "#edf0f7",
+        "#edf0f7",
+        "#edf0f7"
+      ]
+    },
+    {
+      "device": "dark",
+      "expectedResolved": "dark",
+      "capture": ".forge/evidence/c28-device-dark-no-stored-choice-390.png",
+      "storedChoice": null,
+      "htmlClass": "",
+      "htmlColorScheme": "dark",
+      "bodyBackground": "rgb(11, 16, 32)",
+      "segmentChecked": "System",
+      "resolvedLabel": "Following the device, Dark right now",
+      "themeColorMeta": [
+        "#0b1020",
+        "#0b1020",
+        "#0b1020"
+      ]
+    }
+  ],
+  "followsDevice": true,
+  "controlNamesResolvedMode": true,
+  "resolvedLabelDiffersByDevice": true,
+  "bodyBackgroundLight": "rgb(237, 240, 247)",
+  "bodyBackgroundDark": "rgb(11, 16, 32)",
+  "themeColorMetaLight": [
+    "#edf0f7",
+    "#edf0f7",
+    "#edf0f7"
+  ],
+  "themeColorMetaDark": [
+    "#0b1020",
+    "#0b1020",
+    "#0b1020"
+  ],
+  "captures": {
+    "deviceLight": ".forge/evidence/c28-device-light-no-stored-choice-390.png",
+    "deviceDark": ".forge/evidence/c28-device-dark-no-stored-choice-390.png"
+  }
+}

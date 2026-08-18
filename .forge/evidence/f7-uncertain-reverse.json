@@ -1,0 +1,179 @@
+{
+  "line": "F7",
+  "viewportPx": 390,
+  "cycles": 5,
+  "maxTapsToReverse": 1,
+  "tapsToReverse": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "cyclesOverTwoTaps": 0,
+  "outcomesCovered": [
+    "NOT_IN_COLLECTION",
+    "OWNED"
+  ],
+  "cyclesNotRestoredIdentically": 0,
+  "detail": [
+    {
+      "identifier": "SLUS-00152",
+      "candidateIndex": 0,
+      "candidateLabel": "Tomb Raider - Greatest Hits reprint (NTSC-U)Not in your collection yet",
+      "outcomeVerdict": "NOT_IN_COLLECTION",
+      "tapsToReverse": 1,
+      "reverseControlLabel": "Undo, this is not the one",
+      "reverseControlVisibleWithoutScroll": true,
+      "verdictBeforePick": "UNCERTAIN",
+      "verdictAfterReverse": "UNCERTAIN",
+      "candidatesBefore": [
+        "Tomb Raider - Greatest Hits reprint (NTSC-U)Not in your collection yet",
+        "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+      ],
+      "candidatesAfterReverse": [
+        "Tomb Raider - Greatest Hits reprint (NTSC-U)Not in your collection yet",
+        "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+      ],
+      "restoredIdentically": true,
+      "interactiveControlsOnItem": [
+        "Check",
+        "Scan with camera",
+        "Add to collection",
+        "Add to wantlist",
+        "Undo, this is not the one"
+      ],
+      "captures": {
+        "beforePick": ".forge/evidence/f7-slus-00152-cand0-1-before-uncertain.png",
+        "afterPick": ".forge/evidence/f7-slus-00152-cand0-2-after-pick-not_in_collection.png",
+        "afterReverse": ".forge/evidence/f7-slus-00152-cand0-3-after-reverse-uncertain.png"
+      }
+    },
+    {
+      "identifier": "SLUS-00152",
+      "candidateIndex": 1,
+      "candidateLabel": "Tomb Raider - NTSC-U (United States)Not in your collection yet",
+      "outcomeVerdict": "NOT_IN_COLLECTION",
+      "tapsToReverse": 1,
+      "reverseControlLabel": "Undo, this is not the one",
+      "reverseControlVisibleWithoutScroll": true,
+      "verdictBeforePick": "UNCERTAIN",
+      "verdictAfterReverse": "UNCERTAIN",
+      "candidatesBefore": [
+        "Tomb Raider - Greatest Hits reprint (NTSC-U)Not in your collection yet",
+        "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+      ],
+      "candidatesAfterReverse": [
+        "Tomb Raider - Greatest Hits reprint (NTSC-U)Not in your collection yet",
+        "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+      ],
+      "restoredIdentically": true,
+      "interactiveControlsOnItem": [
+        "Check",
+        "Scan with camera",
+        "Add to collection",
+        "Add to wantlist",
+        "Undo, this is not the one"
+      ],
+      "captures": {
+        "beforePick": ".forge/evidence/f7-slus-00152-cand1-1-before-uncertain.png",
+        "afterPick": ".forge/evidence/f7-slus-00152-cand1-2-after-pick-not_in_collection.png",
+        "afterReverse": ".forge/evidence/f7-slus-00152-cand1-3-after-reverse-uncertain.png"
+      }
+    },
+    {
+      "identifier": "SLUS-01311",
+      "candidateIndex": 0,
+      "candidateLabel": "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale copyNot in your collection yet",
+      "outcomeVerdict": "NOT_IN_COLLECTION",
+      "tapsToReverse": 1,
+      "reverseControlLabel": "Undo, this is not the one",
+      "reverseControlVisibleWithoutScroll": true,
+      "verdictBeforePick": "UNCERTAIN",
+      "verdictAfterReverse": "UNCERTAIN",
+      "candidatesBefore": [
+        "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale copyNot in your collection yet",
+        "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection yet"
+      ],
+      "candidatesAfterReverse": [
+        "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale copyNot in your collection yet",
+        "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection yet"
+      ],
+      "restoredIdentically": true,
+      "interactiveControlsOnItem": [
+        "Check",
+        "Scan with camera",
+        "Add to collection",
+        "Add to wantlist",
+        "Undo, this is not the one"
+      ],
+      "captures": {
+        "beforePick": ".forge/evidence/f7-slus-01311-cand0-1-before-uncertain.png",
+        "afterPick": ".forge/evidence/f7-slus-01311-cand0-2-after-pick-not_in_collection.png",
+        "afterReverse": ".forge/evidence/f7-slus-01311-cand0-3-after-reverse-uncertain.png"
+      }
+    },
+    {
+      "identifier": "SLUS-01311",
+      "candidateIndex": 1,
+      "candidateLabel": "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection yet",
+      "outcomeVerdict": "NOT_IN_COLLECTION",
+      "tapsToReverse": 1,
+      "reverseControlLabel": "Undo, this is not the one",
+      "reverseControlVisibleWithoutScroll": true,
+      "verdictBeforePick": "UNCERTAIN",
+      "verdictAfterReverse": "UNCERTAIN",
+      "candidatesBefore": [
+        "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale copyNot in your collection yet",
+        "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection yet"
+      ],
+      "candidatesAfterReverse": [
+        "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale copyNot in your collection yet",
+        "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection yet"
+      ],
+      "restoredIdentically": true,
+      "interactiveControlsOnItem": [
+        "Check",
+        "Scan with camera",
+        "Add to collection",
+        "Add to wantlist",
+        "Undo, this is not the one"
+      ],
+      "captures": {
+        "beforePick": ".forge/evidence/f7-slus-01311-cand1-1-before-uncertain.png",
+        "afterPick": ".forge/evidence/f7-slus-01311-cand1-2-after-pick-not_in_collection.png",
+        "afterReverse": ".forge/evidence/f7-slus-01311-cand1-3-after-reverse-uncertain.png"
+      }
+    },
+    {
+      "identifier": "SLUS-00152",
+      "candidateIndex": 0,
+      "candidateLabel": "Tomb Raider - Greatest Hits reprint (NTSC-U)Already in your collection",
+      "outcomeVerdict": "OWNED",
+      "tapsToReverse": 1,
+      "reverseControlLabel": "Undo, this is not the one",
+      "reverseControlVisibleWithoutScroll": false,
+      "verdictBeforePick": "UNCERTAIN",
+      "verdictAfterReverse": "UNCERTAIN",
+      "candidatesBefore": [
+        "Tomb Raider - Greatest Hits reprint (NTSC-U)Already in your collection",
+        "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+      ],
+      "candidatesAfterReverse": [
+        "Tomb Raider - Greatest Hits reprint (NTSC-U)Already in your collection",
+        "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+      ],
+      "restoredIdentically": true,
+      "interactiveControlsOnItem": [
+        "Check",
+        "Scan with camera",
+        "Undo, this is not the one"
+      ],
+      "captures": {
+        "beforePick": ".forge/evidence/f7-slus-00152-owned-outcome-1-before-uncertain.png",
+        "afterPick": ".forge/evidence/f7-slus-00152-owned-outcome-2-after-pick-owned.png",
+        "afterReverse": ".forge/evidence/f7-slus-00152-owned-outcome-3-after-reverse-uncertain.png"
+      }
+    }
+  ]
+}

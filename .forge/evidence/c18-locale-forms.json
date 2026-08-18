@@ -1,0 +1,136 @@
+{
+  "target": {
+    "baseUrl": "http://localhost:3200",
+    "port": "3200",
+    "status": 200,
+    "devMarkersFound": [],
+    "buildIdOnDisk": "7JzsJmX3Ve24jbZ-g46Vt",
+    "buildIdFoundInServedHtml": true,
+    "checkedAt": "2026-08-18T12:27:45.093Z"
+  },
+  "deDE": {
+    "locale": "de-DE",
+    "intl": {
+      "navigatorLanguage": "de-DE",
+      "resolvedLocale": "de-DE",
+      "timeZone": "Europe/Berlin",
+      "integer145": "145",
+      "integer1234": "1.234",
+      "decimal123456": "1.234,56",
+      "dateFixed": "17.08.2026"
+    },
+    "identifier": "0054714",
+    "scanHeader": "0054714 18.08.2026 · 14:27:45 Checking…",
+    "renderedDate": "18.08.2026",
+    "renderedTime": "14:27:45",
+    "catalogueCountLine": "145 variants cached on this device",
+    "catalogueRowsWithYears": [
+      "New York Comic Con 2016 advance copy, signed · 2016 · guides-and-books",
+      "Selections From Tomb Raider, promotional CD (US) · 2001 · vinyl-and-soundtracks",
+      "Pen & Sword edition · 2021 · guides-and-books",
+      "Carlton Books edition · 2001 · guides-and-books",
+      "Prima Games edition · 1996 · guides-and-books"
+    ],
+    "captures": [
+      {
+        "file": ".forge/evidence/c18-check-de-DE.png",
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/c18-catalogue-de-DE.png",
+        "widthPx": 390,
+        "heightPx": 844
+      }
+    ],
+    "currencyMarksFound": []
+  },
+  "enGB": {
+    "locale": "en-GB",
+    "intl": {
+      "navigatorLanguage": "en-GB",
+      "resolvedLocale": "en-GB",
+      "timeZone": "Europe/Berlin",
+      "integer145": "145",
+      "integer1234": "1,234",
+      "decimal123456": "1,234.56",
+      "dateFixed": "17/08/2026"
+    },
+    "identifier": "0054714",
+    "scanHeader": "0054714 18/08/2026 · 14:27:45 Checking…",
+    "renderedDate": "18/08/2026",
+    "renderedTime": "14:27:45",
+    "catalogueCountLine": "145 variants cached on this device",
+    "catalogueRowsWithYears": [
+      "New York Comic Con 2016 advance copy, signed · 2016 · guides-and-books",
+      "Selections From Tomb Raider, promotional CD (US) · 2001 · vinyl-and-soundtracks",
+      "Pen & Sword edition · 2021 · guides-and-books",
+      "Carlton Books edition · 2001 · guides-and-books",
+      "Prima Games edition · 1996 · guides-and-books"
+    ],
+    "captures": [
+      {
+        "file": ".forge/evidence/c18-check-en-GB.png",
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/c18-catalogue-en-GB.png",
+        "widthPx": 390,
+        "heightPx": 844
+      }
+    ],
+    "currencyMarksFound": []
+  },
+  "comparison": {
+    "dateClause": {
+      "deDE": "18.08.2026",
+      "enGB": "18/08/2026",
+      "sameCalendarDay": true,
+      "formsDiffer": true,
+      "timeZonePinned": "Europe/Berlin",
+      "deDEtime": "14:27:45",
+      "enGBtime": "14:27:45"
+    },
+    "integerClause": {
+      "deDE": "145 variants cached on this device",
+      "enGB": "145 variants cached on this device",
+      "identical": true,
+      "whyIdentical": "the only integers this product renders are a count below 1000 and a year; de-DE and en-GB agree on both, and the locales are shown to diverge at 1234 by the in-page control",
+      "divergenceControl": {
+        "deDE": "1.234",
+        "enGB": "1,234"
+      },
+      "yearsRendered": {
+        "deDE": [
+          "New York Comic Con 2016 advance copy, signed · 2016 · guides-and-books",
+          "Selections From Tomb Raider, promotional CD (US) · 2001 · vinyl-and-soundtracks",
+          "Pen & Sword edition · 2021 · guides-and-books",
+          "Carlton Books edition · 2001 · guides-and-books",
+          "Prima Games edition · 1996 · guides-and-books"
+        ],
+        "enGB": [
+          "New York Comic Con 2016 advance copy, signed · 2016 · guides-and-books",
+          "Selections From Tomb Raider, promotional CD (US) · 2001 · vinyl-and-soundtracks",
+          "Pen & Sword edition · 2021 · guides-and-books",
+          "Carlton Books edition · 2001 · guides-and-books",
+          "Prima Games edition · 1996 · guides-and-books"
+        ]
+      },
+      "yearsIncorrectlyGrouped": []
+    },
+    "decimalClause": {
+      "renderedInTheProduct": "none: no decimal reaches a screen in slice 1",
+      "divergenceControl": {
+        "deDE": "1.234,56",
+        "enGB": "1,234.56"
+      }
+    },
+    "currencyClause": {
+      "measurable": false,
+      "reason": "no money renders anywhere in the product until slice 4 brings market value, so there is no currency capture to take",
+      "currencyMarksFoundOnTheRenderedScreens": []
+    }
+  },
+  "recordedAt": "2026-08-18T12:27:46.325Z"
+}

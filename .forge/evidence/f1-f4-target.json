@@ -1,0 +1,13 @@
+{
+  "line": "F1 F2 F3 F4 C15 target",
+  "baseURL": "http://localhost:3211",
+  "hostname": "localhost",
+  "port": 3211,
+  "httpStatus": 200,
+  "devMarkersFound": [],
+  "buildIdOnDisk": "7JzsJmX3Ve24jbZ-g46Vt",
+  "buildIdFoundInServedHtml": true,
+  "xNextjsPrerender": "1, 1",
+  "xNextjsCache": "HIT",
+  "capturedAtIso": "2026-08-18T12:07:48.660Z"
+}

@@ -1,0 +1,102 @@
+
+A  camera present, real BarcodeDetector decode of a printed EAN-13
+   BarcodeDetector true, secureContext true
+   formats reported by the device: ["aztec","code_128","code_39","code_93","data_matrix","ean_13","ean_8","itf","pdf417","qr_code","upc_e"]
+   camera live in 129 ms, view {"w":358,"h":269}, frame {"w":640,"h":480}
+   live note: "Point the camera at a barcode."
+   decode to verdict in 436 ms
+   scanned value in the input: "5032921014762"
+   verdict: NOT_IN_COLLECTION / "NOT IN COLLECTION"
+   note after decode: "Scanned with the camera: 5032921014762"
+  PASS  camera view opened and played
+  PASS  scanned identifier equals the printed one  5032921014762
+  PASS  scan header carries the identifier
+  PASS  a verdict rendered  NOT_IN_COLLECTION
+  PASS  camera view closed itself after the decode
+  PASS  every media track ended after the decode  ["ended"]
+  PASS  radius 0 on the camera surface (C9)  0px
+  PASS  the 45 degree cut carries the corner (C9)  polygon(0px 0px, calc(100% - 18px) 0px, 
+  PASS  scrollWidth 390 with the camera open  390
+  PASS  scrollWidth 390 after the verdict  390
+  PASS  measured at scale 1
+  PASS  the camera confirmation clears when a typed check replaces the verdict  null
+
+B  no camera, the same identifier typed
+   navigator.mediaDevices is undefined
+   verdict: NOT_IN_COLLECTION / "NOT IN COLLECTION"
+  PASS  same verdict kind as the scan  NOT_IN_COLLECTION vs NOT_IN_COLLECTION
+  PASS  same verdict word as the scan  "NOT IN COLLECTION" vs "NOT IN COLLECTION"
+  PASS  same rendered verdict body as the scan
+  PASS  scrollWidth 390  390
+
+C  no BarcodeDetector, the state MDN's limited availability describes
+   window.BarcodeDetector is undefined
+   note: "This browser cannot scan a barcode with the camera. Type the identifier above instead."
+   typed verdict after the refusal: NOT_IN_COLLECTION
+  PASS  the unsupported sentence rendered
+  PASS  no scan control is offered on a browser that cannot honour it
+  PASS  no camera was ever opened
+  PASS  no camera view opened
+  PASS  typed entry still reaches the same verdict (F56, not a dead end)
+
+D  camera refused, NotAllowedError from getUserMedia
+   note: "The camera could not be read. Type the identifier above instead."
+   the control is offered again as: "Scan with camera"
+   typed verdict after the refusal: NOT_IN_COLLECTION
+  PASS  the error sentence rendered
+  PASS  the unsettled marker is on the note (C30)
+  PASS  the camera view is closed
+  PASS  the scan control is offered again
+  PASS  typed entry still reaches the same verdict (F56, not a dead end)
+  PASS  scrollWidth 390  390
+
+E  the stream stops on close, on a hidden tab, and on unmount
+   close button: tracks ["live"] -> ["ended"]
+  PASS  the close button ends every track
+   hidden tab: tracks ["ended","live"] -> ["ended","ended"]
+  PASS  a hidden tab ends every track
+   navigation away: tracks ["ended","ended","live"] -> ["ended","ended","ended"]
+  PASS  unmounting the screen ends every track
+
+F  scripts/ui-audit.js against the open camera view
+   en     dark  320   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 288x56
+   en     dark  390   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 358x56
+   en     dark  768   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 736x56
+   en     dark  1440  overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 928x56
+   en     light 320   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 288x56
+   en     light 390   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 358x56
+   en     light 768   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 736x56
+   en     light 1440  overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 928x56
+   pseudo dark  320   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 288x56
+   pseudo dark  390   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 358x56
+   pseudo dark  768   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 736x56
+   pseudo dark  1440  overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 928x56
+   pseudo light 320   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 288x56
+   pseudo light 390   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 358x56
+   pseudo light 768   overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 736x56
+   pseudo light 1440  overflow 0  contrast 0  tap<44 0  primary<56 0  radii 0  scan control 928x56
+   pseudo-locale scan control label: "⟦Šţóþ çáɱéřá ~~~~~⟧"
+   pseudo-locale live note: "⟦Þóíñţ ţĥé çáɱéřá áţ á ßářçóðé. ~~~~~~~~~~~~⟧"
+  PASS  0 overflow with the camera open, 16 combinations  0
+  PASS  0 contrast failures with the camera open  0
+  PASS  0 targets under 44 with the camera open (C7)  0
+  PASS  0 primary controls under 56 (F11)  0
+  PASS  the scan control is at least 56 on its shortest side  288x56
+  PASS  0 non-zero radii with the camera open (C9)  0
+  PASS  0 off-scale spacing values (C8)  0
+  PASS  0 em dashes, 0 emoji, 0 banned words (C19)  0/0/0
+  PASS  no dim text over the camera image (C25)  0
+  PASS  scrollWidth 390 stays 390  390
+  PASS  every scan string transforms under the pseudo-locale (C16)  "⟦Šţóþ çáɱéřá ~~~~~⟧"
+
+console health
+  A: console errors 0, page errors 0, failed requests 0
+  B: console errors 0, page errors 0, failed requests 0
+  C: console errors 0, page errors 0, failed requests 0
+  D: console errors 0, page errors 0, failed requests 0
+  E: console errors 0, page errors 0, failed requests 0
+  F: console errors 0, page errors 0, failed requests 0
+  PASS  0 console errors across all five devices  0
+  PASS  0 uncaught page errors across all five devices  0
+
+F58 SCAN EVIDENCE: PASS, 0 failures

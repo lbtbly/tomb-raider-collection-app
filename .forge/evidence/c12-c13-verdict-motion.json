@@ -1,0 +1,4683 @@
+{
+  "buildIdBefore": {
+    "baseUrl": "http://127.0.0.1:3950",
+    "port": "3950",
+    "status": 200,
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedMatchesExpected": true,
+    "servedMatchesDisk": true,
+    "devMarkersFound": [],
+    "checkedAt": "2026-08-18T16:00:42.446Z"
+  },
+  "catalogueRows": 145,
+  "c12": {
+    "notInCollection": {
+      "label": "c12-not-in-collection",
+      "verdictKind": "NOT_IN_COLLECTION",
+      "reducedMotion": false,
+      "matchMediaReduce": false,
+      "resolvedThemeClass": "lt",
+      "viewport": {
+        "widthPx": 390,
+        "heightPx": 1200
+      },
+      "slabAtRest": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 319.02,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "clipPath": "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 0px 100%)",
+        "border": "1px solid rgb(111, 122, 150)",
+        "borderStyle": "solid",
+        "opacity": "1",
+        "color": "rgb(12, 18, 38)"
+      },
+      "runtimeKeyframes": {
+        "source": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+        "name": "vslab-wipe",
+        "frames": [
+          {
+            "keyText": "0%",
+            "declarations": {
+              "clip-path": "inset(0px 100% 0px 0px)"
+            }
+          },
+          {
+            "keyText": "100%",
+            "declarations": {
+              "clip-path": "inset(0px)"
+            }
+          }
+        ]
+      },
+      "sampler": {
+        "frameCount": 51,
+        "arrivalStartIndex": 8,
+        "perFrame": [
+          {
+            "tMs": 0,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 100% 0px 0px)",
+            "paintedFraction": 0,
+            "paintedWidthPx": 0,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 16.6,
+            "animationCurrentTimeMs": 16.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 69.4568% 0px 0px)",
+            "paintedFraction": 0.305432,
+            "paintedWidthPx": 109.34,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 33.2,
+            "animationCurrentTimeMs": 33.4,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 43.4521% 0px 0px)",
+            "paintedFraction": 0.565479,
+            "paintedWidthPx": 202.44,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 49.8,
+            "animationCurrentTimeMs": 50,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 26.7834% 0px 0px)",
+            "paintedFraction": 0.732166,
+            "paintedWidthPx": 262.12,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 66.6,
+            "animationCurrentTimeMs": 66.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 16.9168% 0px 0px)",
+            "paintedFraction": 0.830832,
+            "paintedWidthPx": 297.44,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 82.9,
+            "animationCurrentTimeMs": 83,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 11.0105% 0px 0px)",
+            "paintedFraction": 0.889895,
+            "paintedWidthPx": 318.58,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 99.8,
+            "animationCurrentTimeMs": 100.1,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 7.03308% 0px 0px)",
+            "paintedFraction": 0.929669,
+            "paintedWidthPx": 332.82,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 116.5,
+            "animationCurrentTimeMs": 116.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 4.48204% 0px 0px)",
+            "paintedFraction": 0.95518,
+            "paintedWidthPx": 341.95,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 133.2,
+            "animationCurrentTimeMs": 133.4,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 2.75034% 0px 0px)",
+            "paintedFraction": 0.972497,
+            "paintedWidthPx": 348.15,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 149.8,
+            "animationCurrentTimeMs": 150,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 1.59192% 0px 0px)",
+            "paintedFraction": 0.984081,
+            "paintedWidthPx": 352.3,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 166.5,
+            "animationCurrentTimeMs": 166.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0.82605% 0px 0px)",
+            "paintedFraction": 0.99174,
+            "paintedWidthPx": 355.04,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 183.2,
+            "animationCurrentTimeMs": 183.4,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0.351755% 0px 0px)",
+            "paintedFraction": 0.996482,
+            "paintedWidthPx": 356.74,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 199.8,
+            "animationCurrentTimeMs": 200.1,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0.0946128% 0px 0px)",
+            "paintedFraction": 0.999054,
+            "paintedWidthPx": 357.66,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 216.4,
+            "animationCurrentTimeMs": 216.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0.00238339% 0px 0px)",
+            "paintedFraction": 0.999976,
+            "paintedWidthPx": 357.99,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 233.3,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 249.8,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 266.5,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 283.1,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 299.8,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 316.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 333.2,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 350,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 367,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 383.3,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 400,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 416.8,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 433.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 450.1,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 466.7,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 483.5,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 503.2,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 516.7,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 533.6,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 550,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 566.7,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 583.6,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 600.1,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 616.9,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 633.5,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 650,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 666.1,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 683.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 700.3,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          }
+        ],
+        "distinctWrapperOpacities": [
+          "1"
+        ],
+        "distinctSlabOpacities": [
+          "1"
+        ],
+        "opacityChangeCount": 0,
+        "distinctLayoutBoxWidths": [
+          358
+        ],
+        "animationKeyframeProperties": [
+          "offset",
+          "easing",
+          "composite",
+          "clipPath",
+          "computedOffset"
+        ],
+        "animationComputedDurationMs": [
+          220
+        ],
+        "animationEffectEasing": [
+          "linear"
+        ],
+        "firstFullFrame": {
+          "tMs": 233.3,
+          "animationCurrentTimeMs": 220
+        },
+        "lastPartialFrame": {
+          "tMs": 216.4,
+          "animationCurrentTimeMs": 216.7
+        },
+        "frameIntervalMs": 16.66
+      },
+      "pixels": {
+        "frameCount": 16,
+        "analysedFromIndex": 1,
+        "rowY": 624,
+        "scanLeftPx": 16,
+        "scanRightPx": 374,
+        "probeXPx": 22,
+        "perFrame": [
+          {
+            "index": 1,
+            "tMs": 0,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-01.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 0,
+            "paintedFraction": 0,
+            "probeRgb": [
+              237,
+              240,
+              247
+            ],
+            "probeDistanceFromFinal": 41
+          },
+          {
+            "index": 2,
+            "tMs": 424.11,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-02.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 0,
+            "paintedFraction": 0,
+            "probeRgb": [
+              237,
+              240,
+              247
+            ],
+            "probeDistanceFromFinal": 41
+          },
+          {
+            "index": 3,
+            "tMs": 434.53,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-03.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 109,
+            "paintedFraction": 0.3045,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 4,
+            "tMs": 450.64,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-04.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 202,
+            "paintedFraction": 0.5642,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 5,
+            "tMs": 467.12,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-05.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 262,
+            "paintedFraction": 0.7318,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 6,
+            "tMs": 483.82,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-06.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 297,
+            "paintedFraction": 0.8296,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 7,
+            "tMs": 499.89,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-07.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 318,
+            "paintedFraction": 0.8883,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 8,
+            "tMs": 516.89,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-08.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 333,
+            "paintedFraction": 0.9302,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 9,
+            "tMs": 533.63,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-09.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 342,
+            "paintedFraction": 0.9553,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 10,
+            "tMs": 550.3,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-10.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 348,
+            "paintedFraction": 0.9721,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 11,
+            "tMs": 566.96,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-11.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 352,
+            "paintedFraction": 0.9832,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 12,
+            "tMs": 583.72,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-12.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 355,
+            "paintedFraction": 0.9916,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 13,
+            "tMs": 600.3,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-13.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 357,
+            "paintedFraction": 0.9972,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 14,
+            "tMs": 616.99,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-14.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 357,
+            "paintedFraction": 0.9972,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 15,
+            "tMs": 633.48,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-15.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 358,
+            "paintedFraction": 1,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 16,
+            "tMs": 650.15,
+            "file": ".forge/evidence/motion-frames/c12-not-in-collection-16.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 358,
+            "paintedFraction": 1,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          }
+        ],
+        "firstPaintedFrame": {
+          "index": 3,
+          "tMs": 434.53
+        },
+        "firstFullFrame": {
+          "index": 15,
+          "tMs": 633.48
+        },
+        "lastPartialFrame": {
+          "index": 14,
+          "tMs": 616.99
+        },
+        "frameIntervalMs": 16.11,
+        "probeFramesDifferingAfterReveal": 0,
+        "transitionalFrameCount": 12
+      },
+      "measuredDuration": {
+        "fromPixelBracketMs": 209.37,
+        "fromSamplerBracketMs": 233.3,
+        "fromSamplerBezierFit": {
+          "durationMs": 219.84,
+          "offsetMs": -0.12,
+          "n": 8
+        },
+        "fromPixelBezierFit": {
+          "durationMs": 218.72,
+          "offsetMs": 417.68,
+          "n": 8
+        },
+        "fromAnimationClockMs": 220,
+        "declaredMs": 220
+      },
+      "travelAndScale": {
+        "maxTravelXPx": 0,
+        "maxTravelYPx": 0,
+        "maxWidthDeltaPx": 0,
+        "maxHeightDeltaPx": 0,
+        "nonNoneTransformFrames": 0,
+        "nonNoneScaleFrames": 0,
+        "nonNoneTranslateFrames": 0
+      },
+      "capture": {
+        "file": ".forge/evidence/c12-not-in-collection-settled.png",
+        "widthPx": 390,
+        "heightPx": 1200
+      },
+      "subject": {
+        "subject": "c12-not-in-collection verdict slab",
+        "selector": "[data-testid=\"verdict\"]",
+        "found": true,
+        "topPx": 596,
+        "bottomPx": 915,
+        "leftPx": 16,
+        "rightPx": 374,
+        "captureWidthPx": 390,
+        "captureHeightPx": 1200,
+        "fullyInsideTheCapture": true
+      }
+    },
+    "owned": {
+      "label": "c12-owned",
+      "verdictKind": "OWNED",
+      "reducedMotion": false,
+      "matchMediaReduce": false,
+      "resolvedThemeClass": "lt",
+      "viewport": {
+        "widthPx": 390,
+        "heightPx": 1200
+      },
+      "slabAtRest": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 431.23,
+        "backgroundColor": "rgb(0, 224, 164)",
+        "clipPath": "polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+        "border": "0px none rgb(11, 16, 32)",
+        "borderStyle": "none",
+        "opacity": "1",
+        "color": "rgb(11, 16, 32)"
+      },
+      "runtimeKeyframes": {
+        "source": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+        "name": "vslab-wipe",
+        "frames": [
+          {
+            "keyText": "0%",
+            "declarations": {
+              "clip-path": "inset(0px 100% 0px 0px)"
+            }
+          },
+          {
+            "keyText": "100%",
+            "declarations": {
+              "clip-path": "inset(0px)"
+            }
+          }
+        ]
+      },
+      "sampler": {
+        "frameCount": 50,
+        "arrivalStartIndex": 7,
+        "perFrame": [
+          {
+            "tMs": 0,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 100% 0px 0px)",
+            "paintedFraction": 0,
+            "paintedWidthPx": 0,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 16.7,
+            "animationCurrentTimeMs": 16.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 69.4568% 0px 0px)",
+            "paintedFraction": 0.305432,
+            "paintedWidthPx": 109.34,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 33.1,
+            "animationCurrentTimeMs": 33.3,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 43.5805% 0px 0px)",
+            "paintedFraction": 0.564195,
+            "paintedWidthPx": 201.98,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 49.8,
+            "animationCurrentTimeMs": 50,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 26.7834% 0px 0px)",
+            "paintedFraction": 0.732166,
+            "paintedWidthPx": 262.12,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 66.4,
+            "animationCurrentTimeMs": 66.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 16.9168% 0px 0px)",
+            "paintedFraction": 0.830832,
+            "paintedWidthPx": 297.44,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 83.2,
+            "animationCurrentTimeMs": 83.3,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 10.9247% 0px 0px)",
+            "paintedFraction": 0.890753,
+            "paintedWidthPx": 318.89,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 99.8,
+            "animationCurrentTimeMs": 100,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 7.05174% 0px 0px)",
+            "paintedFraction": 0.929483,
+            "paintedWidthPx": 332.75,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 116.4,
+            "animationCurrentTimeMs": 116.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 4.48204% 0px 0px)",
+            "paintedFraction": 0.95518,
+            "paintedWidthPx": 341.95,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 133.1,
+            "animationCurrentTimeMs": 133.3,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 2.75881% 0px 0px)",
+            "paintedFraction": 0.972412,
+            "paintedWidthPx": 348.12,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 149.8,
+            "animationCurrentTimeMs": 150,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 1.59192% 0px 0px)",
+            "paintedFraction": 0.984081,
+            "paintedWidthPx": 352.3,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 166.5,
+            "animationCurrentTimeMs": 166.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0.82605% 0px 0px)",
+            "paintedFraction": 0.99174,
+            "paintedWidthPx": 355.04,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 183.2,
+            "animationCurrentTimeMs": 183.4,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0.351755% 0px 0px)",
+            "paintedFraction": 0.996482,
+            "paintedWidthPx": 356.74,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 199.4,
+            "animationCurrentTimeMs": 199.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0.09867% 0px 0px)",
+            "paintedFraction": 0.999013,
+            "paintedWidthPx": 357.65,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 216.5,
+            "animationCurrentTimeMs": 216.7,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0.00238339% 0px 0px)",
+            "paintedFraction": 0.999976,
+            "paintedWidthPx": 357.99,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 233.1,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 249.8,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 266.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 283.1,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 300.6,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 316.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 333,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 349.7,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 366.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 383.2,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 399.8,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 416.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 433.2,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 450.3,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 467.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 483.1,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 499.7,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 516.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 533.1,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 549.8,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 566.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 583.1,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 599.7,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 616.6,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 633.5,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 650,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 666.4,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 684,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 699.7,
+            "animationCurrentTimeMs": 220,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          }
+        ],
+        "distinctWrapperOpacities": [
+          "1"
+        ],
+        "distinctSlabOpacities": [
+          "1"
+        ],
+        "opacityChangeCount": 0,
+        "distinctLayoutBoxWidths": [
+          358
+        ],
+        "animationKeyframeProperties": [
+          "offset",
+          "easing",
+          "composite",
+          "clipPath",
+          "computedOffset"
+        ],
+        "animationComputedDurationMs": [
+          220
+        ],
+        "animationEffectEasing": [
+          "linear"
+        ],
+        "firstFullFrame": {
+          "tMs": 233.1,
+          "animationCurrentTimeMs": 220
+        },
+        "lastPartialFrame": {
+          "tMs": 216.5,
+          "animationCurrentTimeMs": 216.7
+        },
+        "frameIntervalMs": 16.65
+      },
+      "pixels": {
+        "frameCount": 16,
+        "analysedFromIndex": 1,
+        "rowY": 624,
+        "scanLeftPx": 16,
+        "scanRightPx": 374,
+        "probeXPx": 22,
+        "perFrame": [
+          {
+            "index": 1,
+            "tMs": 0,
+            "file": ".forge/evidence/motion-frames/c12-owned-01.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 0,
+            "paintedFraction": 0,
+            "probeRgb": [
+              237,
+              240,
+              247
+            ],
+            "probeDistanceFromFinal": 336
+          },
+          {
+            "index": 2,
+            "tMs": 420.67,
+            "file": ".forge/evidence/motion-frames/c12-owned-02.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 0,
+            "paintedFraction": 0,
+            "probeRgb": [
+              237,
+              240,
+              247
+            ],
+            "probeDistanceFromFinal": 336
+          },
+          {
+            "index": 3,
+            "tMs": 436.26,
+            "file": ".forge/evidence/motion-frames/c12-owned-03.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 109,
+            "paintedFraction": 0.3045,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 4,
+            "tMs": 451.73,
+            "file": ".forge/evidence/motion-frames/c12-owned-04.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 202,
+            "paintedFraction": 0.5642,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 5,
+            "tMs": 468.09,
+            "file": ".forge/evidence/motion-frames/c12-owned-05.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 262,
+            "paintedFraction": 0.7318,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 6,
+            "tMs": 484.39,
+            "file": ".forge/evidence/motion-frames/c12-owned-06.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 297,
+            "paintedFraction": 0.8296,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 7,
+            "tMs": 501.14,
+            "file": ".forge/evidence/motion-frames/c12-owned-07.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 318,
+            "paintedFraction": 0.8883,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 8,
+            "tMs": 517.79,
+            "file": ".forge/evidence/motion-frames/c12-owned-08.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 332,
+            "paintedFraction": 0.9274,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 9,
+            "tMs": 534.32,
+            "file": ".forge/evidence/motion-frames/c12-owned-09.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 341,
+            "paintedFraction": 0.9525,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 10,
+            "tMs": 551.09,
+            "file": ".forge/evidence/motion-frames/c12-owned-10.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 348,
+            "paintedFraction": 0.9721,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 11,
+            "tMs": 567.52,
+            "file": ".forge/evidence/motion-frames/c12-owned-11.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 352,
+            "paintedFraction": 0.9832,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 12,
+            "tMs": 583.85,
+            "file": ".forge/evidence/motion-frames/c12-owned-12.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 355,
+            "paintedFraction": 0.9916,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 13,
+            "tMs": 600.6,
+            "file": ".forge/evidence/motion-frames/c12-owned-13.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 356,
+            "paintedFraction": 0.9944,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 14,
+            "tMs": 616.81,
+            "file": ".forge/evidence/motion-frames/c12-owned-14.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 357,
+            "paintedFraction": 0.9972,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 15,
+            "tMs": 634.44,
+            "file": ".forge/evidence/motion-frames/c12-owned-15.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 358,
+            "paintedFraction": 1,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          },
+          {
+            "index": 16,
+            "tMs": 650.54,
+            "file": ".forge/evidence/motion-frames/c12-owned-16.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 358,
+            "paintedFraction": 1,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          }
+        ],
+        "firstPaintedFrame": {
+          "index": 3,
+          "tMs": 436.26
+        },
+        "firstFullFrame": {
+          "index": 15,
+          "tMs": 634.44
+        },
+        "lastPartialFrame": {
+          "index": 14,
+          "tMs": 616.81
+        },
+        "frameIntervalMs": 16.44,
+        "probeFramesDifferingAfterReveal": 0,
+        "transitionalFrameCount": 12
+      },
+      "measuredDuration": {
+        "fromPixelBracketMs": 213.77,
+        "fromSamplerBracketMs": 233.1,
+        "fromSamplerBezierFit": {
+          "durationMs": 219.73,
+          "offsetMs": -0.1,
+          "n": 8
+        },
+        "fromPixelBezierFit": {
+          "durationMs": 219.83,
+          "offsetMs": 418.76,
+          "n": 8
+        },
+        "fromAnimationClockMs": 220,
+        "declaredMs": 220
+      },
+      "travelAndScale": {
+        "maxTravelXPx": 0,
+        "maxTravelYPx": 0,
+        "maxWidthDeltaPx": 0,
+        "maxHeightDeltaPx": 0,
+        "nonNoneTransformFrames": 0,
+        "nonNoneScaleFrames": 0,
+        "nonNoneTranslateFrames": 0
+      },
+      "capture": {
+        "file": ".forge/evidence/c12-owned-settled.png",
+        "widthPx": 390,
+        "heightPx": 1200
+      },
+      "subject": {
+        "subject": "c12-owned verdict slab",
+        "selector": "[data-testid=\"verdict\"]",
+        "found": true,
+        "topPx": 596,
+        "bottomPx": 1027,
+        "leftPx": 16,
+        "rightPx": 374,
+        "captureWidthPx": 390,
+        "captureHeightPx": 1200,
+        "fullyInsideTheCapture": true
+      }
+    }
+  },
+  "c12TransitionSweep": {
+    "routesSwept": [
+      "/",
+      "/catalogue",
+      "/collection",
+      "/collection/no-such-copy",
+      "/no-such-route-c12"
+    ],
+    "statesSwept": [
+      "/ [resting]",
+      "/catalogue [resting]",
+      "/collection [resting]",
+      "/collection/no-such-copy [resting]",
+      "/no-such-route-c12 [resting]",
+      "/ [verdict slab present]"
+    ],
+    "cssRulesWalkedIncludingNested": 119,
+    "elementsExaminedAcrossAllStates": 381,
+    "keyframeBlocks": [
+      {
+        "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+        "name": "vslab-wipe",
+        "properties": [
+          "clip-path"
+        ]
+      }
+    ],
+    "keyframeBlockCount": 1,
+    "geometricTransformsOnLiveElements": [],
+    "geometricTransformCount": 0,
+    "transformDeclarationsInStyleSheets": [],
+    "transformDeclarationCount": 0,
+    "perRoute": [
+      {
+        "route": "/",
+        "state": "resting",
+        "status": 200,
+        "sheets": [
+          {
+            "href": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "ruleCount": 119,
+            "readable": true
+          }
+        ],
+        "declared": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": "*",
+            "condition": "(prefers-reduced-motion: reduce)",
+            "transitionShorthand": "",
+            "transitionProperty": "",
+            "transitionDuration": "0.001ms",
+            "transitionTimingFunction": "",
+            "transitionDelay": ""
+          }
+        ],
+        "animationRules": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": ".vslabWipe",
+            "condition": "",
+            "animation": "0.22s cubic-bezier(0.2, 0.8, 0.2, 1) 0s 1 normal both running vslab-wipe"
+          }
+        ],
+        "keyframes": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "name": "vslab-wipe",
+            "properties": [
+              "clip-path"
+            ]
+          }
+        ],
+        "computed": [],
+        "geometricTransforms": [],
+        "transformRules": [],
+        "rulesWalked": 119,
+        "elementsExamined": 64
+      },
+      {
+        "route": "/catalogue",
+        "state": "resting",
+        "status": 200,
+        "sheets": [
+          {
+            "href": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "ruleCount": 119,
+            "readable": true
+          }
+        ],
+        "declared": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": "*",
+            "condition": "(prefers-reduced-motion: reduce)",
+            "transitionShorthand": "",
+            "transitionProperty": "",
+            "transitionDuration": "0.001ms",
+            "transitionTimingFunction": "",
+            "transitionDelay": ""
+          }
+        ],
+        "animationRules": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": ".vslabWipe",
+            "condition": "",
+            "animation": "0.22s cubic-bezier(0.2, 0.8, 0.2, 1) 0s 1 normal both running vslab-wipe"
+          }
+        ],
+        "keyframes": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "name": "vslab-wipe",
+            "properties": [
+              "clip-path"
+            ]
+          }
+        ],
+        "computed": [],
+        "geometricTransforms": [],
+        "transformRules": [],
+        "rulesWalked": 119,
+        "elementsExamined": 56
+      },
+      {
+        "route": "/collection",
+        "state": "resting",
+        "status": 200,
+        "sheets": [
+          {
+            "href": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "ruleCount": 119,
+            "readable": true
+          }
+        ],
+        "declared": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": "*",
+            "condition": "(prefers-reduced-motion: reduce)",
+            "transitionShorthand": "",
+            "transitionProperty": "",
+            "transitionDuration": "0.001ms",
+            "transitionTimingFunction": "",
+            "transitionDelay": ""
+          }
+        ],
+        "animationRules": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": ".vslabWipe",
+            "condition": "",
+            "animation": "0.22s cubic-bezier(0.2, 0.8, 0.2, 1) 0s 1 normal both running vslab-wipe"
+          }
+        ],
+        "keyframes": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "name": "vslab-wipe",
+            "properties": [
+              "clip-path"
+            ]
+          }
+        ],
+        "computed": [],
+        "geometricTransforms": [],
+        "transformRules": [],
+        "rulesWalked": 119,
+        "elementsExamined": 58
+      },
+      {
+        "route": "/collection/no-such-copy",
+        "state": "resting",
+        "status": 200,
+        "sheets": [
+          {
+            "href": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "ruleCount": 119,
+            "readable": true
+          }
+        ],
+        "declared": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": "*",
+            "condition": "(prefers-reduced-motion: reduce)",
+            "transitionShorthand": "",
+            "transitionProperty": "",
+            "transitionDuration": "0.001ms",
+            "transitionTimingFunction": "",
+            "transitionDelay": ""
+          }
+        ],
+        "animationRules": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": ".vslabWipe",
+            "condition": "",
+            "animation": "0.22s cubic-bezier(0.2, 0.8, 0.2, 1) 0s 1 normal both running vslab-wipe"
+          }
+        ],
+        "keyframes": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "name": "vslab-wipe",
+            "properties": [
+              "clip-path"
+            ]
+          }
+        ],
+        "computed": [],
+        "geometricTransforms": [],
+        "transformRules": [],
+        "rulesWalked": 119,
+        "elementsExamined": 53
+      },
+      {
+        "route": "/no-such-route-c12",
+        "state": "resting",
+        "status": 404,
+        "sheets": [
+          {
+            "href": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "ruleCount": 119,
+            "readable": true
+          }
+        ],
+        "declared": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": "*",
+            "condition": "(prefers-reduced-motion: reduce)",
+            "transitionShorthand": "",
+            "transitionProperty": "",
+            "transitionDuration": "0.001ms",
+            "transitionTimingFunction": "",
+            "transitionDelay": ""
+          }
+        ],
+        "animationRules": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": ".vslabWipe",
+            "condition": "",
+            "animation": "0.22s cubic-bezier(0.2, 0.8, 0.2, 1) 0s 1 normal both running vslab-wipe"
+          }
+        ],
+        "keyframes": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "name": "vslab-wipe",
+            "properties": [
+              "clip-path"
+            ]
+          }
+        ],
+        "computed": [],
+        "geometricTransforms": [],
+        "transformRules": [],
+        "rulesWalked": 119,
+        "elementsExamined": 59
+      },
+      {
+        "route": "/",
+        "state": "verdict slab present",
+        "status": 200,
+        "sheets": [
+          {
+            "href": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "ruleCount": 119,
+            "readable": true
+          }
+        ],
+        "declared": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": "*",
+            "condition": "(prefers-reduced-motion: reduce)",
+            "transitionShorthand": "",
+            "transitionProperty": "",
+            "transitionDuration": "0.001ms",
+            "transitionTimingFunction": "",
+            "transitionDelay": ""
+          }
+        ],
+        "animationRules": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "selector": ".vslabWipe",
+            "condition": "",
+            "animation": "0.22s cubic-bezier(0.2, 0.8, 0.2, 1) 0s 1 normal both running vslab-wipe"
+          }
+        ],
+        "keyframes": [
+          {
+            "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+            "name": "vslab-wipe",
+            "properties": [
+              "clip-path"
+            ]
+          }
+        ],
+        "computed": [],
+        "geometricTransforms": [],
+        "transformRules": [],
+        "rulesWalked": 119,
+        "elementsExamined": 91
+      }
+    ],
+    "uniqueDeclaredTransitionRules": [
+      {
+        "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+        "selector": "*",
+        "condition": "(prefers-reduced-motion: reduce)",
+        "transitionShorthand": "",
+        "transitionProperty": "",
+        "transitionDuration": "0.001ms",
+        "transitionTimingFunction": "",
+        "transitionDelay": ""
+      }
+    ],
+    "establishedTransitions": [],
+    "establishedTransitionCount": 0,
+    "neutralisingTransitionRules": [
+      {
+        "sheet": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+        "selector": "*",
+        "condition": "(prefers-reduced-motion: reduce)",
+        "transitionShorthand": "",
+        "transitionProperty": "",
+        "transitionDuration": "0.001ms",
+        "transitionTimingFunction": "",
+        "transitionDelay": ""
+      }
+    ],
+    "transitionsOffDurationOrCurve": [],
+    "transitionsOffDurationOrCurveCount": 0,
+    "computedTransitionsOnLiveElements": [],
+    "computedTransitionCount": 0,
+    "unreadableStyleSheets": [],
+    "requiredMs": 140,
+    "requiredCurve": "cubic-bezier(0.2, 0.8, 0.2, 1)"
+  },
+  "c13ReducedMotionApplied": {
+    "reduce": true,
+    "noPreference": false
+  },
+  "c13": {
+    "notInCollection": {
+      "label": "c13-reduced-not-in-collection",
+      "verdictKind": "NOT_IN_COLLECTION",
+      "reducedMotion": true,
+      "matchMediaReduce": true,
+      "resolvedThemeClass": "lt",
+      "viewport": {
+        "widthPx": 390,
+        "heightPx": 1200
+      },
+      "slabAtRest": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 319.02,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "clipPath": "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 0px 100%)",
+        "border": "1px solid rgb(111, 122, 150)",
+        "borderStyle": "solid",
+        "opacity": "1",
+        "color": "rgb(12, 18, 38)"
+      },
+      "runtimeKeyframes": {
+        "source": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+        "name": "vslab-wipe",
+        "frames": [
+          {
+            "keyText": "0%",
+            "declarations": {
+              "clip-path": "inset(0px 100% 0px 0px)"
+            }
+          },
+          {
+            "keyText": "100%",
+            "declarations": {
+              "clip-path": "inset(0px)"
+            }
+          }
+        ]
+      },
+      "sampler": {
+        "frameCount": 49,
+        "arrivalStartIndex": 7,
+        "perFrame": [
+          {
+            "tMs": 0,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 21.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 38.3,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 54.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 71.6,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 88.2,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 104.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 121.6,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 138.2,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 155,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 171.8,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 188.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 205.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 222,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 239.2,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 255.2,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 271.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 288.6,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 305.3,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 321.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 338.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 355.6,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 371.8,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 388.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 405.3,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 421.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 438.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 455.1,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 471.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 489.2,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 505.1,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 521.8,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 538.3,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 555.2,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 571.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 588.7,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 605.3,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 621.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 638.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 655.3,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          },
+          {
+            "tMs": 672.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 319.02
+          }
+        ],
+        "distinctWrapperOpacities": [
+          "1"
+        ],
+        "distinctSlabOpacities": [
+          "1"
+        ],
+        "opacityChangeCount": 0,
+        "distinctLayoutBoxWidths": [
+          358
+        ],
+        "animationKeyframeProperties": [
+          "offset",
+          "easing",
+          "composite",
+          "clipPath",
+          "computedOffset"
+        ],
+        "animationComputedDurationMs": [
+          0.001
+        ],
+        "animationEffectEasing": [
+          "linear"
+        ],
+        "firstFullFrame": {
+          "tMs": 0,
+          "animationCurrentTimeMs": 0
+        },
+        "lastPartialFrame": null,
+        "frameIntervalMs": 16.1
+      },
+      "pixels": {
+        "frameCount": 2,
+        "analysedFromIndex": 1,
+        "rowY": 624,
+        "scanLeftPx": 16,
+        "scanRightPx": 374,
+        "probeXPx": 22,
+        "perFrame": [
+          {
+            "index": 1,
+            "tMs": 0,
+            "file": ".forge/evidence/motion-frames/c13-reduced-not-in-collection-01.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 0,
+            "paintedFraction": 0,
+            "probeRgb": [
+              237,
+              240,
+              247
+            ],
+            "probeDistanceFromFinal": 41
+          },
+          {
+            "index": 2,
+            "tMs": 412.63,
+            "file": ".forge/evidence/motion-frames/c13-reduced-not-in-collection-02.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 358,
+            "paintedFraction": 1,
+            "probeRgb": [
+              255,
+              255,
+              255
+            ],
+            "probeDistanceFromFinal": 0
+          }
+        ],
+        "firstPaintedFrame": {
+          "index": 2,
+          "tMs": 412.63
+        },
+        "firstFullFrame": {
+          "index": 2,
+          "tMs": 412.63
+        },
+        "lastPartialFrame": {
+          "index": 1,
+          "tMs": 0
+        },
+        "frameIntervalMs": 412.63,
+        "probeFramesDifferingAfterReveal": 0,
+        "transitionalFrameCount": 0
+      },
+      "measuredDuration": {
+        "fromPixelBracketMs": 412.63,
+        "fromSamplerBracketMs": null,
+        "fromSamplerBezierFit": null,
+        "fromPixelBezierFit": null,
+        "fromAnimationClockMs": null,
+        "declaredMs": 220
+      },
+      "travelAndScale": {
+        "maxTravelXPx": 0,
+        "maxTravelYPx": 0,
+        "maxWidthDeltaPx": 0,
+        "maxHeightDeltaPx": 0,
+        "nonNoneTransformFrames": 0,
+        "nonNoneScaleFrames": 0,
+        "nonNoneTranslateFrames": 0
+      },
+      "capture": {
+        "file": ".forge/evidence/c13-reduced-not-in-collection-settled.png",
+        "widthPx": 390,
+        "heightPx": 1200
+      },
+      "subject": {
+        "subject": "c13-reduced-not-in-collection verdict slab",
+        "selector": "[data-testid=\"verdict\"]",
+        "found": true,
+        "topPx": 596,
+        "bottomPx": 915,
+        "leftPx": 16,
+        "rightPx": 374,
+        "captureWidthPx": 390,
+        "captureHeightPx": 1200,
+        "fullyInsideTheCapture": true
+      }
+    },
+    "owned": {
+      "label": "c13-reduced-owned",
+      "verdictKind": "OWNED",
+      "reducedMotion": true,
+      "matchMediaReduce": true,
+      "resolvedThemeClass": "lt",
+      "viewport": {
+        "widthPx": 390,
+        "heightPx": 1200
+      },
+      "slabAtRest": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 431.23,
+        "backgroundColor": "rgb(0, 224, 164)",
+        "clipPath": "polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+        "border": "0px none rgb(11, 16, 32)",
+        "borderStyle": "none",
+        "opacity": "1",
+        "color": "rgb(11, 16, 32)"
+      },
+      "runtimeKeyframes": {
+        "source": "http://127.0.0.1:3950/_next/static/chunks/3bpg_ye6g6390.css",
+        "name": "vslab-wipe",
+        "frames": [
+          {
+            "keyText": "0%",
+            "declarations": {
+              "clip-path": "inset(0px 100% 0px 0px)"
+            }
+          },
+          {
+            "keyText": "100%",
+            "declarations": {
+              "clip-path": "inset(0px)"
+            }
+          }
+        ]
+      },
+      "sampler": {
+        "frameCount": 51,
+        "arrivalStartIndex": 8,
+        "perFrame": [
+          {
+            "tMs": 0,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 16.1,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 32.4,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 49.3,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 66,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 82.8,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 99.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 116.2,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 132.8,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 149.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 166.2,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 182.8,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 199.6,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 216.1,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 232.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 249.3,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 265.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 282.6,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 299.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 316.1,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 332.6,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 349.1,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 366.8,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 382.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 399.1,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 415.8,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 432.4,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 449.1,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 465.7,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 482.4,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 499,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 516.1,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 532.6,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 549.4,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 565.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 582.3,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 599.5,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 616.2,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 632.6,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 649.3,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 666.9,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 682.6,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          },
+          {
+            "tMs": 699.4,
+            "animationCurrentTimeMs": 0,
+            "layoutBoxWidthPx": 358,
+            "clipPath": "inset(0px 0% 0px 0px)",
+            "paintedFraction": 1,
+            "paintedWidthPx": 358,
+            "wrapperOpacity": "1",
+            "slabOpacity": "1",
+            "wrapperTransform": "none",
+            "slabTransform": "none",
+            "slabXPx": 16,
+            "slabYPx": 595.58,
+            "slabWidthPx": 358,
+            "slabHeightPx": 431.23
+          }
+        ],
+        "distinctWrapperOpacities": [
+          "1"
+        ],
+        "distinctSlabOpacities": [
+          "1"
+        ],
+        "opacityChangeCount": 0,
+        "distinctLayoutBoxWidths": [
+          358
+        ],
+        "animationKeyframeProperties": [
+          "offset",
+          "easing",
+          "composite",
+          "clipPath",
+          "computedOffset"
+        ],
+        "animationComputedDurationMs": [
+          0.001
+        ],
+        "animationEffectEasing": [
+          "linear"
+        ],
+        "firstFullFrame": {
+          "tMs": 0,
+          "animationCurrentTimeMs": 0
+        },
+        "lastPartialFrame": null,
+        "frameIntervalMs": 16.63
+      },
+      "pixels": {
+        "frameCount": 2,
+        "analysedFromIndex": 1,
+        "rowY": 624,
+        "scanLeftPx": 16,
+        "scanRightPx": 374,
+        "probeXPx": 22,
+        "perFrame": [
+          {
+            "index": 1,
+            "tMs": 0,
+            "file": ".forge/evidence/motion-frames/c13-reduced-owned-01.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 0,
+            "paintedFraction": 0,
+            "probeRgb": [
+              237,
+              240,
+              247
+            ],
+            "probeDistanceFromFinal": 336
+          },
+          {
+            "index": 2,
+            "tMs": 422.54,
+            "file": ".forge/evidence/motion-frames/c13-reduced-owned-02.png",
+            "widthPx": 390,
+            "heightPx": 1200,
+            "paintedWidthPx": 358,
+            "paintedFraction": 1,
+            "probeRgb": [
+              0,
+              224,
+              164
+            ],
+            "probeDistanceFromFinal": 0
+          }
+        ],
+        "firstPaintedFrame": {
+          "index": 2,
+          "tMs": 422.54
+        },
+        "firstFullFrame": {
+          "index": 2,
+          "tMs": 422.54
+        },
+        "lastPartialFrame": {
+          "index": 1,
+          "tMs": 0
+        },
+        "frameIntervalMs": 422.54,
+        "probeFramesDifferingAfterReveal": 0,
+        "transitionalFrameCount": 0
+      },
+      "measuredDuration": {
+        "fromPixelBracketMs": 422.54,
+        "fromSamplerBracketMs": null,
+        "fromSamplerBezierFit": null,
+        "fromPixelBezierFit": null,
+        "fromAnimationClockMs": null,
+        "declaredMs": 220
+      },
+      "travelAndScale": {
+        "maxTravelXPx": 0,
+        "maxTravelYPx": 0,
+        "maxWidthDeltaPx": 0,
+        "maxHeightDeltaPx": 0,
+        "nonNoneTransformFrames": 0,
+        "nonNoneScaleFrames": 0,
+        "nonNoneTranslateFrames": 0
+      },
+      "capture": {
+        "file": ".forge/evidence/c13-reduced-owned-settled.png",
+        "widthPx": 390,
+        "heightPx": 1200
+      },
+      "subject": {
+        "subject": "c13-reduced-owned verdict slab",
+        "selector": "[data-testid=\"verdict\"]",
+        "found": true,
+        "topPx": 596,
+        "bottomPx": 1027,
+        "leftPx": 16,
+        "rightPx": 374,
+        "captureWidthPx": 390,
+        "captureHeightPx": 1200,
+        "fullyInsideTheCapture": true
+      }
+    }
+  },
+  "c13RetainedAgainstMotionAllowed": {
+    "propertiesCompared": [
+      "backgroundColor",
+      "clipPath",
+      "border",
+      "borderStyle",
+      "opacity",
+      "color",
+      "widthPx",
+      "heightPx",
+      "xPx",
+      "yPx"
+    ],
+    "comparison": [
+      {
+        "kind": "NOT_IN_COLLECTION",
+        "withMotion": {
+          "xPx": 16,
+          "yPx": 595.58,
+          "widthPx": 358,
+          "heightPx": 319.02,
+          "backgroundColor": "rgb(255, 255, 255)",
+          "clipPath": "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 0px 100%)",
+          "border": "1px solid rgb(111, 122, 150)",
+          "borderStyle": "solid",
+          "opacity": "1",
+          "color": "rgb(12, 18, 38)"
+        },
+        "reducedMotion": {
+          "xPx": 16,
+          "yPx": 595.58,
+          "widthPx": 358,
+          "heightPx": 319.02,
+          "backgroundColor": "rgb(255, 255, 255)",
+          "clipPath": "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 0px 100%)",
+          "border": "1px solid rgb(111, 122, 150)",
+          "borderStyle": "solid",
+          "opacity": "1",
+          "color": "rgb(12, 18, 38)"
+        },
+        "differences": [],
+        "differenceCount": 0
+      },
+      {
+        "kind": "OWNED",
+        "withMotion": {
+          "xPx": 16,
+          "yPx": 595.58,
+          "widthPx": 358,
+          "heightPx": 431.23,
+          "backgroundColor": "rgb(0, 224, 164)",
+          "clipPath": "polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+          "border": "0px none rgb(11, 16, 32)",
+          "borderStyle": "none",
+          "opacity": "1",
+          "color": "rgb(11, 16, 32)"
+        },
+        "reducedMotion": {
+          "xPx": 16,
+          "yPx": 595.58,
+          "widthPx": 358,
+          "heightPx": 431.23,
+          "backgroundColor": "rgb(0, 224, 164)",
+          "clipPath": "polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+          "border": "0px none rgb(11, 16, 32)",
+          "borderStyle": "none",
+          "opacity": "1",
+          "color": "rgb(11, 16, 32)"
+        },
+        "differences": [],
+        "differenceCount": 0
+      }
+    ]
+  },
+  "c13ControlD": {
+    "sampleCount": 25,
+    "distinctXPositions": [
+      300
+    ],
+    "maxTravelPx": 0,
+    "animationDurationsWhileRunning": [
+      "0.001"
+    ],
+    "firstSamples": [
+      {
+        "tMs": 11.6,
+        "xPx": 300,
+        "transform": "matrix(1, 0, 0, 1, 300, 0)"
+      },
+      {
+        "tMs": 28.7,
+        "xPx": 300,
+        "transform": "matrix(1, 0, 0, 1, 300, 0)"
+      },
+      {
+        "tMs": 45.4,
+        "xPx": 300,
+        "transform": "matrix(1, 0, 0, 1, 300, 0)"
+      },
+      {
+        "tMs": 62.1,
+        "xPx": 300,
+        "transform": "matrix(1, 0, 0, 1, 300, 0)"
+      },
+      {
+        "tMs": 78.7,
+        "xPx": 300,
+        "transform": "matrix(1, 0, 0, 1, 300, 0)"
+      }
+    ]
+  },
+  "controls": {
+    "A_movingElement": {
+      "frameCount": 15,
+      "framesSaved": 15,
+      "series": [
+        {
+          "index": 0,
+          "tMs": 0,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 1,
+          "tMs": 270.58,
+          "leftPx": 28,
+          "rightPx": 87,
+          "widthPx": 60
+        },
+        {
+          "index": 2,
+          "tMs": 284.8,
+          "leftPx": 46,
+          "rightPx": 105,
+          "widthPx": 60
+        },
+        {
+          "index": 3,
+          "tMs": 301.52,
+          "leftPx": 65,
+          "rightPx": 124,
+          "widthPx": 60
+        },
+        {
+          "index": 4,
+          "tMs": 316.92,
+          "leftPx": 83,
+          "rightPx": 142,
+          "widthPx": 60
+        },
+        {
+          "index": 5,
+          "tMs": 332.94,
+          "leftPx": 101,
+          "rightPx": 160,
+          "widthPx": 60
+        },
+        {
+          "index": 6,
+          "tMs": 349.56,
+          "leftPx": 119,
+          "rightPx": 178,
+          "widthPx": 60
+        },
+        {
+          "index": 7,
+          "tMs": 366.47,
+          "leftPx": 137,
+          "rightPx": 196,
+          "widthPx": 60
+        },
+        {
+          "index": 8,
+          "tMs": 382.69,
+          "leftPx": 155,
+          "rightPx": 214,
+          "widthPx": 60
+        },
+        {
+          "index": 9,
+          "tMs": 399.1,
+          "leftPx": 174,
+          "rightPx": 233,
+          "widthPx": 60
+        },
+        {
+          "index": 10,
+          "tMs": 415.82,
+          "leftPx": 192,
+          "rightPx": 251,
+          "widthPx": 60
+        },
+        {
+          "index": 11,
+          "tMs": 432.19,
+          "leftPx": 210,
+          "rightPx": 269,
+          "widthPx": 60
+        },
+        {
+          "index": 12,
+          "tMs": 448.98,
+          "leftPx": 228,
+          "rightPx": 287,
+          "widthPx": 60
+        },
+        {
+          "index": 13,
+          "tMs": 465.67,
+          "leftPx": 246,
+          "rightPx": 305,
+          "widthPx": 60
+        },
+        {
+          "index": 14,
+          "tMs": 482.46,
+          "leftPx": 250,
+          "rightPx": 309,
+          "widthPx": 60
+        }
+      ],
+      "travelPx": 240,
+      "framesDifferingFromFinalOnItsRow": 14
+    },
+    "B_staticElement": {
+      "series": [
+        {
+          "index": 0,
+          "tMs": 0,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 1,
+          "tMs": 270.58,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 2,
+          "tMs": 284.8,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 3,
+          "tMs": 301.52,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 4,
+          "tMs": 316.92,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 5,
+          "tMs": 332.94,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 6,
+          "tMs": 349.56,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 7,
+          "tMs": 366.47,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 8,
+          "tMs": 382.69,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 9,
+          "tMs": 399.1,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 10,
+          "tMs": 415.82,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 11,
+          "tMs": 432.19,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 12,
+          "tMs": 448.98,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 13,
+          "tMs": 465.67,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        },
+        {
+          "index": 14,
+          "tMs": 482.46,
+          "leftPx": 10,
+          "rightPx": 69,
+          "widthPx": 60
+        }
+      ],
+      "travelPx": 0,
+      "framesDifferingFromFinalOnItsRow": 0
+    },
+    "C_fade": {
+      "frameCount": 21,
+      "distinctOpacities": [
+        "1",
+        "0.937676",
+        "0.877313",
+        "0.816222",
+        "0.755858",
+        "0.695131",
+        "0.634767",
+        "0.57404",
+        "0.513313",
+        "0.452949",
+        "0.392222",
+        "0.331495",
+        "0.270767",
+        "0.210404",
+        "0.2"
+      ],
+      "distinctOpacityCount": 15,
+      "keyframeProperties": [
+        "offset",
+        "easing",
+        "composite",
+        "opacity",
+        "computedOffset"
+      ],
+      "firstOpacity": "1",
+      "lastOpacity": "0.2"
+    },
+    "savedFrames": [
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-00.png",
+        "tMs": 0,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-01.png",
+        "tMs": 270.58,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-02.png",
+        "tMs": 284.8,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-03.png",
+        "tMs": 301.52,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-04.png",
+        "tMs": 316.92,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-05.png",
+        "tMs": 332.94,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-06.png",
+        "tMs": 349.56,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-07.png",
+        "tMs": 366.47,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-08.png",
+        "tMs": 382.69,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-09.png",
+        "tMs": 399.1,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-10.png",
+        "tMs": 415.82,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-11.png",
+        "tMs": 432.19,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-12.png",
+        "tMs": 448.98,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-13.png",
+        "tMs": 465.67,
+        "widthPx": 390,
+        "heightPx": 844
+      },
+      {
+        "file": ".forge/evidence/motion-frames/controls-ab-14.png",
+        "tMs": 482.46,
+        "widthPx": 390,
+        "heightPx": 844
+      }
+    ]
+  },
+  "buildIdAfter": {
+    "baseUrl": "http://127.0.0.1:3950",
+    "port": "3950",
+    "status": 200,
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedMatchesExpected": true,
+    "servedMatchesDisk": true,
+    "devMarkersFound": [],
+    "checkedAt": "2026-08-18T16:00:51.958Z"
+  },
+  "recordedAt": "2026-08-18T16:00:51.960Z",
+  "declared": {
+    "slabAnimation": "globals.css .vslabWipe { animation: vslab-wipe 220ms cubic-bezier(0.2, 0.8, 0.2, 1) both }",
+    "slabDurationMs": 220,
+    "otherTransitionsMs": 140,
+    "otherTransitionsCurve": "cubic-bezier(0.2, 0.8, 0.2, 1)"
+  }
+}

@@ -12,13 +12,25 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx scripts/db/migrate.ts",
     "db:seed": "tsx scripts/db/seed.ts",
+    "db:remove-fixture": "tsx scripts/db/remove-fixture.ts",
     "check:barcode": "tsx scripts/checks/barcode-check-digit.ts",
     "check:verification": "tsx scripts/checks/verification-coverage.ts",
     "check:sources": "tsx scripts/checks/source-coverage.ts",
-    "check:all": "npm run check:barcode && npm run check:verification && npm run check:sources",
+    "check:no-fixture": "tsx scripts/checks/no-fixture-leak.ts",
+    "check:no-env-values": "tsx scripts/checks/no-env-values.ts",
+    "check:ui": "node scripts/checks/ui.mjs",
+    "check:all": "sh scripts/checks/all.sh",
     "test": "tsx --test tests/**/*.test.ts",
     "pw:install": "playwright install --with-deps chromium",
-    "pw": "playwright test"
+    "pw": "playwright test",
+    "check:no-env-values:history": "tsx scripts/checks/no-env-values-history.ts",
+    "coverage:map": "node scripts/checks/coverage-map.mjs",
+    "check:no-local-paths": "tsx scripts/checks/no-local-paths.ts",
+    "check:no-local-paths:history": "tsx scripts/checks/no-local-paths-history.ts",
+    "orphan:strings": "node scripts/checks/orphan-strings.mjs",
+    "gen:theme-colors": "node scripts/gen/theme-colors.mjs",
+    "check:theme-colors": "node scripts/gen/theme-colors.mjs --check",
+    "db:reset-catalogue": "tsx scripts/db/reset-catalogue.ts"
   },
   "dependencies": {
     "next": "16.3.1",
@@ -28,7 +40,8 @@
     "postgres": "3.4.9",
     "idb": "8.0.3",
     "@fontsource-variable/archivo": "5.3.0",
-    "@fontsource/ibm-plex-mono": "5.3.0"
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "zod": "4.4.3"
   },
   "devDependencies": {
     "typescript": "5.9.3",

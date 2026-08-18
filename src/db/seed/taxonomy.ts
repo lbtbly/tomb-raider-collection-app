@@ -3,12 +3,17 @@
 // so it seeds directly rather than waiting on the research agent's verified
 // starter catalogue.
 
+// mark_style names what Chromatic Era actually draws: fill carries sold
+// versus handed out (filled means money changed hands, hollow means it was
+// handed out), and the inner shape separates the four handed-out types. Every
+// mark is a squared outline, so the shape has to survive greyscale on its
+// own; do not lean on outline weight to tell two hollow marks apart.
 export const provenanceTypes = [
   { key: "retail", labelKey: "provenance.retail", isSold: true, markStyle: "filled", sort: 1 },
-  { key: "promotional", labelKey: "provenance.promotional", isSold: false, markStyle: "pill", sort: 2 },
-  { key: "press", labelKey: "provenance.press", isSold: false, markStyle: "square", sort: 3 },
-  { key: "convention_exclusive", labelKey: "provenance.convention_exclusive", isSold: false, markStyle: "double_rule", sort: 4 },
-  { key: "preorder_bonus", labelKey: "provenance.preorder_bonus", isSold: false, markStyle: "dashed", sort: 5 },
+  { key: "promotional", labelKey: "provenance.promotional", isSold: false, markStyle: "hollow_diagonal", sort: 2 },
+  { key: "press", labelKey: "provenance.press", isSold: false, markStyle: "hollow_bar", sort: 3 },
+  { key: "convention_exclusive", labelKey: "provenance.convention_exclusive", isSold: false, markStyle: "hollow_wedge", sort: 4 },
+  { key: "preorder_bonus", labelKey: "provenance.preorder_bonus", isSold: false, markStyle: "hollow_left_block", sort: 5 },
 ] as const;
 
 export const identifierKinds = [
@@ -35,8 +40,9 @@ export const categories = [
   { slug: "apparel", name: "Apparel", parentId: null, sort: 8 },
   { slug: "guides-and-books", name: "Guides and books", parentId: null, sort: 9 },
   { slug: "prop-replicas", name: "Prop replicas", parentId: null, sort: 10 },
-  { slug: "promotional-items", name: "Promotional items", parentId: null, sort: 11 },
-  { slug: "sponsorship-tie-ins", name: "Sponsorship tie-ins", parentId: null, sort: 12 },
+  { slug: "press-kits", name: "Press kits", parentId: null, sort: 11 },
+  { slug: "promotional-items", name: "Promotional items", parentId: null, sort: 12 },
+  { slug: "sponsorship-tie-ins", name: "Sponsorship tie-ins", parentId: null, sort: 13 },
 ] as const;
 
 export const franchises = [

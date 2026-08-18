@@ -1,0 +1,562 @@
+{
+  "$schema": "vitrine.seed-starter.v1",
+  "items": [
+    {
+      "franchise": "tomb-raider",
+      "category": "comics",
+      "title": "Tomb Raider #15",
+      "subtitle": "Without Limit",
+      "release_year": 2001,
+      "publisher": "Top Cow Productions / Image Comics",
+      "description_md": "Top Cow Productions, published through Image Comics. WikiRaider records release September 2001, 32 pages, cover price $2.50, writer Dan Jurgens, penciller Francis Manapul.",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_15",
+        "title": "Tomb Raider: The Series Vol. 1, Issue 15 - WikiRaider",
+        "publisher": "WikiRaider",
+        "retrieved_on": "2026-08-18",
+        "note": "Cross-checked against Raiding The Globe's Top Cow series page at https://raidingtheglobe.com/comics/top-cow/tomb-raider-the-series, which gives the same issue number, story title and release date (September 2001)."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research agent (seed-batch-04)",
+        "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+      },
+      "variants": [
+        {
+          "name": "Regular cover",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_15",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 15 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Main cover. WikiRaider lists this issue's alternate printings separately under 'Other Covers'; this row is the issue's regular direct-market cover."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        },
+        {
+          "name": "Convention Exclusive",
+          "provenance_type": "convention_exclusive",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_15",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 15 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Listed verbatim under 'Other Covers' on the WikiRaider page for this issue as 'Convention Exclusive'. Raiding The Globe independently shows alternate covers for issue 15 but does not name them, so the convention attribution rests on WikiRaider alone."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "comics",
+      "title": "Tomb Raider #17",
+      "subtitle": "Pieces of Zero",
+      "release_year": 2001,
+      "publisher": "Top Cow Productions / Image Comics",
+      "description_md": "Top Cow Productions, published through Image Comics. WikiRaider records release November 2001, 32 pages, cover price $2.50, writer Dan Jurgens, penciller Andy Park.",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_17",
+        "title": "Tomb Raider: The Series Vol. 1, Issue 17 - WikiRaider",
+        "publisher": "WikiRaider",
+        "retrieved_on": "2026-08-18",
+        "note": "Cross-checked against Raiding The Globe's Top Cow series page at https://raidingtheglobe.com/comics/top-cow/tomb-raider-the-series, which gives the same issue number, story title and release date (November 2001)."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research agent (seed-batch-04)",
+        "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+      },
+      "variants": [
+        {
+          "name": "Regular cover",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_17",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 17 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Main cover. WikiRaider lists this issue's alternate printings separately under 'Other Covers'; this row is the issue's regular direct-market cover."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        },
+        {
+          "name": "Boston Con",
+          "provenance_type": "convention_exclusive",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_17",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 17 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Listed verbatim under 'Other Covers' on the WikiRaider page for this issue as 'Boston Con'. WikiRaider's Andy Park page, https://www.wikiraider.com/index.php/Andy_Park, lists the same cover as 'Issue #17 Boston Con'. Raiding The Globe shows exactly two alternate covers for issue 17, matching WikiRaider's two names."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "comics",
+      "title": "Tomb Raider #20",
+      "subtitle": "Pieces of Zero",
+      "release_year": 2002,
+      "publisher": "Top Cow Productions / Image Comics",
+      "description_md": "Top Cow Productions, published through Image Comics. WikiRaider records release April 2002, 32 pages, cover price $2.50, writer Dan Jurgens, penciller Andy Park.",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_20",
+        "title": "Tomb Raider: The Series Vol. 1, Issue 20 - WikiRaider",
+        "publisher": "WikiRaider",
+        "retrieved_on": "2026-08-18",
+        "note": "Cross-checked against Raiding The Globe's Top Cow series page at https://raidingtheglobe.com/comics/top-cow/tomb-raider-the-series, which gives the same issue number, story title and release date (April 2002)."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research agent (seed-batch-04)",
+        "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+      },
+      "variants": [
+        {
+          "name": "Regular cover",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_20",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 20 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Main cover. WikiRaider lists this issue's alternate printings separately under 'Other Covers'; this row is the issue's regular direct-market cover."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        },
+        {
+          "name": "Andy Park, Pittsburgh 02",
+          "provenance_type": "convention_exclusive",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_20",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 20 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Listed verbatim under 'Other Covers' on the WikiRaider page for this issue as 'Andy Park, Pittsburgh 02'. WikiRaider's Andy Park page, https://www.wikiraider.com/index.php/Andy_Park, lists the same cover as 'Issue #20 Convention Exclusive'. Raiding The Globe shows exactly one alternate cover for issue 20. WikiRaider dates the issue only '2002'; Raiding The Globe gives April 2002."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "comics",
+      "title": "Tomb Raider #21",
+      "subtitle": "The Trap - Path of the Tiger",
+      "release_year": 2002,
+      "publisher": "Top Cow Productions / Image Comics",
+      "description_md": "Top Cow Productions, published through Image Comics. WikiRaider records release May 2002, 32 pages, cover price $2.50, writer John Ney Rieber, penciller Randy Green.",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_21",
+        "title": "Tomb Raider: The Series Vol. 1, Issue 21 - WikiRaider",
+        "publisher": "WikiRaider",
+        "retrieved_on": "2026-08-18",
+        "note": "Cross-checked against Raiding The Globe's Top Cow series page at https://raidingtheglobe.com/comics/top-cow/tomb-raider-the-series, which gives the same issue number, story title and release date (May 2002)."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research agent (seed-batch-04)",
+        "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+      },
+      "variants": [
+        {
+          "name": "Regular cover",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_21",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 21 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Main cover. WikiRaider lists this issue's alternate printings separately under 'Other Covers'; this row is the issue's regular direct-market cover."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        },
+        {
+          "name": "Randy Green (Convention Exclusive)",
+          "provenance_type": "convention_exclusive",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_21",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 21 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Listed verbatim under 'Other Covers' on the WikiRaider page for this issue as 'Randy Green (Convention Exclusive)'. Raiding The Globe independently shows alternate covers for issue 21 but does not name them, so the convention attribution rests on WikiRaider alone."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "comics",
+      "title": "Tomb Raider #25",
+      "subtitle": "Endgame",
+      "release_year": 2002,
+      "publisher": "Top Cow Productions / Image Comics",
+      "description_md": "Top Cow Productions, published through Image Comics. WikiRaider records release November 2002, 32 pages, cover price $2.99, writer John Ney Rieber, penciller Michael Turner.",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_25",
+        "title": "Tomb Raider: The Series Vol. 1, Issue 25 - WikiRaider",
+        "publisher": "WikiRaider",
+        "retrieved_on": "2026-08-18",
+        "note": "Cross-checked against Raiding The Globe's Top Cow series page at https://raidingtheglobe.com/comics/top-cow/tomb-raider-the-series, which gives the same issue number, story title and release date (November 2002)."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research agent (seed-batch-04)",
+        "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+      },
+      "variants": [
+        {
+          "name": "Regular cover",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_25",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 25 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Main cover. WikiRaider lists this issue's alternate printings separately under 'Other Covers'; this row is the issue's regular direct-market cover."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        },
+        {
+          "name": "Convention B&W",
+          "provenance_type": "convention_exclusive",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_25",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 25 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Listed verbatim under 'Other Covers' on the WikiRaider page for this issue as 'Convention B&W'. Raiding The Globe independently shows ten alternate covers for issue 25 but does not name them, so the convention attribution rests on WikiRaider alone."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        },
+        {
+          "name": "Convention Colour",
+          "provenance_type": "convention_exclusive",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.wikiraider.com/index.php/Tomb_Raider:_The_Series_Vol._1,_Issue_25",
+            "title": "Tomb Raider: The Series Vol. 1, Issue 25 - WikiRaider",
+            "publisher": "WikiRaider",
+            "retrieved_on": "2026-08-18",
+            "note": "Listed verbatim under 'Other Covers' on the WikiRaider page for this issue as 'Convention Colour'. Raiding The Globe independently shows ten alternate covers for issue 25 but does not name them, so the convention attribution rests on WikiRaider alone."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened two independent databases on 2026-08-18: WikiRaider's issue page and Raiding The Globe's Top Cow series page. They agree on issue number, story title, cover date, writer, penciller, inker and colourist."
+          },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "#TombRaider20 custom dog tag",
+      "release_year": 2016,
+      "publisher": "Square Enix / Crystal Dynamics",
+      "description_md": "Handed out at the Square Enix Experience at San Diego Comic-Con 2016. The official blog: \"After ascending the climbing wall, visitors can secure a custom #TombRaider20 dogtag with their name on.\" Each tag was stamped with the recipient's own name, so no two are identical.",
+      "source": {
+        "kind": "publisher_page",
+        "url": "https://tombraider.tumblr.com/post/147401651400/celebrate-tombraider20-at-the-san-diego-comic-con",
+        "title": "Celebrate #TombRaider20 at the San Diego Comic-Con 2016 Square Enix Experience - Official Tomb Raider Blog",
+        "publisher": "Official Tomb Raider Blog (Square Enix / Crystal Dynamics)",
+        "retrieved_on": "2026-08-18",
+        "note": "Official Tomb Raider Blog, run by Crystal Dynamics and Square Enix. Post dated 14 July 2016, previewing San Diego Comic-Con 2016. The Square Enix Experience ran Friday 22 and Saturday 23 July 2016 at 7th Avenue and Market Street, San Diego."
+      },
+      "verification": {
+        "method": "publisher_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research agent (seed-batch-04)",
+        "note": "Opened the publisher's own blog post on 2026-08-18 and read the item descriptions verbatim. The event is nine years past, so these were distributed, not merely announced."
+      },
+      "variants": [
+        {
+          "name": "San Diego Comic-Con 2016 Square Enix Experience",
+          "provenance_type": "convention_exclusive",
+          "region_note": "United States, San Diego Comic-Con 2016 only",
+          "release_date": "2016-07-22",
+          "source": {
+            "kind": "publisher_page",
+            "url": "https://tombraider.tumblr.com/post/147401651400/celebrate-tombraider20-at-the-san-diego-comic-con",
+            "title": "Celebrate #TombRaider20 at the San Diego Comic-Con 2016 Square Enix Experience - Official Tomb Raider Blog",
+            "publisher": "Official Tomb Raider Blog (Square Enix / Crystal Dynamics)",
+            "retrieved_on": "2026-08-18",
+            "note": "The post's schedule lists '#TombRaider20 custom dog tags' under the Square Enix Experience on Friday 22 July and Saturday 23 July 2016. Obtained only by climbing the Rise of the Tomb Raider Glacier Climb wall at the event. No barcode, SKU or product code is given anywhere on the page, so no identifier is recorded."
+          },
+          "verification": {
+            "method": "publisher_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened the publisher's own blog post on 2026-08-18 and read the item descriptions verbatim. The event is nine years past, so these were distributed, not merely announced."
+          },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "#TombRaider20 20 Year Celebration lanyard",
+      "release_year": 2016,
+      "publisher": "Square Enix / Crystal Dynamics",
+      "description_md": "Lanyard given away across the 2016 Tomb Raider 20 Year Celebration convention circuit. The three official blog posts describe it in slightly different words - San Diego calls it a \"#TombRaider20 lanyard, featuring a pixelated tribute to the iconic Lara Croft\"; Gamescom and PAX West call it a \"20 Year Celebration lanyard\" that \"features multiple 8-bit Lara's and artifacts\". No source states whether these are one lanyard or three, so each show is recorded as its own variant and the question is left open rather than answered by assumption.",
+      "source": {
+        "kind": "publisher_page",
+        "url": "https://tombraider.tumblr.com/post/147401651400/celebrate-tombraider20-at-the-san-diego-comic-con",
+        "title": "Celebrate #TombRaider20 at the San Diego Comic-Con 2016 Square Enix Experience - Official Tomb Raider Blog",
+        "publisher": "Official Tomb Raider Blog (Square Enix / Crystal Dynamics)",
+        "retrieved_on": "2026-08-18",
+        "note": "Official Tomb Raider Blog, run by Crystal Dynamics and Square Enix. Post dated 14 July 2016, previewing San Diego Comic-Con 2016. The Square Enix Experience ran Friday 22 and Saturday 23 July 2016 at 7th Avenue and Market Street, San Diego."
+      },
+      "verification": {
+        "method": "publisher_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research agent (seed-batch-04)",
+        "note": "Opened the publisher's own blog post on 2026-08-18 and read the item description verbatim. The event is nine years past, so these were distributed, not merely announced."
+      },
+      "variants": [
+        {
+          "name": "San Diego Comic-Con 2016 Square Enix Experience",
+          "provenance_type": "convention_exclusive",
+          "region_note": "United States, San Diego Comic-Con 2016",
+          "release_date": "2016-07-22",
+          "source": {
+            "kind": "publisher_page",
+            "url": "https://tombraider.tumblr.com/post/147401651400/celebrate-tombraider20-at-the-san-diego-comic-con",
+            "title": "Celebrate #TombRaider20 at the San Diego Comic-Con 2016 Square Enix Experience - Official Tomb Raider Blog",
+            "publisher": "Official Tomb Raider Blog (Square Enix / Crystal Dynamics)",
+            "retrieved_on": "2026-08-18",
+            "note": "The post reads: \"share a photo using the #SquareEnixExperience hashtag to get your hands on a #TombRaider20 lanyard, featuring a pixelated tribute to the iconic Lara Croft.\" The schedule lists a 'lanyard giveaway' at the Square Enix Experience on Friday 22 and Saturday 23 July 2016. No barcode, SKU or product code appears anywhere on the page, so no identifier is recorded."
+          },
+          "verification": {
+            "method": "publisher_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened the publisher's own blog post on 2026-08-18 and read the item description verbatim. The event is nine years past, so these were distributed, not merely announced."
+          },
+          "identifiers": []
+        },
+        {
+          "name": "Gamescom 2016 Square Enix booth",
+          "provenance_type": "convention_exclusive",
+          "region_note": "Germany, Gamescom 2016, Cologne, Square Enix booth Hall 9 B31 and B41",
+          "release_date": "2016-08-17",
+          "source": {
+            "kind": "publisher_page",
+            "url": "https://tombraider.tumblr.com/post/148502280760/celebrate-tombraider20-at-gamescom-2016-our-year",
+            "title": "Celebrate #TombRaider20 at Gamescom 2016 - Official Tomb Raider Blog",
+            "publisher": "Official Tomb Raider Blog (Square Enix / Crystal Dynamics)",
+            "retrieved_on": "2026-08-18",
+            "note": "The post reads: \"Check out both experiences and get your hands on a 20 Year Celebration lanyard.\" Gamescom 2016 ran 17 to 21 August 2016 in Cologne; the schedule on the page lists the Square Enix booth demo every day of the show. No product code is given, so no identifier is recorded."
+          },
+          "verification": {
+            "method": "publisher_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened the publisher's own blog post on 2026-08-18 and read the item description verbatim. The event is nine years past, so these were distributed, not merely announced."
+          },
+          "identifiers": []
+        },
+        {
+          "name": "PAX West 2016 Square Enix booth",
+          "provenance_type": "convention_exclusive",
+          "region_note": "United States, PAX West 2016, Seattle, Expo Hall booth 2141",
+          "release_date": "2016-09-02",
+          "source": {
+            "kind": "publisher_page",
+            "url": "https://tombraider.tumblr.com/post/149750871986/celebrate-tombraider20-at-pax-west-with-the-rise",
+            "title": "Celebrate #TombRaider20 at PAX West with the Rise of the Tomb Raider: 20 Year Celebration Panel and Demos! - Official Tomb Raider Blog",
+            "publisher": "Official Tomb Raider Blog (Square Enix / Crystal Dynamics)",
+            "retrieved_on": "2026-08-18",
+            "note": "The post reads: \"Upon completing the Co-Op Endurance Mode demo, pick up a 20 Year Celebration lanyard that features multiple 8-bit Lara's and artifacts that celebrate her iconic status in gaming.\" The schedule dates the Friday demos 2 September 2016 at Expo Hall Booth #2141. Handed out only on completing the demo. No product code is given, so no identifier is recorded."
+          },
+          "verification": {
+            "method": "publisher_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened the publisher's own blog post on 2026-08-18 and read the item description verbatim. The event is nine years past, so these were distributed, not merely announced."
+          },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Rise of the Tomb Raider autographed poster",
+      "release_year": 2016,
+      "publisher": "Prima Games",
+      "description_md": "Given away at the Prima Games booth (#1028) at San Diego Comic-Con 2016 on Thursday 21 July, at the 20 Years of Tomb Raider signing with author Meagan Marie. The official blog: \"Verify your pre-order of 20 Years of Tomb Raider and receive an autographed Rise of the Tomb Raider poster!\"",
+      "source": {
+        "kind": "publisher_page",
+        "url": "https://tombraider.tumblr.com/post/147401651400/celebrate-tombraider20-at-the-san-diego-comic-con",
+        "title": "Celebrate #TombRaider20 at the San Diego Comic-Con 2016 Square Enix Experience - Official Tomb Raider Blog",
+        "publisher": "Official Tomb Raider Blog (Square Enix / Crystal Dynamics)",
+        "retrieved_on": "2026-08-18",
+        "note": "Official Tomb Raider Blog, run by Crystal Dynamics and Square Enix. Post dated 14 July 2016, previewing San Diego Comic-Con 2016. The Square Enix Experience ran Friday 22 and Saturday 23 July 2016 at 7th Avenue and Market Street, San Diego."
+      },
+      "verification": {
+        "method": "publisher_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research agent (seed-batch-04)",
+        "note": "Opened the publisher's own blog post on 2026-08-18 and read the item descriptions verbatim. The event is nine years past, so these were distributed, not merely announced."
+      },
+      "variants": [
+        {
+          "name": "20 Years of Tomb Raider pre-order verification, SDCC 2016",
+          "provenance_type": "preorder_bonus",
+          "region_note": "United States, San Diego Comic-Con 2016 only",
+          "release_date": "2016-07-21",
+          "source": {
+            "kind": "publisher_page",
+            "url": "https://tombraider.tumblr.com/post/147401651400/celebrate-tombraider20-at-the-san-diego-comic-con",
+            "title": "Celebrate #TombRaider20 at the San Diego Comic-Con 2016 Square Enix Experience - Official Tomb Raider Blog",
+            "publisher": "Official Tomb Raider Blog (Square Enix / Crystal Dynamics)",
+            "retrieved_on": "2026-08-18",
+            "note": "Filed as preorder_bonus because the stated condition of receipt was verifying a pre-order of the book, not attendance alone. It was handed out only at the Prima Games booth at San Diego Comic-Con 2016, so it is equally a convention handout; the pre-order is the gate, the convention is the venue. No product code is given on the page, so no identifier is recorded."
+          },
+          "verification": {
+            "method": "publisher_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened the publisher's own blog post on 2026-08-18 and read the item descriptions verbatim. The event is nine years past, so these were distributed, not merely announced."
+          },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "20 Years of Tomb Raider",
+      "release_year": 2016,
+      "publisher": "Prima Games",
+      "description_md": "Matched to the existing catalogue item by franchise, title and release year so this convention variant attaches to it rather than creating a second row.",
+      "source": {
+        "kind": "publisher_page",
+        "url": "https://tombraider.tumblr.com/post/151145692485/rise-of-the-tomb-raider-20-year-celebration",
+        "title": "Rise of the Tomb Raider: 20 Year Celebration @ NYCC - Official Tomb Raider Blog",
+        "publisher": "Official Tomb Raider Blog (Square Enix / Crystal Dynamics)",
+        "retrieved_on": "2026-08-18",
+        "note": "Official Tomb Raider Blog, run by Crystal Dynamics and Square Enix. Post dated 4 October 2016, previewing New York Comic Con 2016."
+      },
+      "verification": {
+        "method": "publisher_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research agent (seed-batch-04)",
+        "note": "Opened the publisher's own blog post on 2026-08-18 and read the schedule entry verbatim. The event is nine years past, so the copies were distributed, not merely announced."
+      },
+      "variants": [
+        {
+          "name": "New York Comic Con 2016 advance copy, signed",
+          "provenance_type": "convention_exclusive",
+          "region_note": "United States, New York Comic Con 2016 only",
+          "release_date": "2016-10-06",
+          "print_run": 20,
+          "source": {
+            "kind": "publisher_page",
+            "url": "https://tombraider.tumblr.com/post/151145692485/rise-of-the-tomb-raider-20-year-celebration",
+            "title": "Rise of the Tomb Raider: 20 Year Celebration @ NYCC - Official Tomb Raider Blog",
+            "publisher": "Official Tomb Raider Blog (Square Enix / Crystal Dynamics)",
+            "retrieved_on": "2026-08-18",
+            "note": "The post's Thursday 6 October schedule reads: \"Advance copy signing of 20 Years of Tomb Raider: Digging up the Past, Defining the Future with Meagan Marie. DK Publishing Booth (#2311). Line up as soon as possible - only 20 copies available!\" The trade edition launched 25 October 2016, so these copies were distributed three weeks ahead of retail and only at the show. print_run 20 is the count the publisher's own post gives. No separate ISBN or product code is stated for the advance copy, so no identifier is recorded on this variant."
+          },
+          "verification": {
+            "method": "publisher_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research agent (seed-batch-04)",
+            "note": "Opened the publisher's own blog post on 2026-08-18 and read the schedule entry verbatim. The event is nine years past, so the copies were distributed, not merely announced."
+          },
+          "identifiers": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "$schema": "vitrine.seed-starter.v1",
+  "_fixture_notice": "Synthetic test data only. Franchise is 'fixture-test-franchise', never 'tomb-raider'. Exercises the loader and the duplicate-check logic; never loaded into a database the product serves from. See tests/seed-loader.test.ts and tests/e2e/fixtures/seed.ts.",
+  "items": [
+    {
+      "franchise": "fixture-test-franchise",
+      "category": "fixture-category",
+      "title": "Fixture Cartridge, Region Test",
+      "subtitle": "Loader harness item one",
+      "release_year": 1999,
+      "publisher": "Fixture Publisher",
+      "description_md": "Synthetic catalogue entry used only to exercise the seed loader and the offline duplicate check. Not a real product.",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://example.com/fixture/item-one",
+        "title": "Fixture item one record",
+        "retrieved_on": "2026-08-18"
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "loader-test-harness"
+      },
+      "variants": [
+        {
+          "name": "Standard Edition",
+          "provenance_type": "retail",
+          "region_note": "Test region A",
+          "release_date": "1999-06-01",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://example.com/fixture/item-one/standard",
+            "retrieved_on": "2026-08-18"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "loader-test-harness"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_ean13",
+              "value": "5000000000005",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://example.com/fixture/item-one/standard/barcode",
+                "retrieved_on": "2026-08-18"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "loader-test-harness"
+              }
+            },
+            {
+              "kind": "catalogue_number",
+              "value": "FX-0001",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://example.com/fixture/item-one/standard/catalogue-number",
+                "retrieved_on": "2026-08-18"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "loader-test-harness"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "fixture-test-franchise",
+      "category": "fixture-category",
+      "title": "Fixture Duplicate Alpha",
+      "release_year": 2001,
+      "source": {
+        "kind": "database_entry",
+        "url": "https://example.com/fixture/duplicate-alpha",
+        "retrieved_on": "2026-08-18"
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "loader-test-harness"
+      },
+      "variants": [
+        {
+          "name": "Print A",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://example.com/fixture/duplicate-alpha/print-a",
+            "retrieved_on": "2026-08-18"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "loader-test-harness"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_ean13",
+              "value": "5000000000012",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://example.com/fixture/duplicate-alpha/print-a/barcode",
+                "retrieved_on": "2026-08-18"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "loader-test-harness"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "fixture-test-franchise",
+      "category": "fixture-category",
+      "title": "Fixture Duplicate Beta",
+      "release_year": 2001,
+      "source": {
+        "kind": "database_entry",
+        "url": "https://example.com/fixture/duplicate-beta",
+        "retrieved_on": "2026-08-18"
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "loader-test-harness"
+      },
+      "variants": [
+        {
+          "name": "Print B",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://example.com/fixture/duplicate-beta/print-b",
+            "retrieved_on": "2026-08-18"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "loader-test-harness"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_ean13",
+              "value": "5000000000012",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://example.com/fixture/duplicate-beta/print-b/barcode",
+                "retrieved_on": "2026-08-18"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "loader-test-harness"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "fixture-test-franchise",
+      "category": "fixture-category",
+      "title": "Fixture Handed Out Item",
+      "release_year": 2003,
+      "source": {
+        "kind": "database_entry",
+        "url": "https://example.com/fixture/handed-out",
+        "retrieved_on": "2026-08-18"
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "loader-test-harness"
+      },
+      "variants": [
+        {
+          "name": "Convention Give-away",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://example.com/fixture/handed-out/giveaway",
+            "retrieved_on": "2026-08-18"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "loader-test-harness"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_upca",
+              "value": "000000000215",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://example.com/fixture/handed-out/giveaway/barcode",
+                "retrieved_on": "2026-08-18"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "loader-test-harness"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "buildId": "U_TSj0yB6qLS3TQKwtvZ6",
+ "baseUrl": "http://127.0.0.1:3600",
+ "viewportWidthPx": 390,
+ "by": "verifier",
+ "f4": {
+  "owned": "v-own",
+  "uncertain": "v-unc",
+  "notInCollection": "v-not",
+  "distinctKinds": 3
+ },
+ "f7": {
+  "tapsToReverse": 1,
+  "tapsPickPlusReverse": 2,
+  "candidatesTested": 2,
+  "returnsToUNCERTAIN": true
+ }
+}

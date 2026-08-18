@@ -1,0 +1,97 @@
+{
+  "line": "C29",
+  "control": true,
+  "case": "control-injected-flash",
+  "storedChoice": "light",
+  "osPrefersColorScheme": "dark",
+  "expectedTheme": "light",
+  "framesExamined": 5,
+  "framesInWrongTheme": 1,
+  "documentFrames": 4,
+  "framesByClass": {
+    "sentinel": 1,
+    "light": 3,
+    "dark": 1,
+    "blank-white": 0,
+    "other": 0
+  },
+  "wrongThemeFrameIndexes": [
+    1
+  ],
+  "firstPaintEpochMs": 1787054866944.1,
+  "firstContentfulPaintMs": 56,
+  "captureWindowMs": 1563,
+  "htmlClassAtFirstRaf": "lt",
+  "colorSchemeAtFirstRaf": "light",
+  "bodyBackgroundAtFirstRaf": "rgb(237, 240, 247)",
+  "htmlClassAfterLoad": "lt",
+  "storedValueAfterLoad": "light",
+  "serviceWorkerControlled": null,
+  "frames": [
+    {
+      "index": 0,
+      "timestampEpochMs": 1787054866539.971,
+      "msAfterFirstPaint": -404.129,
+      "widthPx": 390,
+      "heightPx": 844,
+      "pageScaleFactor": 1,
+      "dominantHex": "#ff00ff",
+      "dominantShare": 1,
+      "meanLuminance": 0.285,
+      "classification": "sentinel"
+    },
+    {
+      "index": 1,
+      "timestampEpochMs": 1787054866942.337,
+      "msAfterFirstPaint": -1.763,
+      "widthPx": 390,
+      "heightPx": 844,
+      "pageScaleFactor": 1,
+      "dominantHex": "#0b1020",
+      "dominantShare": 1,
+      "meanLuminance": 0.063,
+      "classification": "dark"
+    },
+    {
+      "index": 2,
+      "timestampEpochMs": 1787054866969.442,
+      "msAfterFirstPaint": 25.342,
+      "widthPx": 390,
+      "heightPx": 844,
+      "pageScaleFactor": 1,
+      "dominantHex": "#edf0f7",
+      "dominantShare": 1,
+      "meanLuminance": 0.941,
+      "classification": "light"
+    },
+    {
+      "index": 3,
+      "timestampEpochMs": 1787054866987.45,
+      "msAfterFirstPaint": 43.35,
+      "widthPx": 390,
+      "heightPx": 844,
+      "pageScaleFactor": 1,
+      "dominantHex": "#edf0f7",
+      "dominantShare": 0.653,
+      "meanLuminance": 0.89,
+      "classification": "light"
+    },
+    {
+      "index": 4,
+      "timestampEpochMs": 1787054866993.29,
+      "msAfterFirstPaint": 49.19,
+      "widthPx": 390,
+      "heightPx": 844,
+      "pageScaleFactor": 1,
+      "dominantHex": "#edf0f7",
+      "dominantShare": 0.677,
+      "meanLuminance": 0.895,
+      "classification": "light"
+    }
+  ],
+  "savedFrames": {
+    "firstDocumentFrame": ".forge/evidence/c29-control-injected-flash-frame-1-first-document.png",
+    "lastFrame": ".forge/evidence/c29-control-injected-flash-frame-4-last.png",
+    "wrongTheme-1": ".forge/evidence/c29-control-injected-flash-frame-1-WRONG-THEME.png"
+  }
+}

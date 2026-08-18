@@ -1,0 +1,1198 @@
+{
+  "lines": [
+    "F7",
+    "F8",
+    "F9",
+    "F11",
+    "C27",
+    "C28"
+  ],
+  "measuredAtIso": "2026-08-18T12:04:47.459Z",
+  "summary": {
+    "target": {
+      "line": "target",
+      "baseUrl": "http://localhost:3211",
+      "host": "localhost",
+      "port": "3211",
+      "httpStatus": 200,
+      "devMarkersFound": [],
+      "devMarkerCount": 0,
+      "prerenderHeaderPresent": true,
+      "cacheControl": "s-maxage=31536000",
+      "xNextjsPrerender": "1, 1",
+      "xNextjsCache": "HIT",
+      "localBuildId": "7JzsJmX3Ve24jbZ-g46Vt",
+      "verdict": "production build",
+      "measuredAtIso": "2026-08-18T12:04:30.614Z",
+      "file": ".forge/evidence/slice1-target.json"
+    },
+    "F7": {
+      "line": "F7",
+      "viewportPx": 390,
+      "cycles": 5,
+      "maxTapsToReverse": 1,
+      "tapsToReverse": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cyclesOverTwoTaps": 0,
+      "outcomesCovered": [
+        "NOT_IN_COLLECTION",
+        "OWNED"
+      ],
+      "cyclesNotRestoredIdentically": 0,
+      "detail": [
+        {
+          "identifier": "SLUS-00152",
+          "candidateIndex": 0,
+          "candidateLabel": "Tomb Raider - Greatest Hits reprint (NTSC-U)Not in your collection yet",
+          "outcomeVerdict": "NOT_IN_COLLECTION",
+          "tapsToReverse": 1,
+          "reverseControlLabel": "Undo, this is not the one",
+          "reverseControlVisibleWithoutScroll": true,
+          "verdictBeforePick": "UNCERTAIN",
+          "verdictAfterReverse": "UNCERTAIN",
+          "candidatesBefore": [
+            "Tomb Raider - Greatest Hits reprint (NTSC-U)Not in your collection yet",
+            "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+          ],
+          "candidatesAfterReverse": [
+            "Tomb Raider - Greatest Hits reprint (NTSC-U)Not in your collection yet",
+            "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+          ],
+          "restoredIdentically": true,
+          "interactiveControlsOnItem": [
+            "Check",
+            "Scan with camera",
+            "Add to collection",
+            "Add to wantlist",
+            "Undo, this is not the one"
+          ],
+          "captures": {
+            "beforePick": ".forge/evidence/f7-slus-00152-cand0-1-before-uncertain.png",
+            "afterPick": ".forge/evidence/f7-slus-00152-cand0-2-after-pick-not_in_collection.png",
+            "afterReverse": ".forge/evidence/f7-slus-00152-cand0-3-after-reverse-uncertain.png"
+          }
+        },
+        {
+          "identifier": "SLUS-00152",
+          "candidateIndex": 1,
+          "candidateLabel": "Tomb Raider - NTSC-U (United States)Not in your collection yet",
+          "outcomeVerdict": "NOT_IN_COLLECTION",
+          "tapsToReverse": 1,
+          "reverseControlLabel": "Undo, this is not the one",
+          "reverseControlVisibleWithoutScroll": true,
+          "verdictBeforePick": "UNCERTAIN",
+          "verdictAfterReverse": "UNCERTAIN",
+          "candidatesBefore": [
+            "Tomb Raider - Greatest Hits reprint (NTSC-U)Not in your collection yet",
+            "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+          ],
+          "candidatesAfterReverse": [
+            "Tomb Raider - Greatest Hits reprint (NTSC-U)Not in your collection yet",
+            "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+          ],
+          "restoredIdentically": true,
+          "interactiveControlsOnItem": [
+            "Check",
+            "Scan with camera",
+            "Add to collection",
+            "Add to wantlist",
+            "Undo, this is not the one"
+          ],
+          "captures": {
+            "beforePick": ".forge/evidence/f7-slus-00152-cand1-1-before-uncertain.png",
+            "afterPick": ".forge/evidence/f7-slus-00152-cand1-2-after-pick-not_in_collection.png",
+            "afterReverse": ".forge/evidence/f7-slus-00152-cand1-3-after-reverse-uncertain.png"
+          }
+        },
+        {
+          "identifier": "SLUS-01311",
+          "candidateIndex": 0,
+          "candidateLabel": "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale copyNot in your collection yet",
+          "outcomeVerdict": "NOT_IN_COLLECTION",
+          "tapsToReverse": 1,
+          "reverseControlLabel": "Undo, this is not the one",
+          "reverseControlVisibleWithoutScroll": true,
+          "verdictBeforePick": "UNCERTAIN",
+          "verdictAfterReverse": "UNCERTAIN",
+          "candidatesBefore": [
+            "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale copyNot in your collection yet",
+            "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection yet"
+          ],
+          "candidatesAfterReverse": [
+            "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale copyNot in your collection yet",
+            "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection yet"
+          ],
+          "restoredIdentically": true,
+          "interactiveControlsOnItem": [
+            "Check",
+            "Scan with camera",
+            "Add to collection",
+            "Add to wantlist",
+            "Undo, this is not the one"
+          ],
+          "captures": {
+            "beforePick": ".forge/evidence/f7-slus-01311-cand0-1-before-uncertain.png",
+            "afterPick": ".forge/evidence/f7-slus-01311-cand0-2-after-pick-not_in_collection.png",
+            "afterReverse": ".forge/evidence/f7-slus-01311-cand0-3-after-reverse-uncertain.png"
+          }
+        },
+        {
+          "identifier": "SLUS-01311",
+          "candidateIndex": 1,
+          "candidateLabel": "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection yet",
+          "outcomeVerdict": "NOT_IN_COLLECTION",
+          "tapsToReverse": 1,
+          "reverseControlLabel": "Undo, this is not the one",
+          "reverseControlVisibleWithoutScroll": true,
+          "verdictBeforePick": "UNCERTAIN",
+          "verdictAfterReverse": "UNCERTAIN",
+          "candidatesBefore": [
+            "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale copyNot in your collection yet",
+            "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection yet"
+          ],
+          "candidatesAfterReverse": [
+            "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale copyNot in your collection yet",
+            "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection yet"
+          ],
+          "restoredIdentically": true,
+          "interactiveControlsOnItem": [
+            "Check",
+            "Scan with camera",
+            "Add to collection",
+            "Add to wantlist",
+            "Undo, this is not the one"
+          ],
+          "captures": {
+            "beforePick": ".forge/evidence/f7-slus-01311-cand1-1-before-uncertain.png",
+            "afterPick": ".forge/evidence/f7-slus-01311-cand1-2-after-pick-not_in_collection.png",
+            "afterReverse": ".forge/evidence/f7-slus-01311-cand1-3-after-reverse-uncertain.png"
+          }
+        },
+        {
+          "identifier": "SLUS-00152",
+          "candidateIndex": 0,
+          "candidateLabel": "Tomb Raider - Greatest Hits reprint (NTSC-U)Already in your collection",
+          "outcomeVerdict": "OWNED",
+          "tapsToReverse": 1,
+          "reverseControlLabel": "Undo, this is not the one",
+          "reverseControlVisibleWithoutScroll": false,
+          "verdictBeforePick": "UNCERTAIN",
+          "verdictAfterReverse": "UNCERTAIN",
+          "candidatesBefore": [
+            "Tomb Raider - Greatest Hits reprint (NTSC-U)Already in your collection",
+            "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+          ],
+          "candidatesAfterReverse": [
+            "Tomb Raider - Greatest Hits reprint (NTSC-U)Already in your collection",
+            "Tomb Raider - NTSC-U (United States)Not in your collection yet"
+          ],
+          "restoredIdentically": true,
+          "interactiveControlsOnItem": [
+            "Check",
+            "Scan with camera",
+            "Undo, this is not the one"
+          ],
+          "captures": {
+            "beforePick": ".forge/evidence/f7-slus-00152-owned-outcome-1-before-uncertain.png",
+            "afterPick": ".forge/evidence/f7-slus-00152-owned-outcome-2-after-pick-owned.png",
+            "afterReverse": ".forge/evidence/f7-slus-00152-owned-outcome-3-after-reverse-uncertain.png"
+          }
+        }
+      ],
+      "file": ".forge/evidence/f7-uncertain-reverse.json"
+    },
+    "F8": {
+      "line": "F8",
+      "viewportPx": 390,
+      "identifier": "SLUS-99999",
+      "doorCount": 3,
+      "doorLabels": [
+        "Search by title",
+        "Start an entry",
+        "Add to Unfiled"
+      ],
+      "doorBoxes": [
+        {
+          "tag": "a",
+          "label": "Search by title",
+          "href": "/catalogue?q=SLUS-99999",
+          "widthPx": 324,
+          "heightPx": 56
+        },
+        {
+          "tag": "button",
+          "label": "Start an entry",
+          "href": null,
+          "widthPx": 324,
+          "heightPx": 56
+        },
+        {
+          "tag": "button",
+          "label": "Add to Unfiled",
+          "href": null,
+          "widthPx": 324,
+          "heightPx": 56
+        }
+      ],
+      "pathsWithNoNextAction": 0,
+      "walks": [
+        {
+          "door": "Search by title",
+          "kind": "link",
+          "nextAction": "the catalogue index, searchable, with the identifier carried into the query",
+          "landedOn": "http://localhost:3211/catalogue?q=SLUS-99999",
+          "evidence": {
+            "href": "/catalogue?q=SLUS-99999",
+            "heading": "Catalogue index",
+            "searchInputValue": "SLUS-99999",
+            "interactiveControlsOnScreen": 3
+          },
+          "hasNextAction": true
+        },
+        {
+          "door": "Start an entry",
+          "kind": "in-place",
+          "nextAction": "a titled draft entry saved on this device, confirmed on screen",
+          "landedOn": "http://localhost:3211/",
+          "evidence": {
+            "inputPrefilledWith": "SLUS-99999",
+            "confirmation": "Saved to your collection.",
+            "draftRowsOnDevice": 1,
+            "draftTitles": [
+              "Tomb Raider, unlisted copy"
+            ],
+            "draftIdentifiers": [
+              "SLUS-99999"
+            ]
+          },
+          "hasNextAction": true
+        },
+        {
+          "door": "Add to Unfiled",
+          "kind": "in-place",
+          "nextAction": "an Unfiled copy saved on this device, and a link into the collection that lists it",
+          "landedOn": "http://localhost:3211/collection",
+          "evidence": {
+            "unfiledCopiesOnDevice": 1,
+            "unfiledIdentifiers": [
+              "SLUS-99999"
+            ],
+            "collectionHeading": "Your collection",
+            "identifierVisibleInCollection": 1
+          },
+          "hasNextAction": true
+        }
+      ],
+      "captures": {
+        "doors": ".forge/evidence/f8-three-doors-390.png",
+        "door1Catalogue": ".forge/evidence/f8-door1-catalogue-search-390.png",
+        "door2Draft": ".forge/evidence/f8-door2-draft-saved-390.png",
+        "door3Unfiled": ".forge/evidence/f8-door3-unfiled-saved-390.png",
+        "door3Collection": ".forge/evidence/f8-door3-collection-390.png"
+      },
+      "file": ".forge/evidence/f8-three-doors.json"
+    },
+    "F9": {
+      "line": "F9",
+      "viewportPx": 390,
+      "fixture": {
+        "method": "lastSyncedAt in the on-device meta store rewritten to a chosen age, then /api/sync/index blocked at the network so the mount-time background sync cannot refresh it",
+        "staleAgeHours": 30,
+        "freshAgeHours": 1,
+        "realLastSyncedAt": "2026-08-18T12:04:38.513Z",
+        "blockedSyncRequests": 2
+      },
+      "stale": {
+        "verdictsMeasured": [
+          "OWNED",
+          "UNCERTAIN",
+          "NOT_IN_COLLECTION"
+        ],
+        "ageLinesFound": 3,
+        "insetLeftPx": [
+          20,
+          22,
+          17
+        ],
+        "insetRightPx": [
+          20,
+          22,
+          17
+        ],
+        "gapAboveFromWordBottomPx": [
+          337.67,
+          366.95,
+          144.78
+        ],
+        "gapBelowToSlabBottomPx": [
+          20,
+          22,
+          17
+        ],
+        "distinctInsetLeftPx": [
+          20,
+          22,
+          17
+        ],
+        "distinctInsetRightPx": [
+          20,
+          22,
+          17
+        ],
+        "distinctGapBelowToSlabBottomPx": [
+          20,
+          22,
+          17
+        ],
+        "ageTextLeftMinusWordTextLeftPx": [
+          0,
+          0,
+          0
+        ],
+        "allBelowVerdictWord": true,
+        "allLastElementInSlab": true,
+        "sameFontSize": [
+          "13px"
+        ],
+        "sameMarginTop": [
+          "12px"
+        ],
+        "samePositionBySlabEdgeInsets": false,
+        "samePositionByTextColumn": true,
+        "detail": [
+          {
+            "verdict": "OWNED",
+            "identifier": "743175952919",
+            "ageLineFound": true,
+            "ageLineText": "Catalogue snapshot is 1 day old",
+            "freshLineFound": false,
+            "slab": {
+              "widthPx": 358,
+              "heightPx": 449.42
+            },
+            "insetLeftPx": 20,
+            "insetRightPx": 20,
+            "ageTextLeftPx": 20,
+            "wordTextLeftPx": 20,
+            "ageTextLeftMinusWordTextLeftPx": 0,
+            "gapAboveFromWordBottomPx": 337.67,
+            "gapBelowToSlabBottomPx": 20,
+            "isLastElementInSlab": true,
+            "isBelowVerdictWord": true,
+            "fontSizePx": "13px",
+            "fontFamily": "\"IBM Plex Mono\", ui-monospace, \"SF Mono\", Menlo, Consolas, monospace",
+            "marginTop": "12px",
+            "vcacheLinesInSlab": 1,
+            "documentScrollWidthPx": 390,
+            "capture": ".forge/evidence/f9-stale-30h-owned-390.png"
+          },
+          {
+            "verdict": "UNCERTAIN",
+            "identifier": "SLUS-00152",
+            "ageLineFound": true,
+            "ageLineText": "Catalogue snapshot is 1 day old",
+            "freshLineFound": false,
+            "slab": {
+              "widthPx": 358,
+              "heightPx": 502.7
+            },
+            "insetLeftPx": 22,
+            "insetRightPx": 22,
+            "ageTextLeftPx": 22,
+            "wordTextLeftPx": 22,
+            "ageTextLeftMinusWordTextLeftPx": 0,
+            "gapAboveFromWordBottomPx": 366.95,
+            "gapBelowToSlabBottomPx": 22,
+            "isLastElementInSlab": true,
+            "isBelowVerdictWord": true,
+            "fontSizePx": "13px",
+            "fontFamily": "\"IBM Plex Mono\", ui-monospace, \"SF Mono\", Menlo, Consolas, monospace",
+            "marginTop": "12px",
+            "vcacheLinesInSlab": 1,
+            "documentScrollWidthPx": 390,
+            "capture": ".forge/evidence/f9-stale-30h-uncertain-390.png"
+          },
+          {
+            "verdict": "NOT_IN_COLLECTION",
+            "identifier": "slps00617",
+            "ageLineFound": true,
+            "ageLineText": "Catalogue snapshot is 1 day old",
+            "freshLineFound": false,
+            "slab": {
+              "widthPx": 358,
+              "heightPx": 239.59
+            },
+            "insetLeftPx": 17,
+            "insetRightPx": 17,
+            "ageTextLeftPx": 17,
+            "wordTextLeftPx": 17,
+            "ageTextLeftMinusWordTextLeftPx": 0,
+            "gapAboveFromWordBottomPx": 144.78,
+            "gapBelowToSlabBottomPx": 17,
+            "isLastElementInSlab": true,
+            "isBelowVerdictWord": true,
+            "fontSizePx": "13px",
+            "fontFamily": "\"IBM Plex Mono\", ui-monospace, \"SF Mono\", Menlo, Consolas, monospace",
+            "marginTop": "12px",
+            "vcacheLinesInSlab": 1,
+            "documentScrollWidthPx": 390,
+            "capture": ".forge/evidence/f9-stale-30h-not-in-collection-390.png"
+          }
+        ]
+      },
+      "negativeControl": {
+        "what": "the same three verdicts with a 1-hour-old snapshot",
+        "ageLinesFound": 0,
+        "freshMessageRenderedAnywhere": false,
+        "detail": [
+          {
+            "verdict": "OWNED",
+            "identifier": "743175952919",
+            "ageLineFound": false,
+            "ageLineText": null,
+            "freshLineFound": false,
+            "slab": {
+              "widthPx": 358,
+              "heightPx": 431.23
+            },
+            "insetLeftPx": null,
+            "insetRightPx": null,
+            "ageTextLeftPx": null,
+            "wordTextLeftPx": null,
+            "ageTextLeftMinusWordTextLeftPx": null,
+            "gapAboveFromWordBottomPx": null,
+            "gapBelowToSlabBottomPx": null,
+            "isLastElementInSlab": null,
+            "isBelowVerdictWord": null,
+            "fontSizePx": null,
+            "fontFamily": null,
+            "marginTop": null,
+            "vcacheLinesInSlab": 0,
+            "documentScrollWidthPx": 390,
+            "capture": ".forge/evidence/f9-fresh-1h-owned-390.png"
+          },
+          {
+            "verdict": "UNCERTAIN",
+            "identifier": "SLUS-00152",
+            "ageLineFound": false,
+            "ageLineText": null,
+            "freshLineFound": false,
+            "slab": {
+              "widthPx": 358,
+              "heightPx": 472.52
+            },
+            "insetLeftPx": null,
+            "insetRightPx": null,
+            "ageTextLeftPx": null,
+            "wordTextLeftPx": null,
+            "ageTextLeftMinusWordTextLeftPx": null,
+            "gapAboveFromWordBottomPx": null,
+            "gapBelowToSlabBottomPx": null,
+            "isLastElementInSlab": null,
+            "isBelowVerdictWord": null,
+            "fontSizePx": null,
+            "fontFamily": null,
+            "marginTop": null,
+            "vcacheLinesInSlab": 0,
+            "documentScrollWidthPx": 390,
+            "capture": ".forge/evidence/f9-fresh-1h-uncertain-390.png"
+          },
+          {
+            "verdict": "NOT_IN_COLLECTION",
+            "identifier": "slps00617",
+            "ageLineFound": false,
+            "ageLineText": null,
+            "freshLineFound": false,
+            "slab": {
+              "widthPx": 358,
+              "heightPx": 209.41
+            },
+            "insetLeftPx": null,
+            "insetRightPx": null,
+            "ageTextLeftPx": null,
+            "wordTextLeftPx": null,
+            "ageTextLeftMinusWordTextLeftPx": null,
+            "gapAboveFromWordBottomPx": null,
+            "gapBelowToSlabBottomPx": null,
+            "isLastElementInSlab": null,
+            "isBelowVerdictWord": null,
+            "fontSizePx": null,
+            "fontFamily": null,
+            "marginTop": null,
+            "vcacheLinesInSlab": 0,
+            "documentScrollWidthPx": 390,
+            "capture": ".forge/evidence/f9-fresh-1h-not-in-collection-390.png"
+          }
+        ]
+      },
+      "file": ".forge/evidence/f9-cache-age-line.json"
+    },
+    "F11": {
+      "line": "F11",
+      "viewportPx": 390,
+      "statesMeasured": [
+        "initial",
+        "not-in-collection-recognized",
+        "not-in-collection-unknown-doors",
+        "doors-draft-form-open",
+        "uncertain",
+        "uncertain-picked-with-undo",
+        "owned"
+      ],
+      "scaleAtEachState": {
+        "initial": {
+          "bodyZoom": "1",
+          "devicePixelRatio": 1,
+          "visualViewportScale": 1,
+          "innerWidthPx": 390,
+          "documentScrollWidthPx": 390
+        },
+        "not-in-collection-recognized": {
+          "bodyZoom": "1",
+          "devicePixelRatio": 1,
+          "visualViewportScale": 1,
+          "innerWidthPx": 390,
+          "documentScrollWidthPx": 390
+        },
+        "not-in-collection-unknown-doors": {
+          "bodyZoom": "1",
+          "devicePixelRatio": 1,
+          "visualViewportScale": 1,
+          "innerWidthPx": 390,
+          "documentScrollWidthPx": 390
+        },
+        "doors-draft-form-open": {
+          "bodyZoom": "1",
+          "devicePixelRatio": 1,
+          "visualViewportScale": 1,
+          "innerWidthPx": 390,
+          "documentScrollWidthPx": 390
+        },
+        "uncertain": {
+          "bodyZoom": "1",
+          "devicePixelRatio": 1,
+          "visualViewportScale": 1,
+          "innerWidthPx": 390,
+          "documentScrollWidthPx": 390
+        },
+        "uncertain-picked-with-undo": {
+          "bodyZoom": "1",
+          "devicePixelRatio": 1,
+          "visualViewportScale": 1,
+          "innerWidthPx": 390,
+          "documentScrollWidthPx": 390
+        },
+        "owned": {
+          "bodyZoom": "1",
+          "devicePixelRatio": 1,
+          "visualViewportScale": 1,
+          "innerWidthPx": 390,
+          "documentScrollWidthPx": 390
+        }
+      },
+      "primaryControlsMeasured": 36,
+      "primaryUnder56": 0,
+      "under56Detail": [],
+      "smallestPrimaryShortestSidePx": 56,
+      "primaryControls": [
+        {
+          "state": "initial",
+          "tag": "input",
+          "classes": "",
+          "label": "Type a barcode or catalogue number",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "initial",
+          "tag": "button",
+          "classes": "btn pri b56 full cut8",
+          "label": "Check",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "initial",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Scan with camera",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-recognized",
+          "tag": "input",
+          "classes": "",
+          "label": "Type a barcode or catalogue number",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-recognized",
+          "tag": "button",
+          "classes": "btn pri b56 full cut8",
+          "label": "Check",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-recognized",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Scan with camera",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-recognized",
+          "tag": "button",
+          "classes": "btn pri b56 full cut8",
+          "label": "Add to collection",
+          "widthPx": 156,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-recognized",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Add to wantlist",
+          "widthPx": 156,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-unknown-doors",
+          "tag": "input",
+          "classes": "",
+          "label": "Type a barcode or catalogue number",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-unknown-doors",
+          "tag": "button",
+          "classes": "btn pri b56 full cut8",
+          "label": "Check",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-unknown-doors",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Scan with camera",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-unknown-doors",
+          "tag": "a",
+          "classes": "btn sec b56 full",
+          "label": "Search by title",
+          "widthPx": 324,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-unknown-doors",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Start an entry",
+          "widthPx": 324,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "not-in-collection-unknown-doors",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Add to Unfiled",
+          "widthPx": 324,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "doors-draft-form-open",
+          "tag": "input",
+          "classes": "",
+          "label": "Type a barcode or catalogue number",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "doors-draft-form-open",
+          "tag": "button",
+          "classes": "btn pri b56 full cut8",
+          "label": "Check",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "doors-draft-form-open",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Scan with camera",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "doors-draft-form-open",
+          "tag": "a",
+          "classes": "btn sec b56 full",
+          "label": "Search by title",
+          "widthPx": 324,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "doors-draft-form-open",
+          "tag": "input",
+          "classes": "",
+          "label": "draft-title",
+          "widthPx": 324,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "doors-draft-form-open",
+          "tag": "button",
+          "classes": "btn pri b56 full cut8",
+          "label": "Add to collection",
+          "widthPx": 324,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "doors-draft-form-open",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Add to Unfiled",
+          "widthPx": 324,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain",
+          "tag": "input",
+          "classes": "",
+          "label": "Type a barcode or catalogue number",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain",
+          "tag": "button",
+          "classes": "btn pri b56 full cut8",
+          "label": "Check",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Scan with camera",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain",
+          "tag": "button",
+          "classes": "btn sec b56 auto full",
+          "label": "Tomb Raider: Chronicles (Promo Only) - United States, not-for-resale c",
+          "widthPx": 314,
+          "heightPx": 86,
+          "shortestSidePx": 86,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain",
+          "tag": "button",
+          "classes": "btn sec b56 auto full",
+          "label": "Tomb Raider: Chronicles - NTSC-U (United States)Not in your collection",
+          "widthPx": 314,
+          "heightPx": 71,
+          "shortestSidePx": 71,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Neither. Add a new variant.",
+          "widthPx": 314,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain-picked-with-undo",
+          "tag": "input",
+          "classes": "",
+          "label": "Type a barcode or catalogue number",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain-picked-with-undo",
+          "tag": "button",
+          "classes": "btn pri b56 full cut8",
+          "label": "Check",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain-picked-with-undo",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Scan with camera",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain-picked-with-undo",
+          "tag": "button",
+          "classes": "btn pri b56 full cut8",
+          "label": "Add to collection",
+          "widthPx": 156,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain-picked-with-undo",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Add to wantlist",
+          "widthPx": 156,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "uncertain-picked-with-undo",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Undo, this is not the one",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "owned",
+          "tag": "input",
+          "classes": "",
+          "label": "Type a barcode or catalogue number",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "owned",
+          "tag": "button",
+          "classes": "btn pri b56 full cut8",
+          "label": "Check",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        },
+        {
+          "state": "owned",
+          "tag": "button",
+          "classes": "btn sec b56 full",
+          "label": "Scan with camera",
+          "widthPx": 358,
+          "heightPx": 56,
+          "shortestSidePx": 56,
+          "isPrimary": true,
+          "disabled": false,
+          "hidden": false
+        }
+      ],
+      "nonPrimaryControlsRecorded": [],
+      "negativeControl": {
+        "what": "the submit button forced to 40 px, then measured with the same function",
+        "primaryUnder56": 1,
+        "shortestSidesPx": [
+          40
+        ],
+        "instrumentCanFail": true
+      },
+      "file": ".forge/evidence/f11-primary-control-sizes.json"
+    },
+    "C27": {
+      "line": "C27",
+      "viewportPx": 390,
+      "devicePrefersColorScheme": "dark",
+      "choiceMade": "light",
+      "newSessionMethod": "a second browser context created with the first context's storageState (localStorage plus IndexedDB for this origin). Same on-device storage, new session and new JS heap. NOT a literal browser process restart, which Playwright cannot perform.",
+      "localStorageCarriedIntoNewSession": [
+        {
+          "name": "vitrine:theme",
+          "value": "light"
+        }
+      ],
+      "readings": {
+        "beforeChoice": {
+          "storedChoice": null,
+          "htmlClass": "",
+          "htmlColorScheme": "dark",
+          "bodyBackground": "rgb(11, 16, 32)",
+          "segmentChecked": "System",
+          "resolvedLabel": "Following the device, Dark right now",
+          "themeColorMeta": [
+            "#0b1020",
+            "#0b1020",
+            "#0b1020"
+          ]
+        },
+        "afterChoice": {
+          "storedChoice": "light",
+          "htmlClass": "lt",
+          "htmlColorScheme": "light",
+          "bodyBackground": "rgb(237, 240, 247)",
+          "segmentChecked": "Light",
+          "resolvedLabel": null,
+          "themeColorMeta": [
+            "#edf0f7",
+            "#edf0f7",
+            "#edf0f7"
+          ]
+        },
+        "afterReload": {
+          "storedChoice": "light",
+          "htmlClass": "lt",
+          "htmlColorScheme": "light",
+          "bodyBackground": "rgb(237, 240, 247)",
+          "segmentChecked": "Light",
+          "resolvedLabel": null,
+          "themeColorMeta": [
+            "#edf0f7",
+            "#edf0f7",
+            "#edf0f7"
+          ]
+        },
+        "inNewSession": {
+          "storedChoice": "light",
+          "htmlClass": "lt",
+          "htmlColorScheme": "light",
+          "bodyBackground": "rgb(237, 240, 247)",
+          "segmentChecked": "Light",
+          "resolvedLabel": null,
+          "themeColorMeta": [
+            "#edf0f7",
+            "#edf0f7",
+            "#edf0f7"
+          ]
+        },
+        "controlFreshProfile": {
+          "storedChoice": null,
+          "htmlClass": "",
+          "htmlColorScheme": "dark",
+          "bodyBackground": "rgb(11, 16, 32)",
+          "segmentChecked": "System",
+          "resolvedLabel": "Following the device, Dark right now",
+          "themeColorMeta": [
+            "#0b1020",
+            "#0b1020",
+            "#0b1020"
+          ]
+        }
+      },
+      "persistedAcrossReload": true,
+      "persistedAcrossNewSession": true,
+      "controlProvesItIsTheStoredChoice": true,
+      "captures": {
+        "beforeChoice": ".forge/evidence/c27-1-before-choice-device-dark-390.png",
+        "afterChoice": ".forge/evidence/c27-2-after-choosing-light-390.png",
+        "afterReload": ".forge/evidence/c27-3-after-reload-390.png",
+        "newSession": ".forge/evidence/c27-4-new-session-same-storage-390.png",
+        "controlFreshProfile": ".forge/evidence/c27-5-control-fresh-profile-no-storage-390.png"
+      },
+      "file": ".forge/evidence/c27-theme-persistence.json"
+    },
+    "C28": {
+      "line": "C28",
+      "viewportPx": 390,
+      "method": "two contexts with Playwright's colorScheme option and no stored preference in either",
+      "readings": [
+        {
+          "device": "light",
+          "expectedResolved": "light",
+          "capture": ".forge/evidence/c28-device-light-no-stored-choice-390.png",
+          "storedChoice": null,
+          "htmlClass": "lt",
+          "htmlColorScheme": "light",
+          "bodyBackground": "rgb(237, 240, 247)",
+          "segmentChecked": "System",
+          "resolvedLabel": "Following the device, Light right now",
+          "themeColorMeta": [
+            "#edf0f7",
+            "#edf0f7",
+            "#edf0f7"
+          ]
+        },
+        {
+          "device": "dark",
+          "expectedResolved": "dark",
+          "capture": ".forge/evidence/c28-device-dark-no-stored-choice-390.png",
+          "storedChoice": null,
+          "htmlClass": "",
+          "htmlColorScheme": "dark",
+          "bodyBackground": "rgb(11, 16, 32)",
+          "segmentChecked": "System",
+          "resolvedLabel": "Following the device, Dark right now",
+          "themeColorMeta": [
+            "#0b1020",
+            "#0b1020",
+            "#0b1020"
+          ]
+        }
+      ],
+      "followsDevice": true,
+      "controlNamesResolvedMode": true,
+      "resolvedLabelDiffersByDevice": true,
+      "bodyBackgroundLight": "rgb(237, 240, 247)",
+      "bodyBackgroundDark": "rgb(11, 16, 32)",
+      "themeColorMetaLight": [
+        "#edf0f7",
+        "#edf0f7",
+        "#edf0f7"
+      ],
+      "themeColorMetaDark": [
+        "#0b1020",
+        "#0b1020",
+        "#0b1020"
+      ],
+      "captures": {
+        "deviceLight": ".forge/evidence/c28-device-light-no-stored-choice-390.png",
+        "deviceDark": ".forge/evidence/c28-device-dark-no-stored-choice-390.png"
+      },
+      "file": ".forge/evidence/c28-theme-follows-device.json"
+    }
+  }
+}

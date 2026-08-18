@@ -1,0 +1,330 @@
+{
+  "target": {
+    "baseUrl": "http://localhost:3200",
+    "port": "3200",
+    "status": 200,
+    "devMarkersFound": [],
+    "buildIdOnDisk": "7JzsJmX3Ve24jbZ-g46Vt",
+    "buildIdFoundInServedHtml": true,
+    "checkedAt": "2026-08-18T12:27:46.366Z"
+  },
+  "at390": {
+    "viewportWidthPx": 390,
+    "catalogueRows": 145,
+    "measurements": {
+      "NOT_IN_COLLECTION": {
+        "identifier": "0054714",
+        "ok": true,
+        "failures": [],
+        "tagName": "P",
+        "text": "NOT IN COLLECTION",
+        "directTextNodeCount": 1,
+        "replacedDescendants": [],
+        "textNodeRects": [
+          {
+            "widthPx": 306.13,
+            "heightPx": 30
+          }
+        ],
+        "fontSizePx": 27.6,
+        "fontFamily": "\"Archivo Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(12, 18, 38)",
+        "backgroundImage": "none",
+        "textIndentPx": "0px",
+        "pseudoContent": {
+          "before": "none",
+          "after": "none"
+        },
+        "boxWidthPx": 324,
+        "boxHeightPx": 38.63,
+        "slabWidthPx": 358,
+        "wordBoxWidthPx": 324,
+        "wordScrollWidthPx": 324,
+        "wordClientWidthPx": 324,
+        "lineHeightPx": "38.64px",
+        "documentScrollWidthPx": 390,
+        "capture": {
+          "file": ".forge/evidence/c23-not-in-collection-390.png",
+          "widthPx": 390,
+          "heightPx": 844
+        }
+      },
+      "UNCERTAIN": {
+        "identifier": "3014202",
+        "ok": true,
+        "failures": [],
+        "tagName": "P",
+        "text": "UNCERTAIN",
+        "directTextNodeCount": 1,
+        "replacedDescendants": [],
+        "textNodeRects": [
+          {
+            "widthPx": 236.75,
+            "heightPx": 38
+          }
+        ],
+        "fontSizePx": 35.4,
+        "fontFamily": "\"Archivo Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(12, 18, 38)",
+        "backgroundImage": "none",
+        "textIndentPx": "0px",
+        "pseudoContent": {
+          "before": "none",
+          "after": "none"
+        },
+        "boxWidthPx": 354,
+        "boxHeightPx": 93.56,
+        "slabWidthPx": 358,
+        "wordBoxWidthPx": 354,
+        "wordScrollWidthPx": 354,
+        "wordClientWidthPx": 354,
+        "lineHeightPx": "49.56px",
+        "documentScrollWidthPx": 390,
+        "capture": {
+          "file": ".forge/evidence/c23-uncertain-390.png",
+          "widthPx": 390,
+          "heightPx": 844
+        }
+      },
+      "OWNED": {
+        "identifier": "0054714",
+        "ok": true,
+        "failures": [],
+        "tagName": "P",
+        "text": "OWNED",
+        "directTextNodeCount": 1,
+        "replacedDescendants": [],
+        "textNodeRects": [
+          {
+            "widthPx": 154.11,
+            "heightPx": 38
+          }
+        ],
+        "fontSizePx": 35.4,
+        "fontFamily": "\"Archivo Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(11, 16, 32)",
+        "backgroundImage": "none",
+        "textIndentPx": "0px",
+        "pseudoContent": {
+          "before": "none",
+          "after": "none"
+        },
+        "boxWidthPx": 318,
+        "boxHeightPx": 49.56,
+        "slabWidthPx": 358,
+        "wordBoxWidthPx": 318,
+        "wordScrollWidthPx": 318,
+        "wordClientWidthPx": 318,
+        "lineHeightPx": "49.56px",
+        "documentScrollWidthPx": 390,
+        "capture": {
+          "file": ".forge/evidence/c23-owned-390.png",
+          "widthPx": 390,
+          "heightPx": 844
+        }
+      }
+    }
+  },
+  "at1440": {
+    "viewportWidthPx": 1440,
+    "catalogueRows": 145,
+    "measurements": {
+      "NOT_IN_COLLECTION": {
+        "identifier": "0054714",
+        "ok": true,
+        "failures": [],
+        "tagName": "P",
+        "text": "NOT IN COLLECTION",
+        "directTextNodeCount": 1,
+        "replacedDescendants": [],
+        "textNodeRects": [
+          {
+            "widthPx": 403.94,
+            "heightPx": 40
+          }
+        ],
+        "fontSizePx": 36,
+        "fontFamily": "\"Archivo Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(12, 18, 38)",
+        "backgroundImage": "none",
+        "textIndentPx": "0px",
+        "pseudoContent": {
+          "before": "none",
+          "after": "none"
+        },
+        "boxWidthPx": 894,
+        "boxHeightPx": 50.39,
+        "slabWidthPx": 928,
+        "wordBoxWidthPx": 894,
+        "wordScrollWidthPx": 894,
+        "wordClientWidthPx": 894,
+        "lineHeightPx": "50.4px",
+        "documentScrollWidthPx": 1440,
+        "capture": {
+          "file": ".forge/evidence/c23-not-in-collection-1440.png",
+          "widthPx": 1440,
+          "heightPx": 900
+        }
+      },
+      "UNCERTAIN": {
+        "identifier": "3014202",
+        "ok": true,
+        "failures": [],
+        "tagName": "P",
+        "text": "UNCERTAIN",
+        "directTextNodeCount": 1,
+        "replacedDescendants": [],
+        "textNodeRects": [
+          {
+            "widthPx": 311.36,
+            "heightPx": 50
+          }
+        ],
+        "fontSizePx": 46,
+        "fontFamily": "\"Archivo Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(12, 18, 38)",
+        "backgroundImage": "none",
+        "textIndentPx": "0px",
+        "pseudoContent": {
+          "before": "none",
+          "after": "none"
+        },
+        "boxWidthPx": 924,
+        "boxHeightPx": 108.39,
+        "slabWidthPx": 928,
+        "wordBoxWidthPx": 924,
+        "wordScrollWidthPx": 924,
+        "wordClientWidthPx": 924,
+        "lineHeightPx": "64.4px",
+        "documentScrollWidthPx": 1440,
+        "capture": {
+          "file": ".forge/evidence/c23-uncertain-1440.png",
+          "widthPx": 1440,
+          "heightPx": 900
+        }
+      },
+      "OWNED": {
+        "identifier": "0054714",
+        "ok": true,
+        "failures": [],
+        "tagName": "P",
+        "text": "OWNED",
+        "directTextNodeCount": 1,
+        "replacedDescendants": [],
+        "textNodeRects": [
+          {
+            "widthPx": 202.33,
+            "heightPx": 50
+          }
+        ],
+        "fontSizePx": 46,
+        "fontFamily": "\"Archivo Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(11, 16, 32)",
+        "backgroundImage": "none",
+        "textIndentPx": "0px",
+        "pseudoContent": {
+          "before": "none",
+          "after": "none"
+        },
+        "boxWidthPx": 888,
+        "boxHeightPx": 64.39,
+        "slabWidthPx": 928,
+        "wordBoxWidthPx": 888,
+        "wordScrollWidthPx": 888,
+        "wordClientWidthPx": 888,
+        "lineHeightPx": "64.4px",
+        "documentScrollWidthPx": 1440,
+        "capture": {
+          "file": ".forge/evidence/c23-owned-1440.png",
+          "widthPx": 1440,
+          "heightPx": 900
+        }
+      }
+    }
+  },
+  "negativeControls": {
+    "wordAsImage": {
+      "ok": false,
+      "failures": [
+        "the node itself is a replaced element: IMG",
+        "no direct text node with content",
+        "the text node lays out no client rects"
+      ],
+      "tagName": "IMG",
+      "text": "",
+      "directTextNodeCount": 0,
+      "replacedDescendants": [],
+      "textNodeRects": [],
+      "fontSizePx": 16,
+      "fontFamily": "\"Archivo Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(12, 18, 38)",
+      "backgroundImage": "none",
+      "textIndentPx": "0px",
+      "pseudoContent": {
+        "before": "none",
+        "after": "none"
+      },
+      "boxWidthPx": 200,
+      "boxHeightPx": 46
+    },
+    "wordAsImageReplacement": {
+      "ok": false,
+      "failures": [
+        "background-image on the word: url(\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\")",
+        "text-indent moves the text out of the box: -9999px"
+      ],
+      "tagName": "P",
+      "text": "OWNED",
+      "directTextNodeCount": 1,
+      "replacedDescendants": [],
+      "textNodeRects": [
+        {
+          "widthPx": 176.89,
+          "heightPx": 50
+        }
+      ],
+      "fontSizePx": 46,
+      "fontFamily": "\"Archivo Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(12, 18, 38)",
+      "backgroundImage": "url(\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\")",
+      "textIndentPx": "-9999px",
+      "pseudoContent": {
+        "before": "none",
+        "after": "none"
+      },
+      "boxWidthPx": 200,
+      "boxHeightPx": 46
+    },
+    "wordAsSvgOutlines": {
+      "ok": false,
+      "failures": [
+        "replaced descendants: SVG",
+        "no direct text node with content",
+        "the text node lays out no client rects"
+      ],
+      "tagName": "P",
+      "text": "",
+      "directTextNodeCount": 0,
+      "replacedDescendants": [
+        "SVG"
+      ],
+      "textNodeRects": [],
+      "fontSizePx": 16,
+      "fontFamily": "\"Archivo Variable\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(12, 18, 38)",
+      "backgroundImage": "none",
+      "textIndentPx": "0px",
+      "pseudoContent": {
+        "before": "none",
+        "after": "none"
+      },
+      "boxWidthPx": 400,
+      "boxHeightPx": 46
+    }
+  },
+  "range": {
+    "minPx": 26,
+    "maxPx": 46
+  },
+  "recordedAt": "2026-08-18T12:27:49.597Z"
+}

@@ -49,6 +49,9 @@ import { mintPublicId } from "../src/lib/id/public-id";
 const TEST_SCHEMA = `loader_merge_test_${process.pid}`;
 const FRANCHISE = "loader-merge-test-franchise";
 const CATEGORY = "loader-merge-test-category";
+// A second category, for the step-5 proof only. Step 1 through 4 stay inside
+// CATEGORY so they measure idempotency and nothing else.
+const CATEGORY_GUIDES = "loader-merge-test-category-guides";
 
 const DB_SOURCE = {
   kind: "database_entry" as const,
@@ -187,6 +190,63 @@ const EXTENDED_DOC = {
   ],
 };
 
+// Step 5's document, and it is the real pair, not an invented one.
+//
+// "Tomb Raider: Legend" 2006 is a game published by Eidos Interactive.
+// "Tomb Raider Legend" 2006 is Piggyback's strategy guide for it. In the
+// research corpus those two coexist only because the guide was transcribed
+// WITHOUT the colon, so the titles differ by one character. Here the
+// punctuation is normalised to the game's spelling, which is how the guide
+// would have been written by anyone copying the cover, and which is exactly
+// the state the old identity rule could not survive: same franchise, same
+// title, same (absent) subtitle, same year. Only the category differs, and
+// the publisher, which is not identity.
+//
+// Under the previous rule this document loaded as ONE item: the guide's
+// variant and its ISBN were attached to the game and the loader reported a
+// skip, not an error. That is why this is a test and not a comment.
+const CATEGORY_PAIR_DOC = {
+  $schema: "vitrine.seed-starter.v1",
+  items: [
+    {
+      franchise: FRANCHISE,
+      category: CATEGORY,
+      title: "Tomb Raider: Legend",
+      release_year: 2006,
+      publisher: "Eidos Interactive",
+      source: DB_SOURCE,
+      verification: DB_VERIFICATION,
+      variants: [
+        {
+          name: "PlayStation 2, PAL",
+          provenance_type: "retail",
+          source: DB_SOURCE,
+          verification: DB_VERIFICATION,
+          identifiers: [identifier("barcode_ean13", "5021290026926")],
+        },
+      ],
+    },
+    {
+      franchise: FRANCHISE,
+      category: CATEGORY_GUIDES,
+      title: "Tomb Raider: Legend",
+      release_year: 2006,
+      publisher: "Piggyback Interactive",
+      source: DB_SOURCE,
+      verification: DB_VERIFICATION,
+      variants: [
+        {
+          name: "Official Strategy Guide",
+          provenance_type: "retail",
+          source: DB_SOURCE,
+          verification: DB_VERIFICATION,
+          identifiers: [identifier("isbn", "1903511704")],
+        },
+      ],
+    },
+  ],
+};
+
 test("seed loader merges into existing items and stays idempotent", async () => {
   const url = resolveDatabaseUrl(true);
   const admin = postgres(url, { max: 1, connect_timeout: 3 });
@@ -243,7 +303,10 @@ test("seed loader merges into existing items and stays idempotent", async () => 
     });
     await db
       .insert(category)
-      .values({ slug: CATEGORY, name: "Loader merge test category", sort: 999 });
+      .values([
+        { slug: CATEGORY, name: "Loader merge test category", sort: 999 },
+        { slug: CATEGORY_GUIDES, name: "Loader merge test category, guides", sort: 999 },
+      ]);
     await db.insert(provenanceType).values([...provenanceTypes]);
     await db.insert(identifierKind).values([...identifierKinds]);
 
@@ -399,6 +462,90 @@ test("seed loader merges into existing items and stays idempotent", async () => 
     // verification, and every verification resolves to a source.
     const rows = after4.items + after4.variants + after4.identifiers;
     assert.equal(after4.verifications, rows, "one verification per catalogue row, no orphans");
+
+    // --- Step 5: a game and its strategy guide ------------------------
+    //
+    // The four steps above prove idempotency and would pass with category
+    // absent from identity. They do not prove the fix. This does: two items
+    // that agree on franchise, title, subtitle and year and disagree only on
+    // category must land as TWO rows.
+    const pairDoc = seedDocumentSchema.parse(CATEGORY_PAIR_DOC);
+    const step5 = await loadSeedDocument(db, pairDoc, "test:loader-merge");
+    const after5 = await counts();
+    console.log("step 5, game and its guide:", step5, after5);
+
+    assert.equal(step5.itemsInserted, 2, "the game and its guide are two items, not one");
+    assert.equal(step5.itemsSkippedExisting, 0, "neither folded into the other");
+    assert.equal(step5.variantsInserted, 2, "each kept its own variant");
+    assert.equal(step5.identifiersInserted, 2, "and its own identifier");
+
+    const legend = await db
+      .select()
+      .from(catalogueItem)
+      .where(eq(catalogueItem.title, "Tomb Raider: Legend"));
+    assert.equal(legend.length, 2, "two Legend rows");
+
+    // State the collision rather than assuming it: these two rows are
+    // identical on every field the OLD identity rule looked at. If a future
+    // edit to the fixture broke that, this test would pass while proving
+    // nothing.
+    const [a, b] = legend as [typeof legend[number], typeof legend[number]];
+    assert.equal(a.franchiseId, b.franchiseId, "same franchise");
+    assert.equal(a.subtitle, b.subtitle, "same subtitle (both absent)");
+    assert.equal(a.releaseYear, b.releaseYear, "same release year");
+    assert.notEqual(a.categoryId, b.categoryId, "and the category is the only difference");
+    assert.notEqual(a.slug, b.slug, "two rows, two slugs");
+    assert.notEqual(a.publicId, b.publicId, "two rows, two public ids");
+
+    // The guide's ISBN is on the guide, not on the game. This is the loss
+    // the old rule caused, and it was silent.
+    const guideRow = legend.find((r) => r.publisher === "Piggyback Interactive")!;
+    const gameRow = legend.find((r) => r.publisher === "Eidos Interactive")!;
+    assert.ok(guideRow && gameRow, "both rows kept their own publisher");
+    const guideVariants = await db
+      .select({ id: variant.id, name: variant.name })
+      .from(variant)
+      .where(eq(variant.catalogueItemId, guideRow.id));
+    const gameVariants = await db
+      .select({ id: variant.id, name: variant.name })
+      .from(variant)
+      .where(eq(variant.catalogueItemId, gameRow.id));
+    assert.deepEqual(
+      guideVariants.map((v) => v.name),
+      ["Official Strategy Guide"],
+      "the guide keeps its own variant",
+    );
+    assert.deepEqual(
+      gameVariants.map((v) => v.name),
+      ["PlayStation 2, PAL"],
+      "and the game did not absorb it",
+    );
+    const guideIdentifiers = await db
+      .select({ value: variantIdentifier.value })
+      .from(variantIdentifier)
+      .where(eq(variantIdentifier.variantId, guideVariants[0]!.id));
+    assert.deepEqual(
+      guideIdentifiers.map((r) => r.value),
+      ["1903511704"],
+      "the ISBN stayed on the guide",
+    );
+
+    // --- Step 5b: and the pair is still idempotent --------------------
+    // Finer identity is the easy half. A finer rule that no longer matches
+    // its own rows on the second pass is the defect this seam keeps
+    // producing, so the pair gets the same treatment steps 2 and 4 gave.
+    const step5b = await loadSeedDocument(db, pairDoc, "test:loader-merge");
+    const after5b = await counts();
+    console.log("step 5b, the pair again:", step5b, after5b);
+
+    assert.equal(step5b.itemsInserted, 0, "step 5b items inserted");
+    assert.equal(step5b.variantsInserted, 0, "step 5b variants inserted");
+    assert.equal(step5b.identifiersInserted, 0, "step 5b identifiers inserted");
+    assert.equal(step5b.sourcesInserted, 0, "step 5b sources inserted");
+    assert.equal(step5b.verificationsInserted, 0, "step 5b verifications inserted");
+    assert.equal(step5b.verificationsStrengthened, 0, "step 5b verifications strengthened");
+    assert.deepEqual(after5b, after5, "step 5b left every count identical to step 5");
+    assert.equal(step5b.itemsSkippedExisting, 2, "both rows matched themselves, neither matched the other");
   } finally {
     await client.end({ timeout: 5 });
     await admin.unsafe(`drop schema if exists "${TEST_SCHEMA}" cascade`);

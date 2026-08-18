@@ -1,0 +1,16 @@
+{
+  "line": "target",
+  "baseUrl": "http://localhost:3211",
+  "host": "localhost",
+  "port": "3211",
+  "httpStatus": 200,
+  "devMarkersFound": [],
+  "devMarkerCount": 0,
+  "prerenderHeaderPresent": true,
+  "cacheControl": "s-maxage=31536000",
+  "xNextjsPrerender": "1, 1",
+  "xNextjsCache": "HIT",
+  "localBuildId": "7JzsJmX3Ve24jbZ-g46Vt",
+  "verdict": "production build",
+  "measuredAtIso": "2026-08-18T12:04:30.614Z"
+}

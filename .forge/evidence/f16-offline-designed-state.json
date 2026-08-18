@@ -1,0 +1,490 @@
+{
+  "target": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "devMarkersFound": [],
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdFoundInServedHtml": true,
+    "checkedAt": "2026-08-18T14:48:11.274Z"
+  },
+  "servedBuild": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedMatchesExpected": true,
+    "servedMatchesDisk": true,
+    "devMarkersFound": [],
+    "checkedAt": "2026-08-18T14:48:11.279Z"
+  },
+  "port": "3701",
+  "buildId": "YzDsr6hHAGTXS-1fwnrSm",
+  "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+  "buildIdOnDiskAtStart": "YzDsr6hHAGTXS-1fwnrSm",
+  "routeFilesOnDisk": {
+    "pageRoutes": [
+      "src/app/catalogue/page.tsx",
+      "src/app/collection/[publicId]/page.tsx",
+      "src/app/collection/page.tsx",
+      "src/app/page.tsx"
+    ],
+    "boundaries": [
+      "src/app/error.tsx",
+      "src/app/global-error.tsx",
+      "src/app/not-found.tsx"
+    ]
+  },
+  "scale": {
+    "bodyZoom": "1",
+    "devicePixelRatio": 1,
+    "visualViewportScale": 1,
+    "innerWidthPx": 390,
+    "documentScrollWidthPx": 390
+  },
+  "onlineComparison": {
+    "what": "the same two address shapes with a network, at different addresses so the offline pass stays cold",
+    "unmatchedAddress": {
+      "route": "/no-such-route-f16-online",
+      "heading": "That page is not here."
+    },
+    "neverVisitedCollectionItem": {
+      "route": "/collection/{unknownId}",
+      "lead": "This copy is not on this device."
+    }
+  },
+  "offlineBanner": {
+    "what": "the network taken away from a document that is already loaded, which is what fires the offline event",
+    "bannerText": "You are offline. Showing what is saved on this device.",
+    "navigatorOnLine": false,
+    "capture": ".forge/evidence/f16-7-offline-banner-on-a-loaded-document.png",
+    "note": "on a document navigated to AFTER the harness went offline, navigator.onLine reads true again even though every uncached request fails, so the banner stays absent in those readings. That is a property of the harness emulation, not of the banner."
+  },
+  "shellFallbackFinding": {
+    "what": "addresses with no cached document of their own, offline",
+    "routes": [
+      {
+        "route": "/collection/00000000-0000-4000-8000-00000000f16a",
+        "headingOffline": "Aisle check",
+        "documentTitleOffline": "Vitrine - The aisle check",
+        "verdict": "designed"
+      },
+      {
+        "route": "/no-such-route-f16",
+        "headingOffline": "Aisle check",
+        "documentTitleOffline": "Vitrine - The aisle check",
+        "verdict": "designed"
+      }
+    ],
+    "onlineComparison": {
+      "what": "the same two address shapes with a network, at different addresses so the offline pass stays cold",
+      "unmatchedAddress": {
+        "route": "/no-such-route-f16-online",
+        "heading": "That page is not here."
+      },
+      "neverVisitedCollectionItem": {
+        "route": "/collection/{unknownId}",
+        "lead": "This copy is not on this device."
+      }
+    },
+    "reading": "the worker's caches.match('/') fallback serves the check screen document for these addresses, so the screen that renders is the check screen rather than the address's own. No browser error page, so the F16 count stands at 0, and not-found.tsx is not what a collector reaches at an unknown address offline."
+  },
+  "servedBuildAfter": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedMatchesExpected": true,
+    "servedMatchesDisk": true,
+    "devMarkersFound": [],
+    "checkedAt": "2026-08-18T14:48:12.210Z"
+  },
+  "buildIdOnDiskAtEnd": "YzDsr6hHAGTXS-1fwnrSm",
+  "routeDocuments": [
+    {
+      "what": "the check screen",
+      "classification": {
+        "requested": "/",
+        "navigationError": null,
+        "origin": "http://localhost:3701",
+        "documentTitle": "Vitrine - The aisle check",
+        "heading": "Aisle check",
+        "lead": null,
+        "footerDisclaimerPresent": true,
+        "appShellPresent": true,
+        "resolvedInkToken": "#0c1226",
+        "topNavPresent": true,
+        "bodyTextLength": 399,
+        "verdict": "designed"
+      },
+      "capture": ".forge/evidence/f16-1-check-offline.png",
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCapture": {
+        "subject": "the check screen: the product's app shell",
+        "selector": "main.shell",
+        "found": true,
+        "topPx": 156,
+        "bottomPx": 590,
+        "leftPx": 0,
+        "rightPx": 390,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      }
+    },
+    {
+      "what": "the collection list",
+      "classification": {
+        "requested": "/collection",
+        "navigationError": null,
+        "origin": "http://localhost:3701",
+        "documentTitle": "Vitrine - The aisle check",
+        "heading": "Your collection",
+        "lead": null,
+        "footerDisclaimerPresent": true,
+        "appShellPresent": true,
+        "resolvedInkToken": "#0c1226",
+        "topNavPresent": true,
+        "bodyTextLength": 410,
+        "verdict": "designed"
+      },
+      "capture": ".forge/evidence/f16-2-collection-offline.png",
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCapture": {
+        "subject": "the collection list: the product's app shell",
+        "selector": "main.shell",
+        "found": true,
+        "topPx": 156,
+        "bottomPx": 539,
+        "leftPx": 0,
+        "rightPx": 390,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      }
+    },
+    {
+      "what": "a collection item visited online before",
+      "classification": {
+        "requested": "/collection/f3c31417-39af-432f-b172-65509fe3d407",
+        "navigationError": null,
+        "origin": "http://localhost:3701",
+        "documentTitle": "Vitrine - The aisle check",
+        "heading": "Tomb Raider",
+        "lead": null,
+        "footerDisclaimerPresent": true,
+        "appShellPresent": true,
+        "resolvedInkToken": "#0c1226",
+        "topNavPresent": true,
+        "bodyTextLength": 376,
+        "verdict": "designed"
+      },
+      "capture": ".forge/evidence/f16-3-collection-item-offline.png",
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCapture": {
+        "subject": "a collection item visited online before: the product's app shell",
+        "selector": "main.shell",
+        "found": true,
+        "topPx": 156,
+        "bottomPx": 765,
+        "leftPx": 0,
+        "rightPx": 390,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      }
+    },
+    {
+      "what": "a collection item never visited, resolved from the precached shell",
+      "classification": {
+        "requested": "/collection/00000000-0000-4000-8000-00000000f16a",
+        "navigationError": null,
+        "origin": "http://localhost:3701",
+        "documentTitle": "Vitrine - The aisle check",
+        "heading": "Aisle check",
+        "lead": null,
+        "footerDisclaimerPresent": true,
+        "appShellPresent": true,
+        "resolvedInkToken": "#0c1226",
+        "topNavPresent": true,
+        "bodyTextLength": 399,
+        "verdict": "designed"
+      },
+      "capture": ".forge/evidence/f16-4-collection-item-never-visited-offline.png",
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCapture": {
+        "subject": "a collection item never visited, resolved from the precached shell: the product's app shell",
+        "selector": "main.shell",
+        "found": true,
+        "topPx": 156,
+        "bottomPx": 590,
+        "leftPx": 0,
+        "rightPx": 390,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      }
+    },
+    {
+      "what": "the catalogue index",
+      "classification": {
+        "requested": "/catalogue",
+        "navigationError": null,
+        "origin": "http://localhost:3701",
+        "documentTitle": "Vitrine - The aisle check",
+        "heading": "Catalogue index",
+        "lead": null,
+        "footerDisclaimerPresent": true,
+        "appShellPresent": true,
+        "resolvedInkToken": "#0c1226",
+        "topNavPresent": true,
+        "bodyTextLength": 12461,
+        "verdict": "designed"
+      },
+      "capture": ".forge/evidence/f16-5-catalogue-offline.png",
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCapture": {
+        "subject": "the catalogue index: the product's app shell",
+        "selector": "main.shell",
+        "found": true,
+        "topPx": 156,
+        "bottomPx": 15560,
+        "leftPx": 0,
+        "rightPx": 390,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": false
+      }
+    },
+    {
+      "what": "an address that matches no route, which is what not-found.tsx is for",
+      "classification": {
+        "requested": "/no-such-route-f16",
+        "navigationError": null,
+        "origin": "http://localhost:3701",
+        "documentTitle": "Vitrine - The aisle check",
+        "heading": "Aisle check",
+        "lead": null,
+        "footerDisclaimerPresent": true,
+        "appShellPresent": true,
+        "resolvedInkToken": "#0c1226",
+        "topNavPresent": true,
+        "bodyTextLength": 399,
+        "verdict": "designed"
+      },
+      "capture": ".forge/evidence/f16-6-unmatched-address-offline.png",
+      "capturePx": [
+        390,
+        844
+      ],
+      "subjectInCapture": {
+        "subject": "an address that matches no route, which is what not-found.tsx is for: the product's app shell",
+        "selector": "main.shell",
+        "found": true,
+        "topPx": 156,
+        "bottomPx": 590,
+        "leftPx": 0,
+        "rightPx": 390,
+        "captureWidthPx": 390,
+        "captureHeightPx": 844,
+        "fullyInsideTheCapture": true
+      }
+    }
+  ],
+  "offlineControlBefore": {
+    "reachedTheNetwork": false,
+    "error": "Failed to fetch"
+  },
+  "offlineControlAfter": {
+    "reachedTheNetwork": false,
+    "error": "Failed to fetch"
+  },
+  "count": {
+    "documentsMeasured": 6,
+    "designed": 6,
+    "browserDefault": 0
+  },
+  "boundaries": {
+    "port": "3701",
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "offlineControl": {
+      "reachedTheNetwork": false,
+      "error": "Failed to fetch"
+    },
+    "measured": [
+      {
+        "boundary": "src/app/not-found.tsx",
+        "how": "an address that matches no route, measured with the network disabled and again with it back",
+        "classification": {
+          "requested": "/no-such-route-f16-boundary",
+          "navigationError": null,
+          "origin": "http://localhost:3701",
+          "documentTitle": "Vitrine - The aisle check",
+          "heading": "Aisle check",
+          "lead": null,
+          "footerDisclaimerPresent": true,
+          "appShellPresent": true,
+          "resolvedInkToken": "#0c1226",
+          "topNavPresent": true,
+          "bodyTextLength": 399,
+          "verdict": "designed"
+        },
+        "capture": ".forge/evidence/f16-8-not-found-offline.png",
+        "distinguishedBy": {
+          "offline": {
+            "heading": "Aisle check",
+            "controls": [
+              "Light",
+              "Dark",
+              "System",
+              "Check",
+              "Scan with camera"
+            ],
+            "topNavPresent": true
+          },
+          "online": {
+            "heading": "That page is not here.",
+            "controls": [
+              "Light",
+              "Dark",
+              "System",
+              "Go to the aisle check",
+              "Go to your collection"
+            ],
+            "topNavPresent": true,
+            "capture": ".forge/evidence/f16-8b-not-found-online.png"
+          },
+          "reading": "offline this address renders the check screen from the worker's shell fallback, not not-found.tsx. Online it renders not-found.tsx. Neither is a browser error page."
+        }
+      },
+      {
+        "boundary": "src/app/error.tsx",
+        "how": "Intl.NumberFormat made to throw while the collection list formats its count, offline",
+        "classification": {
+          "requested": "/collection",
+          "navigationError": null,
+          "origin": "http://localhost:3701",
+          "documentTitle": "Vitrine - The aisle check",
+          "heading": "That did not load.",
+          "lead": null,
+          "footerDisclaimerPresent": true,
+          "appShellPresent": true,
+          "resolvedInkToken": "#0c1226",
+          "topNavPresent": true,
+          "bodyTextLength": 322,
+          "verdict": "designed"
+        },
+        "capture": ".forge/evidence/f16-9-route-error-offline.png",
+        "distinguishedBy": {
+          "heading": "That did not load.",
+          "controls": [
+            "Light",
+            "Dark",
+            "System",
+            "Try again",
+            "Go to the aisle check"
+          ],
+          "topNavPresent": true
+        }
+      },
+      {
+        "boundary": "src/app/global-error.tsx",
+        "how": "MutationObserver made to throw inside the root layout's ThemeProvider, offline",
+        "classification": {
+          "requested": "/collection",
+          "navigationError": null,
+          "origin": "http://localhost:3701",
+          "documentTitle": "Vitrine - The aisle check",
+          "heading": "That did not load.",
+          "lead": null,
+          "footerDisclaimerPresent": true,
+          "appShellPresent": true,
+          "resolvedInkToken": "#0c1226",
+          "topNavPresent": false,
+          "bodyTextLength": 166,
+          "verdict": "designed"
+        },
+        "capture": ".forge/evidence/f16-10-global-error-offline.png",
+        "distinguishedBy": {
+          "heading": "That did not load.",
+          "controls": [
+            "Reload Vitrine"
+          ],
+          "topNavPresent": false
+        }
+      }
+    ],
+    "count": {
+      "measured": 3,
+      "designed": 3,
+      "browserDefault": 0
+    }
+  },
+  "negativeControls": {
+    "port": "3701",
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "controls": [
+      {
+        "control": "/catalogue, network disabled, service worker bypassed",
+        "classification": {
+          "requested": "/catalogue",
+          "navigationError": "page.goto: net::ERR_INTERNET_DISCONNECTED at http://localhost:3701/catalogue",
+          "origin": "null",
+          "documentTitle": "",
+          "heading": null,
+          "lead": null,
+          "footerDisclaimerPresent": false,
+          "appShellPresent": false,
+          "resolvedInkToken": "",
+          "topNavPresent": false,
+          "bodyTextLength": 0,
+          "verdict": "browser-default"
+        }
+      },
+      {
+        "control": "http://127.0.0.1:1/, a port with nothing listening",
+        "classification": {
+          "requested": "http://127.0.0.1:1/",
+          "navigationError": "page.goto: net::ERR_UNSAFE_PORT at http://127.0.0.1:1/",
+          "origin": "null",
+          "documentTitle": "",
+          "heading": null,
+          "lead": null,
+          "footerDisclaimerPresent": false,
+          "appShellPresent": false,
+          "resolvedInkToken": "",
+          "topNavPresent": false,
+          "bodyTextLength": 0,
+          "verdict": "browser-default"
+        }
+      }
+    ],
+    "count": {
+      "forcedToABrowserDefault": 2,
+      "classifiedBrowserDefault": 2,
+      "classifiedDesigned": 0
+    },
+    "reading": "the classifier returns browser-default on both, so its 'designed' readings elsewhere are readings and not a constant. Note neither document carried an ERR_ string in its markup: a detector built on scraping those would have passed both as designed."
+  },
+  "line": "F16. With the network disabled, every route renders the designed offline state; count of routes showing a browser error page is 0.",
+  "recordedAt": "2026-08-18T14:48:13.122Z"
+}

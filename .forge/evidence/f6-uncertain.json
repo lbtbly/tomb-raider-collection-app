@@ -1,0 +1,884 @@
+{
+  "line": "F6",
+  "buildId": "U_TSj0yB6qLS3TQKwtvZ6",
+  "baseUrl": "http://127.0.0.1:3600",
+  "identifier": "3014202",
+  "viewportWidthPx": 390,
+  "scale": {
+    "bodyZoom": "1",
+    "devicePixelRatio": 1,
+    "visualViewportScale": 1,
+    "innerWidthPx": 390,
+    "documentScrollWidthPx": 390
+  },
+  "captures": {
+    "slabTop": {
+      "file": ".forge/evidence/f6-uncertain-slab-390.png",
+      "widthPx": 390,
+      "heightPx": 844,
+      "windowScrollYPx": 0
+    },
+    "candidatePair": {
+      "file": ".forge/evidence/f6-uncertain-candidates-390.png",
+      "widthPx": 390,
+      "heightPx": 844,
+      "windowScrollYPx": 549
+    }
+  },
+  "clauses": {
+    "rendersUncertain": {
+      "dataVerdict": "UNCERTAIN",
+      "verdictWord": "UNCERTAIN",
+      "slabBox": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 751.72,
+        "leftPx": 16,
+        "rightPx": 374,
+        "topPx": 595.58,
+        "bottomPx": 1347.3
+      },
+      "slabDocumentTopPx": 595.58,
+      "slabDocumentBottomPx": 1347.3,
+      "pass": true
+    },
+    "noCornerCut": {
+      "clipPath": "none",
+      "cutClasses": [],
+      "borderRadius": "0px",
+      "pass": true
+    },
+    "dashedEdge": {
+      "border": {
+        "topStyle": "dashed",
+        "topWidth": "2px",
+        "topColor": "rgb(176, 48, 5)",
+        "rightStyle": "dashed",
+        "rightWidth": "2px",
+        "bottomStyle": "dashed",
+        "bottomWidth": "2px",
+        "leftStyle": "dashed",
+        "leftWidth": "2px"
+      },
+      "pass": true
+    },
+    "bothPhotographsSideBySide": {
+      "frameCount": 2,
+      "frameClasses": [
+        [
+          "photoFrame",
+          "np"
+        ],
+        [
+          "photoFrame",
+          "np"
+        ]
+      ],
+      "rowDisplay": "grid",
+      "rowTemplateColumns": "151px 151px",
+      "frameBoxes": [
+        {
+          "xPx": 38,
+          "yPx": 871.3,
+          "widthPx": 151,
+          "heightPx": 113.25,
+          "leftPx": 38,
+          "rightPx": 189,
+          "topPx": 871.3,
+          "bottomPx": 984.55
+        },
+        {
+          "xPx": 201,
+          "yPx": 871.3,
+          "widthPx": 151,
+          "heightPx": 113.25,
+          "leftPx": 201,
+          "rightPx": 352,
+          "topPx": 871.3,
+          "bottomPx": 984.55
+        }
+      ],
+      "arrangement": {
+        "verdict": "side-by-side",
+        "horizontalOverlapPx": -12,
+        "verticalOverlapPx": 113.25,
+        "horizontalGapPx": 12,
+        "verticalGapPx": -113.25,
+        "a": {
+          "xPx": 38,
+          "yPx": 871.3,
+          "widthPx": 151,
+          "heightPx": 113.25,
+          "leftPx": 38,
+          "rightPx": 189,
+          "topPx": 871.3,
+          "bottomPx": 984.55
+        },
+        "b": {
+          "xPx": 201,
+          "yPx": 871.3,
+          "widthPx": 151,
+          "heightPx": 113.25,
+          "leftPx": 201,
+          "rightPx": 352,
+          "topPx": 871.3,
+          "bottomPx": 984.55
+        },
+        "sameTop": true
+      },
+      "cardArrangement": {
+        "verdict": "side-by-side",
+        "horizontalOverlapPx": -12,
+        "verticalOverlapPx": 306.83,
+        "horizontalGapPx": 12,
+        "verticalGapPx": -306.83,
+        "a": {
+          "xPx": 38,
+          "yPx": 871.3,
+          "widthPx": 151,
+          "heightPx": 306.83,
+          "leftPx": 38,
+          "rightPx": 189,
+          "topPx": 871.3,
+          "bottomPx": 1178.13
+        },
+        "b": {
+          "xPx": 201,
+          "yPx": 871.3,
+          "widthPx": 151,
+          "heightPx": 306.83,
+          "leftPx": 201,
+          "rightPx": 352,
+          "topPx": 871.3,
+          "bottomPx": 1178.13
+        },
+        "sameTop": true
+      },
+      "pass": true
+    },
+    "differingFieldAsSentence": {
+      "allLeadParagraphs": [
+        "This identifier matches more than one release.",
+        "One is the “Sealed shipping carton” pressing; the other is “Standard release”."
+      ],
+      "sentence": "One is the “Sealed shipping carton” pressing; the other is “Standard release”.",
+      "wordCount": 12,
+      "endsWithFullStop": true,
+      "pass": true
+    },
+    "twoCandidateButtonsIdenticalWeight": {
+      "count": 2,
+      "labels": [
+        "This is the one in my hand",
+        "This is the one in my hand"
+      ],
+      "classLists": [
+        [
+          "btn",
+          "sec",
+          "b56",
+          "full"
+        ],
+        [
+          "btn",
+          "sec",
+          "b56",
+          "full"
+        ]
+      ],
+      "differingComputedProperties": [],
+      "pass": true
+    },
+    "candidateButtonsStyledAsPrimary": {
+      "primaryProbeStyle": {
+        "backgroundColor": "rgb(0, 224, 164)",
+        "color": "rgb(11, 16, 32)",
+        "borderTopStyle": "none",
+        "borderTopColor": "rgb(11, 16, 32)"
+      },
+      "perButton": [
+        {
+          "label": "This is the one in my hand",
+          "hasPriClass": false,
+          "matchesPrimaryPaint": false,
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(12, 18, 38)"
+        },
+        {
+          "label": "This is the one in my hand",
+          "hasPriClass": false,
+          "matchesPrimaryPaint": false,
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(12, 18, 38)"
+        }
+      ],
+      "count": 0,
+      "pass": true
+    },
+    "preselectedCandidates": {
+      "measuredBeforeAnyInteraction": true,
+      "attributesRead": [
+        "aria-pressed",
+        "aria-selected",
+        "aria-checked",
+        "aria-current",
+        "data-selected",
+        "data-state",
+        "data-active",
+        "checked",
+        "selected"
+      ],
+      "classHintsRead": [
+        "selected",
+        "active",
+        "current",
+        "chosen",
+        "picked",
+        "on",
+        "pri"
+      ],
+      "perButton": [
+        {
+          "label": "This is the one in my hand",
+          "selectedMarks": {
+            "aria-pressed": null,
+            "aria-selected": null,
+            "aria-checked": null,
+            "aria-current": null,
+            "data-selected": null,
+            "data-state": null,
+            "data-active": null,
+            "checked": null,
+            "selected": null
+          },
+          "selectedMarkCount": 0,
+          "inputChecked": null,
+          "classHints": [],
+          "isDocumentActiveElement": false
+        },
+        {
+          "label": "This is the one in my hand",
+          "selectedMarks": {
+            "aria-pressed": null,
+            "aria-selected": null,
+            "aria-checked": null,
+            "aria-current": null,
+            "data-selected": null,
+            "data-state": null,
+            "data-active": null,
+            "checked": null,
+            "selected": null
+          },
+          "selectedMarkCount": 0,
+          "inputChecked": null,
+          "classHints": [],
+          "isDocumentActiveElement": false
+        }
+      ],
+      "markedAnywhereInCandidateRow": [],
+      "checkedInputsInCandidateRow": 0,
+      "count": 0,
+      "pass": true
+    },
+    "thirdDoor": {
+      "buttonsInSlab": 3,
+      "buttonsOutsideCandidateRow": [
+        {
+          "label": "Neither. Add a new variant.",
+          "classList": [
+            "btn",
+            "sec",
+            "b56",
+            "full"
+          ],
+          "box": {
+            "xPx": 38,
+            "yPx": 645.13,
+            "widthPx": 314,
+            "heightPx": 56,
+            "leftPx": 38,
+            "rightPx": 352,
+            "topPx": 645.13,
+            "bottomPx": 701.13
+          }
+        }
+      ],
+      "thirdDoorPresent": true,
+      "pass": true
+    }
+  },
+  "divergencesFromTheComp": {
+    "note": "F6 measures identical weight, which is styling, and the styling is identical. Neither entry below is a violation of the line.",
+    "pickButtonsShareABaseline": {
+      "question": "do the two pick buttons sit on one baseline in the two-up comparison",
+      "topPx": [
+        573.13,
+        555.63
+      ],
+      "buttonTopDeltaPx": 17.5,
+      "buttonBottomDeltaPx": 17.5,
+      "sharedBaseline": false,
+      "cause": "candidate title line count, not styling",
+      "candidateTitleLineCounts": [
+        4,
+        3
+      ],
+      "candidateTitles": [
+        "Tomb Raider: Lara Croft PVC Statue - Sealed shipping carton",
+        "Tomb Raider: Lara Croft PVC Statue - Standard release"
+      ],
+      "cardBoxes": [
+        {
+          "topPx": 322.3,
+          "heightPx": 306.83,
+          "widthPx": 151
+        },
+        {
+          "topPx": 322.3,
+          "heightPx": 306.83,
+          "widthPx": 151
+        }
+      ],
+      "measuredAtScrollYPx": 549
+    },
+    "pickButtonLabelWrap": {
+      "question": "how many lines does the label take in a 151 px column",
+      "labelText": "This is the one in my hand",
+      "lineCount": 3,
+      "lineWidthsPx": [
+        76.95,
+        71.95,
+        38.28
+      ],
+      "textBlockHeightPx": 49,
+      "buttonBoxPx": [
+        "151 x 56",
+        "151 x 56"
+      ],
+      "fontSizePx": "16px",
+      "lineHeight": "16px",
+      "compWording": "This one",
+      "shippedWording": "This is the one in my hand"
+    }
+  },
+  "builderFlaggedRisk": {
+    "question": "do .npLead and .npAction fit a 165 px photo frame that sets overflow: hidden",
+    "frames": [
+      {
+        "index": 0,
+        "frame": {
+          "xPx": 38,
+          "yPx": 322.3,
+          "widthPx": 151,
+          "heightPx": 113.25,
+          "leftPx": 38,
+          "rightPx": 189,
+          "topPx": 322.3,
+          "bottomPx": 435.55
+        },
+        "overflowStyle": "hidden",
+        "clientWidthPx": 151,
+        "clientHeightPx": 113,
+        "scrollWidthPx": 151,
+        "scrollHeightPx": 113,
+        "scrollOverflowXPx": 0,
+        "scrollOverflowYPx": 0,
+        "children": [
+          {
+            "child": "svg",
+            "frame": {
+              "xPx": 38,
+              "yPx": 322.3,
+              "widthPx": 151,
+              "heightPx": 113.25,
+              "leftPx": 38,
+              "rightPx": 189,
+              "topPx": 322.3,
+              "bottomPx": 435.55
+            },
+            "childBox": {
+              "xPx": 101.5,
+              "yPx": 338.42,
+              "widthPx": 24,
+              "heightPx": 24,
+              "leftPx": 101.5,
+              "rightPx": 125.5,
+              "topPx": 338.42,
+              "bottomPx": 362.42
+            },
+            "overflowPx": {
+              "leftPx": -63.5,
+              "rightPx": -63.5,
+              "topPx": -16.13,
+              "bottomPx": -73.13
+            },
+            "worstOverflowPx": -16.13,
+            "containedInFrame": true
+          },
+          {
+            "child": "p.npLead",
+            "frame": {
+              "xPx": 38,
+              "yPx": 322.3,
+              "widthPx": 151,
+              "heightPx": 113.25,
+              "leftPx": 38,
+              "rightPx": 189,
+              "topPx": 322.3,
+              "bottomPx": 435.55
+            },
+            "childBox": {
+              "xPx": 46,
+              "yPx": 366.42,
+              "widthPx": 135,
+              "heightPx": 33.59,
+              "leftPx": 46,
+              "rightPx": 181,
+              "topPx": 366.42,
+              "bottomPx": 400.02
+            },
+            "overflowPx": {
+              "leftPx": -8,
+              "rightPx": -8,
+              "topPx": -44.13,
+              "bottomPx": -35.53
+            },
+            "worstOverflowPx": -8,
+            "containedInFrame": true
+          },
+          {
+            "child": "p.npAction",
+            "frame": {
+              "xPx": 38,
+              "yPx": 322.3,
+              "widthPx": 151,
+              "heightPx": 113.25,
+              "leftPx": 38,
+              "rightPx": 189,
+              "topPx": 322.3,
+              "bottomPx": 435.55
+            },
+            "childBox": {
+              "xPx": 55.98,
+              "yPx": 404.02,
+              "widthPx": 115.02,
+              "heightPx": 15.39,
+              "leftPx": 55.98,
+              "rightPx": 171,
+              "topPx": 404.02,
+              "bottomPx": 419.41
+            },
+            "overflowPx": {
+              "leftPx": -17.98,
+              "rightPx": -18,
+              "topPx": -81.72,
+              "bottomPx": -16.14
+            },
+            "worstOverflowPx": -16.14,
+            "containedInFrame": true
+          }
+        ],
+        "text": {
+          "visibleCount": 2,
+          "visibleText": [
+            "No photograph filed for this entry.",
+            "Yours would be the first."
+          ],
+          "visible": [
+            {
+              "text": "No photograph filed for this entry.",
+              "parent": "p.npLead",
+              "rect": {
+                "xPx": 48.31,
+                "yPx": 367.42,
+                "widthPx": 130.36,
+                "heightPx": 30.8,
+                "leftPx": 48.31,
+                "rightPx": 178.67,
+                "topPx": 367.42,
+                "bottomPx": 398.22
+              },
+              "lineBoxCount": 2,
+              "samplePoints": 42,
+              "samplePointsOutsideViewport": 0,
+              "samplePointsPainted": 42,
+              "shownFraction": 1,
+              "clipPathAncestors": [
+                "div.vslabWipe inset(0px 0% 0px 0px)"
+              ]
+            },
+            {
+              "text": "Yours would be the first.",
+              "parent": "p.npAction",
+              "rect": {
+                "xPx": 55.98,
+                "yPx": 405.02,
+                "widthPx": 115.02,
+                "heightPx": 12,
+                "leftPx": 55.98,
+                "rightPx": 171,
+                "topPx": 405.02,
+                "bottomPx": 417.02
+              },
+              "lineBoxCount": 1,
+              "samplePoints": 21,
+              "samplePointsOutsideViewport": 0,
+              "samplePointsPainted": 21,
+              "shownFraction": 1,
+              "clipPathAncestors": [
+                "div.vslabWipe inset(0px 0% 0px 0px)"
+              ]
+            }
+          ],
+          "hiddenCount": 0,
+          "hidden": []
+        }
+      },
+      {
+        "index": 1,
+        "frame": {
+          "xPx": 201,
+          "yPx": 322.3,
+          "widthPx": 151,
+          "heightPx": 113.25,
+          "leftPx": 201,
+          "rightPx": 352,
+          "topPx": 322.3,
+          "bottomPx": 435.55
+        },
+        "overflowStyle": "hidden",
+        "clientWidthPx": 151,
+        "clientHeightPx": 113,
+        "scrollWidthPx": 151,
+        "scrollHeightPx": 113,
+        "scrollOverflowXPx": 0,
+        "scrollOverflowYPx": 0,
+        "children": [
+          {
+            "child": "svg",
+            "frame": {
+              "xPx": 201,
+              "yPx": 322.3,
+              "widthPx": 151,
+              "heightPx": 113.25,
+              "leftPx": 201,
+              "rightPx": 352,
+              "topPx": 322.3,
+              "bottomPx": 435.55
+            },
+            "childBox": {
+              "xPx": 264.5,
+              "yPx": 338.42,
+              "widthPx": 24,
+              "heightPx": 24,
+              "leftPx": 264.5,
+              "rightPx": 288.5,
+              "topPx": 338.42,
+              "bottomPx": 362.42
+            },
+            "overflowPx": {
+              "leftPx": -63.5,
+              "rightPx": -63.5,
+              "topPx": -16.13,
+              "bottomPx": -73.13
+            },
+            "worstOverflowPx": -16.13,
+            "containedInFrame": true
+          },
+          {
+            "child": "p.npLead",
+            "frame": {
+              "xPx": 201,
+              "yPx": 322.3,
+              "widthPx": 151,
+              "heightPx": 113.25,
+              "leftPx": 201,
+              "rightPx": 352,
+              "topPx": 322.3,
+              "bottomPx": 435.55
+            },
+            "childBox": {
+              "xPx": 209,
+              "yPx": 366.42,
+              "widthPx": 135,
+              "heightPx": 33.59,
+              "leftPx": 209,
+              "rightPx": 344,
+              "topPx": 366.42,
+              "bottomPx": 400.02
+            },
+            "overflowPx": {
+              "leftPx": -8,
+              "rightPx": -8,
+              "topPx": -44.13,
+              "bottomPx": -35.53
+            },
+            "worstOverflowPx": -8,
+            "containedInFrame": true
+          },
+          {
+            "child": "p.npAction",
+            "frame": {
+              "xPx": 201,
+              "yPx": 322.3,
+              "widthPx": 151,
+              "heightPx": 113.25,
+              "leftPx": 201,
+              "rightPx": 352,
+              "topPx": 322.3,
+              "bottomPx": 435.55
+            },
+            "childBox": {
+              "xPx": 218.98,
+              "yPx": 404.02,
+              "widthPx": 115.02,
+              "heightPx": 15.39,
+              "leftPx": 218.98,
+              "rightPx": 334,
+              "topPx": 404.02,
+              "bottomPx": 419.41
+            },
+            "overflowPx": {
+              "leftPx": -17.98,
+              "rightPx": -18,
+              "topPx": -81.72,
+              "bottomPx": -16.14
+            },
+            "worstOverflowPx": -16.14,
+            "containedInFrame": true
+          }
+        ],
+        "text": {
+          "visibleCount": 2,
+          "visibleText": [
+            "No photograph filed for this entry.",
+            "Yours would be the first."
+          ],
+          "visible": [
+            {
+              "text": "No photograph filed for this entry.",
+              "parent": "p.npLead",
+              "rect": {
+                "xPx": 211.31,
+                "yPx": 367.42,
+                "widthPx": 130.36,
+                "heightPx": 30.8,
+                "leftPx": 211.31,
+                "rightPx": 341.67,
+                "topPx": 367.42,
+                "bottomPx": 398.22
+              },
+              "lineBoxCount": 2,
+              "samplePoints": 42,
+              "samplePointsOutsideViewport": 0,
+              "samplePointsPainted": 42,
+              "shownFraction": 1,
+              "clipPathAncestors": [
+                "div.vslabWipe inset(0px 0% 0px 0px)"
+              ]
+            },
+            {
+              "text": "Yours would be the first.",
+              "parent": "p.npAction",
+              "rect": {
+                "xPx": 218.98,
+                "yPx": 405.02,
+                "widthPx": 115.02,
+                "heightPx": 12,
+                "leftPx": 218.98,
+                "rightPx": 334,
+                "topPx": 405.02,
+                "bottomPx": 417.02
+              },
+              "lineBoxCount": 1,
+              "samplePoints": 21,
+              "samplePointsOutsideViewport": 0,
+              "samplePointsPainted": 21,
+              "shownFraction": 1,
+              "clipPathAncestors": [
+                "div.vslabWipe inset(0px 0% 0px 0px)"
+              ]
+            }
+          ],
+          "hiddenCount": 0,
+          "hidden": []
+        }
+      }
+    ],
+    "worstOverflowPx": -8,
+    "anyScrollOverflow": false,
+    "pass": true
+  },
+  "controls": {
+    "sideBySideDetectorOnAForcedSingleColumn": {
+      "purpose": "prove the detector can return stacked",
+      "result": {
+        "verdict": "stacked",
+        "horizontalOverlapPx": 314,
+        "verticalOverlapPx": -155.19,
+        "horizontalGapPx": -314,
+        "verticalGapPx": 155.19,
+        "a": {
+          "xPx": 38,
+          "yPx": 871.3,
+          "widthPx": 314,
+          "heightPx": 235.5,
+          "leftPx": 38,
+          "rightPx": 352,
+          "topPx": 871.3,
+          "bottomPx": 1106.8
+        },
+        "b": {
+          "xPx": 38,
+          "yPx": 1261.98,
+          "widthPx": 314,
+          "heightPx": 235.5,
+          "leftPx": 38,
+          "rightPx": 352,
+          "topPx": 1261.98,
+          "bottomPx": 1497.48
+        },
+        "sameTop": false
+      },
+      "pass": true
+    },
+    "sideBySideRestoredAfterControl": {
+      "result": {
+        "verdict": "side-by-side",
+        "horizontalOverlapPx": -12,
+        "verticalOverlapPx": 113.25,
+        "horizontalGapPx": 12,
+        "verticalGapPx": -113.25,
+        "a": {
+          "xPx": 38,
+          "yPx": 871.3,
+          "widthPx": 151,
+          "heightPx": 113.25,
+          "leftPx": 38,
+          "rightPx": 189,
+          "topPx": 871.3,
+          "bottomPx": 984.55
+        },
+        "b": {
+          "xPx": 201,
+          "yPx": 871.3,
+          "widthPx": 151,
+          "heightPx": 113.25,
+          "leftPx": 201,
+          "rightPx": 352,
+          "topPx": 871.3,
+          "bottomPx": 984.55
+        },
+        "sameTop": true
+      },
+      "pass": true
+    }
+  },
+  "step5AfterTheGridChange": {
+    "pickButtonShortestSidePx": [
+      56,
+      56
+    ],
+    "interactiveTargetsMeasured": 13,
+    "minimumShortestSidePx": 44,
+    "under44": [],
+    "under44Count": 0,
+    "documentScrollWidthPx": 390,
+    "documentClientWidthPx": 390,
+    "allTargets": [
+      {
+        "selector": "a.wm",
+        "label": "Vitrine",
+        "widthPx": 67.2,
+        "heightPx": 44,
+        "shortestSidePx": 44
+      },
+      {
+        "selector": "a",
+        "label": "Check",
+        "widthPx": 45.95,
+        "heightPx": 44,
+        "shortestSidePx": 44
+      },
+      {
+        "selector": "a",
+        "label": "Collection",
+        "widthPx": 71.52,
+        "heightPx": 44,
+        "shortestSidePx": 44
+      },
+      {
+        "selector": "a",
+        "label": "Catalogue",
+        "widthPx": 73.22,
+        "heightPx": 44,
+        "shortestSidePx": 44
+      },
+      {
+        "selector": "button.btn.seg",
+        "label": "Light",
+        "widthPx": 65.73,
+        "heightPx": 44,
+        "shortestSidePx": 44
+      },
+      {
+        "selector": "button.btn.seg",
+        "label": "Dark",
+        "widthPx": 63.77,
+        "heightPx": 44,
+        "shortestSidePx": 44
+      },
+      {
+        "selector": "button.btn.seg",
+        "label": "System",
+        "widthPx": 82.41,
+        "heightPx": 44,
+        "shortestSidePx": 44
+      },
+      {
+        "selector": "input",
+        "label": "",
+        "widthPx": 358,
+        "heightPx": 56,
+        "shortestSidePx": 56
+      },
+      {
+        "selector": "button.btn.pri.b56.full.cut8",
+        "label": "Check",
+        "widthPx": 358,
+        "heightPx": 56,
+        "shortestSidePx": 56
+      },
+      {
+        "selector": "button.btn.sec.b56.full",
+        "label": "Scan with camera",
+        "widthPx": 358,
+        "heightPx": 56,
+        "shortestSidePx": 56
+      },
+      {
+        "selector": "button.btn.sec.b56.full",
+        "label": "This is the one in my hand",
+        "widthPx": 151,
+        "heightPx": 56,
+        "shortestSidePx": 56
+      },
+      {
+        "selector": "button.btn.sec.b56.full",
+        "label": "This is the one in my hand",
+        "widthPx": 151,
+        "heightPx": 56,
+        "shortestSidePx": 56
+      },
+      {
+        "selector": "button.btn.sec.b56.full",
+        "label": "Neither. Add a new variant.",
+        "widthPx": 314,
+        "heightPx": 56,
+        "shortestSidePx": 56
+      }
+    ]
+  },
+  "measuredAtIso": "2026-08-18T13:46:54.142Z"
+}

@@ -1,0 +1,103 @@
+{
+  "what": "The three route-level boundaries, rendered and measured against a production build.",
+  "files": [
+    "src/app/error.tsx",
+    "src/app/not-found.tsx",
+    "src/app/global-error.tsx",
+    "src/components/chrome/BoundaryScreen.tsx"
+  ],
+  "target": {
+    "server": "next start on 127.0.0.1:3111, NODE_ENV=production, next build 16.3.1",
+    "note": "never next dev: theme init and error boundaries both behave differently there"
+  },
+  "reproducibility": {
+    "not-found.tsx": "reproducible by anyone: any unmatched URL, and npm run check:ui audits it as /_not-found on every run",
+    "error.tsx": "needed a temporary throwing route (src/app/probe-error/page.tsx, force-dynamic, throws in render). Created, measured, deleted. Re-measuring means recreating it.",
+    "global-error.tsx": "needed a temporary client component that throws during render, mounted in the ROOT layout beside OfflineBanner, keyed on ?probeGlobalError=1. A throw from a nested layout does NOT reach this boundary; only the root layout does. Created, measured, deleted, and src/app/layout.tsx diffed back to identical."
+  },
+  "rendered": {
+    "grid": "3 boundaries x stored theme {dark, light} x viewport {390, 1440}, device preference set to the OPPOSITE of the stored choice in every cell, 12 cells",
+    "error.tsx": {
+      "status": 200,
+      "h1": "That did not load.",
+      "lead": "Try the page again. Nothing saved on this device was lost.",
+      "controls": [
+        "button \"Try again\" 316x56 at 390, 886x56 at 1440",
+        "a \"Go to the aisle check\" 316x56 at 390, 886x56 at 1440"
+      ],
+      "footnote": "Reference 4223620518 (the Next.js error digest, rendered only when one exists)",
+      "footerDisclaimer": true,
+      "topNav": true
+    },
+    "not-found.tsx": {
+      "status": 404,
+      "h1": "That page is not here.",
+      "lead": "The address may be mistyped, or the page may have moved. Everything saved on this device is still where you left it.",
+      "controls": [
+        "a \"Go to the aisle check\" 316x56 at 390, 886x56 at 1440",
+        "a \"Go to your collection\" 316x56 at 390, 886x56 at 1440"
+      ],
+      "footerDisclaimer": true,
+      "topNav": true
+    },
+    "global-error.tsx": {
+      "status": 200,
+      "h1": "That did not load.",
+      "lead": "Try again.",
+      "controls": ["a \"Reload Vitrine\" 316x56 at 390, 886x56 at 1440"],
+      "footerDisclaimer": true,
+      "topNav": false,
+      "topNavNote": "deliberate: the nav's links route through the layout that just threw"
+    },
+    "deadEnds": 0,
+    "browserDefaultsRendered": 0
+  },
+  "geometry": {
+    "scrollWidthAtViewport": {
+      "320": "320 on all 3 boundaries, both themes, 0 elements past the viewport",
+      "390": "390 on all 3 boundaries, both themes",
+      "768": "768 on all 3 boundaries, both themes, 0 elements past the viewport",
+      "1440": "1440 on all 3 boundaries, both themes"
+    },
+    "smallestControlShortSide": 56
+  },
+  "theme": {
+    "method": "CDP Page.startScreencast, everyNthFrame 1, png, capped at the 390x844 viewport, deviceScaleFactor 1. Same technique as tests/e2e/theme-flash.spec.ts. The tab is painted magenta (#ff00ff) before navigating, so a frame still showing the old document cannot be counted as a light flash. Every frame decoded and classified by the colour covering most of it.",
+    "grid": "3 boundaries x stored {light, dark}, device preference opposite in every case",
+    "framesCaptured": 26,
+    "sentinelFrames": 6,
+    "framesInTheStoredTheme": 20,
+    "framesInTheWrongTheme": 0,
+    "frameGeometry": "390x844 at pageScaleFactor 1 for every frame",
+    "negativeControl": {
+      "what": "an init script strips the .lt class 250ms after load, a deliberate late flash",
+      "result": "WRONG=1 on each of the 3 boundaries. The instrument is not blind."
+    },
+    "themeColorMeta": "all 3 theme-color metas carry the resolved colour on all 3 boundaries: #0b1020 for stored dark, #edf0f7 for stored light, matching the value / on the same device"
+  },
+  "defectFoundAndFixed": {
+    "where": "src/app/global-error.tsx",
+    "what": "When the root layout throws on the client React does not hydrate this tree, it renders it fresh into the existing document, and rendering <html> with no className WIPED the lt class THEME_INIT_SCRIPT had already applied. Measured directly: stored=light device=dark gave `html class=\"\" style=null` on global-error against `html class=\"lt\" style=\"color-scheme: light\"` on /. One theme-color meta also stayed at its static JSX value.",
+    "fix": "the scope class and colorScheme are now React props on <html>, computed in a useState lazy initialiser from the stored choice, so they land on the first commit rather than a repaint later; the metas are written from the same state; and ThemeProvider is mounted in the body so its head MutationObserver rewrites any meta React re-inserts, exactly as it does on every other route"
+  },
+  "pseudoLocale": {
+    "url": "?locale=pseudo",
+    "result": "every string on all 3 boundaries renders transformed, including the footer disclaimer. scrollWidth still 390 at 390 under the ~40 percent expansion, no clipping.",
+    "note": "the global boundary's reload label fills {name} from t(\"app.name\"), so it renders as one transformed string carrying another, nested rather than adjacent. src/lib/i18n/pseudo.ts reserves adjacent bracket pairs for the concatenation bug it hunts, so this is the catalogue working."
+  },
+  "checkUi": {
+    "command": "npm run check:ui",
+    "exit": 0,
+    "mode": "database (local Postgres on 5433)",
+    "routes": ["/", "/catalogue", "/collection", "/collection/[publicId]", "/_not-found"],
+    "combinations": 48,
+    "overflow": 0,
+    "contrast": 0,
+    "tapUnder44": 0,
+    "primaryUnder56": 0,
+    "offScaleSpacing": 0,
+    "srOnlyFindings": 0,
+    "widestScrollWidthAt390": 390,
+    "notAudited": "/_global-error, which check:ui skips by design as a shell no navigation reaches. It was measured by hand instead, above."
+  }
+}

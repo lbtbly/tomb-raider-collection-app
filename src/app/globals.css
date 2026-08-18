@@ -1,0 +1,865 @@
+/* Vitrine. Chromatic Era, dual theme. Token values are exact, taken from
+   .forge/DESIGN.md and cross-checked against .forge/handoff-screen-01.md,
+   which wins on any disagreement because it was measured off the rendered
+   design with getComputedStyle rather than transcribed. */
+
+@import "@fontsource-variable/archivo/standard.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+@import "@fontsource/ibm-plex-mono/600.css";
+
+:root {
+  /* Dark, the default scope. */
+  --g: #0b1020;
+  --g2: #05070e;
+  --case: #16203a;
+  --case2: #1e2b4c;
+  --drawer: #070a14;
+  --nil: #101a31;
+  --ink: #f2f6ff;
+  --ink2: #a8b6d4;
+  --ink3: #8593b8;
+  --mint: #00e0a4;
+  --flare: #ff5c2b;
+  --edge: #6478a8;
+  --hair: #2e3b5e;
+  --hovp: #131a2c;
+
+  /* Shared across both themes, exactly three: the two fills and the text
+     that sits on them. */
+  --fmint: #00e0a4;
+  --fflare: #ff5c2b;
+  --onacc: #0b1020;
+
+  --fd: "Archivo Variable", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --fm: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  color-scheme: dark;
+}
+
+.lt {
+  --g: #edf0f7;
+  /* The light scope redefined thirteen of the fourteen ground tokens and
+     missed this one, so `--g2` stayed at the dark value and the top nav
+     rendered a near-black band under light-theme ink: measured 1.06:1 for
+     the nav links, 1.2:1 for the wordmark. #E2E7F2 is the light scale's
+     recessed step from DESIGN.md's own table, already measured there at
+     15.0 for ink, 5.1 for ink3 and 5.0 for mint, so it holds the same
+     "darker than the ground" relation --g2 has in dark without inventing a
+     value the design never set. */
+  --g2: #e2e7f2;
+  --case: #ffffff;
+  --case2: #f7f9fc;
+  --drawer: #e2e7f2;
+  --nil: #e9eef8;
+  --ink: #0c1226;
+  --ink2: #3e4863;
+  --ink3: #565e7b;
+  --mint: #006e50;
+  --flare: #b03005;
+  --edge: #6f7a96;
+  --hair: #cbd3e3;
+  --hovp: #d6ddec;
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* The theme swap never animates: a cross-fade over every colour in a
+     table reads as a rendering fault (DESIGN.md, motion register). */
+  color-scheme: dark;
+}
+
+body {
+  background: var(--g);
+  color: var(--ink);
+  font-family: var(--fd);
+  font-size: 16px;
+  line-height: 1.4;
+  min-height: 100dvh;
+  /* A catalogue number, a barcode or a long variant name must never set a
+     min-content width wider than the phone. This breaks the word instead.
+     Deliberately not `overflow-x: clip` on html or body: that would make
+     document.scrollWidth read 390 while the content stayed cut off, which
+     is the silent version of the exact defect this replaces. */
+  overflow-wrap: break-word;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  color: inherit;
+}
+
+/* Every rule that sets font or background on a text-bearing container also
+   sets color (DESIGN.md note 6 / C26), so a component never inherits colour
+   silently across a theme swap. */
+.frb,
+.tb,
+.sb,
+.ptb,
+.pbar,
+.scanh,
+.tbl,
+.pan,
+.drw,
+.tot,
+.np,
+.fg,
+.v-not,
+.v-unc,
+.v-own,
+.itm,
+.fld,
+.ph,
+.panh,
+.tt,
+.c-can,
+.c-pub,
+.c-prv,
+.shell,
+.foot,
+.topnav,
+.card,
+.sheet,
+.row56 {
+  color: var(--ink);
+}
+
+/* Links resolve to --ink with an --edge underline, mint only on hover and
+   focus, where the settled meaning is real (DESIGN.md note 8). */
+a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--edge);
+}
+a:hover,
+a:focus-visible {
+  color: var(--mint);
+  border-bottom-color: var(--mint);
+}
+.nav a:hover,
+.nav a:focus-visible,
+.foot a:hover,
+.foot a:focus-visible {
+  color: var(--mint);
+  border-bottom-color: var(--mint);
+}
+a.btn,
+a.tbi {
+  border-bottom: 0;
+}
+/* A brand mark may carry the fill token; interface chrome may not
+   (DESIGN.md note 8, the one carve-out). */
+.wm {
+  color: var(--mint);
+  font-family: var(--fm);
+}
+
+/* A page-level display heading (there is no equivalent on the aisle check
+   comp to measure against, since the handoff only fixes the verdict word;
+   this brings new chrome onto the same condensed, heavy display register
+   rather than defaulting to font-stretch: 100%). */
+.pageh1 {
+  font-family: var(--fd);
+  font-weight: 800;
+  font-stretch: 87%;
+  letter-spacing: -0.5px;
+  font-size: clamp(24px, 4vw + 12px, 32px);
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+
+.mono {
+  font-family: var(--fm);
+}
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------------------------------------------------------------
+   Corner cut geometry. Radius is 0 everywhere; the 45 degree cut replaces
+   it on every settled surface. N is 8, 12 or 18 per DESIGN.md, except the
+   verdict slab, whose cut sizes were measured directly off the rendered
+   design in handoff-screen-01.md and take priority: OWNED at 20px. The
+   handoff gives no explicit px for NOT IN COLLECTION's cut beyond "yes", so
+   it uses 18px, the largest of DESIGN.md's three enumerated sizes, noted in
+   REPORT rather than invented silently.
+   --------------------------------------------------------------------- */
+.cut8 {
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+}
+.cut12 {
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+.cut18 {
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);
+}
+.cut20 {
+  clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+}
+
+/* Focus rings die on cut surfaces: clip-path clips an element's own outline
+   and box-shadow. Every focusable cut control is wrapped in .fw, verbatim
+   from DESIGN.md note 7. */
+.fw {
+  display: inline-flex;
+  position: relative;
+  max-width: 100%;
+}
+.fw:focus-within {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+}
+.fw > .btn:focus {
+  outline: none;
+}
+.fw.block {
+  display: flex;
+}
+
+/* A control inside a clipped ancestor uses an inset box-shadow instead,
+   which paints inside the child's own border box and survives the clip. */
+.seg:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--mint);
+}
+
+/* ---------------------------------------------------------------------
+   Buttons
+   --------------------------------------------------------------------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 0 16px;
+  font-family: var(--fd);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  min-width: 0;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: var(--ink);
+  text-align: center;
+}
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.btn.b56 {
+  height: 56px;
+  padding: 0 24px;
+  font-size: 16px;
+}
+.btn.pri {
+  background: var(--fmint);
+  color: var(--onacc);
+}
+.btn.sec {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--edge);
+}
+.btn.sec:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+}
+.btn.full {
+  width: 100%;
+}
+/* A candidate row's label can run to two lines (a full title plus a
+   variant name); the 56px floor still holds because it becomes a minimum,
+   never the height a wrapped line is clipped to. */
+.btn.auto {
+  height: auto;
+  min-height: 56px;
+  padding: 12px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  text-align: left;
+}
+.btn .candLabel {
+  font-size: 15px;
+  font-weight: 700;
+}
+.btn .candBadge {
+  font-family: var(--fm);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink2);
+}
+.btn.sec .candBadge {
+  color: var(--ink2);
+}
+.btn.icon44 {
+  height: 44px;
+  width: 44px;
+  padding: 0;
+}
+
+/* ---------------------------------------------------------------------
+   Verdict slab. The verdict slab arrives at full width in 220ms with no
+   opacity change; see src/components/check/VerdictSlab.tsx for the motion.
+   --------------------------------------------------------------------- */
+.vslab {
+  width: 100%;
+  box-sizing: border-box;
+}
+.vword {
+  font-family: var(--fd);
+  font-weight: 800;
+  margin: 0;
+  display: block;
+}
+
+.vslab.v-own {
+  background: var(--fmint);
+  color: var(--onacc);
+  border: none;
+  padding: 24px 20px 20px;
+}
+.vslab.v-own .vword {
+  font-size: clamp(26px, 6vw + 12px, 46px);
+  letter-spacing: -1.38px;
+  font-stretch: 114%;
+}
+
+/* UNCERTAIN is the only surface in the product with no clip-path and a
+   dashed edge. Not decoration: it is how the verdict survives greyscale and
+   colour blindness (handoff-screen-01.md). Do not add a cut here. */
+.vslab.v-unc {
+  background: var(--g);
+  color: var(--ink);
+  border: 2px dashed var(--flare);
+  padding: 0;
+}
+.vslab.v-unc .vword {
+  font-size: clamp(26px, 6vw + 12px, 46px);
+  letter-spacing: -1.38px;
+  font-stretch: 114%;
+  padding: 24px 20px 20px;
+}
+
+.vslab.v-not {
+  background: var(--case);
+  color: var(--ink);
+  border: 1px solid var(--edge);
+  padding: 20px 16px 16px;
+}
+.vslab.v-not .vword {
+  font-size: clamp(26px, 4vw + 12px, 36px);
+  letter-spacing: -0.9px;
+  font-stretch: 110%;
+}
+
+/* The verdict slab arrives at full width in 220ms with 0 opacity change: a
+   wipe reveal, not a fade, per DESIGN.md's motion register ("Vitrine moves
+   in wipes, not fades"). This wraps the slab rather than animating the
+   slab's own clip-path, because OWNED and NOT IN COLLECTION already use
+   clip-path for their corner cut and a second, animated clip-path on the
+   same element would fight the static one. */
+.vslabWipe {
+  animation: vslab-wipe 220ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@keyframes vslab-wipe {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* Deliberately no color/background-color transition utility here. C14
+   counts animated colour transitions during a theme swap at 0, and the
+   theme swap is a synchronous class toggle (see
+   src/lib/theme/theme.ts#applyResolvedTheme) with nothing else listening
+   for it; a general-purpose transition on a token-driven property would
+   also fire on that toggle. Nothing in this slice needs a colour
+   transition badly enough to risk it, so the only animated motion is the
+   verdict slab's wipe above. */
+
+.vlead {
+  margin: 8px 0 0;
+}
+.vcache {
+  margin: 12px 0 0;
+  font-family: var(--fm);
+  font-size: 13px;
+  color: var(--ink2);
+}
+.vslab.v-own .vcache {
+  color: var(--onacc);
+}
+
+/* ---------------------------------------------------------------------
+   Scan header
+   --------------------------------------------------------------------- */
+.scanh {
+  background: var(--drawer);
+  padding: 16px;
+  border-bottom: 1px solid var(--hair);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* ---------------------------------------------------------------------
+   Camera scan. A surface like any other: radius 0, the 45 degree cut on
+   the top right corner carrying what a radius would (C9). The reticle is
+   drawn in --edge and the status line borrows --flare only when the state
+   is unsettled, so nothing here invents a third accent (C30).
+   --------------------------------------------------------------------- */
+.scanView {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--nil);
+  color: var(--ink);
+  border: 1px solid var(--hair);
+}
+.scanView video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.scanRet {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--edge);
+  pointer-events: none;
+}
+.scanNote {
+  background: var(--case2);
+  color: var(--ink);
+  border-left: 3px solid var(--hair);
+  padding: 12px 16px;
+  margin: 0;
+  font-size: 14px;
+}
+.scanNote.bad {
+  border-left-color: var(--flare);
+}
+
+/* ---------------------------------------------------------------------
+   Personal surface. Canonical is always lighter than its ground; personal
+   is always darker (DESIGN.md note 3). The hatch here is 135 degrees and
+   must never converge with the no-photo hatch at 45 degrees.
+   --------------------------------------------------------------------- */
+.drw {
+  background:
+    repeating-linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--ink) 4%, transparent) 0 2px,
+      transparent 2px 12px
+    ),
+    var(--drawer);
+  border: 1px solid var(--hair);
+  box-shadow: inset 0 8px 12px -12px rgba(0, 0, 0, 0.6);
+  color: var(--ink);
+}
+.priv {
+  border-left: 3px solid var(--ink2);
+  padding-left: 12px;
+}
+
+.np {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      color-mix(in srgb, var(--ink) 6%, transparent) 0 2px,
+      transparent 2px 12px
+    ),
+    var(--nil);
+  color: var(--ink);
+}
+
+/* ---------------------------------------------------------------------
+   Shell, chrome
+   --------------------------------------------------------------------- */
+.shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px 72px;
+}
+/* The top nav is the one row in the product that carries three independent
+   groups, so it is the one most able to push the document wider than the
+   phone. It did: three 44px segments plus the resolved-theme line laid out
+   in a row that could not wrap, and document.scrollWidth measured 560 at a
+   390px viewport in all five verdict states. Every rule below is here so
+   the row gives at its own seams instead. Nothing clips, nothing hides. */
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  border-bottom: 1px solid var(--hair);
+  background: var(--g2);
+  color: var(--ink);
+}
+.topnav .navlinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+/* C7 in the nav. The wordmark and the three links were bare line boxes:
+   67.2x23.4 and three at 23.4 tall, on every route including the ones
+   nobody had touched, because nothing here set a height and a 16px word in
+   a 1.4 line box is 22.4px tall. The hit area grows to 44; the type does
+   not. Content is centred, so every glyph stays on the pixel row it was on
+   and the row keeps its 96.39px desktop height, which the overflow fix
+   settled and this must not disturb.
+
+   The one thing a 44px box would have moved is the --edge underline. It
+   belongs to the word, not to the box, so it moves off border-bottom (which
+   paints at the box edge, 14px adrift once the box is 44) and onto
+   text-decoration (which follows the baseline). The offsets are measured,
+   not guessed: with the border in place the rule painted on one exact pixel
+   row, and 5px lands the Archivo links back on it while 4px does the same
+   for the IBM Plex Mono wordmark, the two fonts having different underline
+   metrics. skip-ink is off because the border crossed the descender of
+   Catalogue's g and a skipping underline would not.
+
+   min-height rather than a fixed height, and rather than padding: padding
+   large enough to reach 44 (20.61px) is off the C8 scale, and a fixed
+   height would spill if a link ever wrapped under the pseudo-locale. */
+.topnav .wm,
+.topnav .navlinks a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  border-bottom: 0;
+  text-decoration: underline;
+  text-decoration-color: var(--edge);
+  text-decoration-thickness: 1px;
+  text-decoration-skip-ink: none;
+}
+.topnav .navlinks a {
+  text-underline-offset: 5px;
+}
+.topnav .wm {
+  text-underline-offset: 4px;
+}
+.topnav .wm:hover,
+.topnav .wm:focus-visible,
+.topnav .navlinks a:hover,
+.topnav .navlinks a:focus-visible {
+  text-decoration-color: var(--mint);
+}
+/* No group in the nav may outgrow the line it sits on. Under the
+   pseudo-locale, where every string runs about 40% longer, this is what
+   keeps the second row honest rather than the first row lucky. */
+.topnav > * {
+  max-width: 100%;
+}
+
+/* The theme switch: one control from 320px up. The group shrink-wraps its
+   three segments at desktop width and wraps them onto a second row before
+   it would ever cross the frame edge, so the 44px floor is kept by
+   min-height rather than by a fixed height a wrapped row would spill out
+   of. DESIGN.md note 5 also describes a phone variant (a 44px half-disc
+   opening a sheet of 56px rows) that this build does not have; that gap is
+   reported, not silently closed here. */
+.themeSwitch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  max-width: 100%;
+}
+.segGroup {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  min-height: 44px;
+  max-width: 100%;
+}
+/* The hairline is drawn over the segments rather than as a border on this
+   box. A 1px border plus a 44px segment makes a 46px control, and DESIGN.md
+   note 5 fixes the control at 44 while C7 fixes the segment at 44; the only
+   way to hold both is a line that costs no layout. Painted after the
+   children so the mint fill of the active segment does not cover it. */
+.segGroup::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 0 1px var(--edge);
+  pointer-events: none;
+}
+.segGroup .seg {
+  flex: 1 1 auto;
+  height: 44px;
+  min-width: 44px;
+}
+.themeSwitch .themeResolved {
+  max-width: 100%;
+  font-size: 11px;
+  color: var(--ink3);
+  text-align: right;
+}
+.foot {
+  border-top: 1px solid var(--hair);
+  padding: 20px 16px;
+  color: var(--ink2);
+  font-size: 13px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--case);
+  color: var(--ink);
+  border: 1px solid var(--hair);
+  padding: 20px;
+}
+
+.offlineBanner {
+  background: var(--case2);
+  color: var(--ink);
+  border: 1px solid var(--flare);
+  padding: 8px 16px;
+  font-family: var(--fm);
+  font-size: 13px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.field label {
+  font-family: var(--fm);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink3);
+}
+.field input {
+  height: 56px;
+  padding: 0 16px;
+  background: var(--case2);
+  border: 1px solid var(--edge);
+  color: var(--ink);
+  font-family: var(--fm);
+  font-size: 16px;
+}
+.field input:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.doorList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* Both UNCERTAIN candidate photographs render side by side, never stacked
+   (F6, .forge/directions/5-chromatic-3-verdicts.jpg). The class name stays
+   .candidateRow: an existing measurement selects
+   "section.vslab .candidateRow .btn" and still finds exactly the two pick
+   buttons this way, one per card, nested a level deeper than before. */
+.candidateRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.candCard {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.candCard .photoFrame {
+  /* The flex gap on .candCard already spaces every child; the frame's own
+     margin-bottom (set for single-column contexts like OWNED) would stack
+     on top of it here. */
+  margin-bottom: 0;
+}
+.candName {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+}
+.candMeta {
+  margin: 0;
+  font-family: var(--fm);
+  font-size: 12px;
+  color: var(--ink2);
+}
+.candOwn {
+  margin: 0 0 4px;
+  font-family: var(--fm);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink3);
+}
+
+/* The dashed rule and caution line above the two candidates, and the
+   closing note under the third door: both read from the same "unsettled"
+   accent as the dashed slab edge itself (DESIGN.md note 8's one other
+   carve-out, --flare on an identifier collision), never a colour the rest
+   of UNCERTAIN does not already use. */
+.vcaution {
+  margin: 12px 0 0;
+  padding-top: 12px;
+  border-top: 1px dashed var(--flare);
+  font-family: var(--fm);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--flare);
+}
+.vnote {
+  margin: 16px 0 0;
+  padding-top: 12px;
+  border-top: 1px dashed var(--hair);
+  font-family: var(--fm);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink3);
+}
+
+.thumb {
+  width: 56px;
+  height: 56px;
+  flex: none;
+  background: var(--nil);
+  overflow: hidden;
+}
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* The 56px no-photo thumbnail: the 45 degree hatch from .np plus one short,
+   real, visible word (C20). Centered over the hatch rather than corner-set,
+   since there is no second line to anchor against. */
+.thumb.np {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thumbNoPhoto {
+  font-family: var(--fm);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  text-align: center;
+}
+
+.photoFrame {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin-bottom: 16px;
+  position: relative;
+}
+.photoFrame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* The large no-photo frame: the icon, then the lead and the next action as
+   real visible text (C20), not clipped behind an aria-label. Column, not
+   row, and centered, so it reads the same whether the frame is full width
+   (OWNED) or half width in a 2-up UNCERTAIN candidate card (F6). Padding
+   and gap hold the C8 scale; overflow: hidden on .photoFrame above is the
+   guard if a narrow card ever runs out of vertical room. */
+.photoFrame.np {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px;
+  text-align: center;
+  color: var(--ink3);
+}
+.photoFrame.np .npLead {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink2);
+}
+.photoFrame.np .npAction {
+  margin: 0;
+  font-size: 11px;
+  color: var(--ink3);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  /* Was -1px, the last off-scale spacing value in the product and the one
+     thing standing between C8 and a true 0. The negative margin belonged to
+     the `clip: rect(0,0,0,0)` form, which is deprecated; clip-path does the
+     hiding on its own, so the margin goes rather than the scale bending
+     around it. Same behaviour: out of the visual flow, still in the
+     accessibility tree. */
+  margin: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

@@ -15,7 +15,7 @@
 
 function uiAudit(opts) {
   opts = opts || {};
-  const SCALE_SCALE = 4, TAP_MIN = 44 - 0.5, PRIMARY_MIN = 56 - 0.5;
+  const TAP_MIN = 44 - 0.5, PRIMARY_MIN = 56 - 0.5;
   const SPACING = new Set([0, 4, 8, 12, 16, 20, 24, 32, 40, 56, 72]);
   const PHOTO = /(^|\s)(shot|jc|face|lp|slv|disc|pkbox|btlbox|btl|lid|bse|cd|spn|glyph|band|sheen|cast|cv-[a-z]+)(\s|$)/;
   const BANNED = ['seamless', 'robust', 'delve', 'effortless', 'elevate', 'unlock'];
@@ -115,7 +115,7 @@ function uiAudit(opts) {
   // C8 spacing, and C26 declare-do-not-inherit, from the stylesheets
   const offScale = new Set(), inheritColour = [], literalHex = new Set();
   for (const sheet of document.styleSheets) {
-    let rules; try { rules = [...sheet.cssRules]; } catch (e) { continue; }
+    let rules; try { rules = [...sheet.cssRules]; } catch { continue; }
     for (const rule of rules) {
       if (!rule.style || !rule.selectorText) continue;
       const sel = rule.selectorText;
@@ -126,9 +126,13 @@ function uiAudit(opts) {
           const n = Math.abs(parseFloat(t)); if (!SPACING.has(n)) offScale.add(n);
         });
       });
+      // C26 clause 1 counts a rule that sets FONT OR BACKGROUND without colour.
+      // setsSurface is that condition and was computed here from the start; the
+      // line below used a background-only variable instead, so the font half of
+      // the clause was never evaluated by the instrument built to evaluate it.
+      // eslint flagged setsSurface as unused for exactly that reason.
       const setsSurface = rule.style.background || rule.style.backgroundColor || rule.style.font || rule.style.fontFamily;
-      const isContainer = rule.style.background || rule.style.backgroundColor;
-      if (isContainer && !rule.style.color && !PHOTO.test(' ' + sel.replace(/[.#>,:]/g, ' ') + ' ')) inheritColour.push(sel.slice(0, 50));
+      if (setsSurface && !rule.style.color && !PHOTO.test(' ' + sel.replace(/[.#>,:]/g, ' ') + ' ')) inheritColour.push(sel.slice(0, 50));
       const text = rule.cssText || '';
       (text.match(/#[0-9a-fA-F]{3,8}\b/g) || []).forEach(h => {
         if (!/^:root|\.lt\b/.test(sel) && !PHOTO.test(' ' + sel.replace(/[.#>,:]/g, ' ') + ' ')) literalHex.add(sel.slice(0, 28) + ' ' + h);
@@ -166,7 +170,13 @@ function uiAudit(opts) {
     primaryUnder56: primarySmall,
     nonZeroRadii: radii.length, radiiSample: [...new Set(radii)].slice(0, 6),
     offScaleSpacing: [...offScale].sort((a, b) => a - b),
-    backgroundWithoutColour: [...new Set(inheritColour)].slice(0, 10),
+    // C26. Renamed from backgroundWithoutColour: the condition now includes
+    // font, which is what the clause says and what setsSurface always computed.
+    // Counts are returned WHOLE and the samples truncated, because a caller
+    // that counts a truncated array reports 10 when the answer is 15.
+    surfaceWithoutColourCount: new Set(inheritColour).size,
+    surfaceWithoutColour: [...new Set(inheritColour)].slice(0, 10),
+    literalHexOutsideTokensCount: literalHex.size,
     literalHexOutsideTokens: [...literalHex].slice(0, 10),
     copy, disclaimerPresent: disclaimer,
     focusableCount: focusable, withVisibleRingStyle: withRing

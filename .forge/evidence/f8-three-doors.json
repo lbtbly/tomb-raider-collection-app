@@ -1,0 +1,90 @@
+{
+  "line": "F8",
+  "viewportPx": 390,
+  "identifier": "SLUS-99999",
+  "doorCount": 3,
+  "doorLabels": [
+    "Search by title",
+    "Start an entry",
+    "Add to Unfiled"
+  ],
+  "doorBoxes": [
+    {
+      "tag": "a",
+      "label": "Search by title",
+      "href": "/catalogue?q=SLUS-99999",
+      "widthPx": 324,
+      "heightPx": 56
+    },
+    {
+      "tag": "button",
+      "label": "Start an entry",
+      "href": null,
+      "widthPx": 324,
+      "heightPx": 56
+    },
+    {
+      "tag": "button",
+      "label": "Add to Unfiled",
+      "href": null,
+      "widthPx": 324,
+      "heightPx": 56
+    }
+  ],
+  "pathsWithNoNextAction": 0,
+  "walks": [
+    {
+      "door": "Search by title",
+      "kind": "link",
+      "nextAction": "the catalogue index, searchable, with the identifier carried into the query",
+      "landedOn": "http://localhost:3211/catalogue?q=SLUS-99999",
+      "evidence": {
+        "href": "/catalogue?q=SLUS-99999",
+        "heading": "Catalogue index",
+        "searchInputValue": "SLUS-99999",
+        "interactiveControlsOnScreen": 3
+      },
+      "hasNextAction": true
+    },
+    {
+      "door": "Start an entry",
+      "kind": "in-place",
+      "nextAction": "a titled draft entry saved on this device, confirmed on screen",
+      "landedOn": "http://localhost:3211/",
+      "evidence": {
+        "inputPrefilledWith": "SLUS-99999",
+        "confirmation": "Saved to your collection.",
+        "draftRowsOnDevice": 1,
+        "draftTitles": [
+          "Tomb Raider, unlisted copy"
+        ],
+        "draftIdentifiers": [
+          "SLUS-99999"
+        ]
+      },
+      "hasNextAction": true
+    },
+    {
+      "door": "Add to Unfiled",
+      "kind": "in-place",
+      "nextAction": "an Unfiled copy saved on this device, and a link into the collection that lists it",
+      "landedOn": "http://localhost:3211/collection",
+      "evidence": {
+        "unfiledCopiesOnDevice": 1,
+        "unfiledIdentifiers": [
+          "SLUS-99999"
+        ],
+        "collectionHeading": "Your collection",
+        "identifierVisibleInCollection": 1
+      },
+      "hasNextAction": true
+    }
+  ],
+  "captures": {
+    "doors": ".forge/evidence/f8-three-doors-390.png",
+    "door1Catalogue": ".forge/evidence/f8-door1-catalogue-search-390.png",
+    "door2Draft": ".forge/evidence/f8-door2-draft-saved-390.png",
+    "door3Unfiled": ".forge/evidence/f8-door3-unfiled-saved-390.png",
+    "door3Collection": ".forge/evidence/f8-door3-collection-390.png"
+  }
+}

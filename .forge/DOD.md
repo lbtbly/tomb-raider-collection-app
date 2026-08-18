@@ -52,21 +52,21 @@ further amendment: from here it is verified, not negotiated.
 ## Function
 
 - [ ] F1. On the live URL in a clean profile with no account, a typed identifier for a variant the device holds paints a verdict within 100 ms of submit; median and maximum over 10 runs recorded, maximum at or under 250 ms.
-- [ ] F2. With the network disabled after one sync, 10 typed identifiers return verdicts and the network log records 0 requests during those 10 runs.
-- [ ] F3. With the network throttled to 30 kbit/s and 2,000 ms latency, the verdict paints before any network response arrives; the timestamped network log is captured.
-- [ ] F4. Three verdicts exist and never two: OWNED, UNCERTAIN, NOT IN COLLECTION, each captured at 390 px.
+- [x] F2. With the network disabled after one sync, 10 typed identifiers return verdicts and the network log records 0 requests during those 10 runs.
+- [x] F3. With the network throttled to 30 kbit/s and 2,000 ms latency, the verdict paints before any network response arrives; the timestamped network log is captured.
+- [x] F4. Three verdicts exist and never two: OWNED, UNCERTAIN, NOT IN COLLECTION, each captured at 390 px.
 - [ ] F5. An identifier matching exactly one owned variant renders OWNED over the user's own cached photograph; count of community photographs rendered in the OWNED frame is 0.
 - [ ] F6. An identifier matching 2 or more variants renders UNCERTAIN with no corner cut and a dashed edge, both photographs side by side, the differing field written as a sentence, and 2 candidate buttons of identical weight plus a third door; captured. Count of candidate buttons styled as primary is 0, and count of preselected candidates is 0.
-- [ ] F7. Both outcomes of UNCERTAIN reverse from the item in 2 taps or fewer; captured before and after.
-- [ ] F8. An unknown identifier renders 3 doors: search by title, start an entry, add to Unfiled. Count of paths with no next action is 0.
-- [ ] F9. When the on-device copy is older than 24 hours its age prints under the verdict in the same position on all 3 verdicts; captured for each.
-- [ ] F10. From a cold app open with the network disabled, a scan or typed identifier reaches a verdict and a saved copy in 4 taps or fewer and 20 seconds or less; the slowest of 5 timed runs recorded.
-- [ ] F11. Every primary control in the check flow measures at least 56 px on its shortest side at 390 px width; count under 56 px is 0.
+- [x] F7. Both outcomes of UNCERTAIN reverse from the item in 2 taps or fewer; captured before and after.
+- [x] F8. An unknown identifier renders 3 doors: search by title, start an entry, add to Unfiled. Count of paths with no next action is 0.
+- [x] F9. When the on-device copy is older than 24 hours its age prints under the verdict in the same position on all 3 verdicts; captured for each.
+- [x] F10. From a cold app open with the network disabled, a scan or typed identifier reaches a verdict and a saved copy in 4 taps or fewer and 20 seconds or less; the slowest of 5 timed runs recorded.
+- [x] F11. Every primary control in the check flow measures at least 56 px on its shortest side at 390 px width; count under 56 px is 0.
 - [ ] F12. After one sync with the network disabled, the collection list, its thumbnails, the collection search field, a collection item, and the catalogue index all render; count of the 5 offline routes that fail is 0.
-- [ ] F13. A copy created signed out survives a hard reload and a full browser restart with the network disabled; both captured.
+- [x] F13. A copy created signed out survives a hard reload and a full browser restart with the network disabled; both captured.
 - [ ] F14. The on-device catalogue index measures at or under 400 KB compressed at the shipped catalogue size; the measured size recorded.
-- [ ] F15. A write made with the network disabled and replayed on reconnect creates exactly 1 row; a count query for that operation id returns 1.
-- [ ] F16. With the network disabled, every route renders the designed offline state; count of routes showing a browser error page is 0.
+- [x] F15. A write made with the network disabled and replayed on reconnect creates exactly 1 row; a count query for that operation id returns 1.
+- [x] F16. With the network disabled, every route renders the designed offline state; count of routes showing a browser error page is 0.
 - [ ] F17. Signed out with storage cleared, all 7 public actions complete: browse, search, apply a facet, open a specimen sheet, pick a variant, open a public profile, run a duplicate check and save the copy. Count of sign-in prompts, interstitials, route guards, and locked controls encountered is 0. Capture series.
 - [ ] F18. The account offer appears on exactly 2 triggers, below a completed save and on a second device, dismisses to the same screen, and appears 0 times on load.
 - [ ] F19. Market value, collection totals, CSV export, and CSV import are each reachable with no account; count of these 4 behind any wall is 0.
@@ -108,7 +108,7 @@ further amendment: from here it is verified, not negotiated.
 - [ ] F55. An in-progress filter, a saved view, and an open variant picker each survive a refresh with state intact; all three captured before and after.
 - [ ] F56. Every error state offers a next action; count of dead ends across the 7 screens is 0.
 - [ ] F57. Every control that starts work either finishes within 100 ms or shows progress within 100 ms; count doing neither across the 7 screens is 0.
-- [ ] F58. A camera scan resolves an identifier on a device with a camera, and typed entry reaches the same verdict on a device without one; both captured.
+- [x] F58. A camera scan resolves an identifier on a device with a camera, and typed entry reaches the same verdict on a device without one; both captured.
 - [ ] F59. A copy saved signed out and then claimed at sign-in produces the same row count before and after; both counts recorded.
 - [ ] F60. The wantlist is a view of the collection sharing its columns and its saved views; captured beside the owned view.
 - [ ] F61. Quantity on a copy accepts a value above 1 and the collection total counts it; the entered quantity and the total recorded.
@@ -130,31 +130,31 @@ not a shipped second theme.
 - [ ] C2. All 7 screens captured in loading, empty, error, and offline states; count rendering an unstyled browser default is 0. 28 captures.
 - [ ] C3. Contrast measured against the built interface in both themes, 8 pairs, numbers recorded. Dark: ink3 on the canonical surface at or above 4.5:1; mint on the ground at or above 4.5:1; flare on the canonical surface at or above 4.5:1; edge as a control boundary on the ground at or above 3:1. Light: ink3 on the personal surface at or above 4.5:1; mint on the personal surface at or above 4.5:1; flare on the personal surface at or above 4.5:1; the focus ring against the canonical surface at or above 3:1.
 - [ ] C4. Every interactive control on the 7 screens shows a visible focus indicator; count without one is 0.
-- [ ] C5. Every form control carries a programmatic label; count without one is 0.
-- [ ] C6. Every image carries descriptive alternative text or is marked decorative; count with neither is 0.
-- [ ] C7. No interactive target measures under 44 px on its shortest side at 390 px; count of violations is 0.
-- [ ] C8. Every margin and padding value the product's own rules set is drawn from 4, 8, 12, 16, 20, 24, 32, 40, 56, 72; count of off-scale values is 0.
+- [x] C5. Every form control carries a programmatic label; count without one is 0.
+- [x] C6. Every image carries descriptive alternative text or is marked decorative; count with neither is 0.
+- [x] C7. No interactive target measures under 44 px on its shortest side at 390 px; count of violations is 0.
+- [x] C8. Every margin and padding value the product's own rules set is drawn from 4, 8, 12, 16, 20, 24, 32, 40, 56, 72; count of off-scale values is 0.
 - [ ] C9. Every corner radius the product's own rules set is 0, because the 45 degree cut carries what a radius would; count of non-zero radii is 0, and count of settled surfaces missing the cut is 0.
-- [ ] C10. Exactly 2 type families load, Archivo and IBM Plex Mono, both served from the app origin; requests for type to a host the product does not operate number 0.
+- [x] C10. Exactly 2 type families load, Archivo and IBM Plex Mono, both served from the app origin; requests for type to a host the product does not operate number 0.
 - [ ] C11. Numbers sitting in table columns render with tabular figures; count of numeric columns with proportional figures is 0.
 - [ ] C12. The verdict slab arrives at full width in 220 ms with 0 opacity change; captured as a frame sequence with the measured duration recorded. Every other transition measures 140 ms on cubic-bezier(.2,.8,.2,1); count of transitions off that duration or curve is 0.
-- [ ] C13. With reduced motion requested, the verdict slab arrives with 0 travel and 0 scale while the slab, its colour and its cut remain; captured.
+- [x] C13. With reduced motion requested, the verdict slab arrives with 0 travel and 0 scale while the slab, its colour and its cut remain; captured.
 - [ ] C14. A theme change repaints in a single frame; count of animated colour transitions during a theme swap is 0, and count of transform animations outside the verdict across the 7 screens is 0.
 - [ ] C15. Console errors across the 7 screens and the core loop number 0.
 - [ ] C16. Under the pseudo-locale, every user-visible string renders transformed; count of untransformed strings across the 7 screens is 0.
 - [ ] C17. At 40 percent text expansion, the 7 screens at 390, 768, and 1440 show 0 clipped or overflowing strings. 21 captures.
 - [ ] C18. Dates, integers, decimals, and currency follow the browser locale: a de-DE capture shows 1.234,56 EUR and 17.08.2026, and the same rows in en-GB show the en-GB forms. Both captured.
-- [ ] C19. The shipped strings contain 0 em dashes, 0 emoji, and 0 occurrences of seamless, robust, delve, effortless, elevate, unlock.
+- [x] C19. The shipped strings contain 0 em dashes, 0 emoji, and 0 occurrences of seamless, robust, delve, effortless, elevate, unlock.
 - [ ] C20. Every empty state names the next action; count of empty states without one is 0.
 - [ ] C21. The product name renders identically in the wordmark, the browser tab title, the social card, and the About page; 4 captures.
 - [ ] C22. Personal fields render only on the recessed personal surface, in both themes: a sweep of the 7 screens finds 0 occurrences of purchase price, acquisition source, storage location, private notes, or certification serial on the canonical surface. Canonical is lighter than its ground and personal is darker than its ground in both themes; count of surfaces violating that vector is 0.
-- [ ] C23. The verdict word is live text and never an image, fitted to width between 26 px and 46 px; the rendered font size at 390 px and at 1440 px are both recorded and both fall in that range.
+- [x] C23. The verdict word is live text and never an image, fitted to width between 26 px and 46 px; the rendered font size at 390 px and at 1440 px are both recorded and both fall in that range.
 - [ ] C24. Every screen holds one footer line carrying the disclaimer; count of screens without it is 0.
 - [ ] C25. Theme parity. All 7 screens captured at 1440 and 390 in the light theme, 14 captures; count of clipped or overflowing elements is 0, and count of text pairs measuring below 4.5:1 in either theme is 0.
 - [ ] C26. Declare, do not inherit. Every CSS rule that sets font or background on a text-bearing container also sets color; count of violations is 0. Count of literal colour values outside the token definitions and the photograph object classes is 0.
-- [ ] C27. The theme choice persists across a reload and across a new session on the same device; captured before and after each.
-- [ ] C28. With no explicit choice stored, the theme follows the device setting and the control names which mode it resolved to; captured with the device set to light and again set to dark.
-- [ ] C29. No flash of the wrong theme on first paint: a cold load captured in each of the 3 stored states shows 0 frames rendered in the other theme.
+- [x] C27. The theme choice persists across a reload and across a new session on the same device; captured before and after each.
+- [x] C28. With no explicit choice stored, the theme follows the device setting and the control names which mode it resolved to; captured with the device set to light and again set to dark.
+- [x] C29. No flash of the wrong theme on first paint: a cold load captured in each of the 3 stored states shows 0 frames rendered in the other theme.
 - [ ] C30. Chroma is a two-word vocabulary: mint appears only on settled states and flare only on unsettled states; count of coloured elements carrying neither meaning is 0.
 
 ## Release
@@ -164,7 +164,7 @@ not a shipped second theme.
 - [ ] R3. The rollback command with this project's real ids is recorded in REPORT.md, executed once against a prior deployment, then reversed; both outputs recorded.
 - [ ] R4. Environment variable names are listed in REPORT.md and 0 values appear anywhere in the repository.
 - [ ] R5. Database size on the live database is at or under 350 MB and object storage use is at or under 7 GB; both numbers recorded with the queries that produced them.
-- [ ] R6. No advertisement, donation control, payment control, or affiliate link appears on any route; count is 0.
+- [x] R6. No advertisement, donation control, payment control, or affiliate link appears on any route; count is 0.
 - [ ] R7. A sign-in on the live URL completes for an account that is not the operator's own; captured.
 - [ ] R8. The catalogue holds at least 220 items and 380 variants across at least 12 categories, with all 5 provenance types present and at least 60 handed-out variants; the counts recorded from SQL.
 - [ ] R9. Every barcode value in the live database passes its check digit; count of failures is 0.
@@ -200,5 +200,5 @@ Any one of these unchecked blocks PASS on its own.
 - [ ] D1. Placeholder copy: count of lorem ipsum, TBD, Untitled, Example, and sample strings visible anywhere on the live product is 0.
 - [ ] D2. Default favicon: the browser tab shows the product icon on all 7 screens; count of default marks is 0.
 - [ ] D3. Unstyled empty or error states: across the 28 state captures, count rendering browser defaults or unstyled text is 0.
-- [ ] D4. TODO markers: count of TODO, FIXME, XXX, and HACK markers in shipped code is 0.
+- [x] D4. TODO markers: count of TODO, FIXME, XXX, and HACK markers in shipped code is 0.
 - [ ] D5. Single-viewport checking: every screen carries captures at 390, 768, and 1440; count of screens with fewer than 3 is 0.

@@ -3,68 +3,68 @@
   "runs": [
     {
       "identifier": "sles00024",
-      "domMs": 1.8,
-      "paintMs": 4.8,
+      "domMs": 0.6,
+      "paintMs": 11.3,
       "verdict": "NOT IN COLLECTION"
     },
     {
       "identifier": "5032921014762",
-      "domMs": 1,
-      "paintMs": 10.5,
+      "domMs": 0.6,
+      "paintMs": 13.4,
       "verdict": "NOT IN COLLECTION"
     },
     {
       "identifier": "743175952919",
-      "domMs": 1.2,
-      "paintMs": 10.4,
+      "domMs": 0.3,
+      "paintMs": 12,
       "verdict": "NOT IN COLLECTION"
     },
     {
       "identifier": "slps00617",
-      "domMs": 1.2,
-      "paintMs": 10.9,
+      "domMs": 0.2,
+      "paintMs": 11.8,
       "verdict": "NOT IN COLLECTION"
     },
     {
       "identifier": "4988110020063",
-      "domMs": 1.3,
-      "paintMs": 10,
+      "domMs": 0.3,
+      "paintMs": 11.8,
       "verdict": "NOT IN COLLECTION"
     },
     {
       "identifier": "sles00107",
-      "domMs": 1.2,
-      "paintMs": 9.1,
+      "domMs": 0.3,
+      "paintMs": 11.3,
       "verdict": "NOT IN COLLECTION"
     },
     {
       "identifier": "slus00437",
-      "domMs": 1.1,
-      "paintMs": 9.3,
+      "domMs": 0.3,
+      "paintMs": 11.2,
       "verdict": "NOT IN COLLECTION"
     },
     {
       "identifier": "788687301237",
-      "domMs": 1.1,
-      "paintMs": 11.7,
+      "domMs": 0.4,
+      "paintMs": 11.3,
       "verdict": "NOT IN COLLECTION"
     },
     {
       "identifier": "slps01200",
-      "domMs": 1.1,
-      "paintMs": 10.5,
+      "domMs": 0.3,
+      "paintMs": 11.3,
       "verdict": "NOT IN COLLECTION"
     },
     {
       "identifier": "4988110020193",
-      "domMs": 1.2,
-      "paintMs": 7.4,
+      "domMs": 0.4,
+      "paintMs": 11.4,
       "verdict": "NOT IN COLLECTION"
     }
   ],
-  "domMedianMs": 1.2,
-  "domMaxMs": 1.8,
-  "paintMedianMs": 10.2,
-  "paintMaxMs": 11.7,
+  "domMedianMs": 0.3,
+  "domMaxMs": 0.6,
+  "paintMedianMs": 11.35,
+  "paintMaxMs": 13.4,
   "measuredWith": "in-page MutationObserver installed before submit, performance.now() either side, one rAF for the frame"
 }

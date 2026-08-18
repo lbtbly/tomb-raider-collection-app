@@ -142,9 +142,18 @@ forever and nothing 404s.
 franchise            id, public_id, slug, name, summary, created_at
 category             id, slug, name, parent_id, sort        -- global tree, franchise-free
 provenance_type      id, key, label_key, is_sold bool, mark_style, sort
-                     -- seeded: retail(sold, filled), promotional(pill),
-                     --   press(square), convention_exclusive(double rule),
-                     --   preorder_bonus(dashed). mark_style binds the design.
+                     -- seeded: retail(sold, filled), promotional(hollow_diagonal),
+                     --   press(hollow_bar), convention_exclusive(hollow_wedge),
+                     --   preorder_bonus(hollow_left_block). mark_style binds the design.
+                     -- Corrected 2026-08-18: the previous values (pill, square,
+                     -- double rule, dashed) were the retired Field Registrar marks.
+                     -- Chromatic Era carries sold versus handed out on fill, and
+                     -- separates the four handed-out types on the inner shape, so
+                     -- every mark is a squared outline and "square" no longer
+                     -- distinguishes anything. F21 counts pairs sharing a
+                     -- fill-and-shape combination at zero, which is checkable
+                     -- straight off this column only if the column says what the
+                     -- design actually draws.
 identifier_kind      id, key, label_key, validator
                      -- barcode_ean13, barcode_upca, catalogue_number, sku,
                      --   matrix_runout, asin, isbn, part_number

@@ -5,14 +5,9 @@
 import { drizzle } from "drizzle-orm/postgres-js";
 import { migrate } from "drizzle-orm/postgres-js/migrator";
 import postgres from "postgres";
+import { resolveDatabaseUrl } from "../../src/db/connection";
 
-const LOCAL_DEV_DEFAULT =
-  "postgres://vitrine:vitrine_dev_only@localhost:5433/vitrine";
-
-const connectionString =
-  process.env.DATABASE_URL_UNPOOLED ??
-  process.env.DATABASE_URL ??
-  LOCAL_DEV_DEFAULT;
+const connectionString = resolveDatabaseUrl(true);
 
 async function main() {
   const client = postgres(connectionString, { max: 1 });

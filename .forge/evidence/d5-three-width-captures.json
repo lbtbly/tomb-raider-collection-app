@@ -1,0 +1,939 @@
+{
+  "target": {
+    "baseUrl": "http://localhost:3200",
+    "port": "3200",
+    "status": 200,
+    "devMarkersFound": [],
+    "buildIdOnDisk": "7JzsJmX3Ve24jbZ-g46Vt",
+    "buildIdFoundInServedHtml": true,
+    "checkedAt": "2026-08-18T12:37:25.962Z"
+  },
+  "identifiers": {
+    "addedToCollection": "0054714",
+    "staysUnowned": "0289520",
+    "colliding": "3014202",
+    "catalogueRows": 145,
+    "distinctIdentifierValues": 167
+  },
+  "negativeControl": {
+    "what": "a viewport capture taken at 1024 px and filed under a name claiming 768 px",
+    "file": ".forge/evidence/d5-negative-control-claims-768.png",
+    "claimedWidthPx": 768,
+    "ihdrWidthPx": 1024,
+    "ihdrHeightPx": 844,
+    "nameAgreesWithPixels": false,
+    "judgeVerdict": "REJECTED",
+    "pngRemovedAfterMeasurement": true,
+    "why": "a width check that has never rejected anything is not a check"
+  },
+  "line": "D5. Single-viewport checking: every screen carries captures at 390, 768, and 1440; count of screens with fewer than 3 is 0.",
+  "widthsRequested": [
+    390,
+    768,
+    1440
+  ],
+  "viewports": [
+    {
+      "widthPx": 390,
+      "heightPx": 844
+    },
+    {
+      "widthPx": 768,
+      "heightPx": 844
+    },
+    {
+      "widthPx": 1440,
+      "heightPx": 900
+    }
+  ],
+  "themesCaptured": [
+    "dark",
+    "light"
+  ],
+  "themeNote": "Both themes. D5 names widths only, so one would satisfy it. C1 asks for the same 7 x 3 grid in the dark theme and is blocked on the same missing 768 column, so the dark set is captured here to feed it. C1 still needs its own zero overflow count and is not closed by these files.",
+  "captures": [
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-aisle-check-resting",
+      "theme": "dark",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-aisle-check-resting-dark-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-owned",
+      "theme": "dark",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-owned-dark-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-not-in-collection",
+      "theme": "dark",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-not-in-collection-dark-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-uncertain",
+      "theme": "dark",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-uncertain-dark-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "02 Catalogue",
+      "route": "/catalogue",
+      "state": "02-catalogue",
+      "theme": "dark",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-02-catalogue-dark-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection",
+      "route": "/collection",
+      "state": "04-collection-list",
+      "theme": "dark",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-04-collection-list-dark-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection (saved copy detail)",
+      "route": "/collection/[publicId]",
+      "state": "04-collection-item",
+      "theme": "dark",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-04-collection-item-dark-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-aisle-check-resting",
+      "theme": "dark",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-aisle-check-resting-dark-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-owned",
+      "theme": "dark",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-owned-dark-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-not-in-collection",
+      "theme": "dark",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-not-in-collection-dark-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-uncertain",
+      "theme": "dark",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-uncertain-dark-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "02 Catalogue",
+      "route": "/catalogue",
+      "state": "02-catalogue",
+      "theme": "dark",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-02-catalogue-dark-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection",
+      "route": "/collection",
+      "state": "04-collection-list",
+      "theme": "dark",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-04-collection-list-dark-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection (saved copy detail)",
+      "route": "/collection/[publicId]",
+      "state": "04-collection-item",
+      "theme": "dark",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-04-collection-item-dark-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-aisle-check-resting",
+      "theme": "dark",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-01-aisle-check-resting-dark-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-owned",
+      "theme": "dark",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-01-verdict-owned-dark-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-not-in-collection",
+      "theme": "dark",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-01-verdict-not-in-collection-dark-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-uncertain",
+      "theme": "dark",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-01-verdict-uncertain-dark-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "02 Catalogue",
+      "route": "/catalogue",
+      "state": "02-catalogue",
+      "theme": "dark",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-02-catalogue-dark-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection",
+      "route": "/collection",
+      "state": "04-collection-list",
+      "theme": "dark",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-04-collection-list-dark-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection (saved copy detail)",
+      "route": "/collection/[publicId]",
+      "state": "04-collection-item",
+      "theme": "dark",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-04-collection-item-dark-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-aisle-check-resting",
+      "theme": "light",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-aisle-check-resting-light-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-owned",
+      "theme": "light",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-owned-light-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-not-in-collection",
+      "theme": "light",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-not-in-collection-light-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-uncertain",
+      "theme": "light",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-uncertain-light-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "02 Catalogue",
+      "route": "/catalogue",
+      "state": "02-catalogue",
+      "theme": "light",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-02-catalogue-light-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection",
+      "route": "/collection",
+      "state": "04-collection-list",
+      "theme": "light",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-04-collection-list-light-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection (saved copy detail)",
+      "route": "/collection/[publicId]",
+      "state": "04-collection-item",
+      "theme": "light",
+      "widthRequestedPx": 390,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-04-collection-item-light-390.png",
+      "claimedWidthPx": 390,
+      "ihdrWidthPx": 390,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-aisle-check-resting",
+      "theme": "light",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-aisle-check-resting-light-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-owned",
+      "theme": "light",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-owned-light-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-not-in-collection",
+      "theme": "light",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-not-in-collection-light-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-uncertain",
+      "theme": "light",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-01-verdict-uncertain-light-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "02 Catalogue",
+      "route": "/catalogue",
+      "state": "02-catalogue",
+      "theme": "light",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-02-catalogue-light-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection",
+      "route": "/collection",
+      "state": "04-collection-list",
+      "theme": "light",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-04-collection-list-light-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection (saved copy detail)",
+      "route": "/collection/[publicId]",
+      "state": "04-collection-item",
+      "theme": "light",
+      "widthRequestedPx": 768,
+      "heightRequestedPx": 844,
+      "file": ".forge/evidence/d5-04-collection-item-light-768.png",
+      "claimedWidthPx": 768,
+      "ihdrWidthPx": 768,
+      "ihdrHeightPx": 844,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-aisle-check-resting",
+      "theme": "light",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-01-aisle-check-resting-light-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-owned",
+      "theme": "light",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-01-verdict-owned-light-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-not-in-collection",
+      "theme": "light",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-01-verdict-not-in-collection-light-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-uncertain",
+      "theme": "light",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-01-verdict-uncertain-light-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "02 Catalogue",
+      "route": "/catalogue",
+      "state": "02-catalogue",
+      "theme": "light",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-02-catalogue-light-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection",
+      "route": "/collection",
+      "state": "04-collection-list",
+      "theme": "light",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-04-collection-list-light-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    },
+    {
+      "designScreen": "04 My collection (saved copy detail)",
+      "route": "/collection/[publicId]",
+      "state": "04-collection-item",
+      "theme": "light",
+      "widthRequestedPx": 1440,
+      "heightRequestedPx": 900,
+      "file": ".forge/evidence/d5-04-collection-item-light-1440.png",
+      "claimedWidthPx": 1440,
+      "ihdrWidthPx": 1440,
+      "ihdrHeightPx": 900,
+      "nameAgreesWithPixels": true
+    }
+  ],
+  "coverageByScreenAndTheme": [
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-aisle-check-resting",
+      "theme": "dark",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-owned",
+      "theme": "dark",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-not-in-collection",
+      "theme": "dark",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-uncertain",
+      "theme": "dark",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "02 Catalogue",
+      "route": "/catalogue",
+      "state": "02-catalogue",
+      "theme": "dark",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "04 My collection",
+      "route": "/collection",
+      "state": "04-collection-list",
+      "theme": "dark",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "04 My collection (saved copy detail)",
+      "route": "/collection/[publicId]",
+      "state": "04-collection-item",
+      "theme": "dark",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-aisle-check-resting",
+      "theme": "light",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-owned",
+      "theme": "light",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-not-in-collection",
+      "theme": "light",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "01 Aisle check",
+      "route": "/",
+      "state": "01-verdict-uncertain",
+      "theme": "light",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "02 Catalogue",
+      "route": "/catalogue",
+      "state": "02-catalogue",
+      "theme": "light",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "04 My collection",
+      "route": "/collection",
+      "state": "04-collection-list",
+      "theme": "light",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    },
+    {
+      "designScreen": "04 My collection (saved copy detail)",
+      "route": "/collection/[publicId]",
+      "state": "04-collection-item",
+      "theme": "light",
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "widthCount": 3
+    }
+  ],
+  "capturesWithFewerThanThreeWidths": [],
+  "totalCaptures": 42,
+  "capturesWhoseNameDisagreesWithPixels": [],
+  "scaleReadings": [
+    {
+      "theme": "dark",
+      "widthPx": 390,
+      "bodyZoom": "1",
+      "devicePixelRatio": 1,
+      "visualViewportScale": 1,
+      "innerWidthPx": 390,
+      "documentScrollWidthPx": 390,
+      "storedChoice": "dark",
+      "rootClasses": "",
+      "colorScheme": "dark",
+      "bodyBackground": "rgb(11, 16, 32)"
+    },
+    {
+      "theme": "dark",
+      "widthPx": 768,
+      "bodyZoom": "1",
+      "devicePixelRatio": 1,
+      "visualViewportScale": 1,
+      "innerWidthPx": 768,
+      "documentScrollWidthPx": 768,
+      "storedChoice": "dark",
+      "rootClasses": "",
+      "colorScheme": "dark",
+      "bodyBackground": "rgb(11, 16, 32)"
+    },
+    {
+      "theme": "dark",
+      "widthPx": 1440,
+      "bodyZoom": "1",
+      "devicePixelRatio": 1,
+      "visualViewportScale": 1,
+      "innerWidthPx": 1440,
+      "documentScrollWidthPx": 1440,
+      "storedChoice": "dark",
+      "rootClasses": "",
+      "colorScheme": "dark",
+      "bodyBackground": "rgb(11, 16, 32)"
+    },
+    {
+      "theme": "light",
+      "widthPx": 390,
+      "bodyZoom": "1",
+      "devicePixelRatio": 1,
+      "visualViewportScale": 1,
+      "innerWidthPx": 390,
+      "documentScrollWidthPx": 390,
+      "storedChoice": "light",
+      "rootClasses": "lt",
+      "colorScheme": "light",
+      "bodyBackground": "rgb(237, 240, 247)"
+    },
+    {
+      "theme": "light",
+      "widthPx": 768,
+      "bodyZoom": "1",
+      "devicePixelRatio": 1,
+      "visualViewportScale": 1,
+      "innerWidthPx": 768,
+      "documentScrollWidthPx": 768,
+      "storedChoice": "light",
+      "rootClasses": "lt",
+      "colorScheme": "light",
+      "bodyBackground": "rgb(237, 240, 247)"
+    },
+    {
+      "theme": "light",
+      "widthPx": 1440,
+      "bodyZoom": "1",
+      "devicePixelRatio": 1,
+      "visualViewportScale": 1,
+      "innerWidthPx": 1440,
+      "documentScrollWidthPx": 1440,
+      "storedChoice": "light",
+      "rootClasses": "lt",
+      "colorScheme": "light",
+      "bodyBackground": "rgb(237, 240, 247)"
+    }
+  ],
+  "designScreens": [
+    {
+      "number": "01",
+      "name": "Aisle check",
+      "route": "/",
+      "built": true,
+      "capturedHere": true,
+      "slice": 1
+    },
+    {
+      "number": "02",
+      "name": "Catalogue",
+      "route": "/catalogue",
+      "built": true,
+      "capturedHere": true,
+      "slice": 2
+    },
+    {
+      "number": "03",
+      "name": "Specimen sheet",
+      "route": null,
+      "built": false,
+      "capturedHere": false,
+      "slice": 2,
+      "note": "no route under src/app answers a catalogue specimen sheet; slice 2 brings it with static generation of every sheet"
+    },
+    {
+      "number": "04",
+      "name": "My collection",
+      "route": "/collection",
+      "built": true,
+      "capturedHere": true,
+      "slice": 1,
+      "note": "slice 1 ships the list; the dense table, saved views and money arrive in slice 4"
+    },
+    {
+      "number": "05",
+      "name": "Public profile",
+      "route": null,
+      "built": false,
+      "capturedHere": false,
+      "slice": 6,
+      "note": "/collection/[publicId] is NOT this screen. That route is keyed by the on-device copy id, reads one anonymous copy off this device, and has no notion of another collector. Screen 05 is another collector's shelf browsed signed out, and slice 6 brings it."
+    },
+    {
+      "number": "06",
+      "name": "Contributor",
+      "route": null,
+      "built": false,
+      "capturedHere": false,
+      "slice": 7
+    },
+    {
+      "number": "07",
+      "name": "Landing",
+      "route": null,
+      "built": false,
+      "capturedHere": false,
+      "slice": 9,
+      "note": "the root is the aisle check, not the landing"
+    }
+  ],
+  "extraRouteCaptured": {
+    "route": "/collection/[publicId]",
+    "what": "the saved copy detail page, a detail view inside screen 04",
+    "builtInSlice": 1,
+    "capturedHere": true
+  },
+  "verdict": {
+    "d5": "STILL FAILS",
+    "whatThisPassFixed": "the 768 column, which held 0 captures before this run, now exists for every screen routed today, at IHDR-verified pixel widths, in both themes",
+    "whatRemains": [
+      "screen 03 Specimen sheet is not routed; slice 2",
+      "screen 05 Public profile is not routed; slice 6",
+      "screen 06 Contributor is not routed; slice 7",
+      "screen 07 Landing is not routed; slice 9"
+    ],
+    "earliestClose": "slice 9. D5, C1 and C17 all read all 7 screens at 390, 768 and 1440, and the last of the seven arrives with the landing in slice 9. No amount of capture work on the built routes can close any of the three before then.",
+    "siblingLinesUnblockedByTheSameColumn": [
+      "C1. All 7 screens captured at 390, 768, and 1440 in the dark theme; count of clipped or overflowing elements is 0. The dark captures here cover the built screens; the overflow count is a separate measurement.",
+      "C17. At 40 percent text expansion, the 7 screens at 390, 768, and 1440 show 0 clipped or overflowing strings. Not addressed here; needs a pseudo-locale pass at all three widths."
+    ]
+  },
+  "recordedAt": "2026-08-18T12:37:36.841Z"
+}

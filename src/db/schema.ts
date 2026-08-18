@@ -259,3 +259,29 @@ export const clientOp = pgTable(
   (t) => [index("client_op_device_idx").on(t.deviceId)],
 );
 
+// ---------------------------------------------------------------------------
+// sync_epoch: a single, stamped row the delta feed
+// (src/app/api/sync/index/route.ts) compares against the epoch every synced
+// device carries. Measured 2026-08-18: the server was re-seeded from empty
+// (docker compose down -v; migrate; seed), minting fresh public_ids for the
+// same catalogue, and a device that had already synced kept all 123 of its
+// old rows against 74 live variants because nothing told it the catalogue
+// had been rebuilt wholesale, producing a phantom duplicate match inside
+// UNCERTAIN. The migration that creates this table inserts its one row with
+// a freshly random value, so a full local reset -- which necessarily
+// re-applies every migration from empty -- mints a new epoch as a side
+// effect, with no script required to remember to bump it. Production
+// applies this migration exactly once and the epoch is then stable for the
+// life of that database. A client whose stored epoch does not match this
+// value gets a forced full resync instead of a delta (see the route), which
+// converges it to server truth with no human clearing storage.
+// ---------------------------------------------------------------------------
+
+export const syncEpoch = pgTable("sync_epoch", {
+  id: integer("id").primaryKey(),
+  epoch: varchar("epoch", { length: 36 }).notNull(),
+  createdAt: timestamp("created_at", { withTimezone: true })
+    .notNull()
+    .defaultNow(),
+});
+

@@ -1,0 +1,564 @@
+{
+  "$schema": "vitrine.seed-starter.v1",
+  "items": [
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Tomb Raider: Game Secrets",
+      "release_year": 1996,
+      "publisher": "Prima Games",
+      "description_md": "The first Prima guide to the original Tomb Raider, 112 pages.",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761509318.json", "title": "Tomb Raider: Game Secrets", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "Open Library edition record. Title, publisher, publish date and both ISBNs read directly from the JSON at this URL." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17", "note": "Bibliographic record keyed by the ISBN in the URL." },
+      "variants": [
+        {
+          "name": "Prima Games edition",
+          "provenance_type": "retail",
+          "release_date": "1996-12-17",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761509318.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9780761509318", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761509318.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_13 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "0761509313", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761509318.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Tomb Raider II: The Official Strategy Guide",
+      "subtitle": "Starring Lara Croft",
+      "release_year": 1997,
+      "publisher": "Prima Publishing",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761511069.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "Record carries isbn_10 only; no isbn_13 field present, so only the ISBN-10 is recorded below." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Prima Publishing edition",
+          "provenance_type": "retail",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761511069.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "0761511067", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761511069.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Tomb Raider III: Official Strategy Guide",
+      "release_year": 1998,
+      "publisher": "Prima Publishing",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761515197.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Prima Publishing edition",
+          "provenance_type": "retail",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761515197.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "publish_date reads December 1998." },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9780761515197", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761515197.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "0761515194", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761515197.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Tomb Raider II Gold",
+      "subtitle": "Prima's Official Strategy Guide",
+      "release_year": 1999,
+      "publisher": "Prima Games",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761522713.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Prima Games edition",
+          "provenance_type": "retail",
+          "release_date": "1999-06-23",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761522713.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9780761522713", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761522713.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "0761522719", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761522713.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Tomb Raider Chronicles",
+      "subtitle": "Prima's Official Strategy Guide",
+      "release_year": 2000,
+      "publisher": "Prima Games",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761532354.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Prima Games edition",
+          "provenance_type": "retail",
+          "release_date": "2000-11-16",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761532354.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9780761532354", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761532354.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "0761532358", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761532354.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Lara Croft tomb raider",
+      "subtitle": "angel of darkness : Prima's official strategy guide.",
+      "release_year": 2003,
+      "publisher": "Prima Games",
+      "description_md": "Title and subtitle transcribed exactly as they appear in the cited record.",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761540397.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "Record carries isbn_10 only; no isbn_13 field present." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Prima Games edition",
+          "provenance_type": "retail",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761540397.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "0761540393", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761540397.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Lara's Book: Lara Croft and the Tomb Raider Phenomenon",
+      "release_year": 1998,
+      "publisher": "Prima Publishing",
+      "description_md": "By Douglas Coupland and Kip Ward, per the cited record.",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761515807.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "Record carries isbn_10 only." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Prima Publishing edition",
+          "provenance_type": "retail",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761515807.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "0761515801", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761515807.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Lara Croft Tomb Raider Anniversary",
+      "subtitle": "Prima Official Game Guide",
+      "release_year": 2007,
+      "publisher": "Prima Games",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761556169.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Prima Games edition",
+          "provenance_type": "retail",
+          "release_date": "2007-06-05",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761556169.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9780761556169", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761556169.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "0761556168", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761556169.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Tomb Raider",
+      "subtitle": "Underworld : the complete official guide",
+      "release_year": 2008,
+      "publisher": "Piggyback Interactive",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761560777.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Piggyback Interactive edition",
+          "provenance_type": "retail",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761560777.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9780761560777", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761560777.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "0761560777", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780761560777.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Tomb raider",
+      "subtitle": "official strategy guide",
+      "release_year": 2013,
+      "publisher": "DK/BradyGames",
+      "description_md": "Standard edition guide to the 2013 reboot. Title transcribed exactly as it appears in the cited record.",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744014532.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "BradyGames standard edition",
+          "provenance_type": "retail",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744014532.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9780744014532", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744014532.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "0744014530", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744014532.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Tomb Raider Limited Edition Strategy Guide",
+      "release_year": 2013,
+      "publisher": "BradyGames",
+      "description_md": "Limited edition companion to the 2013 reboot guide. Recorded as a separate item from the standard edition because it carries a distinct ISBN.",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744014617.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "BradyGames limited edition",
+          "provenance_type": "retail",
+          "release_date": "2013-03-05",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744014617.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9780744014617", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744014617.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "0744014611", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744014617.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "20 Years of Tomb Raider",
+      "release_year": 2016,
+      "publisher": "Prima Games",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744016901.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Prima Games edition",
+          "provenance_type": "retail",
+          "release_date": "2016-10-25",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744016901.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9780744016901", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744016901.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "0744016908", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9780744016901.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Shadow of the Tomb Raider The Official Art Book",
+      "release_year": 2018,
+      "publisher": "Titan Books",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781785659492.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Titan Books edition",
+          "provenance_type": "retail",
+          "release_date": "2018-09-18",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781785659492.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9781785659492", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781785659492.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "1785659499", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781785659492.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "The Official Tomb Raider Files (Tomb Raider)",
+      "release_year": 2001,
+      "publisher": "Carlton Books Ltd",
+      "description_md": "Title transcribed exactly as it appears in the cited record.",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781842223789.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Carlton Books edition",
+          "provenance_type": "retail",
+          "release_date": "2001-08-01",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781842223789.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9781842223789", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781842223789.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "184222378X", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781842223789.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Making of Tomb Raider",
+      "release_year": 2021,
+      "publisher": "Pen & Sword Books Limited",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781399002059.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "Record shows no isbn_10; only the ISBN-13 is recorded." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Pen & Sword edition",
+          "provenance_type": "retail",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781399002059.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9781399002059", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781399002059.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Rise of the Tomb Raider",
+      "subtitle": "the official art book",
+      "release_year": 2015,
+      "description_md": "Publisher not stated in the cited record and therefore not recorded.",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781783299966.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "Record carries no publishers field." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "First edition",
+          "provenance_type": "retail",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781783299966.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9781783299966", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781783299966.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "1783299967", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781783299966.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Tomb Raider Legend",
+      "release_year": 2006,
+      "publisher": "Piggyback Interactive",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781903511817.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Piggyback Interactive edition",
+          "provenance_type": "retail",
+          "release_date": "2006-04-04",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781903511817.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9781903511817", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781903511817.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "190351181X", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781903511817.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Totally Unauthorized Tomb Raider II Pocket Guide",
+      "release_year": 1997,
+      "publisher": "BradyGames",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781566867344.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "BradyGames pocket edition",
+          "provenance_type": "retail",
+          "release_date": "1997-11-24",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781566867344.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9781566867344", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781566867344.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "1566867347", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781566867344.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "guides-and-books",
+      "title": "Tomb Raider III: Pocket Guide",
+      "release_year": 1998,
+      "publisher": "BradyGames",
+      "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781566868488.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "BradyGames pocket edition",
+          "provenance_type": "retail",
+          "release_date": "1998-11-24",
+          "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781566868488.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "isbn", "value": "9781566868488", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781566868488.json", "publisher": "Open Library", "retrieved_on": "2026-08-17" }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } },
+            { "kind": "isbn", "value": "1566868483", "source": { "kind": "database_entry", "url": "https://openlibrary.org/isbn/9781566868488.json", "publisher": "Open Library", "retrieved_on": "2026-08-17", "note": "isbn_10 field of the record." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "prop-replicas",
+      "title": "Necklace of Lara Croft",
+      "publisher": "Weta Workshop",
+      "description_md": "Prop replica of the jade necklace from Shadow of the Tomb Raider. Nephrite jade pendant carved by pounamu carver Terence Turner in Wellington, New Zealand, on a leather cord, housed in a laser-etched wooden puzzle box. 2.9 x 2.9 x 0.4 cm.",
+      "source": { "kind": "publisher_page", "url": "https://www.wetanz.com/us/necklace-of-lara-croft", "title": "NECKLACE OF LARA CROFT", "publisher": "Weta Workshop", "retrieved_on": "2026-08-17", "note": "Manufacturer store page. SKU, materials, dimensions and USD 99.00 price read directly off the page. Listed SOLD OUT. No release date stated on the page, so none is recorded." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Weta Workshop retail release",
+          "provenance_type": "retail",
+          "source": { "kind": "publisher_page", "url": "https://www.wetanz.com/us/necklace-of-lara-croft", "publisher": "Weta Workshop", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "sku", "value": "883002767", "source": { "kind": "publisher_page", "url": "https://www.wetanz.com/us/necklace-of-lara-croft", "publisher": "Weta Workshop", "retrieved_on": "2026-08-17", "note": "SKU printed in the product detail block." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "prop-replicas",
+      "title": "Lara Croft's Recurve Bow and Arrow",
+      "publisher": "Weta Workshop",
+      "description_md": "1:1 scale non-functional prop replica of Lara's recurve bow from Shadow of the Tomb Raider. Resin with battle-worn finishing, 40 x 140 x 9 cm, 3 kg, supplied with a wall-mounting clip.",
+      "source": { "kind": "publisher_page", "url": "https://www.wetanz.com/us/bow-and-arrow-of-lara-croft", "title": "LARA CROFT'S RECURVE BOW AND ARROW", "publisher": "Weta Workshop", "retrieved_on": "2026-08-17", "note": "Manufacturer store page. SKU, scale, materials and dimensions read directly off the page. Listed SOLD OUT at USD 279.00 (regular USD 299.00). No release date stated, so none is recorded." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Weta Workshop retail release",
+          "provenance_type": "retail",
+          "source": { "kind": "publisher_page", "url": "https://www.wetanz.com/us/bow-and-arrow-of-lara-croft", "publisher": "Weta Workshop", "retrieved_on": "2026-08-17" },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": [
+            { "kind": "sku", "value": "883902766", "source": { "kind": "publisher_page", "url": "https://www.wetanz.com/us/bow-and-arrow-of-lara-croft", "publisher": "Weta Workshop", "retrieved_on": "2026-08-17", "note": "SKU printed in the product detail block." }, "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "prop-replicas",
+      "title": "Classic Lara Croft Pistol Replicas in Lit Shadowbox",
+      "release_year": 2024,
+      "publisher": "Limited Run Games",
+      "description_md": "Pair of replica classic Lara Croft pistols mounted in a lit shadow box. Sold only as a component of the Tomb Raider I-III Remastered Collector's Edition, never separately. Item name transcribed from the Limited Run Games contents list.",
+      "source": { "kind": "publisher_page", "url": "https://www.crystaldynamics.com/blog/2024/05/21/physical-editions-of-tomb-raider-i-iii-remastered-now-available-for-pre-order/", "title": "Physical Editions of Tomb Raider I-III Remastered Now Available for Pre-Order", "publisher": "Crystal Dynamics", "retrieved_on": "2026-08-17", "note": "Publisher blog post dated 2024-05-21. States pre-order window 21 May to 23 June 2024, release 24 September 2024, USD 199.99, and lists two replica Lara Croft pistols in a lit shadow box among the contents." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Component of Tomb Raider I-III Remastered Collector's Edition (PS5)",
+          "provenance_type": "retail",
+          "release_date": "2024-09-24",
+          "region_note": "Sold worldwide direct from Limited Run Games during a limited pre-order window",
+          "source": { "kind": "retailer_archive", "url": "https://limitedrungames.com/products/tomb-raider-i-iii-remastered-collectors-edition-ps5", "title": "Tomb Raider I-III Remastered Collector's Edition (PS5)", "publisher": "Limited Run Games", "retrieved_on": "2026-08-17", "note": "Retailer product page, listed SOLD OUT at USD 199.99. Contents list names 'Classic Lara Croft Pistol Replicas in Lit Shadowbox'. No SKU or barcode shown on the page, so none is recorded." },
+          "verification": { "method": "retailer_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "trading-cards-and-games",
+      "title": "Tomb Raider Collectible Card Game",
+      "release_year": 1999,
+      "publisher": "Precedence Entertainment",
+      "description_md": "Licensed collectible card game in which players take the role of Lara Croft or a rival tomb raider, exploring a tomb, defeating traps and animals, and competing for the level treasure. Discontinued when Precedence sold out of stock at the GAMA 2001 trade show and the licence expired.",
+      "source": { "kind": "database_entry", "url": "https://en.wikipedia.org/wiki/Tomb_Raider_Collectible_Card_Game", "title": "Tomb Raider Collectible Card Game", "publisher": "Wikipedia", "retrieved_on": "2026-08-17", "note": "Set names, card counts and release months read from this article; corroborated independently by the Core Design official site page at core-design.com/goodies_cardgame.html, which confirms Precedence Entertainment as publisher and the sell-out at GAMA 2001." },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17", "note": "Wikipedia article plus core-design.com goodies page, both retrieved 2026-08-17." },
+      "variants": [
+        {
+          "name": "Premier set (210 cards)",
+          "provenance_type": "retail",
+          "release_date": "1999-08-01",
+          "region_note": "Release month given as August 1999; day not stated in the source and set to the first of the month",
+          "source": { "kind": "database_entry", "url": "https://en.wikipedia.org/wiki/Tomb_Raider_Collectible_Card_Game", "publisher": "Wikipedia", "retrieved_on": "2026-08-17", "note": "Base set, 210 cards, August 1999. No product code stated in the source." },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": []
+        },
+        {
+          "name": "Slippery When Wet expansion (209 cards)",
+          "provenance_type": "retail",
+          "release_date": "1999-12-01",
+          "region_note": "Release month given as December 1999; day not stated in the source and set to the first of the month",
+          "source": { "kind": "database_entry", "url": "https://en.wikipedia.org/wiki/Tomb_Raider_Collectible_Card_Game", "publisher": "Wikipedia", "retrieved_on": "2026-08-17", "note": "First expansion, 209 cards, December 1999." },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": []
+        },
+        {
+          "name": "Big Guns expansion (159 cards)",
+          "provenance_type": "retail",
+          "release_date": "2000-04-01",
+          "region_note": "Release month given as April 2000; day not stated in the source and set to the first of the month",
+          "source": { "kind": "database_entry", "url": "https://en.wikipedia.org/wiki/Tomb_Raider_Collectible_Card_Game", "publisher": "Wikipedia", "retrieved_on": "2026-08-17", "note": "Second and final expansion, 159 cards, April 2000. A third expansion, Uncovered, was announced for summer 2000 and never released; it is deliberately not recorded here." },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "trading-cards-and-games",
+      "title": "Tomb Raider Legends The Board Game",
+      "release_year": 2019,
+      "publisher": "Square Enix Products",
+      "description_md": "Competitive board game for 3 to 4 players, each controlling a different incarnation of Lara Croft across six randomised locations, racing to secure the genuine Scion among replicas. Box contents include area tiles, a climax tile, threat level markers, the Scion artifact and two artifact replicas, action and raid cards, character boards and XP tokens.",
+      "source": { "kind": "database_entry", "url": "https://www.wikiraider.com/index.php/Tomb_Raider_Legends_The_Board_Game", "title": "Tomb Raider Legends The Board Game", "publisher": "WikiRaider", "retrieved_on": "2026-08-17", "note": "Contents list transcribed from this entry. No barcode or product code is given on the page, so none is recorded. Title is spelled without a colon on the cited page; the Square Enix press release headline uses 'Tomb Raider Legends: The Board Game' and that press page returned HTTP 401, so the WikiRaider spelling is used here." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17", "note": "Single-source row. Weaker than the rest of this batch; flagged for re-verification against a retail box photograph." },
+      "variants": [
+        {
+          "name": "Square Enix Products retail release",
+          "provenance_type": "retail",
+          "source": { "kind": "database_entry", "url": "https://www.wikiraider.com/index.php/Tomb_Raider_Legends_The_Board_Game", "publisher": "WikiRaider", "retrieved_on": "2026-08-17", "note": "Release stated as Q1 2019. No exact day given, so no release_date is recorded." },
+          "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "trading-cards-and-games",
+      "title": "Tomb Raider I-III Remastered Premium Trading Cards",
+      "release_year": 2024,
+      "publisher": "Limited Run Games",
+      "description_md": "Set of premium trading cards issued only inside the Tomb Raider I-III Remastered Collector's Edition. Card count is not stated on any source retrieved and is therefore not recorded.",
+      "source": { "kind": "publisher_page", "url": "https://www.crystaldynamics.com/blog/2024/05/21/physical-editions-of-tomb-raider-i-iii-remastered-now-available-for-pre-order/", "title": "Physical Editions of Tomb Raider I-III Remastered Now Available for Pre-Order", "publisher": "Crystal Dynamics", "retrieved_on": "2026-08-17", "note": "Publisher blog post dated 2024-05-21 listing a premium trading cards set among Collector's Edition contents." },
+      "verification": { "method": "publisher_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+      "variants": [
+        {
+          "name": "Component of Tomb Raider I-III Remastered Collector's Edition (PS5)",
+          "provenance_type": "retail",
+          "release_date": "2024-09-24",
+          "source": { "kind": "retailer_archive", "url": "https://limitedrungames.com/products/tomb-raider-i-iii-remastered-collectors-edition-ps5", "title": "Tomb Raider I-III Remastered Collector's Edition (PS5)", "publisher": "Limited Run Games", "retrieved_on": "2026-08-17", "note": "Contents list names 'Premium Trading Cards'. No SKU or barcode shown." },
+          "verification": { "method": "retailer_archive", "verified_on": "2026-08-17", "verified_by": "forge research pass, 2026-08-17" },
+          "identifiers": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "line": "target",
+  "oldBuildIdReplaced": "7JzsJmX3Ve24jbZ-g46Vt",
+  "newBuildId": "U_TSj0yB6qLS3TQKwtvZ6",
+  "oldBuildIdStillInServedHtml": false,
+  "baseUrl": "http://127.0.0.1:3600",
+  "port": "3600",
+  "status": 200,
+  "devMarkersFound": [],
+  "buildIdOnDisk": "U_TSj0yB6qLS3TQKwtvZ6",
+  "buildIdFoundInServedHtml": true,
+  "checkedAt": "2026-08-18T13:46:53.248Z",
+  "scale": {
+    "bodyZoom": "1",
+    "devicePixelRatio": 1,
+    "visualViewportScale": 1,
+    "innerWidthPx": 390,
+    "documentScrollWidthPx": 390
+  }
+}

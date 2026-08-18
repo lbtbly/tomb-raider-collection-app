@@ -1,0 +1,355 @@
+{
+  "line": "C13, dark theme. Verifier re-measurement.",
+  "baseUrl": "http://127.0.0.1:3950",
+  "servedBuildIdBefore": "YzDsr6hHAGTXS-1fwnrSm",
+  "servedBuildIdAfter": "YzDsr6hHAGTXS-1fwnrSm",
+  "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+  "reduced": {
+    "reducedMotionRequested": true,
+    "uniqueIdentifier": "0054714",
+    "catalogueRows": 145,
+    "htmlClass": "",
+    "matchMediaReduce": true,
+    "matchMediaDark": true,
+    "groundColor": "rgb(11, 16, 32)",
+    "caseToken": "#16203a",
+    "fmintToken": "#00e0a4",
+    "notInCollection": {
+      "label": "not-in-collection",
+      "travel": {
+        "frames": 42,
+        "maxTravelXPx": 0,
+        "maxTravelYPx": 0,
+        "maxWidthDeltaPx": 0,
+        "maxHeightDeltaPx": 0,
+        "nonNoneTransformFrames": 0,
+        "nonNoneScaleFrames": 0,
+        "nonNoneTranslateFrames": 0,
+        "distinctSlabOpacities": [
+          "1"
+        ],
+        "distinctWrapperClipPaths": [
+          "inset(0px 0% 0px 0px)"
+        ],
+        "partPaintedFrames": 42
+      },
+      "firstSlab": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 319.02,
+        "backgroundColor": "rgb(22, 32, 58)",
+        "clipPath": "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 0px 100%)",
+        "border": "1px solid rgb(100, 120, 168)",
+        "borderStyle": "solid",
+        "opacity": "1",
+        "color": "rgb(242, 246, 255)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      },
+      "lastSlab": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 319.02,
+        "backgroundColor": "rgb(22, 32, 58)",
+        "clipPath": "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 0px 100%)",
+        "border": "1px solid rgb(100, 120, 168)",
+        "borderStyle": "solid",
+        "opacity": "1",
+        "color": "rgb(242, 246, 255)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      },
+      "verdictKind": "NOT_IN_COLLECTION",
+      "settled": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 319.02,
+        "backgroundColor": "rgb(22, 32, 58)",
+        "clipPath": "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 0px 100%)",
+        "border": "1px solid rgb(100, 120, 168)",
+        "borderStyle": "solid",
+        "opacity": "1",
+        "color": "rgb(242, 246, 255)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      }
+    },
+    "owned": {
+      "label": "owned",
+      "travel": {
+        "frames": 42,
+        "maxTravelXPx": 0,
+        "maxTravelYPx": 0,
+        "maxWidthDeltaPx": 0,
+        "maxHeightDeltaPx": 0,
+        "nonNoneTransformFrames": 0,
+        "nonNoneScaleFrames": 0,
+        "nonNoneTranslateFrames": 0,
+        "distinctSlabOpacities": [
+          "1"
+        ],
+        "distinctWrapperClipPaths": [
+          "inset(0px 0% 0px 0px)"
+        ],
+        "partPaintedFrames": 42
+      },
+      "firstSlab": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 431.23,
+        "backgroundColor": "rgb(0, 224, 164)",
+        "clipPath": "polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+        "border": "0px none rgb(11, 16, 32)",
+        "borderStyle": "none",
+        "opacity": "1",
+        "color": "rgb(11, 16, 32)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      },
+      "lastSlab": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 431.23,
+        "backgroundColor": "rgb(0, 224, 164)",
+        "clipPath": "polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+        "border": "0px none rgb(11, 16, 32)",
+        "borderStyle": "none",
+        "opacity": "1",
+        "color": "rgb(11, 16, 32)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      },
+      "verdictKind": "OWNED",
+      "settled": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 431.23,
+        "backgroundColor": "rgb(0, 224, 164)",
+        "clipPath": "polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+        "border": "0px none rgb(11, 16, 32)",
+        "borderStyle": "none",
+        "opacity": "1",
+        "color": "rgb(11, 16, 32)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      }
+    }
+  },
+  "motion": {
+    "reducedMotionRequested": false,
+    "uniqueIdentifier": "0054714",
+    "catalogueRows": 145,
+    "htmlClass": "",
+    "matchMediaReduce": false,
+    "matchMediaDark": true,
+    "groundColor": "rgb(11, 16, 32)",
+    "caseToken": "#16203a",
+    "fmintToken": "#00e0a4",
+    "notInCollection": {
+      "label": "not-in-collection",
+      "travel": {
+        "frames": 42,
+        "maxTravelXPx": 0,
+        "maxTravelYPx": 0,
+        "maxWidthDeltaPx": 0,
+        "maxHeightDeltaPx": 0,
+        "nonNoneTransformFrames": 0,
+        "nonNoneScaleFrames": 0,
+        "nonNoneTranslateFrames": 0,
+        "distinctSlabOpacities": [
+          "1"
+        ],
+        "distinctWrapperClipPaths": [
+          "inset(0px 100% 0px 0px)",
+          "inset(0px 69.4568% 0px 0px)",
+          "inset(0px 43.5805% 0px 0px)",
+          "inset(0px 26.9359% 0px 0px)",
+          "inset(0px 16.9168% 0px 0px)",
+          "inset(0px 10.8962% 0px 0px)",
+          "inset(0px 7.05174% 0px 0px)",
+          "inset(0px 4.48204% 0px 0px)",
+          "inset(0px 2.75034% 0px 0px)",
+          "inset(0px 1.59192% 0px 0px)",
+          "inset(0px 0.82605% 0px 0px)",
+          "inset(0px 0.351755% 0px 0px)",
+          "inset(0px 0.0946128% 0px 0px)",
+          "inset(0px 0.00238339% 0px 0px)",
+          "inset(0px 0% 0px 0px)"
+        ],
+        "partPaintedFrames": 42
+      },
+      "firstSlab": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 319.02,
+        "backgroundColor": "rgb(22, 32, 58)",
+        "clipPath": "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 0px 100%)",
+        "border": "1px solid rgb(100, 120, 168)",
+        "borderStyle": "solid",
+        "opacity": "1",
+        "color": "rgb(242, 246, 255)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      },
+      "lastSlab": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 319.02,
+        "backgroundColor": "rgb(22, 32, 58)",
+        "clipPath": "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 0px 100%)",
+        "border": "1px solid rgb(100, 120, 168)",
+        "borderStyle": "solid",
+        "opacity": "1",
+        "color": "rgb(242, 246, 255)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      },
+      "verdictKind": "NOT_IN_COLLECTION",
+      "settled": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 319.02,
+        "backgroundColor": "rgb(22, 32, 58)",
+        "clipPath": "polygon(0px 0px, calc(100% - 18px) 0px, 100% 18px, 100% 100%, 0px 100%)",
+        "border": "1px solid rgb(100, 120, 168)",
+        "borderStyle": "solid",
+        "opacity": "1",
+        "color": "rgb(242, 246, 255)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      }
+    },
+    "owned": {
+      "label": "owned",
+      "travel": {
+        "frames": 42,
+        "maxTravelXPx": 0,
+        "maxTravelYPx": 0,
+        "maxWidthDeltaPx": 0,
+        "maxHeightDeltaPx": 0,
+        "nonNoneTransformFrames": 0,
+        "nonNoneScaleFrames": 0,
+        "nonNoneTranslateFrames": 0,
+        "distinctSlabOpacities": [
+          "1"
+        ],
+        "distinctWrapperClipPaths": [
+          "inset(0px 100% 0px 0px)",
+          "inset(0px 69.6343% 0px 0px)",
+          "inset(0px 43.5805% 0px 0px)",
+          "inset(0px 26.7834% 0px 0px)",
+          "inset(0px 16.9621% 0px 0px)",
+          "inset(0px 10.9532% 0px 0px)",
+          "inset(0px 7.05174% 0px 0px)",
+          "inset(0px 4.50717% 0px 0px)",
+          "inset(0px 2.75881% 0px 0px)",
+          "inset(0px 1.59192% 0px 0px)",
+          "inset(0px 0.82968% 0px 0px)",
+          "inset(0px 0.353887% 0px 0px)",
+          "inset(0px 0.0966296% 0px 0px)",
+          "inset(0px 0.00253132% 0px 0px)",
+          "inset(0px 0% 0px 0px)"
+        ],
+        "partPaintedFrames": 42
+      },
+      "firstSlab": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 431.23,
+        "backgroundColor": "rgb(0, 224, 164)",
+        "clipPath": "polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+        "border": "0px none rgb(11, 16, 32)",
+        "borderStyle": "none",
+        "opacity": "1",
+        "color": "rgb(11, 16, 32)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      },
+      "lastSlab": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 431.23,
+        "backgroundColor": "rgb(0, 224, 164)",
+        "clipPath": "polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+        "border": "0px none rgb(11, 16, 32)",
+        "borderStyle": "none",
+        "opacity": "1",
+        "color": "rgb(11, 16, 32)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      },
+      "verdictKind": "OWNED",
+      "settled": {
+        "xPx": 16,
+        "yPx": 595.58,
+        "widthPx": 358,
+        "heightPx": 431.23,
+        "backgroundColor": "rgb(0, 224, 164)",
+        "clipPath": "polygon(0px 0px, calc(100% - 20px) 0px, 100% 20px, 100% 100%, 0px 100%)",
+        "border": "0px none rgb(11, 16, 32)",
+        "borderStyle": "none",
+        "opacity": "1",
+        "color": "rgb(11, 16, 32)",
+        "transform": "none",
+        "scale": "none",
+        "translate": "none",
+        "rotate": "none"
+      }
+    }
+  },
+  "retention": {
+    "propertiesCompared": [
+      "backgroundColor",
+      "clipPath",
+      "border",
+      "borderStyle",
+      "opacity",
+      "color",
+      "widthPx",
+      "heightPx",
+      "xPx",
+      "yPx"
+    ],
+    "notInCollection": {
+      "differences": [],
+      "differenceCount": 0
+    },
+    "owned": {
+      "differences": [],
+      "differenceCount": 0
+    }
+  }
+}

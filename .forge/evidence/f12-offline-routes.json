@@ -1,0 +1,266 @@
+{
+  "target": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "devMarkersFound": [],
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdFoundInServedHtml": true,
+    "checkedAt": "2026-08-18T14:47:33.770Z"
+  },
+  "servedBuild": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedMatchesExpected": true,
+    "servedMatchesDisk": true,
+    "devMarkersFound": [],
+    "checkedAt": "2026-08-18T14:47:33.776Z"
+  },
+  "port": "3701",
+  "buildId": "YzDsr6hHAGTXS-1fwnrSm",
+  "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+  "buildIdOnDiskAtStart": "YzDsr6hHAGTXS-1fwnrSm",
+  "buildIdFoundInServedHtml": true,
+  "scale": {
+    "bodyZoom": "1",
+    "devicePixelRatio": 1,
+    "visualViewportScale": 1,
+    "innerWidthPx": 390,
+    "documentScrollWidthPx": 390
+  },
+  "warmUp": {
+    "identifier": "0054714",
+    "serviceWorker": {
+      "supported": true,
+      "controlled": true,
+      "caches": [
+        "vitrine-v1-shell"
+      ]
+    },
+    "cachedVariantsAfterOneSync": 145,
+    "copyId": "e6890f97-2630-4216-a7a0-120b6294024a",
+    "copyTitle": "Tomb Raider",
+    "routesVisitedOnlineBeforeGoingOffline": [
+      "/",
+      "/collection",
+      "/collection/{copyId}",
+      "/catalogue"
+    ]
+  },
+  "offlineControl": {
+    "reachedTheNetwork": false,
+    "error": "Failed to fetch"
+  },
+  "navigatorOnLine": {
+    "onTheDocumentLoadedBeforeSetOffline": false,
+    "note": "each document navigated to after setOffline reports navigator.onLine true; see the per-clause readings"
+  },
+  "offlineControlAfterAllClauses": {
+    "reachedTheNetwork": false,
+    "error": "Failed to fetch"
+  },
+  "servedBuildAfter": {
+    "baseUrl": "http://localhost:3701",
+    "port": "3701",
+    "status": 200,
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "buildIdOnDisk": "YzDsr6hHAGTXS-1fwnrSm",
+    "expectedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "servedMatchesExpected": true,
+    "servedMatchesDisk": true,
+    "devMarkersFound": [],
+    "checkedAt": "2026-08-18T14:47:34.651Z"
+  },
+  "buildIdOnDiskAtEnd": "YzDsr6hHAGTXS-1fwnrSm",
+  "clauses": [
+    {
+      "clause": "the collection list",
+      "route": "/collection",
+      "measured": true,
+      "renders": true,
+      "observed": {
+        "heading": "Your collection",
+        "countLine": "1 copy saved",
+        "rowCount": 1,
+        "firstRowTitle": "Tomb Raider",
+        "footerDisclaimerPresent": true,
+        "navigatorOnLine": true,
+        "offlineBannerPresent": false,
+        "offlineBannerText": null,
+        "capture": ".forge/evidence/f12-1-collection-list-offline.png",
+        "capturePx": [
+          390,
+          844
+        ],
+        "subjectInCapture": {
+          "subject": "the offline collection list's first row",
+          "selector": "ul li a.row",
+          "found": true,
+          "topPx": 385,
+          "bottomPx": 467,
+          "leftPx": 16,
+          "rightPx": 374,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        }
+      }
+    },
+    {
+      "clause": "its thumbnails",
+      "route": "/collection",
+      "measured": false,
+      "renders": null,
+      "observed": {
+        "thumbSlots": 1,
+        "thumbsRenderingAPhotograph": 0,
+        "thumbsRenderingTheDesignedNoPhotoState": 1,
+        "noPhotoAriaLabel": "No photograph saved for this copy.",
+        "photosInTheOnDevicePhotoStore": 0,
+        "subjectInCapture": {
+          "subject": "the thumbnail slot on the offline collection list",
+          "selector": ".thumb",
+          "found": true,
+          "topPx": 398,
+          "bottomPx": 454,
+          "leftPx": 29,
+          "rightPx": 85,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        }
+      },
+      "note": "UNREACHABLE, not failed. A thumbnail needs a photograph and the product has no path that writes one: photoBlob occurs only inside src/lib/device/collection.ts and no caller passes it, there is no file input and no capture control, and the on-device photo store holds 0 rows. The slot renders .thumb.np, the designed no-photo state, which is the correct screen for a copy with no photograph and is not a thumbnail. This clause cannot be measured until the upload path lands in slice 5."
+    },
+    {
+      "clause": "the collection search field",
+      "route": "/collection",
+      "measured": true,
+      "renders": true,
+      "observed": {
+        "selector": "#collection-search",
+        "label": "Search your collection",
+        "placeholder": "Search by title",
+        "rowsWithANonMatchingNeedle": 0,
+        "rowsWithAMatchingNeedle": 1,
+        "capture": ".forge/evidence/f12-2-collection-search-offline.png",
+        "capturePx": [
+          390,
+          844
+        ],
+        "subjectInCapture": {
+          "subject": "the offline collection search field",
+          "selector": "#collection-search",
+          "found": true,
+          "topPx": 287,
+          "bottomPx": 343,
+          "leftPx": 16,
+          "rightPx": 374,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        }
+      }
+    },
+    {
+      "clause": "a collection item",
+      "route": "/collection/{copyId}",
+      "measured": true,
+      "renders": true,
+      "observed": {
+        "heading": "Tomb Raider",
+        "provenanceLine": "Provenance: promotional",
+        "backLinkPresent": true,
+        "footerDisclaimerPresent": true,
+        "capture": ".forge/evidence/f12-3-collection-item-offline.png",
+        "capturePx": [
+          390,
+          844
+        ],
+        "subjectInCapture": {
+          "subject": "the offline collection item heading",
+          "selector": "h1.pageh1",
+          "found": true,
+          "topPx": 517,
+          "bottomPx": 556,
+          "leftPx": 16,
+          "rightPx": 374,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        }
+      }
+    },
+    {
+      "clause": "the catalogue index",
+      "route": "/catalogue",
+      "measured": true,
+      "renders": true,
+      "observed": {
+        "heading": "Catalogue index",
+        "countLine": "145 variants cached on this device",
+        "rowsRendered": 145,
+        "cachedVariantsAfterOneSync": 145,
+        "footerDisclaimerPresent": true,
+        "capture": ".forge/evidence/f12-4-catalogue-index-offline.png",
+        "capturePx": [
+          390,
+          844
+        ],
+        "subjectInCapture": {
+          "subject": "the offline catalogue index's first row",
+          "selector": "ul li",
+          "found": true,
+          "topPx": 453,
+          "bottomPx": 551,
+          "leftPx": 16,
+          "rightPx": 374,
+          "captureWidthPx": 390,
+          "captureHeightPx": 844,
+          "fullyInsideTheCapture": true
+        }
+      }
+    }
+  ],
+  "count": {
+    "clausesInTheLine": 5,
+    "clausesMeasured": 4,
+    "clausesThatRender": 4,
+    "clausesThatFail": 0,
+    "clausesUnreachable": 1
+  },
+  "verdict": {
+    "lineReads": "count of the 5 offline routes that fail is 0",
+    "clausesInTheLine": 5,
+    "clausesMeasured": 4,
+    "clausesThatFailedOfThoseMeasured": 0,
+    "clausesUnread": [
+      "its thumbnails"
+    ],
+    "canTheLineReadZero": false,
+    "reading": "0 of the 4 measured clauses failed. The line counts 5, and the thumbnail clause is unread rather than passing, so the count of failing routes is 0 out of 4 and not 0 out of 5. F12 cannot read 0 failing routes while one of its five is unread, and it is not checked on this evidence."
+  },
+  "searchFieldDetectorControl": {
+    "port": "3701",
+    "servedBuildId": "YzDsr6hHAGTXS-1fwnrSm",
+    "what": "the same #collection-search presence check, run offline against an emptied on-device store",
+    "copiesOnDevice": 0,
+    "searchFieldsFound": 0,
+    "rowsFound": 0,
+    "thumbSlotsFound": 0,
+    "designedEmptyStateRendered": true,
+    "emptyStateLead": "Nothing saved yet.",
+    "offlineControl": {
+      "reachedTheNetwork": false,
+      "error": "Failed to fetch"
+    },
+    "capture": ".forge/evidence/f12-control-collection-empty-offline.png",
+    "reading": "the detector reports 0 search fields here and 1 in the measured run, so its positive reading is a reading and not a constant"
+  },
+  "line": "F12. After one sync with the network disabled, the collection list, its thumbnails, the collection search field, a collection item, and the catalogue index all render; count of the 5 offline routes that fail is 0.",
+  "recordedAt": "2026-08-18T14:47:34.916Z"
+}

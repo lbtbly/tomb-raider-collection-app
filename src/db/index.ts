@@ -1,24 +1,9 @@
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import * as schema from "./schema";
+import { resolveDatabaseUrl } from "./connection";
 
-// Local Docker Postgres default (docker-compose.yml), used only when
-// DATABASE_URL is unset outside production. Never a production credential:
-// production always sets DATABASE_URL through the deploy environment, never
-// through a file in this repository.
-const LOCAL_DEV_DEFAULT =
-  "postgres://vitrine:vitrine_dev_only@localhost:5433/vitrine";
-
-const connectionString =
-  process.env.DATABASE_URL ??
-  (process.env.NODE_ENV === "production" ? undefined : LOCAL_DEV_DEFAULT);
-
-if (!connectionString) {
-  throw new Error(
-    "DATABASE_URL is not set. See .env.example for the shape and " +
-      ".forge/OPERATOR.md for where the production value comes from.",
-  );
-}
+const connectionString = resolveDatabaseUrl();
 
 // One connection pool per process. Next.js dev reuses this across hot
 // reloads via globalThis so the connection count does not climb on every

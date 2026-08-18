@@ -1,0 +1,4144 @@
+{
+  "$schema": "vitrine.seed-starter.v1",
+  "items": [
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://psxdatacenter.com/games/P/T/SLES-00024.html",
+        "retrieved_on": "2026-08-18",
+        "title": "TOMB RAIDER - (PAL)",
+        "publisher": "PSXDataCenter",
+        "note": "Photographed back-cover scan showing EAN barcode."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PAL (Europe)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/P/T/SLES-00024.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER - (PAL)",
+            "publisher": "PSXDataCenter",
+            "note": "Photographed back-cover scan showing EAN barcode."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLES-00024",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/P/T/SLES-00024.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "Photographed back-cover scan showing EAN barcode."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "5032921014762",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/P/T/SLES-00024.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "Photographed back-cover scan showing EAN barcode."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "PAL, Europe",
+          "release_date": "1996-11-01"
+        },
+        {
+          "name": "NTSC-U (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/U/T/SLUS-00152.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER - (NTSC-U)",
+            "publisher": "PSXDataCenter",
+            "note": "Photographed back-cover scan showing UPC barcode."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-00152",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/U/T/SLUS-00152.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - (NTSC-U)",
+                "publisher": "PSXDataCenter",
+                "note": "Photographed back-cover scan showing UPC barcode."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "743175952919",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/U/T/SLUS-00152.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - (NTSC-U)",
+                "publisher": "PSXDataCenter",
+                "note": "Photographed back-cover scan showing UPC barcode."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States",
+          "release_date": "1996-11-01"
+        },
+        {
+          "name": "NTSC-J (Japan)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/J/T/SLPS-00617.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDERS - (NTSC-J)",
+            "publisher": "PSXDataCenter",
+            "note": "Photographed back-cover scan showing JAN barcode."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLPS-00617",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/J/T/SLPS-00617.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDERS - (NTSC-J)",
+                "publisher": "PSXDataCenter",
+                "note": "Photographed back-cover scan showing JAN barcode."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "4988110020063",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/J/T/SLPS-00617.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDERS - (NTSC-J)",
+                "publisher": "PSXDataCenter",
+                "note": "Photographed back-cover scan showing JAN barcode."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-J, Japan; distributed by Victor Entertainment",
+          "release_date": "1997-02-14"
+        },
+        {
+          "name": "Greatest Hits reprint (NTSC-U)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/images/hires/U/T/SLUS-00152/SLUS-00152-D-GH.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER (NTSC-U) - GREATEST HITS DISC",
+            "publisher": "PSXDataCenter",
+            "note": "Dedicated photo gallery of the Greatest Hits reprint disc/case."
+          },
+          "verification": {
+            "method": "auction_lot_record",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-00152",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/images/hires/U/T/SLUS-00152/SLUS-00152-D-GH.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER (NTSC-U) - GREATEST HITS DISC",
+                "publisher": "PSXDataCenter",
+                "note": "Dedicated photo gallery of the Greatest Hits reprint disc/case."
+              },
+              "verification": {
+                "method": "auction_lot_record",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States, budget reprint line"
+        }
+      ],
+      "release_year": 1996,
+      "publisher": "Eidos Interactive",
+      "developer": "Core Design",
+      "description_md": "The original Tomb Raider introduced Lara Croft on PlayStation, Sega Saturn, and MS-DOS."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider II: Starring Lara Croft",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://psxdatacenter.com/games/P/T/SLES-00107.html",
+        "retrieved_on": "2026-08-18",
+        "title": "TOMB RAIDER II - STARRING LARA CROFT - (PAL)",
+        "publisher": "PSXDataCenter",
+        "note": "No barcode on file for this entry; catalogue number only."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PAL (Europe)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/P/T/SLES-00107.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER II - STARRING LARA CROFT - (PAL)",
+            "publisher": "PSXDataCenter",
+            "note": "No barcode on file for this entry; catalogue number only."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLES-00107",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/P/T/SLES-00107.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER II - STARRING LARA CROFT - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "No barcode on file for this entry; catalogue number only."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "PAL, Europe",
+          "release_date": "1998-06-20"
+        },
+        {
+          "name": "NTSC-U (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/U/T/SLUS-00437.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER II - STARRING LARA CROFT - (NTSC-U)",
+            "publisher": "PSXDataCenter"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-00437",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/U/T/SLUS-00437.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER II - STARRING LARA CROFT - (NTSC-U)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "788687301237",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/U/T/SLUS-00437.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER II - STARRING LARA CROFT - (NTSC-U)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States",
+          "release_date": "1997-11-01"
+        },
+        {
+          "name": "NTSC-J (Japan)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/J/T/SLPS-01200.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER II - (NTSC-J)",
+            "publisher": "PSXDataCenter"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLPS-01200",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/J/T/SLPS-01200.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER II - (NTSC-J)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "4988110020193",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/J/T/SLPS-01200.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER II - (NTSC-J)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-J, Japan; distributed by Victor Interactive",
+          "release_date": "1998-01-22"
+        }
+      ],
+      "release_year": 1997,
+      "publisher": "Eidos Interactive",
+      "developer": "Core Design",
+      "description_md": "The second mainline entry, sending Lara to Venice and the South China Sea in search of the Dagger of Xian."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider III: Adventures of Lara Croft",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://psxdatacenter.com/games/P/T/SLES-01649.html",
+        "retrieved_on": "2026-08-18",
+        "title": "TOMB RAIDER III - ADVENTURES OF LARA CROFT - (PAL)",
+        "publisher": "PSXDataCenter"
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PAL (Europe)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/P/T/SLES-01649.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER III - ADVENTURES OF LARA CROFT - (PAL)",
+            "publisher": "PSXDataCenter"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLES-01649",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/P/T/SLES-01649.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER III - ADVENTURES OF LARA CROFT - (PAL)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "5032921004466",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/P/T/SLES-01649.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER III - ADVENTURES OF LARA CROFT - (PAL)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "PAL, Europe",
+          "release_date": "1998-11-23"
+        },
+        {
+          "name": "NTSC-U (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/U/T/SLUS-00691.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER III - ADVENTURES OF LARA CROFT - (NTSC-U)",
+            "publisher": "PSXDataCenter"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-00691",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/U/T/SLUS-00691.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER III - ADVENTURES OF LARA CROFT - (NTSC-U)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "788687301831",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/U/T/SLUS-00691.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER III - ADVENTURES OF LARA CROFT - (NTSC-U)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States",
+          "release_date": "1998-11-23"
+        }
+      ],
+      "release_year": 1998,
+      "publisher": "Eidos Interactive",
+      "developer": "Core Design",
+      "description_md": "The third mainline entry, notable for its non-linear level order across India, the South Pacific, London, Nevada and Antarctica."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider: The Last Revelation",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://psxdatacenter.com/games/P/T/SLES-02242.html",
+        "retrieved_on": "2026-08-18",
+        "title": "TOMB RAIDER - THE LAST REVELATION - (PAL)",
+        "publisher": "PSXDataCenter",
+        "note": "Barcode on file is explicitly the Spanish-market back cover."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PAL (Spain)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/P/T/SLES-02242.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER - THE LAST REVELATION - (PAL)",
+            "publisher": "PSXDataCenter",
+            "note": "Barcode on file is explicitly the Spanish-market back cover."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLES-02242",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/P/T/SLES-02242.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - THE LAST REVELATION - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "Barcode on file is explicitly the Spanish-market back cover."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "5032921008532",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/P/T/SLES-02242.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - THE LAST REVELATION - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "Barcode on file is explicitly the Spanish-market back cover."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "PAL, Spain",
+          "release_date": "1999-11-26"
+        },
+        {
+          "name": "NTSC-U (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/U/T/SLUS-00885.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER - THE LAST REVELATION - (NTSC-U)",
+            "publisher": "PSXDataCenter"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-00885",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/U/T/SLUS-00885.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - THE LAST REVELATION - (NTSC-U)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "788687304832",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/U/T/SLUS-00885.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - THE LAST REVELATION - (NTSC-U)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States",
+          "release_date": "1999-11-17"
+        },
+        {
+          "name": "NTSC-J (Japan)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/J/T/SLPS-02803.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER - THE LAST REVELATION - (NTSC-J)",
+            "publisher": "PSXDataCenter"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLPS-02803",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/J/T/SLPS-02803.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - THE LAST REVELATION - (NTSC-J)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "4976219455305",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/J/T/SLPS-02803.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - THE LAST REVELATION - (NTSC-J)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-J, Japan; published by Capcom",
+          "release_date": "2000-07-19"
+        }
+      ],
+      "release_year": 1999,
+      "publisher": "Eidos Interactive",
+      "developer": "Core Design",
+      "description_md": "The fourth mainline entry, set primarily in Egypt, closing the original Core Design storyline."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider: Chronicles",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://psxdatacenter.com/games/P/T/SLES-03336.html",
+        "retrieved_on": "2026-08-18",
+        "title": "TOMB RAIDER - CHRONICLES - (PAL)",
+        "publisher": "PSXDataCenter",
+        "note": "Barcode on file is explicitly the Spanish-market back cover."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PAL (Spain)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/P/T/SLES-03336.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER - CHRONICLES - (PAL)",
+            "publisher": "PSXDataCenter",
+            "note": "Barcode on file is explicitly the Spanish-market back cover."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLES-03336",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/P/T/SLES-03336.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - CHRONICLES - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "Barcode on file is explicitly the Spanish-market back cover."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "5032921012874",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/P/T/SLES-03336.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - CHRONICLES - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "Barcode on file is explicitly the Spanish-market back cover."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "PAL, Spain",
+          "release_date": "2000-11-30"
+        },
+        {
+          "name": "NTSC-U (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/games/U/T/SLUS-01311.html",
+            "retrieved_on": "2026-08-18",
+            "title": "TOMB RAIDER - CHRONICLES - (NTSC-U)",
+            "publisher": "PSXDataCenter"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-01311",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/U/T/SLUS-01311.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - CHRONICLES - (NTSC-U)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "788687307635",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/games/U/T/SLUS-01311.html",
+                "retrieved_on": "2026-08-18",
+                "title": "TOMB RAIDER - CHRONICLES - (NTSC-U)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States",
+          "release_date": "2000-11-20"
+        }
+      ],
+      "release_year": 2000,
+      "publisher": "Eidos Interactive",
+      "developer": "Core Design",
+      "description_md": "An anthology of four Lara Croft flashback missions, the last Core Design PS1 entry before The Angel of Darkness."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider: The Angel of Darkness",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://psxdatacenter.com/psx2/games2/SLES-51227.html",
+        "retrieved_on": "2026-08-18",
+        "title": "LARA CROFT - TOMB RAIDER - THE ANGEL OF DARKNESS - (PAL)",
+        "publisher": "PSXDataCenter"
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PAL (Europe)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/psx2/games2/SLES-51227.html",
+            "retrieved_on": "2026-08-18",
+            "title": "LARA CROFT - TOMB RAIDER - THE ANGEL OF DARKNESS - (PAL)",
+            "publisher": "PSXDataCenter"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLES-51227",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLES-51227.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - THE ANGEL OF DARKNESS - (PAL)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "5032921017541",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLES-51227.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - THE ANGEL OF DARKNESS - (PAL)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "PAL, Europe",
+          "release_date": "2003-07-01"
+        },
+        {
+          "name": "NTSC-U (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/psx2/games2/SLUS-20467.html",
+            "retrieved_on": "2026-08-18",
+            "title": "LARA CROFT - TOMB RAIDER - THE ANGEL OF DARKNESS - (NTSC-U)",
+            "publisher": "PSXDataCenter"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-20467",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLUS-20467.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - THE ANGEL OF DARKNESS - (NTSC-U)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "788687500098",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLUS-20467.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - THE ANGEL OF DARKNESS - (NTSC-U)",
+                "publisher": "PSXDataCenter"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States",
+          "release_date": "2003-06-20"
+        }
+      ],
+      "release_year": 2003,
+      "publisher": "Eidos Interactive",
+      "developer": "Core Design",
+      "description_md": "The first PS2-generation entry and the last game Core Design led before the series moved to Crystal Dynamics."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider: Legend",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://psxdatacenter.com/psx2/games2/SLES-53908.html",
+        "retrieved_on": "2026-08-18",
+        "title": "LARA CROFT - TOMB RAIDER - LEGEND - (PAL)",
+        "publisher": "PSXDataCenter",
+        "note": "PS2 release."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PS2, PAL (Europe)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/psx2/games2/SLES-53908.html",
+            "retrieved_on": "2026-08-18",
+            "title": "LARA CROFT - TOMB RAIDER - LEGEND - (PAL)",
+            "publisher": "PSXDataCenter",
+            "note": "PS2 release."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLES-53908",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLES-53908.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - LEGEND - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "PS2 release."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "5021290023819",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLES-53908.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - LEGEND - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "PS2 release."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "PAL, Europe",
+          "release_date": "2006-04-07"
+        },
+        {
+          "name": "PS2, NTSC-U (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/psx2/games2/SLUS-21203.html",
+            "retrieved_on": "2026-08-18",
+            "title": "LARA CROFT - TOMB RAIDER - LEGEND - (NTSC-U)",
+            "publisher": "PSXDataCenter",
+            "note": "PS2 release."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-21203",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLUS-21203.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - LEGEND - (NTSC-U)",
+                "publisher": "PSXDataCenter",
+                "note": "PS2 release."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "788687500487",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLUS-21203.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - LEGEND - (NTSC-U)",
+                "publisher": "PSXDataCenter",
+                "note": "PS2 release."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States",
+          "release_date": "2006-04-11"
+        },
+        {
+          "name": "Xbox 360, NTSC-U (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://vgcollect.com/item/3422",
+            "retrieved_on": "2026-08-18",
+            "title": "Tomb Raider: Legend - Xbox 360 [NA]",
+            "publisher": "VGCollect"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "PTOM7TUS12",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://vgcollect.com/item/3422",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider: Legend - Xbox 360 [NA]",
+                "publisher": "VGCollect"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "788687200400",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://vgcollect.com/item/3422",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider: Legend - Xbox 360 [NA]",
+                "publisher": "VGCollect"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States",
+          "release_date": "2005-11-22"
+        }
+      ],
+      "release_year": 2006,
+      "publisher": "Eidos Interactive",
+      "developer": "Crystal Dynamics",
+      "description_md": "Crystal Dynamics' first mainline Tomb Raider, relaunching the series across PS2, Xbox 360, PC and other platforms."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider: Anniversary",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://psxdatacenter.com/psx2/games2/SLES-54674.html",
+        "retrieved_on": "2026-08-18",
+        "title": "LARA CROFT - TOMB RAIDER - ANNIVERSARY - (PAL)",
+        "publisher": "PSXDataCenter",
+        "note": "PS2 release."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PAL (Europe)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/psx2/games2/SLES-54674.html",
+            "retrieved_on": "2026-08-18",
+            "title": "LARA CROFT - TOMB RAIDER - ANNIVERSARY - (PAL)",
+            "publisher": "PSXDataCenter",
+            "note": "PS2 release."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLES-54674",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLES-54674.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - ANNIVERSARY - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "PS2 release."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "5021290029293",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLES-54674.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - ANNIVERSARY - (PAL)",
+                "publisher": "PSXDataCenter",
+                "note": "PS2 release."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "PAL, Europe",
+          "release_date": "2007-06-01"
+        },
+        {
+          "name": "NTSC-U (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/psx2/games2/SLUS-21555.html",
+            "retrieved_on": "2026-08-18",
+            "title": "LARA CROFT - TOMB RAIDER - ANNIVERSARY - (NTSC-U)",
+            "publisher": "PSXDataCenter",
+            "note": "PS2 release."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-21555",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLUS-21555.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - ANNIVERSARY - (NTSC-U)",
+                "publisher": "PSXDataCenter",
+                "note": "PS2 release."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "788687500609",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLUS-21555.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - ANNIVERSARY - (NTSC-U)",
+                "publisher": "PSXDataCenter",
+                "note": "PS2 release."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States",
+          "release_date": "2007-06-05"
+        }
+      ],
+      "release_year": 2007,
+      "publisher": "Eidos Interactive",
+      "developer": "Crystal Dynamics",
+      "description_md": "A ground-up remake of the 1996 original, released for the series' tenth anniversary."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider: Underworld",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://psxdatacenter.com/psx2/games2/SLUS-21858.html",
+        "retrieved_on": "2026-08-18",
+        "title": "LARA CROFT - TOMB RAIDER - UNDERWORLD - (NTSC-U)",
+        "publisher": "PSXDataCenter",
+        "note": "PS2 release, delayed to 2009."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PS2, NTSC-U (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://psxdatacenter.com/psx2/games2/SLUS-21858.html",
+            "retrieved_on": "2026-08-18",
+            "title": "LARA CROFT - TOMB RAIDER - UNDERWORLD - (NTSC-U)",
+            "publisher": "PSXDataCenter",
+            "note": "PS2 release, delayed to 2009."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-21858",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLUS-21858.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - UNDERWORLD - (NTSC-U)",
+                "publisher": "PSXDataCenter",
+                "note": "PS2 release, delayed to 2009."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "788687500784",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://psxdatacenter.com/psx2/games2/SLUS-21858.html",
+                "retrieved_on": "2026-08-18",
+                "title": "LARA CROFT - TOMB RAIDER - UNDERWORLD - (NTSC-U)",
+                "publisher": "PSXDataCenter",
+                "note": "PS2 release, delayed to 2009."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States; PS2 edition released after the 2008 multi-platform launch",
+          "release_date": "2009-03-03"
+        }
+      ],
+      "release_year": 2008,
+      "publisher": "Eidos Interactive",
+      "developer": "Crystal Dynamics",
+      "description_md": "The concluding chapter of the Legend and Anniversary trilogy. The PS2 edition shipped later than other platforms."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tombraider-ps3-01",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Tomb Raider Promo Only (PS3)",
+        "publisher": "crimson-ceremony.net"
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PS3 Promo Only (Europe)",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tombraider-ps3-01",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Tomb Raider Promo Only (PS3)",
+            "publisher": "crimson-ceremony.net"
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "BLES-01780",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tombraider-ps3-01",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - Tomb Raider Promo Only (PS3)",
+                "publisher": "crimson-ceremony.net"
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "part_number",
+              "value": "0054714",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tombraider-ps3-01",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - Tomb Raider Promo Only (PS3)",
+                "publisher": "crimson-ceremony.net"
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "PAL, Europe; retailer and press promotional copy of the full retail game",
+          "release_date": "2013-03-05"
+        }
+      ],
+      "subtitle": "2013 reboot",
+      "release_year": 2013,
+      "publisher": "Square Enix",
+      "developer": "Crystal Dynamics",
+      "description_md": "The 2013 reboot depicting a young Lara Croft's survival ordeal on the island of Yamatai."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Tomb Raider and Blam!Machinehead (Demo)",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr1-ps1-01",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Tomb Raider and Blam!Machinehead",
+        "publisher": "crimson-ceremony.net (collector archive, Anders Leirvik)",
+        "note": "Photograph of the physical item in a named collector's archive."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "France, magazine cover-disc",
+          "provenance_type": "press",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr1-ps1-01",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Tomb Raider and Blam!Machinehead",
+            "publisher": "crimson-ceremony.net (collector archive, Anders Leirvik)",
+            "note": "Photograph of the physical item in a named collector's archive."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLED-00513",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr1-ps1-01",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - Tomb Raider and Blam!Machinehead",
+                "publisher": "crimson-ceremony.net (collector archive, Anders Leirvik)",
+                "note": "Photograph of the physical item in a named collector's archive."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "part_number",
+              "value": "FRETR001",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr1-ps1-01",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - Tomb Raider and Blam!Machinehead",
+                "publisher": "crimson-ceremony.net (collector archive, Anders Leirvik)",
+                "note": "Photograph of the physical item in a named collector's archive."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "France",
+          "release_date": "1996-01-01"
+        }
+      ],
+      "release_year": 1996,
+      "publisher": "Eidos",
+      "developer": "Core Design",
+      "description_md": "A PlayStation demo disc distributed free with an issue of the French magazine Consoles+, packaged in a plain white paper sleeve."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "press-kits",
+      "title": "Tomb Raider II: Digital Press Kit",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr2-dpk-01",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Tomb Raider II Digital Press Kit",
+        "publisher": "crimson-ceremony.net",
+        "note": "Photograph of the disc included."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "UK press CD-ROM",
+          "provenance_type": "press",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr2-dpk-01",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Tomb Raider II Digital Press Kit",
+            "publisher": "crimson-ceremony.net",
+            "note": "Photograph of the disc included."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [],
+          "region_note": "United Kingdom",
+          "release_date": "1997-01-01"
+        }
+      ],
+      "release_year": 1997,
+      "publisher": "Eidos Interactive",
+      "developer": "Core Design",
+      "description_md": "CD-ROM press kit containing a trailer, screenshots, artwork and documents, distributed to media rather than consumers."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "press-kits",
+      "title": "Lara Presspix",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr2-dpk-02",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Lara Presspix",
+        "publisher": "crimson-ceremony.net"
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "UK press CD-R",
+          "provenance_type": "press",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr2-dpk-02",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Lara Presspix",
+            "publisher": "crimson-ceremony.net"
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [],
+          "region_note": "United Kingdom",
+          "release_date": "1997-01-01"
+        }
+      ],
+      "release_year": 1997,
+      "publisher": "Core Design",
+      "developer": "Core Design",
+      "description_md": "CD-R press kit of digital renders associated with Tomb Raider II, distributed to media outlets."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Tomb Raider 2 Trial Edition",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr2-ps1-03",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Tomb Raider 2 Trial Edition",
+        "publisher": "crimson-ceremony.net",
+        "note": "Front and back cover photos."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Japan, PlayStation demo",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr2-ps1-03",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Tomb Raider 2 Trial Edition",
+            "publisher": "crimson-ceremony.net",
+            "note": "Front and back cover photos."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLPM 80168",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr2-ps1-03",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - Tomb Raider 2 Trial Edition",
+                "publisher": "crimson-ceremony.net",
+                "note": "Front and back cover photos."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "Japan",
+          "release_date": "1997-01-01"
+        }
+      ],
+      "release_year": 1997,
+      "publisher": "Victor",
+      "developer": "Core Design",
+      "description_md": "Japanese PlayStation trial and demo disc for Tomb Raider II."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Tomb Raider Capture Video",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr2-vhs-01",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Tomb Raider Capture Video",
+        "publisher": "crimson-ceremony.net",
+        "note": "Front, back and spine photos of the tape."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Japan, VHS",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr2-vhs-01",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Tomb Raider Capture Video",
+            "publisher": "crimson-ceremony.net",
+            "note": "Front, back and spine photos of the tape."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [],
+          "region_note": "Japan",
+          "release_date": "1997-01-01"
+        }
+      ],
+      "release_year": 1997,
+      "publisher": "Victor",
+      "developer": "Core Design",
+      "description_md": "Japanese VHS promotional videotape marketing the Tomb Raider series, distributed without a catalogue number."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Tomb Raider III: Les Aventures De Lara Croft (Demo)",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr3-ps1-02",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Tomb Raider III Les Aventures De Lara Croft",
+        "publisher": "crimson-ceremony.net"
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "France, PlayStation demo",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr3-ps1-02",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Tomb Raider III Les Aventures De Lara Croft",
+            "publisher": "crimson-ceremony.net"
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLED-01709",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr3-ps1-02",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - Tomb Raider III Les Aventures De Lara Croft",
+                "publisher": "crimson-ceremony.net"
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "part_number",
+              "value": "TR3FREL",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tr3-ps1-02",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - Tomb Raider III Les Aventures De Lara Croft",
+                "publisher": "crimson-ceremony.net"
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "France",
+          "release_date": "1998-01-01"
+        }
+      ],
+      "release_year": 1998,
+      "publisher": "Eidos",
+      "developer": "Core Design",
+      "description_md": "French-language PlayStation promotional demo disc for Tomb Raider III."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "press-kits",
+      "title": "Tomb Raider: The Last Revelation Digital Press Kit",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tlr-dpk-01",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - The Last Revelation Digital Press Kit",
+        "publisher": "crimson-ceremony.net"
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Europe, press CD-ROM",
+          "provenance_type": "press",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tlr-dpk-01",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - The Last Revelation Digital Press Kit",
+            "publisher": "crimson-ceremony.net"
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [],
+          "region_note": "Europe",
+          "release_date": "1999-01-01"
+        }
+      ],
+      "release_year": 1999,
+      "publisher": "Eidos Interactive",
+      "developer": "Core Design",
+      "description_md": "CD-ROM press kit containing screenshots, artwork, box art and documents for The Last Revelation."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Tomb Raider: The Last Revelation Playable Demo",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tlr-ps1-03",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - The Last Revelation Playable Demo",
+        "publisher": "crimson-ceremony.net"
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Europe, PlayStation demo",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tlr-ps1-03",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - The Last Revelation Playable Demo",
+            "publisher": "crimson-ceremony.net"
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLED-02418",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tlr-ps1-03",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - The Last Revelation Playable Demo",
+                "publisher": "crimson-ceremony.net"
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "part_number",
+              "value": "1008327",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_tlr-ps1-03",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - The Last Revelation Playable Demo",
+                "publisher": "crimson-ceremony.net"
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "Europe",
+          "release_date": "1999-01-01"
+        }
+      ],
+      "release_year": 1999,
+      "publisher": "Eidos",
+      "developer": "Core Design",
+      "description_md": "European PlayStation playable demo disc for The Last Revelation, also distributed on cover-mounted sampler discs."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Tomb Raider: Chronicles (Promo Only)",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_chronicles-ps1-03",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Tomb Raider Chronicles (US promo)",
+        "publisher": "crimson-ceremony.net",
+        "note": "Identical to retail disc but barcode punched through to block resale."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "United States, not-for-resale copy",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_chronicles-ps1-03",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Tomb Raider Chronicles (US promo)",
+            "publisher": "crimson-ceremony.net",
+            "note": "Identical to retail disc but barcode punched through to block resale."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "SLUS-01311",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_chronicles-ps1-03",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - Tomb Raider Chronicles (US promo)",
+                "publisher": "crimson-ceremony.net",
+                "note": "Identical to retail disc but barcode punched through to block resale."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "NTSC-U, United States",
+          "release_date": "2000-01-01"
+        }
+      ],
+      "release_year": 2000,
+      "publisher": "Eidos",
+      "developer": "Core Design",
+      "description_md": "US promotional copy identical to the retail disc, but with a hole punched through the barcode under the shrink-wrap to prevent resale."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "press-kits",
+      "title": "Tomb Raider: The Angel of Darkness Launch Event Press Materials",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_aod-dpk-01",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Angel Of Darkness Launch Event Press Materials",
+        "publisher": "crimson-ceremony.net"
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "UK, press CD-ROM",
+          "provenance_type": "press",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_aod-dpk-01",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Angel Of Darkness Launch Event Press Materials",
+            "publisher": "crimson-ceremony.net"
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [],
+          "region_note": "United Kingdom",
+          "release_date": "2002-01-01"
+        }
+      ],
+      "release_year": 2002,
+      "publisher": "Eidos (UK)",
+      "developer": "Core Design",
+      "description_md": "CD-ROM press kit distributed to media at the UK launch event for The Angel of Darkness."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Tomb Raider: The Angel of Darkness Exclusive Collector's Edition DVD",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_aod-dvd-01",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Angel Of Darkness Exclusive Collectors Edition DVD",
+        "publisher": "crimson-ceremony.net",
+        "note": "Documented as a UK pre-order incentive distributed through Game."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "UK, Game pre-order exclusive",
+          "provenance_type": "preorder_bonus",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_aod-dvd-01",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Angel Of Darkness Exclusive Collectors Edition DVD",
+            "publisher": "crimson-ceremony.net",
+            "note": "Documented as a UK pre-order incentive distributed through Game."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "PTRMOVPEN07",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_aod-dvd-01",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara's Stuff - Angel Of Darkness Exclusive Collectors Edition DVD",
+                "publisher": "crimson-ceremony.net",
+                "note": "Documented as a UK pre-order incentive distributed through Game."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United Kingdom; retailer: Game",
+          "release_date": "2002-01-01"
+        }
+      ],
+      "release_year": 2002,
+      "publisher": "Eidos",
+      "developer": "Core Design",
+      "description_md": "Pre-order incentive DVD distributed in the UK through the Game retail chain, containing game footage, soundtrack tracks, a making-of, and a Cradle of Life trailer."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "press-kits",
+      "title": "Tomb Raider Anniversary: 10 Anos De Lara plus Dossier De Prensa",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_anniversary-dpk-01",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara's Stuff - Anniversary 10 Anos De Lara plus Dossier De Prensa",
+        "publisher": "crimson-ceremony.net"
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Spain, press CD-R, two discs",
+          "provenance_type": "press",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://crimson-ceremony.net/laras/artefact.php?id=promos_anniversary-dpk-01",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara's Stuff - Anniversary 10 Anos De Lara plus Dossier De Prensa",
+            "publisher": "crimson-ceremony.net"
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [],
+          "region_note": "Spain",
+          "release_date": "2007-01-01"
+        }
+      ],
+      "release_year": 2007,
+      "publisher": "Eidos",
+      "developer": "Crystal Dynamics",
+      "description_md": "Two-disc Spanish press kit with renders, concept art, screenshots, trailers and documents for Tomb Raider Anniversary."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "press-kits",
+      "title": "Tomb Raider: Electronic Press Kit",
+      "source": {
+        "kind": "press_archive",
+        "url": "https://archive.org/details/tombraider_press",
+        "retrieved_on": "2026-08-18",
+        "title": "Tomb Raider: Electronic Press Kit",
+        "publisher": "Internet Archive / Core Design",
+        "note": "Disc-dump listing includes Nimbus mastering ringcode CDD13138."
+      },
+      "verification": {
+        "method": "press_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "PC, press CD-ROM",
+          "provenance_type": "press",
+          "source": {
+            "kind": "press_archive",
+            "url": "https://archive.org/details/tombraider_press",
+            "retrieved_on": "2026-08-18",
+            "title": "Tomb Raider: Electronic Press Kit",
+            "publisher": "Internet Archive / Core Design",
+            "note": "Disc-dump listing includes Nimbus mastering ringcode CDD13138."
+          },
+          "verification": {
+            "method": "press_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "matrix_runout",
+              "value": "CDD13138",
+              "source": {
+                "kind": "press_archive",
+                "url": "https://archive.org/details/tombraider_press",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider: Electronic Press Kit",
+                "publisher": "Internet Archive / Core Design",
+                "note": "Disc-dump listing includes Nimbus mastering ringcode CDD13138."
+              },
+              "verification": {
+                "method": "press_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "International",
+          "release_date": "1996-08-07"
+        }
+      ],
+      "release_year": 1996,
+      "publisher": "Core Design",
+      "developer": "Core Design",
+      "description_md": "IBM PC-compatible CD-ROM press kit with FMV sequences, design documents, artwork and PC and PlayStation screenshots."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "press-kits",
+      "title": "Tomb Raider III: Digital Press Kit",
+      "source": {
+        "kind": "press_archive",
+        "url": "https://archive.org/details/TombRaiderIIIDigitalPressKit1998",
+        "retrieved_on": "2026-08-18",
+        "title": "Tomb Raider III Digital Press Kit (1998)",
+        "publisher": "Internet Archive / Eidos Interactive"
+      },
+      "verification": {
+        "method": "press_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "International, press CD-ROM",
+          "provenance_type": "press",
+          "source": {
+            "kind": "press_archive",
+            "url": "https://archive.org/details/TombRaiderIIIDigitalPressKit1998",
+            "retrieved_on": "2026-08-18",
+            "title": "Tomb Raider III Digital Press Kit (1998)",
+            "publisher": "Internet Archive / Eidos Interactive"
+          },
+          "verification": {
+            "method": "press_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [],
+          "region_note": "International",
+          "release_date": "1998-01-01"
+        }
+      ],
+      "release_year": 1998,
+      "publisher": "Eidos Interactive",
+      "developer": "Core Design",
+      "description_md": "CD-ROM press kit issued worldwide to press ahead of Tomb Raider III's release."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider (2013): Retailer Pre-order and Exclusive Editions",
+      "source": {
+        "kind": "retailer_archive",
+        "url": "https://www.jnlgame.com/products/xbox-360-tomb-raider-the-final-hours-edition-2013-x360-3011-usa",
+        "retrieved_on": "2026-08-18",
+        "title": "Tomb Raider (The Final Hours Edition) - Xbox 360",
+        "publisher": "JNL Game"
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Walmart Exclusive Final Hours Edition (Xbox 360, US)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "retailer_archive",
+            "url": "https://www.jnlgame.com/products/xbox-360-tomb-raider-the-final-hours-edition-2013-x360-3011-usa",
+            "retrieved_on": "2026-08-18",
+            "title": "Tomb Raider (The Final Hours Edition) - Xbox 360",
+            "publisher": "JNL Game"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_upca",
+              "value": "662248910413",
+              "source": {
+                "kind": "retailer_archive",
+                "url": "https://www.jnlgame.com/products/xbox-360-tomb-raider-the-final-hours-edition-2013-x360-3011-usa",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider (The Final Hours Edition) - Xbox 360",
+                "publisher": "JNL Game"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United States; retailer: Walmart",
+          "release_date": "2013-03-05"
+        },
+        {
+          "name": "GameStop Exclusive Pre-order Bonus (US)",
+          "provenance_type": "preorder_bonus",
+          "source": {
+            "kind": "press_archive",
+            "url": "https://www.ispot.tv/ad/7dy7/gamestop-pre-order-tomb-raider-tomb-of-the-lost-adventurer",
+            "retrieved_on": "2026-08-18",
+            "title": "GameStop TV Spot, Pre-Order Tomb Raider",
+            "publisher": "iSpot.tv",
+            "note": "TV-ad archive confirming GameStop-exclusive preorder DLC."
+          },
+          "verification": {
+            "method": "press_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [],
+          "region_note": "United States; retailer: GameStop; digital Tomb of the Lost Adventurer challenge tomb and Shanty Town multiplayer map",
+          "release_date": "2013-03-05"
+        }
+      ],
+      "subtitle": "Per-retailer launch bundles",
+      "release_year": 2013,
+      "publisher": "Square Enix",
+      "developer": "Crystal Dynamics",
+      "description_md": "At launch, Tomb Raider (2013) was bundled with different exclusive bonus content depending on the retailer."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "statues-and-figures",
+      "title": "Tomb Raider: Lara Croft (Classic Era) PVC Statue",
+      "source": {
+        "kind": "publisher_page",
+        "url": "https://www.darkhorse.com/products/3014-201/tomb-raider-lara-croft-classic-era-pvc-statue/",
+        "retrieved_on": "2026-08-18",
+        "title": "Tomb Raider: Lara Croft (Classic Era) PVC Statue",
+        "publisher": "Dark Horse Comics"
+      },
+      "verification": {
+        "method": "publisher_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Standard release",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "publisher_page",
+            "url": "https://www.darkhorse.com/products/3014-201/tomb-raider-lara-croft-classic-era-pvc-statue/",
+            "retrieved_on": "2026-08-18",
+            "title": "Tomb Raider: Lara Croft (Classic Era) PVC Statue",
+            "publisher": "Dark Horse Comics"
+          },
+          "verification": {
+            "method": "publisher_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "3014-201",
+              "source": {
+                "kind": "publisher_page",
+                "url": "https://www.darkhorse.com/products/3014-201/tomb-raider-lara-croft-classic-era-pvc-statue/",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider: Lara Croft (Classic Era) PVC Statue",
+                "publisher": "Dark Horse Comics"
+              },
+              "verification": {
+                "method": "publisher_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "761568011869",
+              "source": {
+                "kind": "publisher_page",
+                "url": "https://www.darkhorse.com/products/3014-201/tomb-raider-lara-croft-classic-era-pvc-statue/",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider: Lara Croft (Classic Era) PVC Statue",
+                "publisher": "Dark Horse Comics"
+              },
+              "verification": {
+                "method": "publisher_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United States",
+          "release_date": "2025-01-01"
+        }
+      ],
+      "release_year": 2025,
+      "publisher": "Dark Horse Comics",
+      "description_md": "9.2-inch-tall PVC statue inspired by the Tomb Raider I to III Remastered art, produced by Dark Horse with Crystal Dynamics."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "statues-and-figures",
+      "title": "Tomb Raider: Lara Croft PVC Statue",
+      "source": {
+        "kind": "publisher_page",
+        "url": "https://www.darkhorse.com/Products/3014-202/Tomb-Raider-Lara-Croft-PVC-Statue",
+        "retrieved_on": "2026-08-18",
+        "title": "Tomb Raider: Lara Croft PVC Statue",
+        "publisher": "Dark Horse Comics"
+      },
+      "verification": {
+        "method": "publisher_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Standard release",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "publisher_page",
+            "url": "https://www.darkhorse.com/Products/3014-202/Tomb-Raider-Lara-Croft-PVC-Statue",
+            "retrieved_on": "2026-08-18",
+            "title": "Tomb Raider: Lara Croft PVC Statue",
+            "publisher": "Dark Horse Comics"
+          },
+          "verification": {
+            "method": "publisher_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "3014-202",
+              "source": {
+                "kind": "publisher_page",
+                "url": "https://www.darkhorse.com/Products/3014-202/Tomb-Raider-Lara-Croft-PVC-Statue",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider: Lara Croft PVC Statue",
+                "publisher": "Dark Horse Comics"
+              },
+              "verification": {
+                "method": "publisher_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "761568011876",
+              "source": {
+                "kind": "publisher_page",
+                "url": "https://www.darkhorse.com/Products/3014-202/Tomb-Raider-Lara-Croft-PVC-Statue",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider: Lara Croft PVC Statue",
+                "publisher": "Dark Horse Comics"
+              },
+              "verification": {
+                "method": "publisher_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United States",
+          "release_date": "2025-10-15"
+        }
+      ],
+      "release_year": 2025,
+      "publisher": "Dark Horse Comics",
+      "description_md": "9.2-inch-tall PVC statue with two swappable arms, pistol and climbing axe, produced by Dark Horse with Crystal Dynamics."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "statues-and-figures",
+      "title": "Tomb Raider: Lara Croft (Survivor Era) PVC Statue",
+      "source": {
+        "kind": "publisher_page",
+        "url": "https://www.darkhorse.com/products/3014-203/tomb-raider-lara-croft-survivor-era-pvc-statue/",
+        "retrieved_on": "2026-08-18",
+        "title": "Tomb Raider: Lara Croft (Survivor Era) PVC Statue",
+        "publisher": "Dark Horse Comics"
+      },
+      "verification": {
+        "method": "publisher_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Standard release",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "publisher_page",
+            "url": "https://www.darkhorse.com/products/3014-203/tomb-raider-lara-croft-survivor-era-pvc-statue/",
+            "retrieved_on": "2026-08-18",
+            "title": "Tomb Raider: Lara Croft (Survivor Era) PVC Statue",
+            "publisher": "Dark Horse Comics"
+          },
+          "verification": {
+            "method": "publisher_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "3014-203",
+              "source": {
+                "kind": "publisher_page",
+                "url": "https://www.darkhorse.com/products/3014-203/tomb-raider-lara-croft-survivor-era-pvc-statue/",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider: Lara Croft (Survivor Era) PVC Statue",
+                "publisher": "Dark Horse Comics"
+              },
+              "verification": {
+                "method": "publisher_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "761568011883",
+              "source": {
+                "kind": "publisher_page",
+                "url": "https://www.darkhorse.com/products/3014-203/tomb-raider-lara-croft-survivor-era-pvc-statue/",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider: Lara Croft (Survivor Era) PVC Statue",
+                "publisher": "Dark Horse Comics"
+              },
+              "verification": {
+                "method": "publisher_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United States",
+          "release_date": "2025-12-15"
+        }
+      ],
+      "release_year": 2025,
+      "publisher": "Dark Horse Comics",
+      "description_md": "11-inch-tall PVC statue on a rock base, depicting Lara with bow, climbing axe and torch from the Survivor-era games."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "statues-and-figures",
+      "title": "NECA Player Select: Lara Croft Action Figure (Legend)",
+      "source": {
+        "kind": "retailer_archive",
+        "url": "https://toywiz.com/neca-tomb-raider-player-select-lara-croft-action-figure-legend/",
+        "retrieved_on": "2026-08-18",
+        "title": "NECA Tomb Raider Player Select Lara Croft Action Figure",
+        "publisher": "ToyWiz"
+      },
+      "verification": {
+        "method": "retailer_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Standard release",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "retailer_archive",
+            "url": "https://toywiz.com/neca-tomb-raider-player-select-lara-croft-action-figure-legend/",
+            "retrieved_on": "2026-08-18",
+            "title": "NECA Tomb Raider Player Select Lara Croft Action Figure",
+            "publisher": "ToyWiz"
+          },
+          "verification": {
+            "method": "retailer_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "sku",
+              "value": "191667",
+              "source": {
+                "kind": "retailer_archive",
+                "url": "https://toywiz.com/neca-tomb-raider-player-select-lara-croft-action-figure-legend/",
+                "retrieved_on": "2026-08-18",
+                "title": "NECA Tomb Raider Player Select Lara Croft Action Figure",
+                "publisher": "ToyWiz"
+              },
+              "verification": {
+                "method": "retailer_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "634482447062",
+              "source": {
+                "kind": "retailer_archive",
+                "url": "https://toywiz.com/neca-tomb-raider-player-select-lara-croft-action-figure-legend/",
+                "retrieved_on": "2026-08-18",
+                "title": "NECA Tomb Raider Player Select Lara Croft Action Figure",
+                "publisher": "ToyWiz"
+              },
+              "verification": {
+                "method": "retailer_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United States",
+          "release_date": "2006-01-01"
+        }
+      ],
+      "release_year": 2006,
+      "publisher": "NECA",
+      "description_md": "Poseable action figure based on Lara Croft's Tomb Raider: Legend appearance, part of NECA's Player Select line."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "film-and-home-video",
+      "title": "Lara Croft: Tomb Raider",
+      "source": {
+        "kind": "database_entry",
+        "url": "https://www.upcitemdb.com/upc/97363367543",
+        "retrieved_on": "2026-08-18",
+        "title": "UPC 097363367543 - Tomb Raider [DVD]",
+        "publisher": "UPCItemDB"
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "DVD (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://www.upcitemdb.com/upc/97363367543",
+            "retrieved_on": "2026-08-18",
+            "title": "UPC 097363367543 - Tomb Raider [DVD]",
+            "publisher": "UPCItemDB"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_upca",
+              "value": "097363367543",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://www.upcitemdb.com/upc/97363367543",
+                "retrieved_on": "2026-08-18",
+                "title": "UPC 097363367543 - Tomb Raider [DVD]",
+                "publisher": "UPCItemDB"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United States, NTSC",
+          "release_date": "2001-01-01"
+        },
+        {
+          "name": "VHS, SP, slipcase (United States)",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "database_entry",
+            "url": "https://vhscollector.com/movie/laura-croft-tomb-raider",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara Croft: Tomb Raider (VHS)",
+            "publisher": "VHSCollector.com",
+            "note": "No barcode on file; catalogue number 336753 only."
+          },
+          "verification": {
+            "method": "retailer_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "336753",
+              "source": {
+                "kind": "database_entry",
+                "url": "https://vhscollector.com/movie/laura-croft-tomb-raider",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara Croft: Tomb Raider (VHS)",
+                "publisher": "VHSCollector.com",
+                "note": "No barcode on file; catalogue number 336753 only."
+              },
+              "verification": {
+                "method": "retailer_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United States, NTSC, 100 minutes",
+          "release_date": "2001-01-01"
+        }
+      ],
+      "subtitle": "2001 film home video",
+      "release_year": 2001,
+      "publisher": "Paramount Home Entertainment",
+      "description_md": "Home video release of the 2001 Lara Croft: Tomb Raider film starring Angelina Jolie."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "novels",
+      "title": "Lara Croft: Tomb Raider, The Amulet of Power",
+      "source": {
+        "kind": "retailer_archive",
+        "url": "https://www.abebooks.com/9780345461711/Amulet-Power-Lara-Croft-0345461711/plp",
+        "retrieved_on": "2026-08-18",
+        "title": "The Amulet of Power (Lara Croft: Tomb Raider)",
+        "publisher": "AbeBooks"
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "US paperback",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "retailer_archive",
+            "url": "https://www.abebooks.com/9780345461711/Amulet-Power-Lara-Croft-0345461711/plp",
+            "retrieved_on": "2026-08-18",
+            "title": "The Amulet of Power (Lara Croft: Tomb Raider)",
+            "publisher": "AbeBooks"
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "isbn",
+              "value": "9780345461711",
+              "source": {
+                "kind": "retailer_archive",
+                "url": "https://www.abebooks.com/9780345461711/Amulet-Power-Lara-Croft-0345461711/plp",
+                "retrieved_on": "2026-08-18",
+                "title": "The Amulet of Power (Lara Croft: Tomb Raider)",
+                "publisher": "AbeBooks"
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United States",
+          "release_date": "2003-01-01"
+        }
+      ],
+      "release_year": 2003,
+      "publisher": "Del Rey",
+      "description_md": "Novel by Mike Resnick set between The Last Revelation and The Angel of Darkness, first of a three-book series."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "comics",
+      "title": "Tomb Raider Archives Volume 1",
+      "source": {
+        "kind": "publisher_page",
+        "url": "https://www.darkhorse.com/books/29-667/tomb-raider-archives-volume-1-hc/",
+        "retrieved_on": "2026-08-18",
+        "title": "Tomb Raider Archives Volume 1 HC",
+        "publisher": "Dark Horse Comics"
+      },
+      "verification": {
+        "method": "publisher_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Hardcover",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "publisher_page",
+            "url": "https://www.darkhorse.com/books/29-667/tomb-raider-archives-volume-1-hc/",
+            "retrieved_on": "2026-08-18",
+            "title": "Tomb Raider Archives Volume 1 HC",
+            "publisher": "Dark Horse Comics"
+          },
+          "verification": {
+            "method": "publisher_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "isbn",
+              "value": "9781506703329",
+              "source": {
+                "kind": "publisher_page",
+                "url": "https://www.darkhorse.com/books/29-667/tomb-raider-archives-volume-1-hc/",
+                "retrieved_on": "2026-08-18",
+                "title": "Tomb Raider Archives Volume 1 HC",
+                "publisher": "Dark Horse Comics"
+              },
+              "verification": {
+                "method": "publisher_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United States",
+          "release_date": "2016-11-30"
+        }
+      ],
+      "subtitle": "Hardcover",
+      "release_year": 2016,
+      "publisher": "Dark Horse Comics",
+      "description_md": "Oversized hardcover collecting issues 1 to 15 of the 1999 Top Cow Tomb Raider comic series, with art by Michael Turner, Marc Silvestri, David Finch, Andy Park and others."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Shadow of the Tomb Raider (Original Soundtrack)",
+      "source": {
+        "kind": "retailer_archive",
+        "url": "https://tokyogamestory.com/en/vinyls-records/1091-vinyle-shadow-of-the-tomb-raider-laced-records-lmlp53-2lp-new-record-5024545871111.html",
+        "retrieved_on": "2026-08-18",
+        "title": "Vinyle Shadow Of The Tomb Raider Laced Records LMLP53 2LP",
+        "publisher": "TokyoGameStory",
+        "note": "Confirmed via search-indexed page title/URL; direct fetch blocked (403)."
+      },
+      "verification": {
+        "method": "two_independent_databases",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Blue and orange 2LP",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "retailer_archive",
+            "url": "https://tokyogamestory.com/en/vinyls-records/1091-vinyle-shadow-of-the-tomb-raider-laced-records-lmlp53-2lp-new-record-5024545871111.html",
+            "retrieved_on": "2026-08-18",
+            "title": "Vinyle Shadow Of The Tomb Raider Laced Records LMLP53 2LP",
+            "publisher": "TokyoGameStory",
+            "note": "Confirmed via search-indexed page title/URL; direct fetch blocked (403)."
+          },
+          "verification": {
+            "method": "two_independent_databases",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "LMLP53",
+              "source": {
+                "kind": "retailer_archive",
+                "url": "https://tokyogamestory.com/en/vinyls-records/1091-vinyle-shadow-of-the-tomb-raider-laced-records-lmlp53-2lp-new-record-5024545871111.html",
+                "retrieved_on": "2026-08-18",
+                "title": "Vinyle Shadow Of The Tomb Raider Laced Records LMLP53 2LP",
+                "publisher": "TokyoGameStory",
+                "note": "Confirmed via search-indexed page title/URL; direct fetch blocked (403)."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "5024545871111",
+              "source": {
+                "kind": "retailer_archive",
+                "url": "https://tokyogamestory.com/en/vinyls-records/1091-vinyle-shadow-of-the-tomb-raider-laced-records-lmlp53-2lp-new-record-5024545871111.html",
+                "retrieved_on": "2026-08-18",
+                "title": "Vinyle Shadow Of The Tomb Raider Laced Records LMLP53 2LP",
+                "publisher": "TokyoGameStory",
+                "note": "Confirmed via search-indexed page title/URL; direct fetch blocked (403)."
+              },
+              "verification": {
+                "method": "two_independent_databases",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "International",
+          "release_date": "2019-01-01"
+        }
+      ],
+      "subtitle": "Deluxe 2LP",
+      "release_year": 2019,
+      "publisher": "Laced Records",
+      "description_md": "28-track deluxe double vinyl of Brian D'Oliveira's Shadow of the Tomb Raider score, pressed on 180g blue and orange vinyl."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Lara Croft: Tomb Raider (Music From The Motion Picture)",
+      "source": {
+        "kind": "retailer_archive",
+        "url": "https://rsdmrkt.com/upc/848064011972",
+        "retrieved_on": "2026-08-18",
+        "title": "Lara Croft: Tomb Raider (Music from the Motion Picture) 20th Anniversary",
+        "publisher": "RSD Mrkt",
+        "note": "Record Store Day Drops 2021 exclusive, limited to 2500 copies."
+      },
+      "verification": {
+        "method": "retailer_archive",
+        "verified_on": "2026-08-18",
+        "verified_by": "forge research pass, 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "2LP gold vinyl, Record Store Day reissue",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "retailer_archive",
+            "url": "https://rsdmrkt.com/upc/848064011972",
+            "retrieved_on": "2026-08-18",
+            "title": "Lara Croft: Tomb Raider (Music from the Motion Picture) 20th Anniversary",
+            "publisher": "RSD Mrkt",
+            "note": "Record Store Day Drops 2021 exclusive, limited to 2500 copies."
+          },
+          "verification": {
+            "method": "retailer_archive",
+            "verified_on": "2026-08-18",
+            "verified_by": "forge research pass, 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_upca",
+              "value": "848064011972",
+              "source": {
+                "kind": "retailer_archive",
+                "url": "https://rsdmrkt.com/upc/848064011972",
+                "retrieved_on": "2026-08-18",
+                "title": "Lara Croft: Tomb Raider (Music from the Motion Picture) 20th Anniversary",
+                "publisher": "RSD Mrkt",
+                "note": "Record Store Day Drops 2021 exclusive, limited to 2500 copies."
+              },
+              "verification": {
+                "method": "retailer_archive",
+                "verified_on": "2026-08-18",
+                "verified_by": "forge research pass, 2026-08-18"
+              }
+            }
+          ],
+          "region_note": "United States; limited to 2500 copies, Record Store Day Drops 2021",
+          "release_date": "2021-06-12"
+        }
+      ],
+      "subtitle": "2001 song compilation, Elektra",
+      "release_year": 2001,
+      "publisher": "Real Gone Music",
+      "description_md": "Record Store Day 2021 exclusive double LP of the 2001 film score, pressed on metallic gold triangle-pattern vinyl, limited to 2500 copies worldwide."
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Timex Tomb Raider Watch",
+      "publisher": "Timex Corp.",
+      "release_year": 2000,
+      "description_md": "Blister-pack digital watch co-branded with Tomb Raider (tombraider.com printed alongside tmx.timex.com), featuring INDIGLO night-light, shock resistance, and a \"Mystery Answer\" function. Package copyright reads \"© 2000 Timex Corp.\"",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_0436.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Retail blister pack",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_0436.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "P.991-093236",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_0436.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            },
+            {
+              "kind": "catalogue_number",
+              "value": "D.990-093133",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_0436.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            },
+            {
+              "kind": "sku",
+              "value": "401695",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_0436.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, read at full resolution 2026-08-18"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "comics",
+      "title": "Tomb Raider - Comix 2000 Supplement",
+      "publisher": "Franco Cosimo Panini Editore (Comix), licensed Eidos Interactive / Core Design",
+      "release_year": 1999,
+      "description_md": "Italian pin-up supplement to the monthly \"Comix 2000\" (anno 1, n. 4), shrink-wrapped, showing a 12-panel Tomb Raider II render gallery on the back cover. Registered with the Tribunale di Modena, 24/04/99.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_0953.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Italian edition, shrink-wrapped",
+          "provenance_type": "retail",
+          "region_note": "Italy",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_0953.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "isbn",
+              "value": "88-8290-114-9",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_0953.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; ISBN-10 checksum verified valid"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "9788882901141",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_0953.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, read at full resolution 2026-08-18"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "sponsorship-tie-ins",
+      "title": "Lara Croft Tomb Raider - China SatCom Phone Card",
+      "publisher": "China SatCom (中国卫通)",
+      "release_year": 2001,
+      "description_md": "Set of ¥10 prepaid phone cards issued by China SatCom to promote the 2001 \"Lara Croft: Tomb Raider\" film (one card reads \"IN THEATERS SUMMER 2001\"). Each card in the set carries a distinct JL-06-W-P36 catalogue code and film-still artwork.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Card 1 of 4 - JL-06-W-P36(4-1)",
+          "provenance_type": "promotional",
+          "region_note": "China",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "JL-06-W-P36(4-1)",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Card 2 of 4 - JL-06-W-P36(4-2)",
+          "provenance_type": "promotional",
+          "region_note": "China",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "JL-06-W-P36(4-2)",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Card 3 of 4 - JL-06-W-P36(4-3)",
+          "provenance_type": "promotional",
+          "region_note": "China",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "JL-06-W-P36(4-3)",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Card 4 of 4 - JL-06-W-P36(4-4)",
+          "provenance_type": "promotional",
+          "region_note": "China",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "JL-06-W-P36(4-4)",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3320.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "statues-and-figures",
+      "title": "Tomb Raider: Lara Croft PVC Statue",
+      "publisher": "Dark Horse Deluxe",
+      "description_md": "Sealed shipping carton for a Dark Horse Deluxe Lara Croft PVC statue, quantity one per carton, made in China. The printed UPC under the item number was too motion-blurred in the photograph to read reliably and was dropped rather than guessed.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_3476.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Sealed shipping carton",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3476.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "3014-202",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3476.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, printed as ITEM NUMBER 3014-202, read at full resolution"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "comics",
+      "title": "Tomb Raider N°6",
+      "publisher": "Semic Comics (Top Cow / Image, licensed Eidos Interactive / Core Design)",
+      "description_md": "French-language single issue of the Top Cow Tomb Raider comic, cover tagline \"Lara Croft est Tomb Raider,\" cover art signed Tan/Jo Smith. Priced 25F (France), 7,20 F.S. (Switzerland), 180 F.B. (Belgium), 5,70 D.C. (Canada). No barcode is printed on the front cover shown.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_3569.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "French edition, N°6",
+          "provenance_type": "retail",
+          "region_note": "France",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_3569.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "N°6",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_3569.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, issue number printed on cover, no checksum applicable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Nokia 3210 Tomb Raider Autograph Faceplate",
+      "publisher": "licensed Core Design (\"™ and © Core Design 1996-2001\")",
+      "release_year": 2001,
+      "description_md": "Blister-packed gold Nokia 3210 faceplate with a Tomb Raider Chronicles-style Lara Croft illustration, sold as an autograph-style standard faceplate.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Retail blister pack",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_ean13",
+              "value": "5034862061010",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, read at full resolution 2026-08-18"
+              }
+            },
+            {
+              "kind": "catalogue_number",
+              "value": "HNK33TRAST",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, read at full resolution 2026-08-18"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "Tomb Raider Mobile Phone Accessories - Nokia 3310 Compatible Faceplates",
+      "publisher": "MobilPhoneColors (Germany), licensed Warner Bros. / Betty Boop / Core Design",
+      "description_md": "Blister pack of Tomb Raider-themed faceplates compatible with the Nokia 3310, cross-licensed with other MobilPhoneColors lines (Warner Bros., Betty Boop, Smiley).",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Retail blister pack",
+          "provenance_type": "retail",
+          "region_note": "Germany",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_ean13",
+              "value": "4250043108195",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; EAN-13 checksum verified valid"
+              }
+            },
+            {
+              "kind": "sku",
+              "value": "0289520",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4325.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, printed beneath barcode, zoomed crop"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider Underworld",
+      "publisher": "TILSIT Éditions, licensed Crystal Dynamics",
+      "release_year": 2009,
+      "description_md": "French-language cooperative board game adaptation of Tomb Raider: Underworld for 1-4 players, ages 10+, 90-minute playtime, six double-sided game boards and 116 cards. Box copyright reads \"© 2009 TILSIT.\"",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_4427.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Board game, French edition",
+          "provenance_type": "retail",
+          "region_note": "France",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_4427.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "barcode_ean13",
+              "value": "3760017146050",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4427.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, read at full resolution 2026-08-18"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "games",
+      "title": "Tomb Raider: Underworld - Lara Croft",
+      "publisher": "Eidos Interactive Limited, developed by Crystal Dynamics",
+      "release_year": 2008,
+      "description_md": "Retail video game case for Tomb Raider: Underworld, French packaging, photographed back-to-back with the TILSIT board game adaptation. No barcode on this box was legible enough in the photograph to transcribe reliably, so none is recorded.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_4427.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Retail case, French edition",
+          "provenance_type": "retail",
+          "region_note": "France",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_4427.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          }
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "statues-and-figures",
+      "title": "SWTOYS 1:6 Scale Figure - NO:FS061",
+      "publisher": "SWTOYS",
+      "description_md": "Sealed SWTOYS 1:6-scale figure box, tagline \"1:6 our world,\" catalogue number FS061. The box back shown in the photograph does not itself print a \"Tomb Raider\" or \"Lara Croft\" title; the franchise attribution comes from the collection context rather than text visible on this face.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_4676.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Sealed retail box",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_4676.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "FS061",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_4676.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, printed as 'NO:FS061', zoomed crop, no checksum applicable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Tomb Raider 30th Anniversary Shirt",
+      "release_year": 2026,
+      "description_md": "Unisex T-shirt, part of a Shark Robot preorder (Order #1745723, placed 2/14/2026, not yet shipped at time of photograph). Documented from the retailer's packing slip rather than an unboxed garment photograph.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+        "title": "Operator's photograph (Shark Robot packing slip)",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Unisex Large",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "Shark Robot packing slip, Order #1745723, warehouse location BA-06-B12"
+          }
+        },
+        {
+          "name": "Unisex Medium",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "Shark Robot packing slip, Order #1745723, warehouse location BA-06-B11"
+          }
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Pullover Hoodie - Tomb Raider 30th Anniversary",
+      "release_year": 2026,
+      "description_md": "Unisex pullover hoodie, part of the same Shark Robot preorder (Order #1745723, placed 2/14/2026).",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+        "title": "Operator's photograph (Shark Robot packing slip)",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Unisex Medium",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "Shark Robot packing slip, Order #1745723, warehouse location BN-04-01"
+          }
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Lara Croft 30th Anniversary Shirt",
+      "release_year": 2026,
+      "description_md": "Unisex T-shirt, part of the same Shark Robot preorder (Order #1745723, placed 2/14/2026).",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+        "title": "Operator's photograph (Shark Robot packing slip)",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Unisex Medium",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "Shark Robot packing slip, Order #1745723, warehouse location BA-09-B11"
+          }
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Pullover Hoodie - Lara Croft 30th Anniversary",
+      "release_year": 2026,
+      "description_md": "Unisex pullover hoodie, part of the same Shark Robot preorder (Order #1745723, placed 2/14/2026).",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+        "title": "Operator's photograph (Shark Robot packing slip)",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Unisex Medium",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6154.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "Shark Robot packing slip, Order #1745723, warehouse location BN-02-01"
+          }
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "promotional-items",
+      "title": "GameTap Tomb Raider Dog Tags",
+      "publisher": "GameTap",
+      "description_md": "Stainless-steel dog tags from a promotional set of 7, each engraved with the GameTap logo and \"GAMETAP.COM/TOMBRAIDER,\" one per named artist. Four of the seven are in hand: 1 of 7 (Peter Chung), 4 of 7 (Ivan Reis), 6 of 7 (Louie Del Carmen), and 7 of 7 (Jim Lee & WildStorm).",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "1 of 7 - designed by Peter Chung",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "1 OF 7",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, no checksum applicable"
+              }
+            }
+          ]
+        },
+        {
+          "name": "4 of 7 - designed by Ivan Reis",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "4 OF 7",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, no checksum applicable"
+              }
+            }
+          ]
+        },
+        {
+          "name": "6 of 7 - designed by Louie Del Carmen",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "6 OF 7",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, no checksum applicable"
+              }
+            }
+          ]
+        },
+        {
+          "name": "7 of 7 - designed by Jim Lee & WildStorm",
+          "provenance_type": "promotional",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "7 OF 7",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_6879.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop, no checksum applicable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "apparel",
+      "title": "Tomb Raider Backpack",
+      "description_md": "Poly-bagged backpack, style TRBK0001-UK, quantity 1 per bag, visible through the packaging with a rose-and-grey colourway.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_8067.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Style TRBK0001-UK",
+          "provenance_type": "retail",
+          "region_note": "UK",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_8067.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "sku",
+              "value": "TRBK0001-UK",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_8067.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, printed on poly-bag label, read at full resolution"
+              }
+            },
+            {
+              "kind": "barcode_upca",
+              "value": "671803582538",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_8067.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, zoomed crop; UPC-A checksum verified valid"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "novels",
+      "title": "Shadow of the Tomb Raider",
+      "publisher": "Titan Books, based on the game by Eidos-Montréal / Crystal Dynamics / Square Enix",
+      "release_year": 2018,
+      "description_md": "Paperback tie-in novel to the 2018 video game, two copies photographed together for cross-check. Copyright line reads \"SHADOW OF THE TOMB RAIDER © 2018 Square Enix Limited.\"",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_8192.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "UK paperback",
+          "provenance_type": "retail",
+          "region_note": "UK",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_8192.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, zoomed crop, read character-by-character 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "isbn",
+              "value": "9781785659911",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_8192.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, read at full resolution 2026-08-18"
+              }
+            },
+            {
+              "kind": "barcode_ean13",
+              "value": "9781785659911",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_8192.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, read at full resolution 2026-08-18"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "statues-and-figures",
+      "title": "Tomb Raider - Lara Croft in Jungle Outfit",
+      "publisher": "Playmates Toys, licensed Eidos Interactive / Core Design",
+      "description_md": "Boxed 9-inch Playmates figure, \"Starring Lara Croft,\" jungle-outfit variant with two pistols and a jungle-ruin diorama backdrop.",
+      "source": {
+        "kind": "photograph",
+        "url": "urn:vitrine:in-hand-photograph:IMG_9834.jpeg",
+        "title": "Operator's photograph",
+        "retrieved_on": "2026-08-18",
+        "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+      },
+      "verification": {
+        "method": "in_hand_photograph",
+        "verified_on": "2026-08-18",
+        "verified_by": "operator photograph, read at full resolution 2026-08-18"
+      },
+      "variants": [
+        {
+          "name": "Boxed, Jungle Outfit",
+          "provenance_type": "retail",
+          "source": {
+            "kind": "photograph",
+            "url": "urn:vitrine:in-hand-photograph:IMG_9834.jpeg",
+            "retrieved_on": "2026-08-18",
+            "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+          },
+          "verification": {
+            "method": "in_hand_photograph",
+            "verified_on": "2026-08-18",
+            "verified_by": "operator photograph, read at full resolution 2026-08-18"
+          },
+          "identifiers": [
+            {
+              "kind": "catalogue_number",
+              "value": "72002",
+              "source": {
+                "kind": "photograph",
+                "url": "urn:vitrine:in-hand-photograph:IMG_9834.jpeg",
+                "retrieved_on": "2026-08-18",
+                "note": "Operator's own photograph, held offline and not published. Not a resolvable source: this row cannot satisfy R10 or R11 until the photograph is uploaded at slice 5 and this becomes an object URL."
+              },
+              "verification": {
+                "method": "in_hand_photograph",
+                "verified_on": "2026-08-18",
+                "verified_by": "operator photograph, read at full resolution 2026-08-18"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

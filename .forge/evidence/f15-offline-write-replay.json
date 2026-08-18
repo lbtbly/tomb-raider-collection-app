@@ -1,0 +1,82 @@
+{
+  "target": {
+    "baseUrl": "http://localhost:3200",
+    "port": "3200",
+    "status": 200,
+    "devMarkersFound": [],
+    "buildIdOnDisk": "7JzsJmX3Ve24jbZ-g46Vt",
+    "buildIdFoundInServedHtml": true,
+    "checkedAt": "2026-08-18T12:27:51.944Z"
+  },
+  "offlineWrite": {
+    "identifier": "0054714",
+    "opId": "64092b19-9ece-4a57-8497-cfbd7219201f",
+    "kind": "add_copy",
+    "outboxStatus": "pending",
+    "countQueryWhileOffline": 0,
+    "clientOpRowsBefore": 80,
+    "clientOpRowsWhileOffline": 80,
+    "opsRequestsSoFar": [
+      {
+        "phase": "failed",
+        "method": "POST",
+        "status": null,
+        "atMs": 222
+      }
+    ]
+  },
+  "replay": {
+    "onlineEventsSeenInPage": 1,
+    "replayLatencyMs": 263,
+    "outboxStatusAfterReplay": "applied",
+    "countQueryAfterReplay": 1,
+    "clientOpRowsAfterReplay": 81,
+    "deliberateReplaysOfTheSameId": [
+      {
+        "status": 200,
+        "body": {
+          "opId": "64092b19-9ece-4a57-8497-cfbd7219201f",
+          "applied": true,
+          "storedCount": 1
+        },
+        "countAfter": 1
+      },
+      {
+        "status": 200,
+        "body": {
+          "opId": "64092b19-9ece-4a57-8497-cfbd7219201f",
+          "applied": true,
+          "storedCount": 1
+        },
+        "countAfter": 1
+      }
+    ],
+    "opsRequests": [
+      {
+        "phase": "failed",
+        "method": "POST",
+        "status": null,
+        "atMs": 222
+      },
+      {
+        "phase": "finished",
+        "method": "POST",
+        "status": 200,
+        "atMs": 500
+      }
+    ]
+  },
+  "savedCopiesOnDevice": 1,
+  "countQueryControl": {
+    "neverIssuedOpId": "00000000-0000-4000-8000-00000000dead",
+    "countForNeverIssued": 0,
+    "freshOpId": "16962ea0-b6f7-43cf-b4dd-b84a540ea0e1",
+    "countBeforePost": 0,
+    "postStatus": 200,
+    "countAfterPost": 1,
+    "clientOpRowsBeforePost": 81,
+    "clientOpRowsAfterPost": 82
+  },
+  "countQuery": "select count(*)::int as n from client_op where id = $1, run against Postgres directly",
+  "recordedAt": "2026-08-18T12:27:52.705Z"
+}

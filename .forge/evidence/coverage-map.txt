@@ -1,0 +1,152 @@
+# Coverage map
+
+130 rubric lines. 0 checked off (the verifier alone does this).
+70 lines carry at least one evidence claim; 60 carry none.
+
+A claim is not a pass. It means evidence exists to read.
+NO EVIDENCE means nothing names the line. It does NOT mean the line
+was missed: a line whose screen or slice does not exist yet reads the same.
+Check PLAN.md before calling a red line a gap.
+
+## Function: 23/62 with evidence (37%)
+
+  [ ] F1   7 entries   On the live URL in a clean profile with no account, a typed identifier for a variant the device 
+  [ ] F2   5 entries   With the network disabled after one sync, 10 typed identifiers return verdicts and the network l
+  [ ] F3   5 entries   With the network throttled to 30 kbit/s and 2,000 ms latency, the verdict paints before any netw
+  [ ] F4   7 entries   Three verdicts exist and never two: OWNED, UNCERTAIN, NOT IN COLLECTION, each captured at 390 px
+  [ ] F5   2 entries   An identifier matching exactly one owned variant renders OWNED over the user's own cached photog
+  [ ] F6   8 entries   An identifier matching 2 or more variants renders UNCERTAIN with no corner cut and a dashed edge
+  [ ] F7   2 entries   Both outcomes of UNCERTAIN reverse from the item in 2 taps or fewer; captured before and after.
+  [ ] F8   2 entries   An unknown identifier renders 3 doors: search by title, start an entry, add to Unfiled. Count of
+  [ ] F9   2 entries   When the on-device copy is older than 24 hours its age prints under the verdict in the same posi
+  [ ] F10  4 entries   From a cold app open with the network disabled, a scan or typed identifier reaches a verdict and
+  [ ] F11  3 entries   Every primary control in the check flow measures at least 56 px on its shortest side at 390 px w
+  [ ] F12  1 entry     After one sync with the network disabled, the collection list, its thumbnails, the collection se
+  [ ] F13  1 entry     A copy created signed out survives a hard reload and a full browser restart with the network dis
+  [ ] F14  2 entries   The on-device catalogue index measures at or under 400 KB compressed at the shipped catalogue si
+  [ ] F15  4 entries   A write made with the network disabled and replayed on reconnect creates exactly 1 row; a count 
+  [ ] F16  1 entry     With the network disabled, every route renders the designed offline state; count of routes showi
+  [ ] F17  NO EVIDENCE Signed out with storage cleared, all 7 public actions complete: browse, search, apply a facet, o
+  [ ] F18  NO EVIDENCE The account offer appears on exactly 2 triggers, below a completed save and on a second device, 
+  [ ] F19  NO EVIDENCE Market value, collection totals, CSV export, and CSV import are each reachable with no account; 
+  [ ] F20  NO EVIDENCE The sold and handed-out control filters from the top of the catalogue in 1 tap and its counts eq
+  [ ] F21  2 entries   All 5 provenance types render a mark at 390 px in both themes; converted to greyscale, count of 
+  [ ] F22  2 entries   A second franchise with 2 categories, 1 new variant axis, and 3 items is added to the live datab
+  [ ] F23  3 entries   Every permanent ID minted in the database returns 200 or a redirect chain ending in 200; count o
+  [ ] F24  3 entries   A merge and a rename each leave the pre-change permanent ID resolving to the surviving entry; bo
+  [ ] F25  NO EVIDENCE A specimen sheet shows the bundle manifest with a retailer named on each row that had one; after
+  [ ] F26  NO EVIDENCE 20 queries covering title, catalogue number, barcode, and a one-word misspelling each return the
+  [ ] F27  NO EVIDENCE With the database compute idle for 10 minutes, the catalogue and a specimen sheet each return a 
+  [ ] F28  NO EVIDENCE A collection of 1,000 copies paints its first screen within 1.0 s and records 0 tasks over 200 m
+  [ ] F29  NO EVIDENCE The collection table exposes at least 12 columns, sort on every one, and 3 saved views restored 
+  [ ] F30  NO EVIDENCE Grading company, numeric grade, and certification serial each save independently; a copy with a 
+  [ ] F31  NO EVIDENCE Purchase price and market value render as 2 separate columns on the same row; captured.
+  [ ] F32  NO EVIDENCE A collection holding 3 currencies produces a total in the chosen currency equal to the same comp
+  [ ] F33  NO EVIDENCE For 30 variants with no recorded sale, the value cell states the basis in words; count rendering
+  [ ] F34  NO EVIDENCE Every market value shown names its basis and its observation period; count missing either is 0.
+  [ ] F35  NO EVIDENCE An export of a 1,000-row collection re-imported into an empty account produces 1,000 rows; count
+  [ ] F36  NO EVIDENCE The export carries every user copy field including custom fields and has no row cap; the exporte
+  [ ] F37  NO EVIDENCE A 41-column source file imports with column mapping; count of dropped columns is 0, and each unm
+  [ ] F38  NO EVIDENCE An import with 5 malformed rows reports each failing row number and its reason and imports the r
+  [ ] F39  NO EVIDENCE Duplicate from similar produces a new copy with every field except the identifier pre-filled in 
+  [ ] F40  NO EVIDENCE A saved template applies to a new catalogue variant; 5 near-identical variants are entered from 
+  [ ] F41  NO EVIDENCE A new catalogue entry is publicly readable at its permanent ID before any review; the save times
+  [ ] F42  NO EVIDENCE A suggestion renders on the entry page as a field-level diff, the contributor's written reason, 
+  [ ] F43  NO EVIDENCE A declined suggestion stays readable and reopens; captured in both states.
+  [ ] F44  NO EVIDENCE A canonical field overwritten by a second account restores from history in 3 actions or fewer; t
+  [ ] F45  NO EVIDENCE Contributor credit renders as body text under the photograph and is byte-identical after a merge
+  [ ] F46  NO EVIDENCE A moderator's view of a suggestion contains 0 occurrences of the 6 sentinels.
+  [ ] F47  NO EVIDENCE The response of every public route (catalogue, specimen sheet, public profile, list, recent addi
+  [ ] F48  NO EVIDENCE No setting makes a collection total public; count of controls that do is 0.
+  [ ] F49  NO EVIDENCE A public profile browsed signed out shows the other collector's copies, their photographs, and t
+  [ ] F50  NO EVIDENCE A wantlist match between 2 accounts surfaces on both profiles; captured.
+  [ ] F51  NO EVIDENCE A photograph carrying GPS EXIF is uploaded and fetched back with 0 EXIF tags; the before and aft
+  [ ] F52  1 entry     Every image on every route loads from the image host named in the privacy notice; count of image
+  [ ] F53  NO EVIDENCE Photographs per copy cap at 5 and the cap is stated on screen before the sixth upload; captured.
+  [ ] F54  NO EVIDENCE Before the file picker opens, the upload flow states that photographs must be of the user's own 
+  [ ] F55  NO EVIDENCE An in-progress filter, a saved view, and an open variant picker each survive a refresh with stat
+  [ ] F56  3 entries   Every error state offers a next action; count of dead ends across the 7 screens is 0.
+  [ ] F57  NO EVIDENCE Every control that starts work either finishes within 100 ms or shows progress within 100 ms; co
+  [ ] F58  11 entries  A camera scan resolves an identifier on a device with a camera, and typed entry reaches the same
+  [ ] F59  NO EVIDENCE A copy saved signed out and then claimed at sign-in produces the same row count before and after
+  [ ] F60  NO EVIDENCE The wantlist is a view of the collection sharing its columns and its saved views; captured besid
+  [ ] F61  NO EVIDENCE Quantity on a copy accepts a value above 1 and the collection total counts it; the entered quant
+  [ ] F62  NO EVIDENCE Sign-in completes on the live URL by at least 2 independent methods and the session survives a b
+
+## Craft: 30/30 with evidence (100%)
+
+  [ ] C1   5 entries   All 7 screens captured at 390, 768, and 1440 in the dark theme; count of clipped or overflowing 
+  [ ] C2   2 entries   All 7 screens captured in loading, empty, error, and offline states; count rendering an unstyled
+  [ ] C3   4 entries   Contrast measured against the built interface in both themes, 8 pairs, numbers recorded. Dark: i
+  [ ] C4   1 entry     Every interactive control on the 7 screens shows a visible focus indicator; count without one is
+  [ ] C5   2 entries   Every form control carries a programmatic label; count without one is 0.
+  [ ] C6   2 entries   Every image carries descriptive alternative text or is marked decorative; count with neither is 
+  [ ] C7   4 entries   No interactive target measures under 44 px on its shortest side at 390 px; count of violations i
+  [ ] C8   2 entries   Every margin and padding value the product's own rules set is drawn from 4, 8, 12, 16, 20, 24, 3
+  [ ] C9   3 entries   Every corner radius the product's own rules set is 0, because the 45 degree cut carries what a r
+  [ ] C10  3 entries   Exactly 2 type families load, Archivo and IBM Plex Mono, both served from the app origin; reques
+  [ ] C11  1 entry     Numbers sitting in table columns render with tabular figures; count of numeric columns with prop
+  [ ] C12  2 entries   The verdict slab arrives at full width in 220 ms with 0 opacity change; captured as a frame sequ
+  [ ] C13  1 entry     With reduced motion requested, the verdict slab arrives with 0 travel and 0 scale while the slab
+  [ ] C14  1 entry     A theme change repaints in a single frame; count of animated colour transitions during a theme s
+  [ ] C15  5 entries   Console errors across the 7 screens and the core loop number 0.
+  [ ] C16  5 entries   Under the pseudo-locale, every user-visible string renders transformed; count of untransformed s
+  [ ] C17  2 entries   At 40 percent text expansion, the 7 screens at 390, 768, and 1440 show 0 clipped or overflowing 
+  [ ] C18  4 entries   Dates, integers, decimals, and currency follow the browser locale: a de-DE capture shows 1.234,5
+  [ ] C19  7 entries   The shipped strings contain 0 em dashes, 0 emoji, and 0 occurrences of seamless, robust, delve, 
+  [ ] C20  3 entries   Every empty state names the next action; count of empty states without one is 0.
+  [ ] C21  1 entry     The product name renders identically in the wordmark, the browser tab title, the social card, an
+  [ ] C22  1 entry     Personal fields render only on the recessed personal surface, in both themes: a sweep of the 7 s
+  [ ] C23  6 entries   The verdict word is live text and never an image, fitted to width between 26 px and 46 px; the r
+  [ ] C24  2 entries   Every screen holds one footer line carrying the disclaimer; count of screens without it is 0.
+  [ ] C25  1 entry     Theme parity. All 7 screens captured at 1440 and 390 in the light theme, 14 captures; count of c
+  [ ] C26  4 entries   Declare, do not inherit. Every CSS rule that sets font or background on a text-bearing container
+  [ ] C27  2 entries   The theme choice persists across a reload and across a new session on the same device; captured 
+  [ ] C28  2 entries   With no explicit choice stored, the theme follows the device setting and the control names which
+  [ ] C29  5 entries   No flash of the wrong theme on first paint: a cold load captured in each of the 3 stored states 
+  [ ] C30  1 entry     Chroma is a two-word vocabulary: mint appears only on settled states and flare only on unsettled
+
+## Release: 12/33 with evidence (36%)
+
+  [ ] R1   NO EVIDENCE The production URL returns 200 for the landing page, the catalogue, a specimen sheet, a public p
+  [ ] R2   NO EVIDENCE A second deploy from a clean checkout reaches the same URL and those 5 routes return 200; the se
+  [ ] R3   NO EVIDENCE The rollback command with this project's real ids is recorded in REPORT.md, executed once agains
+  [ ] R4   5 entries   Environment variable names are listed in REPORT.md and 0 values appear anywhere in the repositor
+  [ ] R5   1 entry     Database size on the live database is at or under 350 MB and object storage use is at or under 7
+  [ ] R6   1 entry     No advertisement, donation control, payment control, or affiliate link appears on any route; cou
+  [ ] R7   NO EVIDENCE A sign-in on the live URL completes for an account that is not the operator's own; captured.
+  [ ] R8   9 entries   The catalogue holds at least 220 items and 380 variants across at least 12 categories, with all 
+  [ ] R9   5 entries   Every barcode value in the live database passes its check digit; count of failures is 0.
+  [ ] R10  7 entries   Every catalogue item, variant, identifier, and bundle component carries a linked source with a U
+  [ ] R11  4 entries   20 randomly sampled variants re-opened against their cited source match on title, year, and iden
+  [ ] R12  NO EVIDENCE Market value holds at least 80 rows with a cited basis, of which at least 30 carry no recorded s
+  [ ] R13  NO EVIDENCE The About page states the verified entry count and the verification methods on screen; captured.
+  [ ] R14  NO EVIDENCE **OPERATOR.** GDPR processors. Art. 28 contracts recorded for the hosting, database, and object 
+  [ ] R15  NO EVIDENCE GDPR lawful basis. The privacy notice names contract for the account and the collection, and con
+  [ ] R16  NO EVIDENCE GDPR retention. The privacy notice states a retention period for each data category: account, co
+  [ ] R17  NO EVIDENCE GDPR export. An export completed in a real session on the live URL downloads a file holding ever
+  [ ] R18  NO EVIDENCE GDPR deletion. An account deletion completed in a real session on the live URL removes that acco
+  [ ] R19  NO EVIDENCE GDPR photograph vector. The upload flow shows the other-people prompt before the file picker, an
+  [ ] R20  5 entries   ePrivacy zero banner. A first load in a clean profile and a browse of catalogue, specimen sheet,
+  [ ] R21  NO EVIDENCE DSA Art. 16. The notice form collects a substantiated explanation, the exact location URL, the n
+  [ ] R22  NO EVIDENCE DSA Art. 17. A removal produces a statement of reasons naming the action, the ground, the legal 
+  [ ] R23  NO EVIDENCE DSA Art. 24(3). The transparency page publishes the average monthly active recipients figure, th
+  [ ] R24  1 entry     IP, name and hostname. The product name and the deployed hostname contain no trademark, and the 
+  [ ] R25  1 entry     IP, imagery. Every image on the live product is a user photograph or a product-generated asset; 
+  [ ] R26  3 entries   IP, disclaimer. The unofficial-and-unaffiliated line appears in the footer of every route and on
+  [ ] R27  NO EVIDENCE IP, takedown path. A rights complaint filed through the same form as an Art. 16 notice produces 
+  [ ] R28  NO EVIDENCE launch/ holds 5 screenshots carrying real catalogue content with a caption strip of exactly 4 wo
+  [ ] R29  NO EVIDENCE The landing page above the fold at 390, 768, and 1440 carries the name, one sentence, and one ac
+  [ ] R30  1 entry     The icon reads at 48 px with one shape, two colours, and no text; captured at 48 px.
+  [ ] R31  NO EVIDENCE 10 sampled social card URLs each return a 1200 by 630 image carrying the entry title at a cap he
+  [ ] R32  NO EVIDENCE The launch post in launch/ names the verified entry count and contains 0 em dashes and 0 emoji.
+  [ ] R33  NO EVIDENCE REPORT.md lists the launch/ contents, the deployment URL, the environment variable names, and th
+
+## Disqualifier: 5/5 with evidence (100%)
+
+  [ ] D1   1 entry     Placeholder copy: count of lorem ipsum, TBD, Untitled, Example, and sample strings visible anywh
+  [ ] D2   1 entry     Default favicon: the browser tab shows the product icon on all 7 screens; count of default marks
+  [ ] D3   3 entries   Unstyled empty or error states: across the 28 state captures, count rendering browser defaults o
+  [ ] D4   1 entry     TODO markers: count of TODO, FIXME, XXX, and HACK markers in shipped code is 0.
+  [ ] D5   4 entries   Single-viewport checking: every screen carries captures at 390, 768, and 1440; count of screens 
+

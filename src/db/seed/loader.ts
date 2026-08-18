@@ -437,11 +437,11 @@ export async function loadSeedDocument(
     // Identity first, slug second. These are different questions and
     // conflating them broke both directions in turn.
     //
-    // Identity: an item is the same item if the franchise, title, subtitle and
-    // release year all match. That is what makes a re-seed idempotent. Deciding
-    // identity by "is the slug taken" instead means a second run finds its own
-    // slug occupied, escalates to a variant of it, and inserts a duplicate of
-    // the row it should have recognised.
+    // Identity: an item is the same item if the franchise, category, title,
+    // subtitle and release year all match. That is what makes a re-seed
+    // idempotent. Deciding identity by "is the slug taken" instead means a
+    // second run finds its own slug occupied, escalates to a variant of it,
+    // and inserts a duplicate of the row it should have recognised.
     //
     // Slug: two DIFFERENT items can legitimately share a title. This franchise
     // has a 1996 "Tomb Raider" and a 2013 "Tomb Raider", and remasters and
@@ -465,7 +465,34 @@ export async function loadSeedDocument(
     // So: same title and subtitle, and years that do not actively contradict
     // each other, is the same item. Two years that are both present and
     // different are genuinely different releases.
+    //
+    // Category, by contrast, is compared STRICTLY, and it can be, because it
+    // is the one discriminator here that is never absent: catalogue_item
+    // .category_id is NOT NULL and seedItemSchema requires the slug. Nothing
+    // is being read out of a missing value, so the rule that broke this seam
+    // twice does not apply. A game and the strategy guide covering it are
+    // conventionally titled alike and share a release year -- "Tomb Raider:
+    // Legend" 2006 in games against the Piggyback guide of the same name and
+    // year in guides-and-books. Without category they fold to one identity,
+    // the guide's variants and identifiers land on the game, and the loader
+    // reports a SKIP rather than an error. Silent loss into a neighbouring
+    // row is the worst failure available here, so category counts.
+    //
+    // Publisher is deliberately NOT part of identity, even though it also
+    // separates that pair. It is optional in the schema and absent on rows
+    // here, so it could only ever be compared the way release year is --
+    // absence does not distinguish -- and that leaves it doing nothing except
+    // splitting rows where two sources spell one publisher differently.
+    // Measured against the five research documents: identity with publisher
+    // yields 98 items instead of 96, and the two extra rows are exactly the
+    // defects already fixed once. It re-splits the Dark Horse statue
+    // ("Dark Horse Deluxe" against "Dark Horse Comics") and it re-splits the
+    // Record Store Day pressing ("Real Gone Music", the reissue label,
+    // against "Elektra", the original). Same object, different label on the
+    // sleeve. Category is a taxonomy slug from a closed list; publisher is
+    // free text off a product, and free text is not a key.
     const identical = sameTitle.find((row) => {
+      if (row.categoryId !== categoryId) return false;
       if ((row.subtitle ?? null) !== (item.subtitle ?? null)) return false;
       const a = row.releaseYear ?? null;
       const b = item.release_year ?? null;
@@ -495,6 +522,17 @@ export async function loadSeedDocument(
       .where(eq(catalogueItem.franchiseId, franchiseId));
     for (const row of allSlugs) taken.add(row.slug);
 
+    // Left exactly as it was when category joined identity above. A game and
+    // the guide covering it now correctly become two rows, and the second one
+    // lands on "<title>-<year>" -- a slug naming the fact the two rows AGREE
+    // on rather than the one they differ on. That is cosmetic and it stays
+    // cosmetic: nothing resolves by slug, /i/{public_id}/{slug} resolves by
+    // public_id, and the unique index on (franchise_id, slug) means a mistake
+    // here crashes rather than merges. Reordering these to put category first
+    // would hand "<title>-<category>" to the 1996 and 2013 "Tomb Raider"
+    // games, which share a category and differ by year. The escalation cannot
+    // be right for both without asking WHICH stored row took the base slug,
+    // and that is more machinery than a decorative field earns.
     const bases = [
       slugify(item.title),
       item.subtitle ? slugify(`${item.title} ${item.subtitle}`) : null,

@@ -1,0 +1,485 @@
+{
+  "$schema": "vitrine.seed-starter.v1",
+  "items": [
+    {
+      "franchise": "tomb-raider",
+      "category": "film-and-home-video",
+      "title": "Lara Croft: Tomb Raider",
+      "subtitle": "2001 film, home video editions",
+      "release_year": 2001,
+      "publisher": "Paramount Pictures",
+      "description_md": "Simon West's 2001 film starring Angelina Jolie, across its US home-video editions from the 2006 Blu-ray to the 2021 remaster.",
+      "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-Blu-ray/84/", "title": "Lara Croft: Tomb Raider Blu-ray", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "Blu-ray (US, 2006)",
+          "provenance_type": "retail",
+          "region_note": "Region A, United States",
+          "release_date": "2006-09-26",
+          "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-Blu-ray/84/", "title": "Lara Croft: Tomb Raider Blu-ray", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "barcode_upca", "value": "097361182445", "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-Blu-ray/84/", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" }, "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "4K Ultra HD + Blu-ray (US)",
+          "provenance_type": "retail",
+          "region_note": "4K disc region-free, Blu-ray Region A, United States",
+          "release_date": "2018-02-27",
+          "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-4K-Blu-ray/194258/", "title": "Lara Croft: Tomb Raider 4K Blu-ray (4K Ultra HD + Blu-ray)", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18", "note": "No barcode printed on the retrieved page." },
+          "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": []
+        },
+        {
+          "name": "SteelBook, Blu-ray + DVD + Digital HD (US)",
+          "provenance_type": "retail",
+          "region_note": "Region A, United States",
+          "release_date": "2018-03-06",
+          "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-Blu-ray/195853/", "title": "Lara Croft: Tomb Raider Blu-ray (SteelBook)", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "barcode_upca", "value": "032429297167", "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-Blu-ray/195853/", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" }, "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "20th Anniversary Edition, remastered Blu-ray (US)",
+          "provenance_type": "retail",
+          "region_note": "Region A, United States",
+          "release_date": "2021-06-01",
+          "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-Blu-ray/287920/", "title": "Lara Croft: Tomb Raider Blu-ray (20th Anniversary Edition | Remastered)", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "barcode_upca", "value": "032429355270", "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-Blu-ray/287920/", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" }, "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "film-and-home-video",
+      "title": "Lara Croft Tomb Raider: The Cradle of Life",
+      "subtitle": "2003 film, home video editions",
+      "release_year": 2003,
+      "publisher": "Paramount Pictures",
+      "description_md": "Jan de Bont's 2003 sequel, across its 2018 US SteelBook editions.",
+      "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-The-Cradle-of-Life-Blu-ray/195854/", "title": "Lara Croft Tomb Raider: The Cradle of Life Blu-ray (SteelBook)", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "SteelBook, Blu-ray + DVD + Digital HD (US)",
+          "provenance_type": "retail",
+          "region_note": "Region A, United States",
+          "release_date": "2018-03-06",
+          "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-The-Cradle-of-Life-Blu-ray/195854/", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "barcode_upca", "value": "032429297112", "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-The-Cradle-of-Life-Blu-ray/195854/", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" }, "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "4K Ultra HD SteelBook, Best Buy exclusive (US)",
+          "provenance_type": "retail",
+          "region_note": "4K disc region-free, Blu-ray Region A; US retailer exclusive",
+          "release_date": "2018-02-27",
+          "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-The-Cradle-of-Life-4K-Blu-ray/197741/", "title": "Lara Croft Tomb Raider: The Cradle of Life 4K Blu-ray (Best Buy Exclusive SteelBook)", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "barcode_upca", "value": "032429304254", "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Tomb-Raider-The-Cradle-of-Life-4K-Blu-ray/197741/", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" }, "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "film-and-home-video",
+      "title": "Lara Croft Collection",
+      "subtitle": "Two-film Blu-ray set",
+      "release_year": 2017,
+      "publisher": "Paramount Pictures",
+      "description_md": "Two-disc Blu-ray set pairing the 2001 and 2003 films.",
+      "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Collection-Blu-ray/169138/", "title": "Lara Croft Collection Blu-ray", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18", "note": "No barcode printed on the retrieved page." },
+      "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "Two-disc Blu-ray set (US)",
+          "provenance_type": "retail",
+          "region_note": "Region A, United States; 2 BD-50",
+          "release_date": "2017-03-14",
+          "source": { "kind": "retailer_archive", "url": "https://www.blu-ray.com/movies/Lara-Croft-Collection-Blu-ray/169138/", "publisher": "Blu-ray.com", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "retailer_archive", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": []
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Tomb Raider (Original Motion Picture Soundtrack)",
+      "subtitle": "Tom Holkenborg AKA Junkie XL, 2018 film score",
+      "release_year": 2018,
+      "publisher": "Sony Classical",
+      "description_md": "Junkie XL's score for the 2018 film, issued on CD by Sony Classical and on two coloured vinyl pressings by Music On Vinyl.",
+      "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11726486", "title": "Tomb Raider (Original Motion Picture Soundtrack), CD", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "CD (Europe)",
+          "provenance_type": "retail",
+          "region_note": "Europe",
+          "release_date": "2018-03-16",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11726486", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "19075837882", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11726486", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_upca", "value": "190758378824", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11726486", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "2LP, clear and red mixed, deluxe numbered (Europe)",
+          "provenance_type": "retail",
+          "region_note": "Europe; Music On Vinyl deluxe limited numbered pressing",
+          "release_date": "2018-05-11",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11995617", "title": "Tomb Raider (Original Motion Picture Soundtrack), 2LP clear and red mixed", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "MOVATM205", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11995617", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_ean13", "value": "8719262006898", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11995617", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "matrix_runout", "value": "22713 1A MOVATM205 YOU SHOULDN'T HAVE COME HERE, BUT I'M GLAD THAT YOU DID", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11995617", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "2LP, green transparent, limited numbered (Europe)",
+          "provenance_type": "retail",
+          "region_note": "Europe; green transparent numbered pressing, sticker barcode differs from printed sleeve barcode",
+          "release_date": "2018-05-11",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/12489159", "title": "Tomb Raider (Original Motion Picture Soundtrack), 2LP green transparent", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "MOVATM205", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/12489159", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_ean13", "value": "8719262008175", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/12489159", "publisher": "Discogs", "retrieved_on": "2026-08-18", "note": "Sticker barcode identifying the green pressing." }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Lara Croft: Tomb Raider (Music From The Motion Picture)",
+      "subtitle": "2001 song compilation, Elektra",
+      "release_year": 2001,
+      "publisher": "Elektra",
+      "description_md": "The Elektra song compilation for the 2001 film, across US and European CD pressings, a 2021 Record Store Day reissue on gold vinyl, and three promotional samplers.",
+      "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/4581337", "title": "Lara Croft: Tomb Raider (Music From The Motion Picture), US CD", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "CD (US)",
+          "provenance_type": "retail",
+          "region_note": "United States",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/4581337", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "62665-2", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/4581337", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_upca", "value": "075596266529", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/4581337", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "CD (Europe)",
+          "provenance_type": "retail",
+          "region_note": "Europe",
+          "release_date": "2001-06-01",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/63239", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "7559-62669-2", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/63239", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_upca", "value": "075596266925", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/63239", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "2LP gold vinyl, Record Store Day reissue",
+          "provenance_type": "retail",
+          "region_note": "USA and Europe; Real Gone Music RSD limited reissue",
+          "release_date": "2021-06-12",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/19098712", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "RGM-1197", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/19098712", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_ean13", "value": "0848064011972", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/19098712", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "Selections From Tomb Raider, promotional 12 inch sampler (US)",
+          "provenance_type": "promotional",
+          "region_note": "United States; plain white sleeve with blue title sticker",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/72815", "title": "Selections From Tomb Raider, 12 inch promo sampler", "publisher": "Discogs", "retrieved_on": "2026-08-18", "note": "No barcode; promo pressing." },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "ED 6297", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/72815", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "matrix_runout", "value": "STED-6297 A-1 MCR-RCE", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/72815", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "Promotional 12 inch sampler (UK)",
+          "provenance_type": "promotional",
+          "region_note": "United Kingdom; two tracks, BT and Groove Armada",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/154132", "title": "Tomb Raider - Music From The Motion Picture - Sampler", "publisher": "Discogs", "retrieved_on": "2026-08-18", "note": "No barcode; promo pressing." },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "SAM00500", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/154132", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "Selections From Tomb Raider, promotional CD (US)",
+          "provenance_type": "promotional",
+          "region_note": "United States; jewel case with front sticker, unbarcoded promotional back cover",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11290874", "title": "Selections From Tomb Raider, promo CD", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "PRCD-1655", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11290874", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Lara Croft: Tomb Raider (Original Motion Picture Score)",
+      "subtitle": "Graeme Revell",
+      "release_year": 2001,
+      "publisher": "Elektra",
+      "description_md": "Graeme Revell's orchestral score for the 2001 film, distinct from the Elektra song compilation.",
+      "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/3741106", "title": "Lara Croft: Tomb Raider (Original Motion Picture Score)", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "CD (US)",
+          "provenance_type": "retail",
+          "region_note": "United States",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/3741106", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "62681-2", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/3741106", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_upca", "value": "075596268127", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/3741106", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Lara Croft Tomb Raider: The Cradle Of Life",
+      "subtitle": "2003 song compilation, Hollywood Records",
+      "release_year": 2003,
+      "publisher": "Hollywood Records",
+      "description_md": "The song compilation for the 2003 film. Distinct from the Varese Sarabande score album.",
+      "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/1003592", "title": "Lara Croft Tomb Raider: The Cradle Of Life, US CD", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "CD (US)",
+          "provenance_type": "retail",
+          "region_note": "United States",
+          "release_date": "2003-07-22",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/1003592", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "2061-62417-2", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/1003592", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_upca", "value": "720616241726", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/1003592", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Lara Croft Tomb Raider: The Cradle Of Life (Original Motion Picture Score)",
+      "subtitle": "Alan Silvestri",
+      "release_year": 2003,
+      "publisher": "Varese Sarabande",
+      "description_md": "Alan Silvestri's score for the 2003 film.",
+      "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/13199227", "title": "Lara Croft Tomb Raider: The Cradle Of Life (Original Motion Picture Score)", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "CD (US)",
+          "provenance_type": "retail",
+          "region_note": "United States",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/13199227", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "302 066 502 2", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/13199227", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_upca", "value": "030206650228", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/13199227", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "The Tomb Raider Suite",
+      "subtitle": "Nathan McCree, Abbey Road recording",
+      "release_year": 2019,
+      "publisher": "Nathan McCree (self-released)",
+      "description_md": "Nathan McCree's orchestral reworking of his 1996 to 1998 Tomb Raider scores, recorded at Abbey Road and self-released across four numbered vinyl editions.",
+      "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14099770", "title": "The Tomb Raider Suite, TRS-A004", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "LP, gold version (TRS-A001)",
+          "provenance_type": "retail",
+          "region_note": "United Kingdom; limited edition",
+          "release_date": "2019-02-05",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/15881016", "publisher": "Discogs", "retrieved_on": "2026-08-18", "note": "No barcode on file." },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "TRS-A001", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/15881016", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "2LP, classic version (TRS-A002)",
+          "provenance_type": "retail",
+          "region_note": "United Kingdom; limited edition",
+          "release_date": "2019-08-29",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/12722001", "publisher": "Discogs", "retrieved_on": "2026-08-18", "note": "No barcode on file." },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "TRS-A002", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/12722001", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "2LP, modern version (TRS-A003)",
+          "provenance_type": "retail",
+          "region_note": "United Kingdom; limited edition",
+          "release_date": "2019-08-29",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14111663", "publisher": "Discogs", "retrieved_on": "2026-08-18", "note": "No barcode on file." },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "TRS-A003", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14111663", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "2LP album (TRS-A004)",
+          "provenance_type": "retail",
+          "region_note": "United Kingdom",
+          "release_date": "2019-08-29",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14099770", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "TRS-A004", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14099770", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_ean13", "value": "5060631500039", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14099770", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Shadow Of The Tomb Raider (Original Soundtrack)",
+      "subtitle": "Brian D'Oliveira",
+      "release_year": 2020,
+      "publisher": "Laced Records",
+      "description_md": "Laced Records' deluxe double-vinyl edition of Brian D'Oliveira's 2018 game score.",
+      "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14734147", "title": "Shadow Of The Tomb Raider (Original Soundtrack), 2LP", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "2LP deluxe, orange translucent and turquoise opaque",
+          "provenance_type": "retail",
+          "region_note": "USA and Europe",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14734147", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "LMLP053", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14734147", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_ean13", "value": "5024545871111", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14734147", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Shadow Of The Tomb Raider - The Conceptual Album",
+      "subtitle": "Official PlayStation Magazine UK cover-mounted CD",
+      "release_year": 2018,
+      "publisher": "Square Enix",
+      "description_md": "Bonus CD cover-mounted on the November 2018 issue of Official PlayStation Magazine UK. Never sold at retail.",
+      "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/12636925", "title": "Shadow Of The Tomb Raider - The Conceptual Album, promo CD", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "Magazine cover-mounted CD (UK)",
+          "provenance_type": "press",
+          "region_note": "United Kingdom; bundled with Official PlayStation Magazine UK, November 2018 issue",
+          "release_date": "2018-10-01",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/12636925", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "PM154 CD", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/12636925", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "matrix_runout", "value": "2100007833729 PLT154Softwarelogistics", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/12636925", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Tomb Raider - Original Soundtrack",
+      "subtitle": "Jason Graves, 2013 reboot",
+      "release_year": 2013,
+      "publisher": "Sumthing Else Music Works",
+      "description_md": "Jason Graves' score for the 2013 reboot, issued as a retail CD and as a shorter promotional mini-album.",
+      "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/4526320", "title": "Tomb Raider - Original Soundtrack, CD", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "CD (US)",
+          "provenance_type": "retail",
+          "region_note": "United States",
+          "release_date": "2013-03-05",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/4526320", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "SE-3052-2", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/4526320", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } },
+            { "kind": "barcode_upca", "value": "669311305220", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/4526320", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        },
+        {
+          "name": "Promotional mini-album CD (US)",
+          "provenance_type": "promotional",
+          "region_note": "United States; promo-only short-run mini-album",
+          "release_date": "2013-03-05",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11887167", "title": "Tomb Raider - Original Soundtrack, promo mini-album", "publisher": "Discogs", "retrieved_on": "2026-08-18", "note": "No barcode on file." },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "catalogue_number", "value": "11868 - TR", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/11887167", "publisher": "Discogs", "retrieved_on": "2026-08-18" }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    },
+    {
+      "franchise": "tomb-raider",
+      "category": "vinyl-and-soundtracks",
+      "title": "Tomb Raider: The Dark Angel Symphony",
+      "subtitle": "Peter Connelly and Martin Iveson",
+      "release_year": 2020,
+      "publisher": "Backrest Records",
+      "description_md": "Orchestral rerecording of Peter Connelly's scores for The Last Revelation, Chronicles and The Angel of Darkness.",
+      "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14857117", "title": "Tomb Raider: The Dark Angel Symphony, 2LP", "publisher": "Discogs", "retrieved_on": "2026-08-18", "note": "No barcode and no label catalogue number on file." },
+      "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+      "variants": [
+        {
+          "name": "2LP album (UK)",
+          "provenance_type": "retail",
+          "region_note": "United Kingdom",
+          "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14857117", "publisher": "Discogs", "retrieved_on": "2026-08-18" },
+          "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" },
+          "identifiers": [
+            { "kind": "matrix_runout", "value": "202072E1/A", "source": { "kind": "database_entry", "url": "https://api.discogs.com/releases/14857117", "publisher": "Discogs", "retrieved_on": "2026-08-18", "note": "Side A runout." }, "verification": { "method": "two_independent_databases", "verified_on": "2026-08-18", "verified_by": "forge research pass, seed-batch-03" } }
+          ]
+        }
+      ]
+    }
+  ]
+}

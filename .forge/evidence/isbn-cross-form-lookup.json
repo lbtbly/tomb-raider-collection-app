@@ -1,0 +1,82 @@
+{
+  "target": {
+    "baseUrl": "http://localhost:3200",
+    "port": "3200",
+    "status": 200,
+    "devMarkersFound": [],
+    "buildIdOnDisk": "7JzsJmX3Ve24jbZ-g46Vt",
+    "buildIdFoundInServedHtml": true
+  },
+  "catalogue": {
+    "resolvedAtRunTime": {
+      "note": "public ids are minted on insert; recorded as an observation, never pinned",
+      "Shadow of the Tomb Raider": {
+        "heldIdentifier": "9781785659911",
+        "variantPublicId": "M9DA8KZH4K"
+      },
+      "Tomb Raider II: The Official Strategy Guide": {
+        "heldIdentifier": "0761511067",
+        "variantPublicId": "W9NFP6B0JM"
+      }
+    },
+    "countedBy": "identifier kind, from /api/sync/index",
+    "variantsCarryingAnIsbn": 23,
+    "holdingOnlyIsbn10": 4,
+    "holdingOnlyIsbn13": 4,
+    "holdingBoth": 15,
+    "oneSidedVariants": [
+      "0WZ6A0PKDR",
+      "1SP465PTFP",
+      "8AFQETB76X",
+      "AAESMAK2FT",
+      "CN8R3VJNF7",
+      "HDFVWHY657",
+      "M9DA8KZH4K",
+      "W9NFP6B0JM"
+    ],
+    "tenDigitNonIsbnValues": [
+      "catalogue_number:2061624172",
+      "catalogue_number:3020665022",
+      "catalogue_number:7559626692"
+    ]
+  },
+  "isbn10ToIsbn13": {
+    "variant": "M9DA8KZH4K",
+    "title": "Shadow of the Tomb Raider",
+    "variantName": "UK paperback",
+    "catalogueHolds": [
+      "9781785659911",
+      "9781785659911"
+    ],
+    "queried": "1-78565-991-X",
+    "verdictBeforeAdding": "NOT_IN_COLLECTION",
+    "verdictAfterAdding": "OWNED",
+    "identicalToHeldFormVerdict": true
+  },
+  "isbn13ToIsbn10": {
+    "variant": "W9NFP6B0JM",
+    "title": "Tomb Raider II: The Official Strategy Guide",
+    "variantName": "Prima Publishing edition",
+    "catalogueHolds": [
+      "0761511067"
+    ],
+    "queried": "9780761511069",
+    "verdict": "NOT_IN_COLLECTION",
+    "identicalToHeldFormVerdict": true
+  },
+  "negatives": {
+    "wrongCheckDigit": {
+      "queried": "9781785659912",
+      "verdict": "NOT_IN_COLLECTION"
+    },
+    "prefix979": {
+      "queried": "9791029509766",
+      "verdict": "NOT_IN_COLLECTION"
+    },
+    "unknownCatalogueNumber": {
+      "queried": "SLUS-99999",
+      "verdict": "NOT_IN_COLLECTION"
+    }
+  },
+  "recordedAt": "2026-08-18T12:27:53.498Z"
+}

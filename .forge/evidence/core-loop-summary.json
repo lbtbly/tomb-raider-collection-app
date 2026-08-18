@@ -1,101 +1,119 @@
 {
+  "target": {
+    "line": "F1 F2 F3 F4 C15 target",
+    "baseURL": "http://localhost:3211",
+    "hostname": "localhost",
+    "port": 3211,
+    "httpStatus": 200,
+    "devMarkersFound": [],
+    "buildIdOnDisk": "7JzsJmX3Ve24jbZ-g46Vt",
+    "buildIdFoundInServedHtml": true,
+    "xNextjsPrerender": "1, 1",
+    "xNextjsCache": "HIT",
+    "capturedAtIso": "2026-08-18T12:07:48.660Z",
+    "file": ".forge/evidence/f1-f4-target.json"
+  },
   "F1": {
     "line": "F1",
     "runs": [
       {
         "identifier": "sles00024",
-        "domMs": 1.8,
-        "paintMs": 4.8,
+        "domMs": 0.6,
+        "paintMs": 11.3,
         "verdict": "NOT IN COLLECTION"
       },
       {
         "identifier": "5032921014762",
-        "domMs": 1,
-        "paintMs": 10.5,
+        "domMs": 0.6,
+        "paintMs": 13.4,
         "verdict": "NOT IN COLLECTION"
       },
       {
         "identifier": "743175952919",
-        "domMs": 1.2,
-        "paintMs": 10.4,
+        "domMs": 0.3,
+        "paintMs": 12,
         "verdict": "NOT IN COLLECTION"
       },
       {
         "identifier": "slps00617",
-        "domMs": 1.2,
-        "paintMs": 10.9,
+        "domMs": 0.2,
+        "paintMs": 11.8,
         "verdict": "NOT IN COLLECTION"
       },
       {
         "identifier": "4988110020063",
-        "domMs": 1.3,
-        "paintMs": 10,
+        "domMs": 0.3,
+        "paintMs": 11.8,
         "verdict": "NOT IN COLLECTION"
       },
       {
         "identifier": "sles00107",
-        "domMs": 1.2,
-        "paintMs": 9.1,
+        "domMs": 0.3,
+        "paintMs": 11.3,
         "verdict": "NOT IN COLLECTION"
       },
       {
         "identifier": "slus00437",
-        "domMs": 1.1,
-        "paintMs": 9.3,
+        "domMs": 0.3,
+        "paintMs": 11.2,
         "verdict": "NOT IN COLLECTION"
       },
       {
         "identifier": "788687301237",
-        "domMs": 1.1,
-        "paintMs": 11.7,
+        "domMs": 0.4,
+        "paintMs": 11.3,
         "verdict": "NOT IN COLLECTION"
       },
       {
         "identifier": "slps01200",
-        "domMs": 1.1,
-        "paintMs": 10.5,
+        "domMs": 0.3,
+        "paintMs": 11.3,
         "verdict": "NOT IN COLLECTION"
       },
       {
         "identifier": "4988110020193",
-        "domMs": 1.2,
-        "paintMs": 7.4,
+        "domMs": 0.4,
+        "paintMs": 11.4,
         "verdict": "NOT IN COLLECTION"
       }
     ],
-    "domMedianMs": 1.2,
-    "domMaxMs": 1.8,
-    "paintMedianMs": 10.2,
-    "paintMaxMs": 11.7,
+    "domMedianMs": 0.3,
+    "domMaxMs": 0.6,
+    "paintMedianMs": 11.35,
+    "paintMaxMs": 13.4,
     "measuredWith": "in-page MutationObserver installed before submit, performance.now() either side, one rAF for the frame",
-    "file": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f1-verdict-latency.json"
+    "file": ".forge/evidence/f1-verdict-latency.json"
   },
   "F2": {
     "line": "F2",
     "verdictsReturned": 10,
     "requestsDuringRuns": 0,
-    "paintMedianMs": 10.35,
+    "contextRequestsDuringRuns": 0,
+    "resourceTimingEntriesDuringRuns": 0,
+    "requestsAbsentNotCached": true,
+    "serviceWorkerControlled": true,
+    "paintMedianMs": 11.45,
     "paintMaxMs": 11.9,
-    "file": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f2-offline-network-log.json"
+    "file": ".forge/evidence/f2-offline-network-log.json"
   },
   "F3": {
     "line": "F3",
-    "paintMs": 14.8,
-    "paintAtIso": "2026-08-18T09:34:48.766Z",
-    "firstResponseAfterSubmitIso": "2026-08-18T09:34:51.107Z",
-    "paintBeforeFirstResponseMs": 2340.6,
-    "inFlightCount": 2,
-    "file": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f3-throttled-network-log.json"
+    "paintMs": 13.5,
+    "paintAtIso": "2026-08-18T12:07:49.789Z",
+    "firstResponseAfterSubmitIso": "2026-08-18T12:07:52.143Z",
+    "paintBeforeFirstResponseMs": 2353.1,
+    "inFlightCount": 1,
+    "file": ".forge/evidence/f3-throttled-network-log.json"
   },
   "F4": {
     "line": "F4",
     "viewportPx": 390,
     "documentScrollWidthPx": [
-      560,
-      560,
-      560,
-      560,
-      560
+      390,
+      390,
+      390,
+      390,
+      390
     ],
     "verdictsObserved": [
       {
@@ -103,35 +121,65 @@
         "word": "NOT IN COLLECTION",
         "slabCount": 1,
         "verdictClass": "vslab v-not cut18",
-        "documentScrollWidthPx": 560
+        "documentScrollWidthPx": 390,
+        "viewportWidthPx": 390,
+        "settled": {
+          "fontsStatus": "loaded",
+          "animationsWaitedFor": 1,
+          "animationsStillRunning": 0
+        }
       },
       {
         "name": "not-in-collection-unknown",
         "word": "NOT IN COLLECTION",
         "slabCount": 1,
         "verdictClass": "vslab v-not cut18",
-        "documentScrollWidthPx": 560
+        "documentScrollWidthPx": 390,
+        "viewportWidthPx": 390,
+        "settled": {
+          "fontsStatus": "loaded",
+          "animationsWaitedFor": 1,
+          "animationsStillRunning": 0
+        }
       },
       {
         "name": "uncertain-slus00152",
         "word": "UNCERTAIN",
         "slabCount": 1,
         "verdictClass": "vslab v-unc",
-        "documentScrollWidthPx": 560
+        "documentScrollWidthPx": 390,
+        "viewportWidthPx": 390,
+        "settled": {
+          "fontsStatus": "loaded",
+          "animationsWaitedFor": 1,
+          "animationsStillRunning": 0
+        }
       },
       {
         "name": "uncertain-slus01311",
         "word": "UNCERTAIN",
         "slabCount": 1,
         "verdictClass": "vslab v-unc",
-        "documentScrollWidthPx": 560
+        "documentScrollWidthPx": 390,
+        "viewportWidthPx": 390,
+        "settled": {
+          "fontsStatus": "loaded",
+          "animationsWaitedFor": 1,
+          "animationsStillRunning": 0
+        }
       },
       {
         "name": "owned",
         "word": "OWNED",
         "slabCount": 1,
         "verdictClass": "vslab v-own cut20",
-        "documentScrollWidthPx": 560
+        "documentScrollWidthPx": 390,
+        "viewportWidthPx": 390,
+        "settled": {
+          "fontsStatus": "loaded",
+          "animationsWaitedFor": 1,
+          "animationsStillRunning": 0
+        }
       }
     ],
     "distinctVerdictWords": [
@@ -139,19 +187,76 @@
       "OWNED",
       "UNCERTAIN"
     ],
+    "capturedPngDimensions": [
+      {
+        "name": "not-in-collection",
+        "file": ".forge/evidence/f4-not-in-collection-390.png",
+        "pngWidthPx": 390,
+        "pngHeightPx": 844
+      },
+      {
+        "name": "not-in-collection-unknown",
+        "file": ".forge/evidence/f4-not-in-collection-unknown-390.png",
+        "pngWidthPx": 390,
+        "pngHeightPx": 844
+      },
+      {
+        "name": "uncertain-slus00152",
+        "file": ".forge/evidence/f4-uncertain-slus00152-390.png",
+        "pngWidthPx": 390,
+        "pngHeightPx": 844
+      },
+      {
+        "name": "uncertain-slus01311",
+        "file": ".forge/evidence/f4-uncertain-slus01311-390.png",
+        "pngWidthPx": 390,
+        "pngHeightPx": 844
+      },
+      {
+        "name": "owned",
+        "file": ".forge/evidence/f4-owned-390.png",
+        "pngWidthPx": 390,
+        "pngHeightPx": 844
+      }
+    ],
     "screenshots": {
-      "not-in-collection": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-not-in-collection-390.png",
-      "not-in-collection-unknown": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-not-in-collection-unknown-390.png",
-      "uncertain-slus00152": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-uncertain-slus00152-390.png",
-      "uncertain-slus01311": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-uncertain-slus01311-390.png",
-      "owned": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-owned-390.png"
+      "not-in-collection": ".forge/evidence/f4-not-in-collection-390.png",
+      "not-in-collection-unknown": ".forge/evidence/f4-not-in-collection-unknown-390.png",
+      "uncertain-slus00152": ".forge/evidence/f4-uncertain-slus00152-390.png",
+      "uncertain-slus01311": ".forge/evidence/f4-uncertain-slus01311-390.png",
+      "owned": ".forge/evidence/f4-owned-390.png"
     },
-    "file": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/f4-verdicts.json"
+    "file": ".forge/evidence/f4-verdicts.json"
   },
   "C15": {
     "line": "C15",
+    "screensMeasuredCount": 5,
     "screensMeasured": [
-      "/"
+      {
+        "name": "01 aisle check",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "name": "collection",
+        "path": "/collection",
+        "status": 200
+      },
+      {
+        "name": "catalogue",
+        "path": "/catalogue",
+        "status": 200
+      },
+      {
+        "name": "collection item, unknown id (client-side not found)",
+        "path": "/collection/probe-no-such-copy",
+        "status": 200
+      },
+      {
+        "name": "unmatched address (not-found.tsx)",
+        "path": "/no-such-route-exists",
+        "status": 404
+      }
     ],
     "screensNotYetBuilt": [],
     "scopesWatched": [
@@ -161,13 +266,47 @@
       "F4",
       "C15"
     ],
-    "consoleErrorCount": 0,
-    "consoleErrors": [],
+    "negativeControl": {
+      "consoleErrorsCaught": 1,
+      "pageErrorsCaught": 1,
+      "findings": [
+        "vitrine harness negative control: a deliberate console error",
+        "vitrine harness negative control: a deliberate uncaught throw"
+      ]
+    },
+    "applicationConsoleErrorCount": 0,
+    "applicationConsoleErrors": [],
+    "deliberate404StatusReports": {
+      "count": 1,
+      "address": "/no-such-route-exists",
+      "why": "Chromium logs a console error for the document's own 404 status. The address is unmatched by design and not-found.tsx renders on it, so this is the 404 contract working, not an application error.",
+      "findings": [
+        {
+          "scope": "C15",
+          "kind": "console.error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "locationUrl": "http://localhost:3211/no-such-route-exists",
+          "pageUrl": "http://localhost:3211/no-such-route-exists",
+          "atIso": "2026-08-18T12:07:54.477Z"
+        }
+      ]
+    },
+    "consoleErrorCount": 1,
+    "consoleErrors": [
+      {
+        "scope": "C15",
+        "kind": "console.error",
+        "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "locationUrl": "http://localhost:3211/no-such-route-exists",
+        "pageUrl": "http://localhost:3211/no-such-route-exists",
+        "atIso": "2026-08-18T12:07:54.477Z"
+      }
+    ],
     "distinctVerdictWordsSeenAcrossRun": [
       "NOT IN COLLECTION",
       "OWNED",
       "UNCERTAIN"
     ],
-    "file": "/Users/lambertbouley/Claude/tomb-raider-collection-app/.forge/evidence/c15-console-errors.json"
+    "file": ".forge/evidence/c15-console-errors.json"
   }
 }

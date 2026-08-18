@@ -1,0 +1,16 @@
+{
+  "line": "C29",
+  "baseURL": "http://localhost:3211",
+  "hostname": "localhost",
+  "buildIdOnDisk": "7JzsJmX3Ve24jbZ-g46Vt",
+  "buildIdFoundInServedHtml": true,
+  "port": 3211,
+  "httpStatus": 200,
+  "devMarkersFound": [],
+  "xNextjsPrerender": "1, 1",
+  "xNextjsCache": "HIT",
+  "cacheControl": "s-maxage=31536000",
+  "themeInitScriptInlinedInHtml": true,
+  "stylesheetLinksInHtml": 1,
+  "capturedAtIso": "2026-08-18T12:07:35.706Z"
+}

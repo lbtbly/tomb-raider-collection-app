@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "border-left: 3px solid var(--ink2)",
+        "createdAt": "2026-08-18T16:43:14.107Z",
+        "reason": "DESIGN.md:265 specifies it verbatim: personal data carries three reinforcements in both themes, a 135 degree hatch, an inner shadow from the top edge, and a solid 3px left rule with the words written out. Deliberately redundant so the personal marker survives greyscale and colour blindness, same reasoning as UNCERTAIN's dashed edge. .priv marks purchase price, source and location on the recessed personal surface, governed by C22."
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "line": "C29",
+  "id": "no-preference-os-dark",
+  "storedChoice": null,
+  "osScheme": "dark",
+  "expected": "dark",
+  "description": "Nothing stored. prefers-color-scheme: dark decides.",
+  "case": "no-preference-os-dark",
+  "osPrefersColorScheme": "dark",
+  "expectedTheme": "dark",
+  "framesExamined": 4,
+  "framesInWrongTheme": 0,
+  "documentFrames": 3,
+  "framesByClass": {
+    "sentinel": 1,
+    "light": 0,
+    "dark": 3,
+    "blank-white": 0,
+    "other": 0
+  },
+  "wrongThemeFrameIndexes": [],
+  "firstPaintEpochMs": 1787054862623.5,
+  "firstContentfulPaintMs": 76,
+  "captureWindowMs": 1580,
+  "htmlClassAtFirstRaf": "",
+  "colorSchemeAtFirstRaf": "dark",
+  "bodyBackgroundAtFirstRaf": "rgb(11, 16, 32)",
+  "htmlClassAfterLoad": "",
+  "storedValueAfterLoad": null,
+  "serviceWorkerControlled": null,
+  "frames": [
+    {
+      "index": 0,
+      "timestampEpochMs": 1787054862208.305,
+      "msAfterFirstPaint": -415.195,
+      "widthPx": 390,
+      "heightPx": 844,
+      "pageScaleFactor": 1,
+      "dominantHex": "#ff00ff",
+      "dominantShare": 1,
+      "meanLuminance": 0.285,
+      "classification": "sentinel"
+    },
+    {
+      "index": 1,
+      "timestampEpochMs": 1787054862622.876,
+      "msAfterFirstPaint": -0.624,
+      "widthPx": 390,
+      "heightPx": 844,
+      "pageScaleFactor": 1,
+      "dominantHex": "#0b1020",
+      "dominantShare": 1,
+      "meanLuminance": 0.063,
+      "classification": "dark"
+    },
+    {
+      "index": 2,
+      "timestampEpochMs": 1787054862677.402,
+      "msAfterFirstPaint": 53.902,
+      "widthPx": 390,
+      "heightPx": 844,
+      "pageScaleFactor": 1,
+      "dominantHex": "#0b1020",
+      "dominantShare": 0.654,
+      "meanLuminance": 0.134,
+      "classification": "dark"
+    },
+    {
+      "index": 3,
+      "timestampEpochMs": 1787054862691.586,
+      "msAfterFirstPaint": 68.086,
+      "widthPx": 390,
+      "heightPx": 844,
+      "pageScaleFactor": 1,
+      "dominantHex": "#0b1020",
+      "dominantShare": 0.653,
+      "meanLuminance": 0.134,
+      "classification": "dark"
+    }
+  ],
+  "savedFrames": {
+    "firstDocumentFrame": ".forge/evidence/c29-no-preference-os-dark-frame-1-first-document.png",
+    "lastFrame": ".forge/evidence/c29-no-preference-os-dark-frame-3-last.png"
+  }
+}

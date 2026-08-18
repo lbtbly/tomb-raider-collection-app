@@ -1,0 +1,109 @@
+{
+  "line": "C29",
+  "claim": "No flash of the wrong theme on first paint: a cold load captured in each of the 3 stored states shows 0 frames rendered in the other theme.",
+  "method": "CDP Page.startScreencast at everyNthFrame 1, png, capped at the 390x844 viewport with deviceScaleFactor 1. Frames are buffered and acked on the hot path and decoded afterwards through createImageBitmap in a separate context. Each frame is classified by the colour covering most of it, matched against the ground tokens in src/app/globals.css. The tab is painted #ff00ff before navigation so frames still showing the old document cannot be mistaken for a theme.",
+  "storedStatesCovered": "3 stored states, 4 cases: 'no stored preference' is measured under both prefers-color-scheme: light and dark, because the OS gives that state two different answers.",
+  "totalFramesExamined": 16,
+  "totalFramesInWrongTheme": 0,
+  "negativeControl": {
+    "framesExamined": 5,
+    "framesInWrongTheme": 1,
+    "framesByClass": {
+      "sentinel": 1,
+      "light": 3,
+      "dark": 1,
+      "blank-white": 0,
+      "other": 0
+    }
+  },
+  "supplementaryServiceWorkerShell": {
+    "framesExamined": 3,
+    "framesInWrongTheme": 0,
+    "framesByClass": {
+      "sentinel": 1,
+      "light": 2,
+      "dark": 0,
+      "blank-white": 0,
+      "other": 0
+    },
+    "serviceWorkerControlled": true
+  },
+  "cases": [
+    {
+      "case": "stored-light",
+      "storedChoice": "light",
+      "osPrefersColorScheme": "dark",
+      "expectedTheme": "light",
+      "framesExamined": 4,
+      "framesInWrongTheme": 0,
+      "documentFrames": 3,
+      "framesByClass": {
+        "sentinel": 1,
+        "light": 3,
+        "dark": 0,
+        "blank-white": 0,
+        "other": 0
+      },
+      "firstContentfulPaintMs": 80,
+      "htmlClassAtFirstRaf": "lt",
+      "colorSchemeAtFirstRaf": "light"
+    },
+    {
+      "case": "stored-dark",
+      "storedChoice": "dark",
+      "osPrefersColorScheme": "light",
+      "expectedTheme": "dark",
+      "framesExamined": 4,
+      "framesInWrongTheme": 0,
+      "documentFrames": 3,
+      "framesByClass": {
+        "sentinel": 1,
+        "light": 0,
+        "dark": 3,
+        "blank-white": 0,
+        "other": 0
+      },
+      "firstContentfulPaintMs": 52,
+      "htmlClassAtFirstRaf": "",
+      "colorSchemeAtFirstRaf": "dark"
+    },
+    {
+      "case": "no-preference-os-light",
+      "storedChoice": null,
+      "osPrefersColorScheme": "light",
+      "expectedTheme": "light",
+      "framesExamined": 4,
+      "framesInWrongTheme": 0,
+      "documentFrames": 3,
+      "framesByClass": {
+        "sentinel": 1,
+        "light": 3,
+        "dark": 0,
+        "blank-white": 0,
+        "other": 0
+      },
+      "firstContentfulPaintMs": 80,
+      "htmlClassAtFirstRaf": "lt",
+      "colorSchemeAtFirstRaf": "light"
+    },
+    {
+      "case": "no-preference-os-dark",
+      "storedChoice": null,
+      "osPrefersColorScheme": "dark",
+      "expectedTheme": "dark",
+      "framesExamined": 4,
+      "framesInWrongTheme": 0,
+      "documentFrames": 3,
+      "framesByClass": {
+        "sentinel": 1,
+        "light": 0,
+        "dark": 3,
+        "blank-white": 0,
+        "other": 0
+      },
+      "firstContentfulPaintMs": 76,
+      "htmlClassAtFirstRaf": "",
+      "colorSchemeAtFirstRaf": "dark"
+    }
+  ]
+}

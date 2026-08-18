@@ -1,0 +1,234 @@
+{
+  "line": "F9",
+  "viewportPx": 390,
+  "fixture": {
+    "method": "lastSyncedAt in the on-device meta store rewritten to a chosen age, then /api/sync/index blocked at the network so the mount-time background sync cannot refresh it",
+    "staleAgeHours": 30,
+    "freshAgeHours": 1,
+    "realLastSyncedAt": "2026-08-18T12:04:38.513Z",
+    "blockedSyncRequests": 2
+  },
+  "stale": {
+    "verdictsMeasured": [
+      "OWNED",
+      "UNCERTAIN",
+      "NOT_IN_COLLECTION"
+    ],
+    "ageLinesFound": 3,
+    "insetLeftPx": [
+      20,
+      22,
+      17
+    ],
+    "insetRightPx": [
+      20,
+      22,
+      17
+    ],
+    "gapAboveFromWordBottomPx": [
+      337.67,
+      366.95,
+      144.78
+    ],
+    "gapBelowToSlabBottomPx": [
+      20,
+      22,
+      17
+    ],
+    "distinctInsetLeftPx": [
+      20,
+      22,
+      17
+    ],
+    "distinctInsetRightPx": [
+      20,
+      22,
+      17
+    ],
+    "distinctGapBelowToSlabBottomPx": [
+      20,
+      22,
+      17
+    ],
+    "ageTextLeftMinusWordTextLeftPx": [
+      0,
+      0,
+      0
+    ],
+    "allBelowVerdictWord": true,
+    "allLastElementInSlab": true,
+    "sameFontSize": [
+      "13px"
+    ],
+    "sameMarginTop": [
+      "12px"
+    ],
+    "samePositionBySlabEdgeInsets": false,
+    "samePositionByTextColumn": true,
+    "detail": [
+      {
+        "verdict": "OWNED",
+        "identifier": "743175952919",
+        "ageLineFound": true,
+        "ageLineText": "Catalogue snapshot is 1 day old",
+        "freshLineFound": false,
+        "slab": {
+          "widthPx": 358,
+          "heightPx": 449.42
+        },
+        "insetLeftPx": 20,
+        "insetRightPx": 20,
+        "ageTextLeftPx": 20,
+        "wordTextLeftPx": 20,
+        "ageTextLeftMinusWordTextLeftPx": 0,
+        "gapAboveFromWordBottomPx": 337.67,
+        "gapBelowToSlabBottomPx": 20,
+        "isLastElementInSlab": true,
+        "isBelowVerdictWord": true,
+        "fontSizePx": "13px",
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, \"SF Mono\", Menlo, Consolas, monospace",
+        "marginTop": "12px",
+        "vcacheLinesInSlab": 1,
+        "documentScrollWidthPx": 390,
+        "capture": ".forge/evidence/f9-stale-30h-owned-390.png"
+      },
+      {
+        "verdict": "UNCERTAIN",
+        "identifier": "SLUS-00152",
+        "ageLineFound": true,
+        "ageLineText": "Catalogue snapshot is 1 day old",
+        "freshLineFound": false,
+        "slab": {
+          "widthPx": 358,
+          "heightPx": 502.7
+        },
+        "insetLeftPx": 22,
+        "insetRightPx": 22,
+        "ageTextLeftPx": 22,
+        "wordTextLeftPx": 22,
+        "ageTextLeftMinusWordTextLeftPx": 0,
+        "gapAboveFromWordBottomPx": 366.95,
+        "gapBelowToSlabBottomPx": 22,
+        "isLastElementInSlab": true,
+        "isBelowVerdictWord": true,
+        "fontSizePx": "13px",
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, \"SF Mono\", Menlo, Consolas, monospace",
+        "marginTop": "12px",
+        "vcacheLinesInSlab": 1,
+        "documentScrollWidthPx": 390,
+        "capture": ".forge/evidence/f9-stale-30h-uncertain-390.png"
+      },
+      {
+        "verdict": "NOT_IN_COLLECTION",
+        "identifier": "slps00617",
+        "ageLineFound": true,
+        "ageLineText": "Catalogue snapshot is 1 day old",
+        "freshLineFound": false,
+        "slab": {
+          "widthPx": 358,
+          "heightPx": 239.59
+        },
+        "insetLeftPx": 17,
+        "insetRightPx": 17,
+        "ageTextLeftPx": 17,
+        "wordTextLeftPx": 17,
+        "ageTextLeftMinusWordTextLeftPx": 0,
+        "gapAboveFromWordBottomPx": 144.78,
+        "gapBelowToSlabBottomPx": 17,
+        "isLastElementInSlab": true,
+        "isBelowVerdictWord": true,
+        "fontSizePx": "13px",
+        "fontFamily": "\"IBM Plex Mono\", ui-monospace, \"SF Mono\", Menlo, Consolas, monospace",
+        "marginTop": "12px",
+        "vcacheLinesInSlab": 1,
+        "documentScrollWidthPx": 390,
+        "capture": ".forge/evidence/f9-stale-30h-not-in-collection-390.png"
+      }
+    ]
+  },
+  "negativeControl": {
+    "what": "the same three verdicts with a 1-hour-old snapshot",
+    "ageLinesFound": 0,
+    "freshMessageRenderedAnywhere": false,
+    "detail": [
+      {
+        "verdict": "OWNED",
+        "identifier": "743175952919",
+        "ageLineFound": false,
+        "ageLineText": null,
+        "freshLineFound": false,
+        "slab": {
+          "widthPx": 358,
+          "heightPx": 431.23
+        },
+        "insetLeftPx": null,
+        "insetRightPx": null,
+        "ageTextLeftPx": null,
+        "wordTextLeftPx": null,
+        "ageTextLeftMinusWordTextLeftPx": null,
+        "gapAboveFromWordBottomPx": null,
+        "gapBelowToSlabBottomPx": null,
+        "isLastElementInSlab": null,
+        "isBelowVerdictWord": null,
+        "fontSizePx": null,
+        "fontFamily": null,
+        "marginTop": null,
+        "vcacheLinesInSlab": 0,
+        "documentScrollWidthPx": 390,
+        "capture": ".forge/evidence/f9-fresh-1h-owned-390.png"
+      },
+      {
+        "verdict": "UNCERTAIN",
+        "identifier": "SLUS-00152",
+        "ageLineFound": false,
+        "ageLineText": null,
+        "freshLineFound": false,
+        "slab": {
+          "widthPx": 358,
+          "heightPx": 472.52
+        },
+        "insetLeftPx": null,
+        "insetRightPx": null,
+        "ageTextLeftPx": null,
+        "wordTextLeftPx": null,
+        "ageTextLeftMinusWordTextLeftPx": null,
+        "gapAboveFromWordBottomPx": null,
+        "gapBelowToSlabBottomPx": null,
+        "isLastElementInSlab": null,
+        "isBelowVerdictWord": null,
+        "fontSizePx": null,
+        "fontFamily": null,
+        "marginTop": null,
+        "vcacheLinesInSlab": 0,
+        "documentScrollWidthPx": 390,
+        "capture": ".forge/evidence/f9-fresh-1h-uncertain-390.png"
+      },
+      {
+        "verdict": "NOT_IN_COLLECTION",
+        "identifier": "slps00617",
+        "ageLineFound": false,
+        "ageLineText": null,
+        "freshLineFound": false,
+        "slab": {
+          "widthPx": 358,
+          "heightPx": 209.41
+        },
+        "insetLeftPx": null,
+        "insetRightPx": null,
+        "ageTextLeftPx": null,
+        "wordTextLeftPx": null,
+        "ageTextLeftMinusWordTextLeftPx": null,
+        "gapAboveFromWordBottomPx": null,
+        "gapBelowToSlabBottomPx": null,
+        "isLastElementInSlab": null,
+        "isBelowVerdictWord": null,
+        "fontSizePx": null,
+        "fontFamily": null,
+        "marginTop": null,
+        "vcacheLinesInSlab": 0,
+        "documentScrollWidthPx": 390,
+        "capture": ".forge/evidence/f9-fresh-1h-not-in-collection-390.png"
+      }
+    ]
+  }
+}

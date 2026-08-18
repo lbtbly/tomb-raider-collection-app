@@ -1,0 +1,44 @@
+ISBN cross-form lookup, negative control
+Recorded 2026-08-18 by the ISBN builder, against a production build on port 3310
+served from the live local catalogue (23 ISBN-carrying variants, 38 isbn rows).
+
+A passing harness proves nothing until it can be made to fail. This control
+removes the rule under test and nothing else, rebuilds, and re-runs the same
+five checks against the same catalogue.
+
+CHANGE APPLIED (src/lib/identifiers/lookup.ts, identifierLookupForms):
+
+    const forms = [normalized];
+  -  for (const alt of [...alternateGtinForms(normalized), ...alternateIsbnForms(normalized)]) {
+  -    if (!forms.includes(alt)) forms.push(alt);
+  -  }
+    return forms;
+
+Rebuilt with `npm run build` (exit 0), restarted `next start -p 3310`, re-ran
+`npx playwright test tests/e2e/isbn-cross-form.spec.ts`.
+
+RESULT: 2 failed, 3 passed.
+
+  FAILED  a book holding only its ISBN-13 answers to the ISBN-10 on its
+          copyright page
+  FAILED  a book holding only its ISBN-10 answers to the ISBN-13 its barcode
+          encodes
+
+The slab the harness read for the second, verbatim, is the shipping defect
+this rule exists to remove:
+
+  "NOT IN COLLECTION No entry found for this identifier. Search by title
+   Start an entry Add to Unfiled"
+
+A collector holding Tomb Raider II: The Official Strategy Guide and scanning
+its own back cover is told there is no entry for it.
+
+The 3 checks that still passed are the ones that should: the production-build
+assertion, the catalogue premise (both rows are genuinely one-sided and
+neither queried form is stored anywhere), and the negatives (a wrong check
+digit, a 979 prefix and an unknown catalogue number all find nothing). A
+control that failed everything would only prove the build was broken.
+
+RESTORED from backup, rebuilt (exit 0), restarted, re-ran: 5 passed.
+The passing run recorded in isbn-cross-form-lookup.json is the post-restore
+run. `git diff` on src/lib/identifiers/lookup.ts after restore: no change.

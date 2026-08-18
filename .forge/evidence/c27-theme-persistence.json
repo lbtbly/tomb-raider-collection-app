@@ -1,0 +1,90 @@
+{
+  "line": "C27",
+  "viewportPx": 390,
+  "devicePrefersColorScheme": "dark",
+  "choiceMade": "light",
+  "newSessionMethod": "a second browser context created with the first context's storageState (localStorage plus IndexedDB for this origin). Same on-device storage, new session and new JS heap. NOT a literal browser process restart, which Playwright cannot perform.",
+  "localStorageCarriedIntoNewSession": [
+    {
+      "name": "vitrine:theme",
+      "value": "light"
+    }
+  ],
+  "readings": {
+    "beforeChoice": {
+      "storedChoice": null,
+      "htmlClass": "",
+      "htmlColorScheme": "dark",
+      "bodyBackground": "rgb(11, 16, 32)",
+      "segmentChecked": "System",
+      "resolvedLabel": "Following the device, Dark right now",
+      "themeColorMeta": [
+        "#0b1020",
+        "#0b1020",
+        "#0b1020"
+      ]
+    },
+    "afterChoice": {
+      "storedChoice": "light",
+      "htmlClass": "lt",
+      "htmlColorScheme": "light",
+      "bodyBackground": "rgb(237, 240, 247)",
+      "segmentChecked": "Light",
+      "resolvedLabel": null,
+      "themeColorMeta": [
+        "#edf0f7",
+        "#edf0f7",
+        "#edf0f7"
+      ]
+    },
+    "afterReload": {
+      "storedChoice": "light",
+      "htmlClass": "lt",
+      "htmlColorScheme": "light",
+      "bodyBackground": "rgb(237, 240, 247)",
+      "segmentChecked": "Light",
+      "resolvedLabel": null,
+      "themeColorMeta": [
+        "#edf0f7",
+        "#edf0f7",
+        "#edf0f7"
+      ]
+    },
+    "inNewSession": {
+      "storedChoice": "light",
+      "htmlClass": "lt",
+      "htmlColorScheme": "light",
+      "bodyBackground": "rgb(237, 240, 247)",
+      "segmentChecked": "Light",
+      "resolvedLabel": null,
+      "themeColorMeta": [
+        "#edf0f7",
+        "#edf0f7",
+        "#edf0f7"
+      ]
+    },
+    "controlFreshProfile": {
+      "storedChoice": null,
+      "htmlClass": "",
+      "htmlColorScheme": "dark",
+      "bodyBackground": "rgb(11, 16, 32)",
+      "segmentChecked": "System",
+      "resolvedLabel": "Following the device, Dark right now",
+      "themeColorMeta": [
+        "#0b1020",
+        "#0b1020",
+        "#0b1020"
+      ]
+    }
+  },
+  "persistedAcrossReload": true,
+  "persistedAcrossNewSession": true,
+  "controlProvesItIsTheStoredChoice": true,
+  "captures": {
+    "beforeChoice": ".forge/evidence/c27-1-before-choice-device-dark-390.png",
+    "afterChoice": ".forge/evidence/c27-2-after-choosing-light-390.png",
+    "afterReload": ".forge/evidence/c27-3-after-reload-390.png",
+    "newSession": ".forge/evidence/c27-4-new-session-same-storage-390.png",
+    "controlFreshProfile": ".forge/evidence/c27-5-control-fresh-profile-no-storage-390.png"
+  }
+}

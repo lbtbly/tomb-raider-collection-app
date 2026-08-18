@@ -1,0 +1,610 @@
+{
+  "target": {
+    "baseUrl": "http://localhost:3200",
+    "port": "3200",
+    "status": 200,
+    "devMarkersFound": [],
+    "buildIdOnDisk": "7JzsJmX3Ve24jbZ-g46Vt",
+    "buildIdFoundInServedHtml": true,
+    "checkedAt": "2026-08-18T12:27:49.631Z"
+  },
+  "warmUp": {
+    "serviceWorker": {
+      "supported": true,
+      "controlled": true,
+      "caches": [
+        "vitrine-v1-shell",
+        "vitrine-v1-runtime"
+      ]
+    },
+    "identifiersAvailable": 6
+  },
+  "offlineControl": {
+    "reachedTheNetwork": false,
+    "error": "Failed to fetch"
+  },
+  "runs": [
+    {
+      "index": 1,
+      "identifier": "0289520",
+      "verdictKind": "NOT_IN_COLLECTION",
+      "taps": [
+        {
+          "atMs": 53.8,
+          "target": "input#check-identifier"
+        },
+        {
+          "atMs": 87.4,
+          "target": "button[Check]"
+        },
+        {
+          "atMs": 121.7,
+          "target": "button[Add to collection]"
+        }
+      ],
+      "tapCount": 3,
+      "coldOpenToSavedCopyMs": 153.1,
+      "firstTapToSavedCopyMs": 99.3,
+      "copiesOnDeviceAfter": 1,
+      "networkRequestsDuringRun": [
+        {
+          "url": "http://localhost:3200/",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2x3kj1wzsjd9m.css",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3_pz_xyhj63hd.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2mmpezlrfmbu5.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/turbopack-1muz1sjqw15ja.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3fntmmi971322.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/1-lwbxwtpdi-k.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2goyj9kfuyl27.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2hbx0u5pc3csk.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3mxe1vk3cgtxt.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/37ukl2sboo9lr.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/1ef6t1ira1z6i.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2o5sp15v60b33.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/index?cursor=2026-08-18T12%3A27%3A49.689Z&epoch=b5893a21-bebd-4b89-8f5e-aa20c83c673d",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/media/ibm-plex-mono-latin-400-normal.3xdfs0-p_zi4c.woff2",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/media/archivo-latin-standard-normal.1h4hl0m83hjjz.woff2",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/collection?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/catalogue?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "identifier": "030206650228",
+      "verdictKind": "NOT_IN_COLLECTION",
+      "taps": [
+        {
+          "atMs": 62.1,
+          "target": "input#check-identifier"
+        },
+        {
+          "atMs": 95.2,
+          "target": "button[Check]"
+        },
+        {
+          "atMs": 129.2,
+          "target": "button[Add to collection]"
+        }
+      ],
+      "tapCount": 3,
+      "coldOpenToSavedCopyMs": 160.6,
+      "firstTapToSavedCopyMs": 98.5,
+      "copiesOnDeviceAfter": 2,
+      "networkRequestsDuringRun": [
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2x3kj1wzsjd9m.css",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3_pz_xyhj63hd.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2mmpezlrfmbu5.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/37ukl2sboo9lr.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2hbx0u5pc3csk.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/turbopack-1muz1sjqw15ja.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3fntmmi971322.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3mxe1vk3cgtxt.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/1-lwbxwtpdi-k.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2goyj9kfuyl27.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2o5sp15v60b33.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/1ef6t1ira1z6i.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/media/archivo-latin-standard-normal.1h4hl0m83hjjz.woff2",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/media/ibm-plex-mono-latin-400-normal.3xdfs0-p_zi4c.woff2",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/index?cursor=2026-08-18T12%3A27%3A49.689Z&epoch=b5893a21-bebd-4b89-8f5e-aa20c83c673d",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/collection?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/catalogue?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "identifier": "032429297112",
+      "verdictKind": "NOT_IN_COLLECTION",
+      "taps": [
+        {
+          "atMs": 63.3,
+          "target": "input#check-identifier"
+        },
+        {
+          "atMs": 96.1,
+          "target": "button[Check]"
+        },
+        {
+          "atMs": 129.7,
+          "target": "button[Add to collection]"
+        }
+      ],
+      "tapCount": 3,
+      "coldOpenToSavedCopyMs": 161.6,
+      "firstTapToSavedCopyMs": 98.3,
+      "copiesOnDeviceAfter": 3,
+      "networkRequestsDuringRun": [
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2x3kj1wzsjd9m.css",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3_pz_xyhj63hd.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2mmpezlrfmbu5.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/37ukl2sboo9lr.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2hbx0u5pc3csk.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/turbopack-1muz1sjqw15ja.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3fntmmi971322.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3mxe1vk3cgtxt.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/1-lwbxwtpdi-k.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2goyj9kfuyl27.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2o5sp15v60b33.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/1ef6t1ira1z6i.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/media/archivo-latin-standard-normal.1h4hl0m83hjjz.woff2",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/media/ibm-plex-mono-latin-400-normal.3xdfs0-p_zi4c.woff2",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/index?cursor=2026-08-18T12%3A27%3A49.689Z&epoch=b5893a21-bebd-4b89-8f5e-aa20c83c673d",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/collection?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/catalogue?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "identifier": "032429297167",
+      "verdictKind": "NOT_IN_COLLECTION",
+      "taps": [
+        {
+          "atMs": 63.6,
+          "target": "input#check-identifier"
+        },
+        {
+          "atMs": 96.5,
+          "target": "button[Check]"
+        },
+        {
+          "atMs": 129.5,
+          "target": "button[Add to collection]"
+        }
+      ],
+      "tapCount": 3,
+      "coldOpenToSavedCopyMs": 161.5,
+      "firstTapToSavedCopyMs": 97.9,
+      "copiesOnDeviceAfter": 4,
+      "networkRequestsDuringRun": [
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2x3kj1wzsjd9m.css",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3_pz_xyhj63hd.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2mmpezlrfmbu5.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/37ukl2sboo9lr.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2hbx0u5pc3csk.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/turbopack-1muz1sjqw15ja.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3fntmmi971322.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3mxe1vk3cgtxt.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/1-lwbxwtpdi-k.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2goyj9kfuyl27.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2o5sp15v60b33.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/1ef6t1ira1z6i.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/media/archivo-latin-standard-normal.1h4hl0m83hjjz.woff2",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/media/ibm-plex-mono-latin-400-normal.3xdfs0-p_zi4c.woff2",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/index?cursor=2026-08-18T12%3A27%3A49.689Z&epoch=b5893a21-bebd-4b89-8f5e-aa20c83c673d",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/collection?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/catalogue?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "identifier": "032429304254",
+      "verdictKind": "NOT_IN_COLLECTION",
+      "taps": [
+        {
+          "atMs": 48,
+          "target": "input#check-identifier"
+        },
+        {
+          "atMs": 80.8,
+          "target": "button[Check]"
+        },
+        {
+          "atMs": 114.7,
+          "target": "button[Add to collection]"
+        }
+      ],
+      "tapCount": 3,
+      "coldOpenToSavedCopyMs": 146.4,
+      "firstTapToSavedCopyMs": 98.4,
+      "copiesOnDeviceAfter": 5,
+      "networkRequestsDuringRun": [
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2x3kj1wzsjd9m.css",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3_pz_xyhj63hd.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2mmpezlrfmbu5.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/37ukl2sboo9lr.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2hbx0u5pc3csk.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/turbopack-1muz1sjqw15ja.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3fntmmi971322.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/3mxe1vk3cgtxt.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/1-lwbxwtpdi-k.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2goyj9kfuyl27.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/2o5sp15v60b33.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/chunks/1ef6t1ira1z6i.js",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/media/archivo-latin-standard-normal.1h4hl0m83hjjz.woff2",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/_next/static/media/ibm-plex-mono-latin-400-normal.3xdfs0-p_zi4c.woff2",
+          "phase": "finished"
+        },
+        {
+          "url": "http://localhost:3200/?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/collection?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/catalogue?_rsc=5CB68i4pnAekjehf",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/index?cursor=2026-08-18T12%3A27%3A49.689Z&epoch=b5893a21-bebd-4b89-8f5e-aa20c83c673d",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        },
+        {
+          "url": "http://localhost:3200/api/sync/ops",
+          "phase": "failed"
+        }
+      ]
+    }
+  ],
+  "slowestOfFive": {
+    "runIndex": 3,
+    "identifier": "032429297112",
+    "coldOpenToSavedCopyMs": 161.6,
+    "coldOpenToSavedCopySeconds": 0.162,
+    "firstTapToSavedCopyMs": 98.3,
+    "tapCount": 3,
+    "budgetSeconds": 20,
+    "budgetTaps": 4
+  },
+  "copiesAfterAFurtherColdOpen": 5,
+  "tapCounterControl": {
+    "deliberateTaps": 5,
+    "counted": 5,
+    "budget": 4
+  },
+  "recordedAt": "2026-08-18T12:27:51.899Z"
+}

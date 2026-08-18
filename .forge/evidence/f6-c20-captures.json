@@ -1,0 +1,30 @@
+{
+  "buildId": "U_TSj0yB6qLS3TQKwtvZ6",
+  "viewportWidthPx": 390,
+  "captures": [
+    {
+      "file": ".forge/evidence/f6-uncertain-slab-390.png",
+      "widthPx": 390,
+      "heightPx": 844,
+      "bytes": 56189
+    },
+    {
+      "file": ".forge/evidence/f6-uncertain-candidates-390.png",
+      "widthPx": 390,
+      "heightPx": 844,
+      "bytes": 62682
+    },
+    {
+      "file": ".forge/evidence/c20-owned-no-photo-390.png",
+      "widthPx": 390,
+      "heightPx": 844,
+      "bytes": 48461
+    },
+    {
+      "file": ".forge/evidence/c20-collection-thumb-390.png",
+      "widthPx": 390,
+      "heightPx": 844,
+      "bytes": 42566
+    }
+  ]
+}

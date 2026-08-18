@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <noscript><meta http-equiv="refresh" content="15"></noscript>
-<title>Forge run</title>
+<title>Vitrine · forge</title>
 <style>
 :root{--bg:#0B0B0B;--surface:#1C1C1C;--raised:#262626;--ink:#FAFAFA;
 --muted:#8C8C8C;--line:#333333;--accent:#3FBF52;--accent-ink:#052A0C;
@@ -38,24 +38,30 @@ background:var(--raised);color:var(--muted);border:1px solid var(--line)}
 border-radius:99px;overflow:hidden;display:flex}
 .pct .meter{margin-top:.4rem;width:10.5rem}
 .m-v{background:var(--accent)}.m-e{background:var(--warn)}
-.graph{display:flex;align-items:stretch;padding:.45rem 0 .15rem}
+.graph{display:flex;align-items:stretch;padding:.5rem 0 .2rem}
 .pnode{flex:3;min-width:0;background:var(--surface);border:1px solid var(--line);
-border-radius:10px;padding:.6rem .75rem .55rem;box-shadow:0 2px 8px rgb(0 0 0 / .5)}
-.pnode .ph{display:flex;align-items:center;gap:.5rem;min-width:0}
-.pdot{width:.6rem;height:.6rem;border-radius:50%;background:var(--raised);
-border:1px solid var(--line);flex:none}
-.pt{font-size:1.1rem;font-weight:500;letter-spacing:-.01em;color:var(--muted);
+border-radius:10px;padding:.75rem .85rem .65rem;box-shadow:0 2px 8px rgb(0 0 0 / .5)}
+.pnode .ph{display:flex;align-items:center;gap:.55rem;min-width:0}
+.pmark{width:1.05rem;height:1.05rem;border-radius:50%;background:var(--raised);
+border:1px solid var(--line);flex:none;display:flex;align-items:center;
+justify-content:center;font:700 .62rem/1 var(--sans);color:var(--bg)}
+.pt{font-size:1.18rem;font-weight:500;letter-spacing:-.01em;color:var(--muted);
 white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ps{font:400 .62rem/1.4 var(--mono);color:var(--muted);margin:.2rem 0 0 1.1rem;
+.pf{font:500 .66rem/1.4 var(--mono);color:var(--muted);margin:.3rem 0 0 1.6rem;
 white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pnode.done .pt{color:var(--ink)}
-.pnode.done .pdot{background:var(--muted);border-color:var(--muted)}
+.pnode.done .pf{color:var(--ink);opacity:.75}
+.pnode.done .pmark{background:var(--muted);border-color:var(--muted)}
 .pnode.active{border-color:var(--accent);
 box-shadow:0 0 0 1px var(--accent),0 2px 8px rgb(0 0 0 / .5)}
 .pnode.active .pt{color:var(--ink)}
-.pnode.active .pdot{background:var(--accent);border-color:var(--accent)}
-.pnode.pending{opacity:.6}
-.pnode.skipped{opacity:.45}.pnode.skipped .pt{text-decoration:line-through}
+.pnode.active .pf{color:var(--ink)}
+.pnode.active .pmark{background:var(--accent);border-color:var(--accent)}
+.pnode.pending{opacity:.55}
+.pnode.skipped{opacity:.5;background-image:repeating-linear-gradient(45deg,
+transparent 0 7px,rgb(255 255 255 / .05) 7px 8px)}
+.pnode.skipped .pt{text-decoration:line-through}
+.pnode.skipped .pmark{color:var(--muted)}
 .wire{flex:1;min-width:.7rem;align-self:center;height:2px;background:var(--line);
 position:relative;margin:0 -1px;z-index:0}
 .wire::after{content:"";position:absolute;right:0;top:-3px;
@@ -64,7 +70,13 @@ border-bottom:4px solid transparent}
 .wire.w-done{background:var(--muted)}.wire.w-done::after{border-left-color:var(--muted)}
 .wire.w-live{background:var(--accent)}.wire.w-live::after{border-left-color:var(--accent)}
 @media (prefers-reduced-motion:no-preference){
-.pnode.active .pdot{animation:pulse 1.6s ease-in-out infinite}
+.pnode.active{animation:ring 1.6s ease-in-out infinite}
+.pnode.active .pmark{animation:pulse 1.6s ease-in-out infinite}
+.wire.w-live{background:repeating-linear-gradient(90deg,var(--accent) 0 7px,
+transparent 7px 12px);animation:flow .7s linear infinite}
+@keyframes ring{50%{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 35%,transparent),
+0 2px 8px rgb(0 0 0 / .5)}}
+@keyframes flow{to{background-position:-12px 0}}
 @keyframes pulse{50%{opacity:.35}}}
 .slices{display:flex;gap:.6rem;justify-content:center;margin-top:.6rem;overflow:hidden}
 .slices .chip{font-size:.75rem;padding:5px 11px}
@@ -74,8 +86,34 @@ border-bottom:4px solid transparent}
 .slices .sl-active .d{background:var(--accent)}
 main{display:grid;grid-template-columns:1.05fr 1.45fr .72fr;
 grid-template-rows:1.3fr .8fr;gap:.8rem;min-height:0}
-.panel.rub{grid-row:1/3}
-.panel.disp{grid-column:2/4}
+.panel.rub{grid-column:1;grid-row:1/3}
+.panel.act{grid-column:2;grid-row:1}
+.panel.cap{grid-column:3;grid-row:1}
+.panel.disp{grid-column:2/4;grid-row:2}
+/* The screenmap claims a fourth column, full height, only when the run has
+   screens to draw. Without it the board keeps its three-column shape. */
+main.smx{grid-template-columns:1fr 1.4fr .7fr .78fr}
+main.smx .panel.scr{grid-column:4;grid-row:1/3}
+.smap{display:flex;flex-direction:column;gap:.32rem;overflow:hidden;min-height:0;flex:1}
+.srow{display:flex;flex-direction:column;gap:.08rem}
+.sh{display:flex;align-items:center;gap:.4rem;min-width:0}
+.sdot{width:.5rem;height:.5rem;border-radius:50%;flex:none;
+border:1px solid var(--line);background:transparent}
+.s-cap .sdot{background:var(--accent);border-color:var(--accent)}
+.s-bld .sdot{border-color:var(--warn)}
+.sn{font:500 .62rem/1.4 var(--mono);color:var(--muted);flex:none}
+.snm{font-size:.72rem;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.s-pln .snm{opacity:.5}
+.sm{display:flex;align-items:center;gap:.4rem;padding-left:.9rem;min-width:0}
+.srt{font:400 .61rem/1.4 var(--mono);color:var(--muted);white-space:nowrap;
+overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
+.srt.gone{color:var(--warn)}
+.ssl{font:400 .6rem/1.4 var(--mono);color:var(--muted);opacity:.75;flex:none}
+.sbar{width:2.4rem;height:3px;border-radius:2px;background:var(--line);flex:none;overflow:hidden}
+.sbar i{display:block;height:100%;background:var(--accent)}
+.snb{font:400 .61rem/1.4 var(--mono);color:var(--muted);width:2.5ch;text-align:right;flex:none}
+.sfoot{margin-top:.5rem;padding-top:.45rem;border-top:1px solid var(--line);
+font-size:.61rem;line-height:1.45;color:var(--muted)}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;
 padding:.8rem .9rem;overflow:hidden;min-height:0;display:flex;flex-direction:column;
 box-shadow:0 2px 8px rgb(0 0 0 / .5)}
@@ -200,9 +238,11 @@ box-shadow:0 8px 32px rgb(0 0 0 / .7);display:flex;flex-direction:column;min-hei
 .lb figcaption{font:400 .68rem/1.5 var(--mono);color:var(--muted);padding:.4rem .7rem}
 @media (max-width:900px),(orientation:portrait){
 body{height:auto;overflow:auto;grid-template-rows:none}
-main{grid-template-columns:1fr;grid-template-rows:none}
-.panel.rub{grid-row:auto}
-.panel.disp{grid-column:auto}
+main,main.smx{grid-template-columns:1fr;grid-template-rows:none}
+main.smx .panel.scr{grid-column:auto;grid-row:auto}
+.panel.rub{grid-row:auto;grid-column:auto}
+.panel.act,.panel.cap{grid-column:auto;grid-row:auto}
+.panel.disp{grid-column:auto;grid-row:auto}
 .tree{column-count:1}
 h1{white-space:normal}
 .graph{flex-wrap:wrap;gap:.5rem}
@@ -214,229 +254,302 @@ h1{white-space:normal}
 <body>
 <header>
   <div class="id">
-    <h1>an app for tomb raider merchandising collectors to see everything that has ever been sold or handed out branded tomb raider or lara croft, to manage their collection, including which items they have, when they purchased it and at what cost, and browsing other collectors collection</h1>
+    <h1 title="an app for tomb raider merchandising collectors to see everything that has ever been sold or handed out branded tomb raider or lara croft, to manage their collection, including which items they have, when they purchased it and at what cost, and browsing other collectors collection">Vitrine</h1>
     <div class="chips">
     <span class="chip chip--ok"><span class="d"></span>gate active</span>
     
-    <span class="chip">0 verified · 0 evidence · 130 open</span>
+    <span class="chip">25 verified · 45 evidence · 60 open</span>
     
     </div>
   </div>
   <div class="pct">
-    <div class="n">20%</div>
+    <div class="n">49%</div>
     <div class="cap">complete, estimated</div>
-    <div class="cap">running 15h 15m · 490.4M tokens</div>
-    <div class="meter"><span class="m-v" style="width:0.0%"></span><span class="m-e" style="width:0.0%"></span></div>
+    <div class="cap">running 24h 07m · 2866.1M tokens</div>
+    <div class="meter"><span class="m-v" style="width:19.2%"></span><span class="m-e" style="width:34.6%"></span></div>
   </div>
 </header>
 
 <section>
   <div class="lbl">Pipeline</div>
   <div class="graph">
-  <div class="pnode done"><div class="ph"><span class="pdot"></span><span class="pt">Intake</span></div><div class="ps">three questions</div></div><div class="wire w-done"></div>
-  <div class="pnode done"><div class="ph"><span class="pdot"></span><span class="pt">Size</span></div><div class="ps">S, M, or L</div></div><div class="wire w-done"></div>
-  <div class="pnode done"><div class="ph"><span class="pdot"></span><span class="pt">Scout</span></div><div class="ps">market + rules</div></div><div class="wire w-done"></div>
-  <div class="pnode done"><div class="ph"><span class="pdot"></span><span class="pt">Design</span></div><div class="ps">panel + screens</div></div><div class="wire w-done"></div>
-  <div class="pnode done"><div class="ph"><span class="pdot"></span><span class="pt">Plan</span></div><div class="ps">slices + rubric</div></div><div class="wire w-done"></div>
-  <div class="pnode done"><div class="ph"><span class="pdot"></span><span class="pt">Gate + arm</span></div><div class="ps">the one stop</div></div><div class="wire w-live"></div>
-  <div class="pnode active"><div class="ph"><span class="pdot"></span><span class="pt">Build</span></div><div class="ps">slice by slice</div></div><div class="wire "></div>
-  <div class="pnode pending"><div class="ph"><span class="pdot"></span><span class="pt">Verify</span></div><div class="ps">evidence rules</div></div><div class="wire "></div>
-  <div class="pnode pending"><div class="ph"><span class="pdot"></span><span class="pt">Ship</span></div><div class="ps">deploy + report</div></div>
+  <div class="pnode done"><div class="ph"><span class="pmark">&check;</span><span class="pt">Intake</span></div><div class="pf">deployed plus launch as...</div></div><div class="wire w-done"></div>
+  <div class="pnode done"><div class="ph"><span class="pmark">&check;</span><span class="pt">Size</span></div><div class="pf">sized M or L</div></div><div class="wire w-done"></div>
+  <div class="pnode done"><div class="ph"><span class="pmark">&check;</span><span class="pt">Scout</span></div><div class="pf">5 brief(s) in</div></div><div class="wire w-done"></div>
+  <div class="pnode done"><div class="ph"><span class="pmark">&check;</span><span class="pt">Design</span></div><div class="pf">Chromatic Era · 7 screens</div></div><div class="wire w-done"></div>
+  <div class="pnode done"><div class="ph"><span class="pmark">&check;</span><span class="pt">Plan</span></div><div class="pf">10 slices · 130 lines</div></div><div class="wire w-done"></div>
+  <div class="pnode done"><div class="ph"><span class="pmark">&check;</span><span class="pt">Gate + arm</span></div><div class="pf">armed 09:57</div></div><div class="wire w-live"></div>
+  <div class="pnode active"><div class="ph"><span class="pmark"></span><span class="pt">Build</span></div><div class="pf">slice 1 of 10</div></div><div class="wire "></div>
+  <div class="pnode pending"><div class="ph"><span class="pmark"></span><span class="pt">Verify</span></div><div class="pf">evidence rules</div></div><div class="wire "></div>
+  <div class="pnode pending"><div class="ph"><span class="pmark"></span><span class="pt">Ship</span></div><div class="pf">deploy + report</div></div>
   </div>
-  
+  <div class="slices">
+  <span class="chip sl-active"><span class="d"></span>slice 1 · The aisle check, signed out...</span>
+  <span class="chip "><span class="d"></span>slice 2 · Catalogue, specimen sheet, ...</span>
+  <span class="chip "><span class="d"></span>slice 3 · Accounts, sync, claim, and ...</span>
+  <span class="chip "><span class="d"></span>slice 4 · The sofa: collection, value...</span>
+  <span class="chip "><span class="d"></span>slice 5 · Photographs and the notice ...</span>
+  <span class="chip "><span class="d"></span>slice 6 · Community: profiles, lists,...</span>
+  <span class="chip "><span class="d"></span>slice 7 · Contributor trust</span>
+  <span class="chip "><span class="d"></span>slice 8 · Rights, retention, and tran...</span>
+  <span class="chip "><span class="d"></span>slice 9 · The front door</span>
+  <span class="chip "><span class="d"></span>slice 10 · Launch and the full sweep</span>
+  </div>
 </section>
 
-<main>
+<main class="smx">
   <div class="panel rub">
     <div class="phead"><span class="lbl">Rubric</span><button class="btn-all">all 130 lines</button></div>
     <div class="rgrid">
     <span></span><span></span><span class="h" title="verified by the verifier">ok</span><span class="h" title="evidence recorded, awaiting the verifier">ev</span><span class="h">all</span>
-    <span class="nm">Function</span><div class="meter"><span class="m-v" style="width:0.0%"></span><span class="m-e" style="width:0.0%"></span></div><span class="n">0</span><span class="n">0</span><span class="n">62</span>
-    <span class="nm">Craft</span><div class="meter"><span class="m-v" style="width:0.0%"></span><span class="m-e" style="width:0.0%"></span></div><span class="n">0</span><span class="n">0</span><span class="n">30</span>
-    <span class="nm">Release</span><div class="meter"><span class="m-v" style="width:0.0%"></span><span class="m-e" style="width:0.0%"></span></div><span class="n">0</span><span class="n">0</span><span class="n">33</span>
-    <span class="nm">Disqualifiers</span><div class="meter"><span class="m-v" style="width:0.0%"></span><span class="m-e" style="width:0.0%"></span></div><span class="n">0</span><span class="n">0</span><span class="n">5</span>
+    <span class="nm">Function</span><div class="meter"><span class="m-v" style="width:19.4%"></span><span class="m-e" style="width:17.7%"></span></div><span class="n on">12</span><span class="n on">11</span><span class="n">62</span>
+    <span class="nm">Craft</span><div class="meter"><span class="m-v" style="width:36.7%"></span><span class="m-e" style="width:63.3%"></span></div><span class="n on">11</span><span class="n on">19</span><span class="n">30</span>
+    <span class="nm">Release</span><div class="meter"><span class="m-v" style="width:3.0%"></span><span class="m-e" style="width:33.3%"></span></div><span class="n on">1</span><span class="n on">11</span><span class="n">33</span>
+    <span class="nm">Disqualifiers</span><div class="meter"><span class="m-v" style="width:20.0%"></span><span class="m-e" style="width:80.0%"></span></div><span class="n on">1</span><span class="n on">4</span><span class="n">5</span>
     </div>
-    
+    <div class="play">
+    <div class="lbl">Recently proven</div>
+    <div class="row"><span class="dotln wait"></span><span class="id">D5</span><span class="tx">Single-viewport checking: every screen carries captures at 390, 768, and 1440; count of screens with fewer than 3 is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F52</span><span class="tx">Every image on every route loads from the image host named in the privacy notice; count of image bytes served from the app origin is 0, from a netw...</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C28</span><span class="tx">With no explicit choice stored, the theme follows the device setting and the control names which mode it resolved to; captured with the device set ...</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C27</span><span class="tx">The theme choice persists across a reload and across a new session on the same device; captured before and after each.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F11</span><span class="tx">Every primary control in the check flow measures at least 56 px on its shortest side at 390 px width; count under 56 px is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F9</span><span class="tx">When the on-device copy is older than 24 hours its age prints under the verdict in the same position on all 3 verdicts; captured for each.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F8</span><span class="tx">An unknown identifier renders 3 doors: search by title, start an entry, add to Unfiled. Count of paths with no next action is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F7</span><span class="tx">Both outcomes of UNCERTAIN reverse from the item in 2 taps or fewer; captured before and after.</span></div>
+    </div>
   </div>
 
-  <div class="panel">
+  <div class="panel act">
     <div class="lbl">Activity</div>
     <div class="kv">
-    <span class="k">last phase</span><span class="v">6. GREENLIGHT **approved by the operator in words on 2026-08-18**.</span>
-    <span class="k">next action</span><span class="v">slice 1, the aisle check signed out and offline, through the builder</span>
+    <span class="k">last phase</span><span class="v">Phase 8, BUILD. Slice 1 of 10. Greenlight approved in words 2026-08-18; .forge/ARMED created 07:57:34Z. The Stop gate is live.</span>
+    <span class="k">current slice</span><span class="v">1 of 10</span>
+    <span class="k">next action</span><span class="v">Nothing is in flight and nothing measurable remains. Swept every unchecked line's own evidence for hedges, which is how C12 and C13 were found; ten hedge and all ten a...</span>
     </div>
-    <p class="empty">No evidence recorded yet.</p>
+    <div class="lbl">Evidence, newest first</div>
+    <div class="feed" style="flex:1">
+    <div class="row"><span class="t">16:43</span><span class="tag">CORRECTION: ....</span><span class="tx">I recorded twice, in the C9 inventory and in DEFECTS.md, that .cut12 and .scanNote are dead CSS with 0 uses each. .cut12 is genuinely dead: 0 occurrences of any kind in any tsx file. .SCANNOTE IS LIVE. ScanControl.tsx line 350 renders className={note.unsettled ? 'scanNote bad' : 'scanNote'}, a TEMPLATE EXPRESSION rather than a literal string attribute, and my pattern was className=&quot;[^&quot;]*scanNote[^&quot;]*&quot;, which can only match a literal. Measured both ways: literal className= matches 0, any occurrence in tsx 2. SAME ERROR AS THE ORPHAN-KEY SWEEP EARLIER TODAY, which reported 37 unreferenced message keys because it matched only t(&quot;key&quot;) and missed t(&quot;key&quot;, {args}), a variable, and a constant map. I found that one, wrote down that a key can be reached three ways a literal pattern cannot see, and then made the identical mistake on class names within the hour. A pattern anchored to one syntax measures that syntax, not the question. WHAT SURVIVES: .cut12 is still dead and still worth deleting. WHAT DOES NOT: every claim that .scanNote is unused, and the implication in the C9 inventory that it is an uncut raised surface nobody renders. It renders, on the scan control, and .scanNote.bad turns its left rule flare for an unsettled note. NOTED BECAUSE THE HOOK ASKED ABOUT IT: a design hook has flagged .scanNote's border-left as a side-tab accent. Had I acted on my own dead-CSS finding I would have deleted a live rule to clear a hook warning, which is the worst available outcome and was one command away.</span></div>
+    <div class="row"><span class="t">16:18</span><span class="tag">Swept every m...</span><span class="tx">Acting on the lesson from RESUME.md rather than stating it: a fault found in one document is a reason to check every document maintained the same way. Checked 7 documents for duplicated headers, duplicated table rows, superseded build ids stated as current, and checks named in package.json but documented nowhere. CLEAN: RESUME.md, DEFECTS.md, VERIFIER-BRIEF.md, OPERATOR.md, REPORT.md, docs/SECURITY.md, for duplication. Every check in package.json is named in REPORT.md or SECURITY.md. Every build-id mention in EVIDENCE.md is a dated historical entry and correctly names the build it measured, which is what an append-only log should look like. TWO FAULTS FOUND. VERIFIER-BRIEF.md line 148 read '.next NOW holds U_TSj0yB6qLS3TQKwtvZ6', a present-tense claim about current state that has been wrong since 15:52:25. My earlier grep missed it because I filtered on words like superseded, stale and previous, and this sentence used none of them: it was confidently and simply wrong rather than hedged. Corrected to name the current build and to place the other two ids as history. NEXT-BROWSER-PASS.md was stale in its entirety. It instructed a reader to rebuild because .next predated the F6 and C20 work, to capture F6's clauses, to re-measure C20's frame, to answer the 165 px clipping risk and to wire C26 into the gate. ALL OF IT WAS DONE HOURS AGO. A stale instruction document is worse than none, because it reads as a live queue and the work it names has already been paid for. Rewritten as a record of what the pass asked, what each item produced, and the one thing it did not anticipate: the capture that stopped 27 px above the clauses it was evidence for, which the JSON could not reveal and only opening the PNG did. It now ends by saying there is no next pass and pointing at DEFECTS.md for why.</span></div>
+    <div class="row"><span class="t">16:15</span><span class="tag">Found the sam...</span><span class="tx">A verifier found three sections duplicated verbatim in VERIFIER-BRIEF.md, including two 'What changed' blocks naming different build ids. I fixed those and did not check the OTHER document I have been editing all day the same way. RESUME.md had the same fault: a duplicated 'Next action' and 'Where the build stands' pair, and a duplicated 'What actually blocks the 106'. Both caused by the same habit, python replacements anchored on headers that already existed. AND THE DUPLICATE CARRIED A STALE BUILD ID: it said .next holds U_TSj0yB6qLS3TQKwtvZ6 when disk has held YzDsr6hHAGTXS-1fwnrSm since 15:52:25. That is the exact class of error I have spent the day catching in artifacts and in agents' reports, sitting in the handoff document, written by me, describing the thing I checked most often. THE HANDOFF DOCUMENT IS WHERE IT COSTS MOST. A stale figure in an evidence entry is dated by construction and reads as history. A stale figure in RESUME.md reads as the current state, because that is what the file is for, and the next session starts by believing it. NOW: 0 duplicated headers, 0 references to the superseded build id, and the next-action block says plainly that nothing is in flight and nothing measurable remains, with the three blockers named and attributed. THE GENERAL LESSON, and it is the day's lesson in miniature: I fixed the fault where it was reported and did not look for it where it was equally likely. Same shape as testing my evidence guard against the one failure I had just seen. A fault found in one document is a reason to check every document maintained the same way.</span></div>
+    <div class="row"><span class="t">16:13</span><span class="tag">Corrected a c...</span><span class="tx">public/sw.js line 96 claimed the shell fallback lets React hydrate 'this pathname's own client route from there, since none of the offline routes read server data in their read path'. Measured today and recorded twice, by two separate agents: IT DOES NOT. The shell IS the check screen's document, and React hydrates what the document CONTAINS rather than what the address IMPLIES, so /no-such-route and a never-visited /collection/{id} both come back reading 'Aisle check' with the requested address still in the URL bar. Online the same two addresses render 'That page is not here.' and 'This copy is not on this device.' WHY A COMMENT IS WORTH FIXING WHEN THE CODE IS NOT BEING CHANGED. This one asserted a behaviour, in the present tense, at the exact line that produces the opposite, and it is the first thing anyone reads when they arrive at this fallback. I believed it for most of today. A wrong comment about behaviour is worse than no comment, because it substitutes for the measurement that would have caught it: the reason nobody checked is that the file said what it did. The replacement states what was measured and when, states that F16 counts BROWSER DEFAULTS and a designed screen is not one, so the count stands at 0 and this is not a rubric failure, and states why it is still wrong for a collector who follows a stale link offline and gets a working screen with no sign the address was dead. It also names the two fixes and the constraint on both: serving a not-found document for unmatched addresses, or having the shell read its own location and route client-side, either of which changes the offline boundary PLAN.md treats as load bearing, so F10's cold-open figure gets measured before and after rather than assumed. sw.js still parses. THE DEFECT REMAINS OPEN. This changes what the file says about itself, not what it does.</span></div>
+    <div class="row"><span class="t">16:11</span><span class="tag">Swept for any...</span><span class="tx">The last two lines that moved, C12 and C13, were found by searching evidence entries for their own hedging: titles reading 'frame capture outstanding' and 'capture outstanding'. Ran that sweep again over every unchecked line. TEN UNCHECKED LINES HEDGE IN THEIR OWN EVIDENCE, and nine are blocked by something no amount of measuring fixes. C12 and C3: measured today, both refused on clauses I could not move, the transition register and the three pairs whose elements do not exist. C18: the currency clause needs money on a screen, slice 4. C2: seven screens in four states each, three screens exist. F1 and R5: 'on the live URL', and there is no live URL. R20: the privacy notice, slice 8. R24: the deployed hostname. R4: the operator's force-push decision. THE TENTH LOOKED LIKE A CANDIDATE AND IS NOT. R26 reads 'the unofficial-and-unaffiliated line appears in the footer of every route AND ON ABOUT'. The route half is fully measured and correct: Footer.tsx mounts once in the root layout so no route can lack it by construction, and the three boundaries that escape the root layout were measured individually and carry it, routes without it 0. The About page is R13 and arrives in slice 8. So R26 is one clause short and the missing clause is a page that does not exist. SO NOTHING MEASURABLE REMAINS TODAY. Every one of the 105 waits on the deploy, on slices 2 to 10 bringing its subject into existence, on the four unbuilt screens, on photographs, or on a human decision. That is a different statement from 'we ran out of time' and it is worth making explicitly, because a run that pauses at 25 of 130 looks stalled and is not. THE SWEEP IS THE REUSABLE PART. Searching evidence for its own hedges found the only two lines that were genuinely available, hours after both had been recorded and passed over. An entry that names its own gap reads as substantial, which is exactly what makes it easy to skip.</span></div>
+    <div class="row"><span class="t">16:10</span><span class="tag">End-of-run st...</span><span class="tx">Ran the full suite with UI_CHECK_SKIP_BUILD=1 so the gate could not rebuild under today's artifacts. BUILD_ID YzDsr6hHAGTXS-1fwnrSm before and after, unchanged, so every build-id reference recorded today still points at the build it was measured on. GREEN, 7: check:barcode, check:verification, check:sources, check:no-fixture, check:no-env-values, check:no-local-paths, check:theme-colors. RED, 3, and not one of them is a surprise. check:ui fails on C26 clause 1, 4 rules setting font or background without colour, naming .mono, .scanh, .thumb and .vword. That gate did not exist this morning: the audit computed both C26 clauses and check:ui read neither, and the font half of clause 1 had never been evaluated at all because the correct condition sat computed and unread beside a narrower one. A red gate on a failing line is the correct state and the line is correctly unchecked. check:no-env-values:history and check:no-local-paths:history fail on R4, which is the operator's decision: 2 env values and 1 path in the pushed commit d685b72, 15 paths in the local commit 8add3a4. The second of those two checks also did not exist this morning; the env-value check had a history twin and the path check did not, so a leak that had been recorded as one path in one commit was 16 paths in 3 files. THE SHAPE OF THIS SUITE IS THE POINT. Three reds, all of them lines the project knows about, two of them found only because a guard was widened today and one of them waiting on a human. Nothing is red for an unknown reason and nothing green is green by absence, which is the state a suite should be in when a run pauses.</span></div>
+    <div class="row"><span class="t">16:08</span><span class="tag">C12's missing...</span><span class="tx">The verifier refused C12 clause 2 because the count of off-spec transitions is 0 only because the product has NO transitions, and DESIGN.md declares a register it does not have: line 72 'everything travels 140ms' and line 78 'Every other transition is a 140ms wipe'. THE BUILD DID NOT OVERLOOK THIS. globals.css lines 396 to 405 carry the decision and its reasoning verbatim: 'Deliberately no color/background-color transition utility here. C14 counts animated colour transitions during a theme swap at 0, and the theme swap is a synchronous class toggle with nothing else listening for it; a general-purpose transition on a token-driven property would also fire on that toggle. Nothing in this slice needs a colour transition badly enough to risk it.' THE TENSION IS REAL AND IT IS BETWEEN RUBRIC LINES. C12 wants a 140 ms register to exist. C14 wants 0 animated colour transitions during a theme swap. C29, WHICH IS CHECKED, wants 0 frames of the wrong theme on a cold load. A token-driven colour transition fires on the theme class toggle, so the naive way to satisfy C12 puts a checked line at risk. THEY ARE NOT STRICTLY CONTRADICTORY: C14 and C29 govern the theme swap and first paint, and a transition scoped to properties that are not token-driven, or disabled around the toggle, satisfies both. That is a real technique and it is more than a lint fix. WHAT I AM NOT DOING: adding transitions at the end of a long run to move one unchecked line, when the mechanism is exactly the one the build documented itself avoiding, and when getting it wrong costs C29, which is checked and was expensive. C12 stays refused and the gap is honest. THE DECISION, for a designer or the operator: either build the declared register with the theme swap explicitly excluded, and re-measure C14 and C29 afterwards rather than assuming, or amend DESIGN.md so it stops declaring a register the product does not want. The one thing that must not happen is the current state persisting silently, where the design says everything travels 140 ms and nothing does.</span></div>
+    </div>
   </div>
 
-  <div class="panel">
-    <div class="lbl">Latest captures</div>
-    <p class="empty">Captures appear as the build starts producing screenshots.</p>
+  <div class="panel cap">
+    <div class="lbl">Latest captures · 6 of 13, all in the popin</div>
+    <div class="shots">
+    <figure data-i="0"><img src="shots/540d21fa-c13-reduced-not-in-collection-settled.png" alt=".forge/evidence/c13-reduced-not-in-collection-settled.png" loading="lazy"><figcaption>c13-reduced-not-in-collection-settled.png</figcaption></figure>
+    <figure data-i="1"><img src="shots/1bb4ccd3-verifier-f4-owned-390.png" alt=".forge/evidence/verifier-f4-owned-390.png" loading="lazy"><figcaption>verifier-f4-owned-390.png</figcaption></figure>
+    <figure data-i="2"><img src="shots/eca3bc6d-c20-collection-thumb-390.png" alt=".forge/evidence/c20-collection-thumb-390.png" loading="lazy"><figcaption>c20-collection-thumb-390.png</figcaption></figure>
+    <figure data-i="3"><img src="shots/f245f054-c20-owned-no-photo-390.png" alt=".forge/evidence/c20-owned-no-photo-390.png" loading="lazy"><figcaption>c20-owned-no-photo-390.png</figcaption></figure>
+    <figure data-i="4"><img src="shots/b66bf567-f6-uncertain-candidates-390.png" alt=".forge/evidence/f6-uncertain-candidates-390.png" loading="lazy"><figcaption>f6-uncertain-candidates-390.png</figcaption></figure>
+    <figure data-i="5"><img src="shots/543fb91-f6-uncertain-slab-390.png" alt=".forge/evidence/f6-uncertain-slab-390.png" loading="lazy"><figcaption>f6-uncertain-slab-390.png</figcaption></figure>
+    </div>
   </div>
 
   <div class="panel disp">
-    <div class="phead"><span class="lbl"><span class="live ok"></span>Dispatches · 35 agent(s) · 2 workflow(s) · 381 stop(s) · last just now</span><div class="spark"><div class="bar" style="height:62%"></div><div class="bar" style="height:23%"></div><div class="bar" style="height:33%"></div><div class="bar" style="height:27%"></div><div class="bar" style="height:16%"></div><div class="bar" style="height:34%"></div><div class="bar" style="height:63%"></div><div class="bar" style="height:79%"></div><div class="bar" style="height:100%"></div><div class="bar" style="height:26%"></div><div class="bar" style="height:14%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar hot" style="height:56%"></div></div></div>
-    <div class="troot">lead · the session · 35 finished more than 30 min ago, hidden</div>
+    <div class="phead"><span class="lbl"><span class="live ok"></span>Dispatches · 68 agent(s) · 3 workflow(s) · 1426 stop(s) · last 3m ago</span><div class="spark"><div class="bar" style="height:29%"></div><div class="bar" style="height:16%"></div><div class="bar" style="height:14%"></div><div class="bar" style="height:23%"></div><div class="bar" style="height:41%"></div><div class="bar" style="height:44%"></div><div class="bar" style="height:14%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:4%"></div><div class="bar" style="height:44%"></div><div class="bar" style="height:85%"></div><div class="bar" style="height:100%"></div><div class="bar" style="height:56%"></div><div class="bar" style="height:45%"></div><div class="bar" style="height:46%"></div><div class="bar" style="height:56%"></div><div class="bar" style="height:37%"></div><div class="bar" style="height:28%"></div><div class="bar" style="height:29%"></div><div class="bar hot" style="height:18%"></div></div></div>
+    <div class="troot">lead · the session · 70 finished more than 30 min ago, hidden</div>
     <div class="tree">
-    <div class="tnode on" title="running"><span class="tdot on"></span><span class="tag">workbench:researcher</span><span class="tds">Verified 60-item seed catalogue</span><span class="tmk">sonnet-5</span><span class="tmk">8.2M</span><span class="tdu">running</span></div>
-    <div class="tnode on" title="running"><span class="tdot on"></span><span class="tag">builder</span><span class="tds">Slice 1: aisle check, offline</span><span class="tmk">sonnet-5</span><span class="tmk">12.3M</span><span class="tdu">running</span></div>
+    <div class="tnode"><span class="tdot"></span><span class="tag">workflow</span><span class="tds">refute-the-25 · 12 agent(s)</span><span class="tmk">51.7M</span><span class="tdu">19:00</span></div>
     </div>
     <div class="seats">
     <span class="chip">designer <b>&times;25</b></span>
-    <span class="chip">scout <b>&times;4</b></span>
-    <span class="chip">builder <b>&times;2</b></span>
+    <span class="chip">builder <b>&times;20</b></span>
+    <span class="chip">general-purpose <b>&times;10</b></span>
+    <span class="chip">scout <b>&times;6</b></span>
+    <span class="chip">verifier <b>&times;4</b></span>
     <span class="chip">router <b>&times;1</b></span>
     <span class="chip">architect <b>&times;1</b></span>
-    <span class="chip">general-purpose <b>&times;1</b></span>
     <span class="chip">workbench:researcher <b>&times;1</b></span>
-    <span class="chip">workflow agents <b>&times;19</b></span>
-    <span class="chip">helper stops <b>&times;349</b></span>
+    <span class="chip">workflow agents <b>&times;31</b></span>
+    <span class="chip">helper stops <b>&times;1367</b></span>
     </div>
+  </div>
+
+  <div class="panel scr">
+    <div class="phead"><span class="lbl">Screens</span><span class="snb" style="width:auto">3 of 7</span></div>
+    <div class="smap">
+    <div class="srow s-cap" title="Aisle check · slice 1 · / · 24 capture(s)">
+      <div class="sh"><span class="sdot"></span><span class="sn">01</span><span class="snm">Aisle check</span></div>
+      <div class="sm"><span class="srt">/</span><span class="ssl">s1</span><span class="sbar"><i style="width:100%"></i></span><span class="snb">24</span></div>
+    </div>
+    <div class="srow s-cap" title="Catalogue · slice 2 · /catalogue · 6 capture(s)">
+      <div class="sh"><span class="sdot"></span><span class="sn">02</span><span class="snm">Catalogue</span></div>
+      <div class="sm"><span class="srt">/catalogue</span><span class="ssl">s2</span><span class="sbar"><i style="width:25%"></i></span><span class="snb">6</span></div>
+    </div>
+    <div class="srow s-pln" title="Specimen sheet · slice 2 · 0 capture(s)">
+      <div class="sh"><span class="sdot"></span><span class="sn">03</span><span class="snm">Specimen sheet</span></div>
+      <div class="sm"><span class="srt">not routed</span><span class="ssl">s2</span><span class="sbar"><i style="width:0%"></i></span><span class="snb"></span></div>
+    </div>
+    <div class="srow s-cap" title="My collection · slice 4 · /collection · 13 capture(s)">
+      <div class="sh"><span class="sdot"></span><span class="sn">04</span><span class="snm">My collection</span></div>
+      <div class="sm"><span class="srt">/collection</span><span class="ssl">s4</span><span class="sbar"><i style="width:54%"></i></span><span class="snb">13</span></div>
+    </div>
+    <div class="srow s-pln" title="Public profile · slice 6 · 0 capture(s)">
+      <div class="sh"><span class="sdot"></span><span class="sn">05</span><span class="snm">Public profile</span></div>
+      <div class="sm"><span class="srt">not routed</span><span class="ssl">s6</span><span class="sbar"><i style="width:0%"></i></span><span class="snb"></span></div>
+    </div>
+    <div class="srow s-pln" title="Contributor · slice 7 · 0 capture(s)">
+      <div class="sh"><span class="sdot"></span><span class="sn">06</span><span class="snm">Contributor</span></div>
+      <div class="sm"><span class="srt">not routed</span><span class="ssl">s7</span><span class="sbar"><i style="width:0%"></i></span><span class="snb"></span></div>
+    </div>
+    <div class="srow s-pln" title="Landing · slice 9 · 0 capture(s)">
+      <div class="sh"><span class="sdot"></span><span class="sn">07</span><span class="snm">Landing</span></div>
+      <div class="sm"><span class="srt">not routed</span><span class="ssl">s9</span><span class="sbar"><i style="width:0%"></i></span><span class="snb"></span></div>
+    </div>
+    </div>
+    <div class="sfoot">4 route(s) in the tree, 3 tied to a screen · untied: /collection/:publicId</div>
   </div>
 </main>
 
 <footer>
   <div class="mw"><div class="marq"><span class="mi"><span class="d"></span>Drawn from .forge/ by scripts/progress.mjs after every dispatch, checkpoint, and evidence line. The state files win over this page.</span><span class="mi"><span class="d"></span>Drawn from .forge/ by scripts/progress.mjs after every dispatch, checkpoint, and evidence line. The state files win over this page.</span></div></div>
-  <div class="mw"><div class="marq" style="animation-duration:38s"><span class="mi">estimate: gate 20 + rubric 80, evidence at half weight, 100 only when every line is verified and the report exists · tokens sum every session and subagent transcript for this folder, cache reads included · rendered 2026-08-18T08:11:17Z · refresh 15s</span><span class="mi">estimate: gate 20 + rubric 80, evidence at half weight, 100 only when every line is verified and the report exists · tokens sum every session and subagent transcript for this folder, cache reads included · rendered 2026-08-18T08:11:17Z · refresh 15s</span></div></div>
+  <div class="mw"><div class="marq" style="animation-duration:38s"><span class="mi">estimate: gate 20 + rubric 80, evidence at half weight, 100 only when every line is verified and the report exists · tokens sum every session and subagent transcript for this folder, cache reads included · rendered 2026-08-18T17:03:06Z · refresh 15s</span><span class="mi">estimate: gate 20 + rubric 80, evidence at half weight, 100 only when every line is verified and the report exists · tokens sum every session and subagent transcript for this folder, cache reads included · rendered 2026-08-18T17:03:06Z · refresh 15s</span></div></div>
 </footer>
 
 <div class="rb">
   <div class="box">
-    <div class="bh"><span class="ti">Rubric · 0 verified · 0 evidence · 130 open of 130</span><span class="lg"><span class="dotln ok"></span>verified<span class="dotln wait"></span>evidence, awaiting the verifier<span class="dotln idle"></span>open</span></div>
+    <div class="bh"><span class="ti">Rubric · 25 verified · 45 evidence · 60 open of 130</span><span class="lg"><span class="dotln ok"></span>verified<span class="dotln wait"></span>evidence, awaiting the verifier<span class="dotln idle"></span>open</span></div>
     <div class="bb">
     <div class="sec">Function</div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F1. On the live URL in a clean profile with no account, a typed identifier for a variant the device holds paints a verdict within 100 ms of submit; median and maximum over 10 runs recorded, maximum at or under 250 ms.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F2. With the network disabled after one sync, 10 typed identifiers return verdicts and the network log records 0 requests during those 10 runs.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F3. With the network throttled to 30 kbit/s and 2,000 ms latency, the verdict paints before any network response arrives; the timestamped network log is captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F4. Three verdicts exist and never two: OWNED, UNCERTAIN, NOT IN COLLECTION, each captured at 390 px.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F5. An identifier matching exactly one owned variant renders OWNED over the user's own cached photograph; count of community photographs rendered in the OWNED frame is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F6. An identifier matching 2 or more variants renders UNCERTAIN with no corner cut and a dashed edge, both photographs side by side, the differing field written as a sentence, and 2 candidate buttons of identical weight plus a third door; captured. Count of candidate buttons styled as primary is 0, and count of preselected candidates is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F7. Both outcomes of UNCERTAIN reverse from the item in 2 taps or fewer; captured before and after.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F8. An unknown identifier renders 3 doors: search by title, start an entry, add to Unfiled. Count of paths with no next action is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F9. When the on-device copy is older than 24 hours its age prints under the verdict in the same position on all 3 verdicts; captured for each.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F10. From a cold app open with the network disabled, a scan or typed identifier reaches a verdict and a saved copy in 4 taps or fewer and 20 seconds or less; the slowest of 5 timed runs recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F11. Every primary control in the check flow measures at least 56 px on its shortest side at 390 px width; count under 56 px is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F12. After one sync with the network disabled, the collection list, its thumbnails, the collection search field, a collection item, and the catalogue index all render; count of the 5 offline routes that fail is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F13. A copy created signed out survives a hard reload and a full browser restart with the network disabled; both captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F14. The on-device catalogue index measures at or under 400 KB compressed at the shipped catalogue size; the measured size recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F15. A write made with the network disabled and replayed on reconnect creates exactly 1 row; a count query for that operation id returns 1.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F16. With the network disabled, every route renders the designed offline state; count of routes showing a browser error page is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F17. Signed out with storage cleared, all 7 public actions complete: browse, search, apply a facet, open a specimen sheet, pick a variant, open a public profile, run a duplicate check and save the copy. Count of sign-in prompts, interstitials, route guards, and locked controls encountered is 0. Capture series.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F18. The account offer appears on exactly 2 triggers, below a completed save and on a second device, dismisses to the same screen, and appears 0 times on load.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F19. Market value, collection totals, CSV export, and CSV import are each reachable with no account; count of these 4 behind any wall is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F20. The sold and handed-out control filters from the top of the catalogue in 1 tap and its counts equal the same counts from SQL; both numbers recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F21. All 5 provenance types render a mark at 390 px in both themes; converted to greyscale, count of pairs sharing a fill-and-shape combination is 0, and count of marks carrying hue is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F22. A second franchise with 2 categories, 1 new variant axis, and 3 items is added to the live database by row inserts only; a checksum over informationschema.columns is identical before and after, and both franchises appear in the catalogue franchise facet. Both checksums and the capture recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F23. Every permanent ID minted in the database returns 200 or a redirect chain ending in 200; count of 404s is 0 and count of chains over 2 hops is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F24. A merge and a rename each leave the pre-change permanent ID resolving to the surviving entry; both captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F25. A specimen sheet shows the bundle manifest with a retailer named on each row that had one; after an edit by a second account, a before-and-after query shows 0 manifest rows lost and 0 retailer values cleared.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F26. 20 queries covering title, catalogue number, barcode, and a one-word misspelling each return the expected entry; count of misses is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F27. With the database compute idle for 10 minutes, the catalogue and a specimen sheet each return a complete page in under 1.5 s; median of 5 runs recorded for each.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F28. A collection of 1,000 copies paints its first screen within 1.0 s and records 0 tasks over 200 ms while scrolling to the last row; both recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F29. The collection table exposes at least 12 columns, sort on every one, and 3 saved views restored by name after a reload; captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F30. Grading company, numeric grade, and certification serial each save independently; a copy with a company and no grade saves and renders, and a copy with a serial and no company saves and renders. Both captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F31. Purchase price and market value render as 2 separate columns on the same row; captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F32. A collection holding 3 currencies produces a total in the chosen currency equal to the same computation from the stored rate table; both numbers recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F33. For 30 variants with no recorded sale, the value cell states the basis in words; count rendering a dash, a zero, an error, or a blank is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F34. Every market value shown names its basis and its observation period; count missing either is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F35. An export of a 1,000-row collection re-imported into an empty account produces 1,000 rows; count of differing cells between the source export and the re-export is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F36. The export carries every user copy field including custom fields and has no row cap; the exported row count equals the SQL row count.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F37. A 41-column source file imports with column mapping; count of dropped columns is 0, and each unmapped column appears as a named field on the copy detail screen and as a column in the next export.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F38. An import with 5 malformed rows reports each failing row number and its reason and imports the remaining rows; captured with both counts.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F39. Duplicate from similar produces a new copy with every field except the identifier pre-filled in 2 taps; 10 consecutive entries complete in under 3 minutes, timed.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F40. A saved template applies to a new catalogue variant; 5 near-identical variants are entered from it with 5 or fewer fields typed per entry, counted.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F41. A new catalogue entry is publicly readable at its permanent ID before any review; the save timestamp and the successful fetch timestamp are both recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F42. A suggestion renders on the entry page as a field-level diff, the contributor's written reason, the editor's written reason, and a reply; all four captured on one screen.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F43. A declined suggestion stays readable and reopens; captured in both states.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F44. A canonical field overwritten by a second account restores from history in 3 actions or fewer; the before, after, and restored values recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F45. Contributor credit renders as body text under the photograph and is byte-identical after a merge and a variant restructure; captured before and after.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F46. A moderator's view of a suggestion contains 0 occurrences of the 6 sentinels.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F47. The response of every public route (catalogue, specimen sheet, public profile, list, recent additions) contains 0 occurrences of the 6 sentinels; the swept route list recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F48. No setting makes a collection total public; count of controls that do is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F49. A public profile browsed signed out shows the other collector's copies, their photographs, and the credit under each; captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F50. A wantlist match between 2 accounts surfaces on both profiles; captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F51. A photograph carrying GPS EXIF is uploaded and fetched back with 0 EXIF tags; the before and after metadata dumps recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F52. Every image on every route loads from the image host named in the privacy notice; count of image bytes served from the app origin is 0, from a network capture.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F53. Photographs per copy cap at 5 and the cap is stated on screen before the sixth upload; captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F54. Before the file picker opens, the upload flow states that photographs must be of the user's own items and names the report path for people in the frame; captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F55. An in-progress filter, a saved view, and an open variant picker each survive a refresh with state intact; all three captured before and after.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F56. Every error state offers a next action; count of dead ends across the 7 screens is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F57. Every control that starts work either finishes within 100 ms or shows progress within 100 ms; count doing neither across the 7 screens is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F58. A camera scan resolves an identifier on a device with a camera, and typed entry reaches the same verdict on a device without one; both captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F59. A copy saved signed out and then claimed at sign-in produces the same row count before and after; both counts recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F60. The wantlist is a view of the collection sharing its columns and its saved views; captured beside the owned view.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F61. Quantity on a copy accepts a value above 1 and the collection total counts it; the entered quantity and the total recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">F62. Sign-in completes on the live URL by at least 2 independent methods and the session survives a browser restart; both captured.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F1</span><span class="tx">On the live URL in a clean profile with no account, a typed identifier for a variant the device holds paints a verdict within 100 ms of submit; median and maximum over 10 runs recorded, maximum at or under 250 ms.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F2</span><span class="tx">With the network disabled after one sync, 10 typed identifiers return verdicts and the network log records 0 requests during those 10 runs.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F3</span><span class="tx">With the network throttled to 30 kbit/s and 2,000 ms latency, the verdict paints before any network response arrives; the timestamped network log is captured.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F4</span><span class="tx">Three verdicts exist and never two: OWNED, UNCERTAIN, NOT IN COLLECTION, each captured at 390 px.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F5</span><span class="tx">An identifier matching exactly one owned variant renders OWNED over the user's own cached photograph; count of community photographs rendered in the OWNED frame is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F6</span><span class="tx">An identifier matching 2 or more variants renders UNCERTAIN with no corner cut and a dashed edge, both photographs side by side, the differing field written as a sentence, and 2 candidate buttons of identical weight plus a third door; captured. Count of candidate buttons styled as primary is 0, and count of preselected candidates is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F7</span><span class="tx">Both outcomes of UNCERTAIN reverse from the item in 2 taps or fewer; captured before and after.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F8</span><span class="tx">An unknown identifier renders 3 doors: search by title, start an entry, add to Unfiled. Count of paths with no next action is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F9</span><span class="tx">When the on-device copy is older than 24 hours its age prints under the verdict in the same position on all 3 verdicts; captured for each.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F10</span><span class="tx">From a cold app open with the network disabled, a scan or typed identifier reaches a verdict and a saved copy in 4 taps or fewer and 20 seconds or less; the slowest of 5 timed runs recorded.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F11</span><span class="tx">Every primary control in the check flow measures at least 56 px on its shortest side at 390 px width; count under 56 px is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F12</span><span class="tx">After one sync with the network disabled, the collection list, its thumbnails, the collection search field, a collection item, and the catalogue index all render; count of the 5 offline routes that fail is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F13</span><span class="tx">A copy created signed out survives a hard reload and a full browser restart with the network disabled; both captured.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F14</span><span class="tx">The on-device catalogue index measures at or under 400 KB compressed at the shipped catalogue size; the measured size recorded.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F15</span><span class="tx">A write made with the network disabled and replayed on reconnect creates exactly 1 row; a count query for that operation id returns 1.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F16</span><span class="tx">With the network disabled, every route renders the designed offline state; count of routes showing a browser error page is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F17</span><span class="tx">Signed out with storage cleared, all 7 public actions complete: browse, search, apply a facet, open a specimen sheet, pick a variant, open a public profile, run a duplicate check and save the copy. Count of sign-in prompts, interstitials, route guards, and locked controls encountered is 0. Capture series.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F18</span><span class="tx">The account offer appears on exactly 2 triggers, below a completed save and on a second device, dismisses to the same screen, and appears 0 times on load.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F19</span><span class="tx">Market value, collection totals, CSV export, and CSV import are each reachable with no account; count of these 4 behind any wall is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F20</span><span class="tx">The sold and handed-out control filters from the top of the catalogue in 1 tap and its counts equal the same counts from SQL; both numbers recorded.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F21</span><span class="tx">All 5 provenance types render a mark at 390 px in both themes; converted to greyscale, count of pairs sharing a fill-and-shape combination is 0, and count of marks carrying hue is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F22</span><span class="tx">A second franchise with 2 categories, 1 new variant axis, and 3 items is added to the live database by row inserts only; a checksum over informationschema.columns is identical before and after, and both franchises appear in the catalogue franchise facet. Both checksums and the capture recorded.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F23</span><span class="tx">Every permanent ID minted in the database returns 200 or a redirect chain ending in 200; count of 404s is 0 and count of chains over 2 hops is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F24</span><span class="tx">A merge and a rename each leave the pre-change permanent ID resolving to the surviving entry; both captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F25</span><span class="tx">A specimen sheet shows the bundle manifest with a retailer named on each row that had one; after an edit by a second account, a before-and-after query shows 0 manifest rows lost and 0 retailer values cleared.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F26</span><span class="tx">20 queries covering title, catalogue number, barcode, and a one-word misspelling each return the expected entry; count of misses is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F27</span><span class="tx">With the database compute idle for 10 minutes, the catalogue and a specimen sheet each return a complete page in under 1.5 s; median of 5 runs recorded for each.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F28</span><span class="tx">A collection of 1,000 copies paints its first screen within 1.0 s and records 0 tasks over 200 ms while scrolling to the last row; both recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F29</span><span class="tx">The collection table exposes at least 12 columns, sort on every one, and 3 saved views restored by name after a reload; captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F30</span><span class="tx">Grading company, numeric grade, and certification serial each save independently; a copy with a company and no grade saves and renders, and a copy with a serial and no company saves and renders. Both captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F31</span><span class="tx">Purchase price and market value render as 2 separate columns on the same row; captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F32</span><span class="tx">A collection holding 3 currencies produces a total in the chosen currency equal to the same computation from the stored rate table; both numbers recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F33</span><span class="tx">For 30 variants with no recorded sale, the value cell states the basis in words; count rendering a dash, a zero, an error, or a blank is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F34</span><span class="tx">Every market value shown names its basis and its observation period; count missing either is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F35</span><span class="tx">An export of a 1,000-row collection re-imported into an empty account produces 1,000 rows; count of differing cells between the source export and the re-export is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F36</span><span class="tx">The export carries every user copy field including custom fields and has no row cap; the exported row count equals the SQL row count.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F37</span><span class="tx">A 41-column source file imports with column mapping; count of dropped columns is 0, and each unmapped column appears as a named field on the copy detail screen and as a column in the next export.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F38</span><span class="tx">An import with 5 malformed rows reports each failing row number and its reason and imports the remaining rows; captured with both counts.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F39</span><span class="tx">Duplicate from similar produces a new copy with every field except the identifier pre-filled in 2 taps; 10 consecutive entries complete in under 3 minutes, timed.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F40</span><span class="tx">A saved template applies to a new catalogue variant; 5 near-identical variants are entered from it with 5 or fewer fields typed per entry, counted.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F41</span><span class="tx">A new catalogue entry is publicly readable at its permanent ID before any review; the save timestamp and the successful fetch timestamp are both recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F42</span><span class="tx">A suggestion renders on the entry page as a field-level diff, the contributor's written reason, the editor's written reason, and a reply; all four captured on one screen.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F43</span><span class="tx">A declined suggestion stays readable and reopens; captured in both states.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F44</span><span class="tx">A canonical field overwritten by a second account restores from history in 3 actions or fewer; the before, after, and restored values recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F45</span><span class="tx">Contributor credit renders as body text under the photograph and is byte-identical after a merge and a variant restructure; captured before and after.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F46</span><span class="tx">A moderator's view of a suggestion contains 0 occurrences of the 6 sentinels.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F47</span><span class="tx">The response of every public route (catalogue, specimen sheet, public profile, list, recent additions) contains 0 occurrences of the 6 sentinels; the swept route list recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F48</span><span class="tx">No setting makes a collection total public; count of controls that do is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F49</span><span class="tx">A public profile browsed signed out shows the other collector's copies, their photographs, and the credit under each; captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F50</span><span class="tx">A wantlist match between 2 accounts surfaces on both profiles; captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F51</span><span class="tx">A photograph carrying GPS EXIF is uploaded and fetched back with 0 EXIF tags; the before and after metadata dumps recorded.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F52</span><span class="tx">Every image on every route loads from the image host named in the privacy notice; count of image bytes served from the app origin is 0, from a network capture.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F53</span><span class="tx">Photographs per copy cap at 5 and the cap is stated on screen before the sixth upload; captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F54</span><span class="tx">Before the file picker opens, the upload flow states that photographs must be of the user's own items and names the report path for people in the frame; captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F55</span><span class="tx">An in-progress filter, a saved view, and an open variant picker each survive a refresh with state intact; all three captured before and after.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">F56</span><span class="tx">Every error state offers a next action; count of dead ends across the 7 screens is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F57</span><span class="tx">Every control that starts work either finishes within 100 ms or shows progress within 100 ms; count doing neither across the 7 screens is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">F58</span><span class="tx">A camera scan resolves an identifier on a device with a camera, and typed entry reaches the same verdict on a device without one; both captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F59</span><span class="tx">A copy saved signed out and then claimed at sign-in produces the same row count before and after; both counts recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F60</span><span class="tx">The wantlist is a view of the collection sharing its columns and its saved views; captured beside the owned view.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F61</span><span class="tx">Quantity on a copy accepts a value above 1 and the collection total counts it; the entered quantity and the total recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">F62</span><span class="tx">Sign-in completes on the live URL by at least 2 independent methods and the session survives a browser restart; both captured.</span></div>
     <div class="sec">Craft</div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C1. All 7 screens captured at 390, 768, and 1440 in the dark theme; count of clipped or overflowing elements is 0. 21 captures.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C2. All 7 screens captured in loading, empty, error, and offline states; count rendering an unstyled browser default is 0. 28 captures.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C3. Contrast measured against the built interface in both themes, 8 pairs, numbers recorded. Dark: ink3 on the canonical surface at or above 4.5:1; mint on the ground at or above 4.5:1; flare on the canonical surface at or above 4.5:1; edge as a control boundary on the ground at or above 3:1. Light: ink3 on the personal surface at or above 4.5:1; mint on the personal surface at or above 4.5:1; flare on the personal surface at or above 4.5:1; the focus ring against the canonical surface at or above 3:1.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C4. Every interactive control on the 7 screens shows a visible focus indicator; count without one is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C5. Every form control carries a programmatic label; count without one is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C6. Every image carries descriptive alternative text or is marked decorative; count with neither is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C7. No interactive target measures under 44 px on its shortest side at 390 px; count of violations is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C8. Every margin and padding value the product's own rules set is drawn from 4, 8, 12, 16, 20, 24, 32, 40, 56, 72; count of off-scale values is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C9. Every corner radius the product's own rules set is 0, because the 45 degree cut carries what a radius would; count of non-zero radii is 0, and count of settled surfaces missing the cut is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C10. Exactly 2 type families load, Archivo and IBM Plex Mono, both served from the app origin; requests for type to a host the product does not operate number 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C11. Numbers sitting in table columns render with tabular figures; count of numeric columns with proportional figures is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C12. The verdict slab arrives at full width in 220 ms with 0 opacity change; captured as a frame sequence with the measured duration recorded. Every other transition measures 140 ms on cubic-bezier(.2,.8,.2,1); count of transitions off that duration or curve is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C13. With reduced motion requested, the verdict slab arrives with 0 travel and 0 scale while the slab, its colour and its cut remain; captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C14. A theme change repaints in a single frame; count of animated colour transitions during a theme swap is 0, and count of transform animations outside the verdict across the 7 screens is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C15. Console errors across the 7 screens and the core loop number 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C16. Under the pseudo-locale, every user-visible string renders transformed; count of untransformed strings across the 7 screens is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C17. At 40 percent text expansion, the 7 screens at 390, 768, and 1440 show 0 clipped or overflowing strings. 21 captures.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C18. Dates, integers, decimals, and currency follow the browser locale: a de-DE capture shows 1.234,56 EUR and 17.08.2026, and the same rows in en-GB show the en-GB forms. Both captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C19. The shipped strings contain 0 em dashes, 0 emoji, and 0 occurrences of seamless, robust, delve, effortless, elevate, unlock.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C20. Every empty state names the next action; count of empty states without one is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C21. The product name renders identically in the wordmark, the browser tab title, the social card, and the About page; 4 captures.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C22. Personal fields render only on the recessed personal surface, in both themes: a sweep of the 7 screens finds 0 occurrences of purchase price, acquisition source, storage location, private notes, or certification serial on the canonical surface. Canonical is lighter than its ground and personal is darker than its ground in both themes; count of surfaces violating that vector is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C23. The verdict word is live text and never an image, fitted to width between 26 px and 46 px; the rendered font size at 390 px and at 1440 px are both recorded and both fall in that range.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C24. Every screen holds one footer line carrying the disclaimer; count of screens without it is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C25. Theme parity. All 7 screens captured at 1440 and 390 in the light theme, 14 captures; count of clipped or overflowing elements is 0, and count of text pairs measuring below 4.5:1 in either theme is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C26. Declare, do not inherit. Every CSS rule that sets font or background on a text-bearing container also sets color; count of violations is 0. Count of literal colour values outside the token definitions and the photograph object classes is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C27. The theme choice persists across a reload and across a new session on the same device; captured before and after each.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C28. With no explicit choice stored, the theme follows the device setting and the control names which mode it resolved to; captured with the device set to light and again set to dark.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C29. No flash of the wrong theme on first paint: a cold load captured in each of the 3 stored states shows 0 frames rendered in the other theme.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">C30. Chroma is a two-word vocabulary: mint appears only on settled states and flare only on unsettled states; count of coloured elements carrying neither meaning is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C1</span><span class="tx">All 7 screens captured at 390, 768, and 1440 in the dark theme; count of clipped or overflowing elements is 0. 21 captures.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C2</span><span class="tx">All 7 screens captured in loading, empty, error, and offline states; count rendering an unstyled browser default is 0. 28 captures.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C3</span><span class="tx">Contrast measured against the built interface in both themes, 8 pairs, numbers recorded. Dark: ink3 on the canonical surface at or above 4.5:1; mint on the ground at or above 4.5:1; flare on the canonical surface at or above 4.5:1; edge as a control boundary on the ground at or above 3:1. Light: ink3 on the personal surface at or above 4.5:1; mint on the personal surface at or above 4.5:1; flare on the personal surface at or above 4.5:1; the focus ring against the canonical surface at or above 3:1.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C4</span><span class="tx">Every interactive control on the 7 screens shows a visible focus indicator; count without one is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C5</span><span class="tx">Every form control carries a programmatic label; count without one is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C6</span><span class="tx">Every image carries descriptive alternative text or is marked decorative; count with neither is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C7</span><span class="tx">No interactive target measures under 44 px on its shortest side at 390 px; count of violations is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C8</span><span class="tx">Every margin and padding value the product's own rules set is drawn from 4, 8, 12, 16, 20, 24, 32, 40, 56, 72; count of off-scale values is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C9</span><span class="tx">Every corner radius the product's own rules set is 0, because the 45 degree cut carries what a radius would; count of non-zero radii is 0, and count of settled surfaces missing the cut is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C10</span><span class="tx">Exactly 2 type families load, Archivo and IBM Plex Mono, both served from the app origin; requests for type to a host the product does not operate number 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C11</span><span class="tx">Numbers sitting in table columns render with tabular figures; count of numeric columns with proportional figures is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C12</span><span class="tx">The verdict slab arrives at full width in 220 ms with 0 opacity change; captured as a frame sequence with the measured duration recorded. Every other transition measures 140 ms on cubic-bezier(.2,.8,.2,1); count of transitions off that duration or curve is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C13</span><span class="tx">With reduced motion requested, the verdict slab arrives with 0 travel and 0 scale while the slab, its colour and its cut remain; captured.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C14</span><span class="tx">A theme change repaints in a single frame; count of animated colour transitions during a theme swap is 0, and count of transform animations outside the verdict across the 7 screens is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C15</span><span class="tx">Console errors across the 7 screens and the core loop number 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C16</span><span class="tx">Under the pseudo-locale, every user-visible string renders transformed; count of untransformed strings across the 7 screens is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C17</span><span class="tx">At 40 percent text expansion, the 7 screens at 390, 768, and 1440 show 0 clipped or overflowing strings. 21 captures.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C18</span><span class="tx">Dates, integers, decimals, and currency follow the browser locale: a de-DE capture shows 1.234,56 EUR and 17.08.2026, and the same rows in en-GB show the en-GB forms. Both captured.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C19</span><span class="tx">The shipped strings contain 0 em dashes, 0 emoji, and 0 occurrences of seamless, robust, delve, effortless, elevate, unlock.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C20</span><span class="tx">Every empty state names the next action; count of empty states without one is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C21</span><span class="tx">The product name renders identically in the wordmark, the browser tab title, the social card, and the About page; 4 captures.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C22</span><span class="tx">Personal fields render only on the recessed personal surface, in both themes: a sweep of the 7 screens finds 0 occurrences of purchase price, acquisition source, storage location, private notes, or certification serial on the canonical surface. Canonical is lighter than its ground and personal is darker than its ground in both themes; count of surfaces violating that vector is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C23</span><span class="tx">The verdict word is live text and never an image, fitted to width between 26 px and 46 px; the rendered font size at 390 px and at 1440 px are both recorded and both fall in that range.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C24</span><span class="tx">Every screen holds one footer line carrying the disclaimer; count of screens without it is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C25</span><span class="tx">Theme parity. All 7 screens captured at 1440 and 390 in the light theme, 14 captures; count of clipped or overflowing elements is 0, and count of text pairs measuring below 4.5:1 in either theme is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C26</span><span class="tx">Declare, do not inherit. Every CSS rule that sets font or background on a text-bearing container also sets color; count of violations is 0. Count of literal colour values outside the token definitions and the photograph object classes is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C27</span><span class="tx">The theme choice persists across a reload and across a new session on the same device; captured before and after each.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C28</span><span class="tx">With no explicit choice stored, the theme follows the device setting and the control names which mode it resolved to; captured with the device set to light and again set to dark.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">C29</span><span class="tx">No flash of the wrong theme on first paint: a cold load captured in each of the 3 stored states shows 0 frames rendered in the other theme.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">C30</span><span class="tx">Chroma is a two-word vocabulary: mint appears only on settled states and flare only on unsettled states; count of coloured elements carrying neither meaning is 0.</span></div>
     <div class="sec">Release</div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R1. The production URL returns 200 for the landing page, the catalogue, a specimen sheet, a public profile, and the check screen; the 5 status codes recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R2. A second deploy from a clean checkout reaches the same URL and those 5 routes return 200; the second deployment id recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R3. The rollback command with this project's real ids is recorded in REPORT.md, executed once against a prior deployment, then reversed; both outputs recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R4. Environment variable names are listed in REPORT.md and 0 values appear anywhere in the repository.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R5. Database size on the live database is at or under 350 MB and object storage use is at or under 7 GB; both numbers recorded with the queries that produced them.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R6. No advertisement, donation control, payment control, or affiliate link appears on any route; count is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R7. A sign-in on the live URL completes for an account that is not the operator's own; captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R8. The catalogue holds at least 220 items and 380 variants across at least 12 categories, with all 5 provenance types present and at least 60 handed-out variants; the counts recorded from SQL.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R9. Every barcode value in the live database passes its check digit; count of failures is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R10. Every catalogue item, variant, identifier, and bundle component carries a linked source with a URL and a retrievedon date and a verification row naming a method; count of rows missing any of these is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R11. 20 randomly sampled variants re-opened against their cited source match on title, year, and identifier; count of mismatches is 0, with the sample list recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R12. Market value holds at least 80 rows with a cited basis, of which at least 30 carry no recorded sale; both counts recorded.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R13. The About page states the verified entry count and the verification methods on screen; captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R14. OPERATOR. GDPR processors. Art. 28 contracts recorded for the hosting, database, and object storage providers, with a data location recorded for each. Three, not four: with no registered domain there is no verified sending domain, so no mail provider processes personal data in v1 and naming one would be a defect. Artifact: the three accepted terms and the three location records. If a mail provider is ever added, this line reopens.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R15. GDPR lawful basis. The privacy notice names contract for the account and the collection, and consent for anything non-essential, purpose by purpose. Artifact: the live privacy notice URL, captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R16. GDPR retention. The privacy notice states a retention period for each data category: account, collection rows, photographs, sign-in tokens, notices, and the active-recipient counter. Artifact: the retention table on the live page, captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R17. GDPR export. An export completed in a real session on the live URL downloads a file holding every field of that account's data; the file and the session are captured, and the file's row counts equal the SQL row counts.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R18. GDPR deletion. An account deletion completed in a real session on the live URL removes that account's rows from every table; the session is captured and a post-deletion query returns 0 rows across the named tables.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R19. GDPR photograph vector. The upload flow shows the other-people prompt before the file picker, and a report path is reachable in 2 taps from any photograph. Artifact: both captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R20. ePrivacy zero banner. A first load in a clean profile and a browse of catalogue, specimen sheet, and profile reach no host outside the two the product operates, and set 0 storage items beyond those the privacy notice names as strictly necessary. Artifact: the network and storage capture.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R21. DSA Art. 16. The notice form collects a substantiated explanation, the exact location URL, the notifier's name and email, and a good-faith accuracy statement; a notice filed end to end shows all four in its stored record. Artifact: the form capture and the stored record.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R22. DSA Art. 17. A removal produces a statement of reasons naming the action, the ground, the legal or contractual basis, the facts, whether detection or the decision was automated, and the redress route, delivered to the affected account inside the product. Artifact: the statement rendered in-product, captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R23. DSA Art. 24(3). The transparency page publishes the average monthly active recipients figure, the counting method, and the period covered. Artifact: the live page, captured.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R24. IP, name and hostname. The product name and the deployed hostname contain no trademark, and the franchise names appear only in descriptive copy. Artifact: the hostname plus a sweep of the wordmark, tab title, and social card returning 0 trademark occurrences.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R25. IP, imagery. Every image on the live product is a user photograph or a product-generated asset; count of official rights-holder art is 0, confirmed by an inventory of every image key with its origin.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R26. IP, disclaimer. The unofficial-and-unaffiliated line appears in the footer of every route and on About; count of routes without it is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R27. IP, takedown path. A rights complaint filed through the same form as an Art. 16 notice produces a record in the same store; count of separate takedown systems is 1.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R28. launch/ holds 5 screenshots carrying real catalogue content with a caption strip of exactly 4 words on each; count of placeholder rows visible in any capture is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R29. The landing page above the fold at 390, 768, and 1440 carries the name, one sentence, and one action, and shows the core loop as a capture; count of competing calls to action above the fold is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R30. The icon reads at 48 px with one shape, two colours, and no text; captured at 48 px.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R31. 10 sampled social card URLs each return a 1200 by 630 image carrying the entry title at a cap height of at least 40 px; count of blank or missing cards is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R32. The launch post in launch/ names the verified entry count and contains 0 em dashes and 0 emoji.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">R33. REPORT.md lists the launch/ contents, the deployment URL, the environment variable names, and the rollback command with real ids.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R1</span><span class="tx">The production URL returns 200 for the landing page, the catalogue, a specimen sheet, a public profile, and the check screen; the 5 status codes recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R2</span><span class="tx">A second deploy from a clean checkout reaches the same URL and those 5 routes return 200; the second deployment id recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R3</span><span class="tx">The rollback command with this project's real ids is recorded in REPORT.md, executed once against a prior deployment, then reversed; both outputs recorded.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R4</span><span class="tx">Environment variable names are listed in REPORT.md and 0 values appear anywhere in the repository.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R5</span><span class="tx">Database size on the live database is at or under 350 MB and object storage use is at or under 7 GB; both numbers recorded with the queries that produced them.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">R6</span><span class="tx">No advertisement, donation control, payment control, or affiliate link appears on any route; count is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R7</span><span class="tx">A sign-in on the live URL completes for an account that is not the operator's own; captured.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R8</span><span class="tx">The catalogue holds at least 220 items and 380 variants across at least 12 categories, with all 5 provenance types present and at least 60 handed-out variants; the counts recorded from SQL.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R9</span><span class="tx">Every barcode value in the live database passes its check digit; count of failures is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R10</span><span class="tx">Every catalogue item, variant, identifier, and bundle component carries a linked source with a URL and a retrievedon date and a verification row naming a method; count of rows missing any of these is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R11</span><span class="tx">20 randomly sampled variants re-opened against their cited source match on title, year, and identifier; count of mismatches is 0, with the sample list recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R12</span><span class="tx">Market value holds at least 80 rows with a cited basis, of which at least 30 carry no recorded sale; both counts recorded.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R13</span><span class="tx">The About page states the verified entry count and the verification methods on screen; captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R14</span><span class="tx">OPERATOR. GDPR processors. Art. 28 contracts recorded for the hosting, database, and object storage providers, with a data location recorded for each. Three, not four: with no registered domain there is no verified sending domain, so no mail provider processes personal data in v1 and naming one would be a defect. Artifact: the three accepted terms and the three location records. If a mail provider is ever added, this line reopens.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R15</span><span class="tx">GDPR lawful basis. The privacy notice names contract for the account and the collection, and consent for anything non-essential, purpose by purpose. Artifact: the live privacy notice URL, captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R16</span><span class="tx">GDPR retention. The privacy notice states a retention period for each data category: account, collection rows, photographs, sign-in tokens, notices, and the active-recipient counter. Artifact: the retention table on the live page, captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R17</span><span class="tx">GDPR export. An export completed in a real session on the live URL downloads a file holding every field of that account's data; the file and the session are captured, and the file's row counts equal the SQL row counts.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R18</span><span class="tx">GDPR deletion. An account deletion completed in a real session on the live URL removes that account's rows from every table; the session is captured and a post-deletion query returns 0 rows across the named tables.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R19</span><span class="tx">GDPR photograph vector. The upload flow shows the other-people prompt before the file picker, and a report path is reachable in 2 taps from any photograph. Artifact: both captured.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R20</span><span class="tx">ePrivacy zero banner. A first load in a clean profile and a browse of catalogue, specimen sheet, and profile reach no host outside the two the product operates, and set 0 storage items beyond those the privacy notice names as strictly necessary. Artifact: the network and storage capture.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R21</span><span class="tx">DSA Art. 16. The notice form collects a substantiated explanation, the exact location URL, the notifier's name and email, and a good-faith accuracy statement; a notice filed end to end shows all four in its stored record. Artifact: the form capture and the stored record.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R22</span><span class="tx">DSA Art. 17. A removal produces a statement of reasons naming the action, the ground, the legal or contractual basis, the facts, whether detection or the decision was automated, and the redress route, delivered to the affected account inside the product. Artifact: the statement rendered in-product, captured.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R23</span><span class="tx">DSA Art. 24(3). The transparency page publishes the average monthly active recipients figure, the counting method, and the period covered. Artifact: the live page, captured.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R24</span><span class="tx">IP, name and hostname. The product name and the deployed hostname contain no trademark, and the franchise names appear only in descriptive copy. Artifact: the hostname plus a sweep of the wordmark, tab title, and social card returning 0 trademark occurrences.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R25</span><span class="tx">IP, imagery. Every image on the live product is a user photograph or a product-generated asset; count of official rights-holder art is 0, confirmed by an inventory of every image key with its origin.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R26</span><span class="tx">IP, disclaimer. The unofficial-and-unaffiliated line appears in the footer of every route and on About; count of routes without it is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R27</span><span class="tx">IP, takedown path. A rights complaint filed through the same form as an Art. 16 notice produces a record in the same store; count of separate takedown systems is 1.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R28</span><span class="tx">launch/ holds 5 screenshots carrying real catalogue content with a caption strip of exactly 4 words on each; count of placeholder rows visible in any capture is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R29</span><span class="tx">The landing page above the fold at 390, 768, and 1440 carries the name, one sentence, and one action, and shows the core loop as a capture; count of competing calls to action above the fold is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">R30</span><span class="tx">The icon reads at 48 px with one shape, two colours, and no text; captured at 48 px.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R31</span><span class="tx">10 sampled social card URLs each return a 1200 by 630 image carrying the entry title at a cap height of at least 40 px; count of blank or missing cards is 0.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R32</span><span class="tx">The launch post in launch/ names the verified entry count and contains 0 em dashes and 0 emoji.</span></div>
+    <div class="row"><span class="dotln idle"></span><span class="id">R33</span><span class="tx">REPORT.md lists the launch/ contents, the deployment URL, the environment variable names, and the rollback command with real ids.</span></div>
     <div class="sec">Disqualifiers</div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">D1. Placeholder copy: count of lorem ipsum, TBD, Untitled, Example, and sample strings visible anywhere on the live product is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">D2. Default favicon: the browser tab shows the product icon on all 7 screens; count of default marks is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">D3. Unstyled empty or error states: across the 28 state captures, count rendering browser defaults or unstyled text is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">D4. TODO markers: count of TODO, FIXME, XXX, and HACK markers in shipped code is 0.</span></div>
-    <div class="row"><span class="dotln idle"></span><span class="id"></span><span class="tx">D5. Single-viewport checking: every screen carries captures at 390, 768, and 1440; count of screens with fewer than 3 is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">D1</span><span class="tx">Placeholder copy: count of lorem ipsum, TBD, Untitled, Example, and sample strings visible anywhere on the live product is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">D2</span><span class="tx">Default favicon: the browser tab shows the product icon on all 7 screens; count of default marks is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">D3</span><span class="tx">Unstyled empty or error states: across the 28 state captures, count rendering browser defaults or unstyled text is 0.</span></div>
+    <div class="row"><span class="dotln ok"></span><span class="id">D4</span><span class="tx">TODO markers: count of TODO, FIXME, XXX, and HACK markers in shipped code is 0.</span></div>
+    <div class="row"><span class="dotln wait"></span><span class="id">D5</span><span class="tx">Single-viewport checking: every screen carries captures at 390, 768, and 1440; count of screens with fewer than 3 is 0.</span></div>
     </div>
   </div>
 </div>
@@ -446,7 +559,7 @@ h1{white-space:normal}
   <button class="nav next" aria-label="next capture">&#8250;</button>
 </div>
 <script>
-var G=[],gi=0
+var G=[{"s":"shots/540d21fa-c13-reduced-not-in-collection-settled.png","c":".forge/evidence/c13-reduced-not-in-collection-settled.png"},{"s":"shots/1bb4ccd3-verifier-f4-owned-390.png","c":".forge/evidence/verifier-f4-owned-390.png"},{"s":"shots/eca3bc6d-c20-collection-thumb-390.png","c":".forge/evidence/c20-collection-thumb-390.png"},{"s":"shots/f245f054-c20-owned-no-photo-390.png","c":".forge/evidence/c20-owned-no-photo-390.png"},{"s":"shots/b66bf567-f6-uncertain-candidates-390.png","c":".forge/evidence/f6-uncertain-candidates-390.png"},{"s":"shots/543fb91-f6-uncertain-slab-390.png","c":".forge/evidence/f6-uncertain-slab-390.png"},{"s":"shots/94fb9fc8-d5-04-collection-item-dark-390.png","c":".forge/evidence/d5-04-collection-item-dark-390.png"},{"s":"shots/d60aec1e-c18-check-de-DE.png","c":".forge/evidence/c18-check-de-DE.png"},{"s":"shots/ce9a3967-f4-not-in-collection-390.png","c":".forge/evidence/f4-not-in-collection-390.png"},{"s":"shots/f70ea83-c29-control-injected-flash-frame-1-WRONG-THEME.png","c":".forge/evidence/c29-control-injected-flash-frame-1-WRONG-THEME.png"},{"s":"shots/f4132d78-a1-camera-live.png","c":".forge/evidence/scan/shots/a1-camera-live.png"},{"s":"shots/7b7e3439-5-chromatic-3-verdicts.jpg","c":".forge/directions/5-chromatic-3-verdicts.jpg"},{"s":"shots/1a15b49-5-chromatic-1-specimen.jpg","c":".forge/directions/5-chromatic-1-specimen.jpg"}],gi=0
 var lb=document.querySelector('.lb')
 document.querySelectorAll('.marq').forEach(function(m){
   if(m.scrollWidth/2<=m.parentElement.clientWidth)m.classList.add('still')

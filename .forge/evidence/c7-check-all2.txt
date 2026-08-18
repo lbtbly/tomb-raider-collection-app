@@ -1,0 +1,114 @@
+
+=== check:barcode ===
+Checked 51 barcode row(s) (barcode_ean13, barcode_upca). Failures: 0.
+
+=== check:verification ===
+OK catalogue_item: 97 row(s), all verified.
+OK variant: 146 row(s), all verified.
+OK variant_identifier: 173 row(s), all verified.
+Total rows missing verification: 0.
+
+=== check:sources ===
+OK: 360 source row(s), all carry a URL and a retrieved_on date.
+OK: 416 verification row(s), every source_id resolves.
+Total failures: 0.
+
+=== check:no-fixture ===
+INFO: fixture data present on a local target (localhost). Expected in development.
+{
+  franchises: [33m1[39m,
+  categories: [33m1[39m,
+  catalogue_items: [33m0[39m,
+  variants: [33m0[39m,
+  variant_identifiers: [33m0[39m,
+  verifications: [33m0[39m,
+  sources: [33m0[39m
+}
+  franchises: fixture-test-franchise
+  categories: fixture-category
+
+=== check:no-env-values ===
+Scanned 88 git-tracked text file(s), 22066 line(s).
+OK: 0 populated environment values found in tracked files.
+
+=== check:no-env-values:history ===
+Scanned 93 text blob(s) across all reachable history.
+FAIL: 2 populated assignment(s) in history. Value never printed.
+  blob c27fda2  .env.example:7  DATABASE_URL
+  blob c27fda2  .env.example:8  DATABASE_URL_UNPOOLED
+
+A value in history is not fixed by editing the working tree.
+The commit has to be rewritten, and the value itself rotated at
+the provider: rewriting history does not undo the exposure.
+
+=== check:ui ===
+check:ui  overflow, contrast, tap targets. C1, C3, C7, C25.
+  database mode: DATABASE_URL is set
+  starting next start on http://127.0.0.1:60669 ...
+  routes: /, /catalogue, /collection, /collection/[publicId], /_not-found
+
+route / state                           theme/stored  vw    scrollW  nav   overflow  contrast  tap<44  prim<56
+-------------------------------------------------------------------------------------------------------------
+/                                       dark/system   390   390      156   0         0         0       0
+/  [verdict: unknown identifier]        dark/system   390   390      156   0         0         0       0
+/catalogue                              dark/system   390   390      156   0         0         0       0
+/collection                             dark/system   390   390      156   0         0         0       0
+/collection/[publicId]                  dark/system   390   390      156   0         0         0       0
+/_not-found                             dark/system   390   390      156   0         0         0       0
+/                                       dark/system   1440  1440     96    0         0         0       0
+/  [verdict: unknown identifier]        dark/system   1440  1440     96    0         0         0       0
+/catalogue                              dark/system   1440  1440     96    0         0         0       0
+/collection                             dark/system   1440  1440     96    0         0         0       0
+/collection/[publicId]                  dark/system   1440  1440     96    0         0         0       0
+/_not-found                             dark/system   1440  1440     96    0         0         0       0
+/                                       dark/dark     390   390      137   0         0         0       0
+/  [verdict: unknown identifier]        dark/dark     390   390      137   0         0         0       0
+/catalogue                              dark/dark     390   390      137   0         0         0       0
+/collection                             dark/dark     390   390      137   0         0         0       0
+/collection/[publicId]                  dark/dark     390   390      137   0         0         0       0
+/_not-found                             dark/dark     390   390      137   0         0         0       0
+/                                       dark/dark     1440  1440     77    0         0         0       0
+/  [verdict: unknown identifier]        dark/dark     1440  1440     77    0         0         0       0
+/catalogue                              dark/dark     1440  1440     77    0         0         0       0
+/collection                             dark/dark     1440  1440     77    0         0         0       0
+/collection/[publicId]                  dark/dark     1440  1440     77    0         0         0       0
+/_not-found                             dark/dark     1440  1440     77    0         0         0       0
+/                                       light/system  390   390      156   0         0         0       0
+/  [verdict: unknown identifier]        light/system  390   390      156   0         0         0       0
+/catalogue                              light/system  390   390      156   0         0         0       0
+/collection                             light/system  390   390      156   0         0         0       0
+/collection/[publicId]                  light/system  390   390      156   0         0         0       0
+/_not-found                             light/system  390   390      156   0         0         0       0
+/                                       light/system  1440  1440     96    0         0         0       0
+/  [verdict: unknown identifier]        light/system  1440  1440     96    0         0         0       0
+/catalogue                              light/system  1440  1440     96    0         0         0       0
+/collection                             light/system  1440  1440     96    0         0         0       0
+/collection/[publicId]                  light/system  1440  1440     96    0         0         0       0
+/_not-found                             light/system  1440  1440     96    0         0         0       0
+/                                       light/light   390   390      137   0         0         0       0
+/  [verdict: unknown identifier]        light/light   390   390      137   0         0         0       0
+/catalogue                              light/light   390   390      137   0         0         0       0
+/collection                             light/light   390   390      137   0         0         0       0
+/collection/[publicId]                  light/light   390   390      137   0         0         0       0
+/_not-found                             light/light   390   390      137   0         0         0       0
+/                                       light/light   1440  1440     77    0         0         0       0
+/  [verdict: unknown identifier]        light/light   1440  1440     77    0         0         0       0
+/catalogue                              light/light   1440  1440     77    0         0         0       0
+/collection                             light/light   1440  1440     77    0         0         0       0
+/collection/[publicId]                  light/light   1440  1440     77    0         0         0       0
+/_not-found                             light/light   1440  1440     77    0         0         0       0
+
+totals over 48 route/state/theme/width combinations: overflow 0, contrast 0, tap<44 0, primary<56 0, off-scale spacing 0, .srOnly 0 findings over 1 elements, widest scrollWidth at 390 = 390
+
+check:ui PASS (database mode)
+
+=== check:all summary ===
+  ok         check:barcode
+  ok         check:verification
+  ok         check:sources
+  ok         check:no-fixture
+  ok         check:no-env-values
+  FAIL(1)    check:no-env-values:history
+  ok         check:ui
+
+1 check(s) failed. Each is listed above with its own exit code.

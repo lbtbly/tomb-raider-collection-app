@@ -1,0 +1,2 @@
+CREATE UNIQUE INDEX "catalogue_item_franchise_slug_idx" ON "catalogue_item" USING btree ("franchise_id","slug");--> statement-breakpoint
+CREATE UNIQUE INDEX "variant_item_name_idx" ON "variant" USING btree ("catalogue_item_id","name");
